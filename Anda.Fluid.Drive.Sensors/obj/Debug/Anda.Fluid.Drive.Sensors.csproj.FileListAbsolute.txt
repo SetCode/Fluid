@@ -1,0 +1,2 @@
+E:\WpfProject\fluid\Anda.Fluid.Drive.Sensors\obj\Debug\Anda.Fluid.Drive.Sensors.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Sensors\obj\Debug\Anda.Fluid.Drive.Sensors.csproj.CoreCompileInputs.cache

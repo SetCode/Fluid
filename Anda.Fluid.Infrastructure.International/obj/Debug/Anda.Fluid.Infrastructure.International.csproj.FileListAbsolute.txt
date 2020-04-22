@@ -1,0 +1,9 @@
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\Debug\MetroSet UI.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\Debug\Newtonsoft.Json.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\Debug\Anda.Fluid.Infrastructure.International.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\Debug\Anda.Fluid.Infrastructure.International.csproj.CoreCompileInputs.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\Debug\Anda.Fluid.Infrastructure.International.csproj.CopyComplete
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\Debug\Anda.Fluid.Infrastructure.International.pdb

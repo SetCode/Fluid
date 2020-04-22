@@ -1,0 +1,37 @@
+[
+  {
+    "IsSystemLoc": true,
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0,
+    "Key": "Mechanical Zero"
+  },
+  {
+    "IsSystemLoc": true,
+    "X": 133.402,
+    "Y": 71.71,
+    "Z": -49.165,
+    "Key": "Purge Loc"
+  },
+  {
+    "IsSystemLoc": true,
+    "X": 208.571,
+    "Y": 31.023,
+    "Z": -50.716,
+    "Key": "Scale Loc"
+  },
+  {
+    "IsSystemLoc": true,
+    "X": 252.447,
+    "Y": 70.567,
+    "Z": -49.169,
+    "Key": "Prime Loc"
+  },
+  {
+    "IsSystemLoc": true,
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0,
+    "Key": "Scrape Loc"
+  }
+]

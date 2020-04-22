@@ -1,0 +1,23 @@
+{
+  "MinZ": -54.828,
+  "MaxVelXY": 1000.0,
+  "MaxAccXY": 10.0,
+  "VelXY": 200.0,
+  "AccXY": 5.0,
+  "VelAB": 50.0,
+  "AccAB": 3.0,
+  "VelXYAB": 50.0,
+  "AccXYAB": 3.0,
+  "VelZ": 100.0,
+  "VelR": 100.0,
+  "VelU": 100.0,
+  "EnableINP": false,
+  "EnableMap": false,
+  "WeightMaxVel": 50.0,
+  "WeightAcc": 5.0,
+  "WorkMaxVel": 500.0,
+  "WorkVel": 200.0,
+  "EmptyVel": 200.0,
+  "ManulAccXY": 3.0,
+  "ManualVelXY": 50.0
+}

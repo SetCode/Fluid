@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DCDE44F-7755-4FF5-A6A7-98390B89A1AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DrawingPanel</RootNamespace>
+    <AssemblyName>DrawingPanel</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\DeleteCommand.cs" />
+    <Compile Include="Commands\EditCommand.cs" />
+    <Compile Include="Commands\MoveCommand.cs" />
+    <Compile Include="Commands\SelectedCommand.cs" />
+    <Compile Include="DrawingProgram\Grammar\MultiTracesDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\SymbolLinesDrawCmd.cs" />
+    <Compile Include="EntitySelect\EntityContain\ArcContain.cs" />
+    <Compile Include="EntitySelect\EntityContain\CircleContain.cs" />
+    <Compile Include="EntitySelect\EntityContain\DotContain.cs" />
+    <Compile Include="EntitySelect\EntityContain\IContainable.cs" />
+    <Compile Include="EntitySelect\EntityContain\LineContain.cs" />
+    <Compile Include="EntitySelect\EntityContain\PolyLineContain.cs" />
+    <Compile Include="EntitySelect\EntityHitter\ArcHitter.cs" />
+    <Compile Include="EntitySelect\EntityHitter\CircleHitter.cs" />
+    <Compile Include="EntitySelect\EntityHitter\DotHitter.cs" />
+    <Compile Include="EntitySelect\EntityHitter\IHittable.cs" />
+    <Compile Include="EntitySelect\EntityHitter\LineHitter.cs" />
+    <Compile Include="Display\CanvasControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Display\CanvasControll.designer.cs">
+      <DependentUpon>CanvasControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display\CanvasDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Display\CanvasDisplay.designer.cs">
+      <DependentUpon>CanvasDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingProgram\Executant\ArcDraw.cs" />
+    <Compile Include="DrawingProgram\Executant\CircleDraw.cs" />
+    <Compile Include="DrawingProgram\Executant\LineDraw.cs" />
+    <Compile Include="DrawingProgram\Executant\PolyLineDraw.cs" />
+    <Compile Include="DrawingProgram\Executant\TextDraw.cs" />
+    <Compile Include="DrawingProgram\Grammar\ArcDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\ArrayDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\CircleDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\DoMultiPassDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\DoPatternDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\LinesDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\PolyLineDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\SnakeLineDrawCmd.cs" />
+    <Compile Include="DrawingProgram\DrawPattern.cs" />
+    <Compile Include="DrawingProgram\DrawWorkPiece.cs" />
+    <Compile Include="DrawProgram.cs" />
+    <Compile Include="DrawingProgram\Executant\DirectiveDraw.cs" />
+    <Compile Include="DrawingProgram\Executant\DotDraw.cs" />
+    <Compile Include="DrawingProgram\Grammar\DrawCmdLine.cs" />
+    <Compile Include="DrawingProgram\Grammar\DotDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\HeightDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\LineDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\MarkDrawCmd.cs" />
+    <Compile Include="DrawingProgram\Grammar\OriginDrawCmd.cs" />
+    <Compile Include="EntitySelect\EntityHitter\PolyLineHitter.cs" />
+    <Compile Include="Msg\DrawingMsgCenter.cs" />
+    <Compile Include="Msg\IDrawingMsgReceiver.cs" />
+    <Compile Include="Utils\DrawingUtils.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\DrawingParser.cs" />
+    <Compile Include="Utils\MathUtils\Geometry.cs" />
+    <EmbeddedResource Include="Display\CanvasControll.resx">
+      <DependentUpon>CanvasControll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display\CanvasDisplay.resx">
+      <DependentUpon>CanvasDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Domain\Anda.Fluid.Domain.csproj">
+      <Project>{18a8e080-cfce-4dd0-bd52-7c979195446e}</Project>
+      <Name>Anda.Fluid.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iOS Photos_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightBottomColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TopLeftColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prison_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paint Palette_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select All_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approval_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

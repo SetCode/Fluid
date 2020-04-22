@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBE6C851-970E-467C-A8EF-C99906EF613D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Infrastructure</RootNamespace>
+    <AssemblyName>Anda.Fluid.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>..\packages\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\packages\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarming\AlarmControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Alarming\AlarmControl.Designer.cs">
+      <DependentUpon>AlarmControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alarming\AlarmEvent.cs" />
+    <Compile Include="Alarming\AlarmHandleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarming\AlarmHandleForm.Designer.cs">
+      <DependentUpon>AlarmHandleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alarming\AlarmServer.cs" />
+    <Compile Include="Alarming\IAlarmObservable.cs" />
+    <Compile Include="Alarming\IAlarmSenderable.cs" />
+    <Compile Include="Algo\OptimalRoute.cs" />
+    <Compile Include="Calib\CalibBy9d.cs" />
+    <Compile Include="Calib\CalibMap.cs" />
+    <Compile Include="Calib\CalibMapPrm.cs" />
+    <Compile Include="Calib\CalibBy9dPrm.cs" />
+    <Compile Include="Calib\CalibNet.cs" />
+    <Compile Include="Common\CommonDelegates.cs" />
+    <Compile Include="Common\LineRepetition.cs" />
+    <Compile Include="Common\PointD.cs" />
+    <Compile Include="Common\Result.cs" />
+    <Compile Include="Common\VectorD.cs" />
+    <Compile Include="Communication\EasySerialPort.cs" />
+    <Compile Include="Communication\SerialPortMgr.cs" />
+    <Compile Include="Cpk\CellStyleCache.cs" />
+    <Compile Include="Cpk\FontStyle.cs" />
+    <Compile Include="Cpk\Location.cs" />
+    <Compile Include="Cpk\Sheet.cs" />
+    <Compile Include="Cpk\Workbook.cs" />
+    <Compile Include="DataStruct\ByteData.cs" />
+    <Compile Include="Data\DataServer.cs" />
+    <Compile Include="DomainBase\EntityBase.cs" />
+    <Compile Include="DomainBase\IEntity.cs" />
+    <Compile Include="DomainBase\IEntityMgr.cs" />
+    <Compile Include="DomainBase\EntityMgr.cs" />
+    <Compile Include="GenKey\GenKeySN.cs" />
+    <Compile Include="Hook\KeyboardHook.cs" />
+    <Compile Include="Hook\Win32Api.cs" />
+    <Compile Include="HotKeying\GlobalHotKey.cs" />
+    <Compile Include="HotKeying\GlobalHotKeyMgr.cs" />
+    <Compile Include="HotKeying\FormHotkey.cs" />
+    <Compile Include="HotKeying\FormHotKeyMgr.cs" />
+    <Compile Include="HotKeying\HotKey.cs" />
+    <Compile Include="Interfaces\IUpdatable.cs" />
+    <Compile Include="Msg\IMsgReceiver.cs" />
+    <Compile Include="Msg\IMsgSender.cs" />
+    <Compile Include="Msg\MsgCenter.cs" />
+    <Compile Include="Msg\MsgInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyGridExtension\PropertyGridEX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGridExtension\PropertySorter.cs" />
+    <Compile Include="Reflection\CompareAtt.cs" />
+    <Compile Include="Reflection\CompareObj.cs" />
+    <Compile Include="SettingBase.cs" />
+    <Compile Include="SettingsPath.cs" />
+    <Compile Include="Sts.cs" />
+    <Compile Include="Tasker\TaskLongRunning.cs" />
+    <Compile Include="Tasker\TaskLoop.cs" />
+    <Compile Include="Trace\FileLog.cs" />
+    <Compile Include="Trace\ILogAppender.cs" />
+    <Compile Include="Trace\ILogFilter.cs" />
+    <Compile Include="Trace\ILoggable.cs" />
+    <Compile Include="Trace\ILogLayout.cs" />
+    <Compile Include="Trace\Log.cs" />
+    <Compile Include="Trace\LogAppender.cs" />
+    <Compile Include="Trace\LogCategory.cs" />
+    <Compile Include="Trace\LogFilter.cs" />
+    <Compile Include="Trace\Logger.cs" />
+    <Compile Include="Trace\LoggerMgr.cs" />
+    <Compile Include="Trace\LoggingEvent.cs" />
+    <Compile Include="Trace\LogLayout.cs" />
+    <Compile Include="Trace\LogLevel.cs" />
+    <Compile Include="UI\AbortIgnoreRetryManualForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AbortIgnoreRetryManualForm.Designer.cs">
+      <DependentUpon>AbortIgnoreRetryManualForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alarming\AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarming\AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alarming\AlarmTransparencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarming\AlarmTransparencyForm.Designer.cs">
+      <DependentUpon>AlarmTransparencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormMgr.cs" />
+    <Compile Include="UI\IControlUpdating.cs" />
+    <Compile Include="UI\SettingFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SettingFormBase.Designer.cs">
+      <DependentUpon>SettingFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unit.cs" />
+    <Compile Include="Utils\BmpUtil.cs" />
+    <Compile Include="Utils\ConvertSafely.cs" />
+    <Compile Include="Utils\ConvertUtil.cs" />
+    <Compile Include="Utils\CsvUtil.cs" />
+    <Compile Include="Utils\DateUtils.cs" />
+    <Compile Include="Utils\DirUtils.cs" />
+    <Compile Include="Utils\FileEncoder.cs" />
+    <Compile Include="Utils\FileUtils.cs" />
+    <Compile Include="Utils\JsonUtil.cs" />
+    <Compile Include="Utils\ListUtils.cs" />
+    <Compile Include="Utils\MathUtils.cs" />
+    <Compile Include="Utils\MemoryUtils.cs" />
+    <Compile Include="Utils\SettingUtil.cs" />
+    <Compile Include="Utils\StringUtil.cs" />
+    <Compile Include="Utils\ThreadUtils.cs" />
+    <Compile Include="Utils\XmlUtils.cs" />
+    <Compile Include="WNetConnect\WNetConnection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Alarming\AlarmControl.resx">
+      <DependentUpon>AlarmControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarming\AlarmHandleForm.resx">
+      <DependentUpon>AlarmHandleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AbortIgnoreRetryManualForm.resx">
+      <DependentUpon>AbortIgnoreRetryManualForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarming\AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarming\AlarmTransparencyForm.resx">
+      <DependentUpon>AlarmTransparencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SettingFormBase.resx">
+      <DependentUpon>SettingFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bug_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash Bang_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notification_96px.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

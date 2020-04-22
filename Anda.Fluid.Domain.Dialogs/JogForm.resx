@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lightSettingControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="lightSettingControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 397</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lightSettingControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lightSettingControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 88</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lightSettingControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lightSettingControl1.Name" xml:space="preserve">
+    <value>lightSettingControl1</value>
+  </data>
+  <data name="&gt;&gt;lightSettingControl1.Type" xml:space="preserve">
+    <value>Anda.Fluid.Domain.Vision.LightSettingControl, Anda.Fluid.Domain.Vision, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lightSettingControl1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;lightSettingControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nudValve2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 311</value>
+  </data>
+  <data name="nudValve2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="nudValve2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;nudValve2.Name" xml:space="preserve">
+    <value>nudValve2</value>
+  </data>
+  <data name="&gt;&gt;nudValve2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudValve2.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;nudValve2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblValve2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 280</value>
+  </data>
+  <data name="lblValve2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblValve2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblValve2.Text" xml:space="preserve">
+    <value>Valve2</value>
+  </data>
+  <data name="lblValve2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Name" xml:space="preserve">
+    <value>lblValve2</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblValve1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 170</value>
+  </data>
+  <data name="lblValve1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblValve1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblValve1.Text" xml:space="preserve">
+    <value>Valve1</value>
+  </data>
+  <data name="lblValve1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Name" xml:space="preserve">
+    <value>lblValve1</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnValve2Stop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 339</value>
+  </data>
+  <data name="btnValve2Stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="btnValve2Stop.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Stop.Name" xml:space="preserve">
+    <value>btnValve2Stop</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Stop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Stop.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Stop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnValve2Spray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 339</value>
+  </data>
+  <data name="btnValve2Spray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="btnValve2Spray.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Spray.Name" xml:space="preserve">
+    <value>btnValve2Spray</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Spray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Spray.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Spray.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnAir2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 368</value>
+  </data>
+  <data name="btnAir2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="btnAir2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnAir2.Text" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="&gt;&gt;btnAir2.Name" xml:space="preserve">
+    <value>btnAir2</value>
+  </data>
+  <data name="&gt;&gt;btnAir2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAir2.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnAir2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="nudAir2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 368</value>
+  </data>
+  <data name="nudAir2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="nudAir2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;nudAir2.Name" xml:space="preserve">
+    <value>nudAir2</value>
+  </data>
+  <data name="&gt;&gt;nudAir2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudAir2.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;nudAir2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnEditValve2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 339</value>
+  </data>
+  <data name="btnEditValve2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEditValve2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnEditValve2.Text" xml:space="preserve">
+    <value>edit</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve2.Name" xml:space="preserve">
+    <value>btnEditValve2</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve2.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnValve1Stop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 228</value>
+  </data>
+  <data name="btnValve1Stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="btnValve1Stop.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Stop.Name" xml:space="preserve">
+    <value>btnValve1Stop</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Stop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Stop.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Stop.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnValve1Spray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValve1Spray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 228</value>
+  </data>
+  <data name="btnValve1Spray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="btnValve1Spray.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Spray.Name" xml:space="preserve">
+    <value>btnValve1Spray</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Spray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Spray.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Spray.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnAir1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 257</value>
+  </data>
+  <data name="btnAir1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="btnAir1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnAir1.Text" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="&gt;&gt;btnAir1.Name" xml:space="preserve">
+    <value>btnAir1</value>
+  </data>
+  <data name="&gt;&gt;btnAir1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAir1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnAir1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="nudAir1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 255</value>
+  </data>
+  <data name="nudAir1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="nudAir1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nudAir1.Name" xml:space="preserve">
+    <value>nudAir1</value>
+  </data>
+  <data name="&gt;&gt;nudAir1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudAir1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;nudAir1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="jogControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="jogControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="jogControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 5, 3</value>
+  </data>
+  <data name="jogControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 159</value>
+  </data>
+  <data name="jogControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;jogControl1.Name" xml:space="preserve">
+    <value>jogControl1</value>
+  </data>
+  <data name="&gt;&gt;jogControl1.Type" xml:space="preserve">
+    <value>Anda.Fluid.Domain.Motion.JogControl, Anda.Fluid.Domain.Motion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jogControl1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;jogControl1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnEditValve1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 228</value>
+  </data>
+  <data name="btnEditValve1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEditValve1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnEditValve1.Text" xml:space="preserve">
+    <value>edit</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve1.Name" xml:space="preserve">
+    <value>btnEditValve1</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;btnEditValve1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="nudValve1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 202</value>
+  </data>
+  <data name="nudValve1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="nudValve1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="nudValve1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nudValve1.Name" xml:space="preserve">
+    <value>nudValve1</value>
+  </data>
+  <data name="&gt;&gt;nudValve1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudValve1.Parent" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;nudValve1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gbxJog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxJog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbxJog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 495</value>
+  </data>
+  <data name="gbxJog.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbxJog.Name" xml:space="preserve">
+    <value>gbxJog</value>
+  </data>
+  <data name="&gt;&gt;gbxJog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxJog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxJog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>223, 495</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormJog</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>JogForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Anda.Fluid.Domain.Motion.JogFormBase, Anda.Fluid.Domain.Motion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,2 @@
+E:\WpfProject\fluid\Anda.Fluid.Drive.Vision\obj\Debug\Anda.Fluid.Drive.Vision.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Vision\obj\Debug\Anda.Fluid.Drive.Vision.csproj.CoreCompileInputs.cache

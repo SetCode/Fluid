@@ -1,0 +1,15 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\Anda.Fluid.Domain.Data.exe.config
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\Anda.Fluid.Domain.Data.exe
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\Anda.Fluid.Domain.Data.pdb
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\EntityFramework.dll
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\MySql.Data.dll
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\EntityFramework.xml
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\obj\Debug\Anda.Fluid.Domain.Data.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\obj\Debug\Anda.Fluid.Domain.Data.csproj.CoreCompileInputs.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\obj\Debug\Anda.Fluid.Domain.Data.csproj.CopyComplete
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\obj\Debug\Anda.Fluid.Domain.Data.exe
+E:\WpfProject\fluid\Anda.Fluid.Domain.Data\obj\Debug\Anda.Fluid.Domain.Data.pdb

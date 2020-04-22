@@ -1,0 +1,23 @@
+{
+  "PrmOPT": {
+    "List": [
+      {
+        "Chanel": 1,
+        "On": false,
+        "Value": 0
+      },
+      {
+        "Chanel": 2,
+        "On": false,
+        "Value": 0
+      },
+      {
+        "Chanel": 3,
+        "On": false,
+        "Value": 0
+      }
+    ],
+    "ListCls": []
+  },
+  "LightType": 1
+}

@@ -1,0 +1,13 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Anda.Fluid.App.EditMark.EditModelFindForm.BytesToBmp(Byte[] data, Int32 width, Int32 height) in E:\PY\A\Anda.Fluid\Anda.Fluid.App\EditMark\EditModelFindForm.cs:line 507
+   at Anda.Fluid.App.EditMark.EditModelFindForm.btnShowModel_Click(Object sender, EventArgs e) in E:\PY\A\Anda.Fluid\Anda.Fluid.App\EditMark\EditModelFindForm.cs:line 382
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

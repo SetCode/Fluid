@@ -1,0 +1,140 @@
+{
+  "HomePrmX": {
+    "Mode": 0,
+    "MoveDir": 0,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 2.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "HomePrmY": {
+    "Mode": 0,
+    "MoveDir": 0,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 2.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "HomePrmZ": {
+    "Mode": 0,
+    "MoveDir": 1,
+    "IndexDir": -1,
+    "VelHigh": 50.0,
+    "VelLow": 5.0,
+    "Acc": 5.0,
+    "HomeOffset": -3.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 10.0
+  },
+  "HomePrmR": {
+    "Mode": 5,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 3.0,
+    "HomeOffset": 0.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 300.0,
+    "EscapeStep": 10.0
+  },
+  "HomePrmU": {
+    "Mode": 5,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 3.0,
+    "HomeOffset": 0.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 300.0,
+    "EscapeStep": 10.0
+  },
+  "HomePrmA": {
+    "Mode": 0,
+    "MoveDir": 1,
+    "IndexDir": -1,
+    "VelHigh": 50.0,
+    "VelLow": 5.0,
+    "Acc": 5.0,
+    "HomeOffset": -1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 10.0
+  },
+  "HomePrmB": {
+    "Mode": 0,
+    "MoveDir": 1,
+    "IndexDir": -1,
+    "VelHigh": 50.0,
+    "VelLow": 5.0,
+    "Acc": 5.0,
+    "HomeOffset": -1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 10.0
+  },
+  "HomePrm5": {
+    "Mode": 0,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "HomePrm6": {
+    "Mode": 0,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "HomePrm7": {
+    "Mode": 0,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "HomePrm8": {
+    "Mode": 0,
+    "MoveDir": -1,
+    "IndexDir": 1,
+    "VelHigh": 100.0,
+    "VelLow": 10.0,
+    "Acc": 5.0,
+    "HomeOffset": 1.0,
+    "SearchHomeDis": 0.0,
+    "SearchIndexDis": 200.0,
+    "EscapeStep": 50.0
+  },
+  "EscapeLmtPrmZ": {
+    "Lmt": 0,
+    "Step": -5.0,
+    "Vel": 20.0,
+    "Acc": 5.0
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "SprayDots": 100,
+    "ShotDotsEachPattern": 100,
+    "PatternCount": 5,
+    "Interval": 500,
+    "SingleDotWeight": 0.0,
+    "CumulativeWeight": 0.0,
+    "StandardWeight": 0.0,
+    "WeightOffset": 5.0,
+    "Percentage": 5.0,
+    "IsAutoRunFirstStart": false,
+    "IsAutoRunAfterTimes": false,
+    "RunningTimes": 5,
+    "Key": 0
+  },
+  {
+    "SprayDots": 100,
+    "ShotDotsEachPattern": 100,
+    "PatternCount": 5,
+    "Interval": 500,
+    "SingleDotWeight": 0.0,
+    "CumulativeWeight": 0.0,
+    "StandardWeight": 0.0,
+    "WeightOffset": 5.0,
+    "Percentage": 5.0,
+    "IsAutoRunFirstStart": false,
+    "IsAutoRunAfterTimes": false,
+    "RunningTimes": 5,
+    "Key": 1
+  }
+]

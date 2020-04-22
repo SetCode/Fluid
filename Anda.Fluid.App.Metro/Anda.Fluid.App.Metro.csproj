@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B805D508-C5EF-444D-A7B8-F67BFEB1CEA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.App.Metro</RootNamespace>
+    <AssemblyName>Anda.Fluid.App.Metro</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroSet UI">
+      <HintPath>..\packages\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditControls\EditArcMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditArcMetro.Designer.cs">
+      <DependentUpon>EditArcMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditBatchMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditBatchMetro.Designer.cs">
+      <DependentUpon>EditBatchMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditInspectionMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditInspectionMetro.Designer.cs">
+      <DependentUpon>EditInspectionMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditSystemLocMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditSystemLocMetro.Designer.cs">
+      <DependentUpon>EditSystemLocMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditStartPassMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditStartPassMetro.Designer.cs">
+      <DependentUpon>EditStartPassMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditPatternOriginMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditPatternOriginMetro.Designer.cs">
+      <DependentUpon>EditPatternOriginMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\NewPatternMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\NewPatternMetro.Designer.cs">
+      <DependentUpon>NewPatternMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\NewProgramMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\NewProgramMetro.Designer.cs">
+      <DependentUpon>NewProgramMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMoveLocMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMoveLocMetro.Designer.cs">
+      <DependentUpon>EditMoveLocMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMoveXyMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMoveXyMetro.Designer.cs">
+      <DependentUpon>EditMoveXyMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMoveAbsZMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMoveAbsZMetro.Designer.cs">
+      <DependentUpon>EditMoveAbsZMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMoveAbsXyMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMoveAbsXyMetro.Designer.cs">
+      <DependentUpon>EditMoveAbsXyMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditSvSpeedMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditSvSpeedMetro.Designer.cs">
+      <DependentUpon>EditSvSpeedMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMultipassArrayMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMultipassArrayMetro.Designer.cs">
+      <DependentUpon>EditMultipassArrayMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditMultipassTimerMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditMultipassTimerMetro.Designer.cs">
+      <DependentUpon>EditMultipassTimerMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditPassBlockMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditPassBlockMetro.Designer.cs">
+      <DependentUpon>EditPassBlockMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditLoopPassMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditLoopPassMetro.Designer.cs">
+      <DependentUpon>EditLoopPassMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditTimerMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditTimerMetro.Designer.cs">
+      <DependentUpon>EditTimerMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditHeightMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditHeightMetro.Designer.cs">
+      <DependentUpon>EditHeightMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditCommentsMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditCommentsMetro.Designer.cs">
+      <DependentUpon>EditCommentsMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditDoMultipassMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditDoMultipassMetro.Designer.cs">
+      <DependentUpon>EditDoMultipassMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditDoPatternMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditDoPatternMetro.Designer.cs">
+      <DependentUpon>EditDoPatternMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditFinishShotMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditFinishShotMetro.Designer.cs">
+      <DependentUpon>EditFinishShotMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditPatternsArrayMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditPatternsArrayMetro.Designer.cs">
+      <DependentUpon>EditPatternsArrayMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditPatternArrayMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditPatternArrayMetro.Designer.cs">
+      <DependentUpon>EditPatternArrayMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditSnakelineMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditSnakelineMetro.Designer.cs">
+      <DependentUpon>EditSnakelineMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditPolylineMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditPolylineMetro.Designer.cs">
+      <DependentUpon>EditPolylineMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditCircleMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditCircleMetro.Designer.cs">
+      <DependentUpon>EditCircleMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditLineMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditLineMetro.Designer.cs">
+      <DependentUpon>EditLineMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditDotMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditDotMetro.Designer.cs">
+      <DependentUpon>EditDotMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditControls\EditBaseMetro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditControls\EditBaseMetro.Designer.cs">
+      <DependentUpon>EditBaseMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JogMetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JogMetro.Designer.cs">
+      <DependentUpon>JogMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoadingMetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoadingMetro.Designer.cs">
+      <DependentUpon>LoadingMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainMetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMetro.Designer.cs">
+      <DependentUpon>MainMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SensorReadMetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SensorReadMetro.Designer.cs">
+      <DependentUpon>SensorReadMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowTimerMetro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowTimerMetro.Designer.cs">
+      <DependentUpon>ShowTimerMetro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalConfig.cs" />
+    <Compile Include="MsgDef.cs" />
+    <Compile Include="Pages\CmdButtonType.cs" />
+    <Compile Include="Pages\PageAlarmsLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageAlarmsLog.Designer.cs">
+      <DependentUpon>PageAlarmsLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageHelpHotKeys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageHelpHotKeys.Designer.cs">
+      <DependentUpon>PageHelpHotKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageJobsFluid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageJobsFluid.Designer.cs">
+      <DependentUpon>PageJobsFluid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageJobsProduction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageJobsProduction.Designer.cs">
+      <DependentUpon>PageJobsProduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageJobsProgram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageJobsProgram.Designer.cs">
+      <DependentUpon>PageJobsProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupAccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupAccess.Designer.cs">
+      <DependentUpon>PageSetupAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageState.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageState.Designer.cs">
+      <DependentUpon>PageState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSystemCalib10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSystemCalib10.Designer.cs">
+      <DependentUpon>PageSystemCalib10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupAxes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupAxes.Designer.cs">
+      <DependentUpon>PageSetupAxes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupCamera.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupCamera.Designer.cs">
+      <DependentUpon>PageSetupCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupConveyors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupConveyors.Designer.cs">
+      <DependentUpon>PageSetupConveyors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupMachine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupMachine.Designer.cs">
+      <DependentUpon>PageSetupMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupRobot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupRobot.Designer.cs">
+      <DependentUpon>PageSetupRobot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupSensors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupSensors.Designer.cs">
+      <DependentUpon>PageSetupSensors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupValves.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupValves.Designer.cs">
+      <DependentUpon>PageSetupValves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupWeight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupWeight.Designer.cs">
+      <DependentUpon>PageSetupWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetupMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetupMap.Designer.cs">
+      <DependentUpon>PageSetupMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSystemCPK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSystemCPK.Designer.cs">
+      <DependentUpon>PageSystemCPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSystemHeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSystemHeater.Designer.cs">
+      <DependentUpon>PageSystemHeater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSystemManual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSystemManual.Designer.cs">
+      <DependentUpon>PageSystemManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSystemLaser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSystemLaser.Designer.cs">
+      <DependentUpon>PageSystemLaser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunBroker.cs" />
+    <Compile Include="Pages\VisionBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\VisionBar.Designer.cs">
+      <DependentUpon>VisionBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EditControls\EditArcMetro.resx">
+      <DependentUpon>EditArcMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditBatchMetro.resx">
+      <DependentUpon>EditBatchMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditInspectionMetro.resx">
+      <DependentUpon>EditInspectionMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditSystemLocMetro.resx">
+      <DependentUpon>EditSystemLocMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditStartPassMetro.resx">
+      <DependentUpon>EditStartPassMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditPatternOriginMetro.resx">
+      <DependentUpon>EditPatternOriginMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\NewPatternMetro.resx">
+      <DependentUpon>NewPatternMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\NewProgramMetro.resx">
+      <DependentUpon>NewProgramMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMoveLocMetro.resx">
+      <DependentUpon>EditMoveLocMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMoveXyMetro.resx">
+      <DependentUpon>EditMoveXyMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMoveAbsZMetro.resx">
+      <DependentUpon>EditMoveAbsZMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMoveAbsXyMetro.resx">
+      <DependentUpon>EditMoveAbsXyMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditSvSpeedMetro.resx">
+      <DependentUpon>EditSvSpeedMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMultipassArrayMetro.resx">
+      <DependentUpon>EditMultipassArrayMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditMultipassTimerMetro.resx">
+      <DependentUpon>EditMultipassTimerMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditPassBlockMetro.resx">
+      <DependentUpon>EditPassBlockMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditLoopPassMetro.resx">
+      <DependentUpon>EditLoopPassMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditTimerMetro.resx">
+      <DependentUpon>EditTimerMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditHeightMetro.resx">
+      <DependentUpon>EditHeightMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditCommentsMetro.resx">
+      <DependentUpon>EditCommentsMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditDoMultipassMetro.resx">
+      <DependentUpon>EditDoMultipassMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditDoPatternMetro.resx">
+      <DependentUpon>EditDoPatternMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditFinishShotMetro.resx">
+      <DependentUpon>EditFinishShotMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditPatternsArrayMetro.resx">
+      <DependentUpon>EditPatternsArrayMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditPatternArrayMetro.resx">
+      <DependentUpon>EditPatternArrayMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditSnakelineMetro.resx">
+      <DependentUpon>EditSnakelineMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditPolylineMetro.resx">
+      <DependentUpon>EditPolylineMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditCircleMetro.resx">
+      <DependentUpon>EditCircleMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditLineMetro.resx">
+      <DependentUpon>EditLineMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditDotMetro.resx">
+      <DependentUpon>EditDotMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditControls\EditBaseMetro.resx">
+      <DependentUpon>EditBaseMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JogMetro.resx">
+      <DependentUpon>JogMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoadingMetro.resx">
+      <DependentUpon>LoadingMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainMetro.resx">
+      <DependentUpon>MainMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SensorReadMetro.resx">
+      <DependentUpon>SensorReadMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowTimerMetro.resx">
+      <DependentUpon>ShowTimerMetro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAlarmsLog.resx">
+      <DependentUpon>PageAlarmsLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHelpHotKeys.resx">
+      <DependentUpon>PageHelpHotKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageJobsFluid.resx">
+      <DependentUpon>PageJobsFluid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageJobsProduction.resx">
+      <DependentUpon>PageJobsProduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageJobsProgram.resx">
+      <DependentUpon>PageJobsProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupAccess.resx">
+      <DependentUpon>PageSetupAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageState.resx">
+      <DependentUpon>PageState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSystemCalib10.resx">
+      <DependentUpon>PageSystemCalib10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupAxes.resx">
+      <DependentUpon>PageSetupAxes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupCamera.resx">
+      <DependentUpon>PageSetupCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupConveyors.resx">
+      <DependentUpon>PageSetupConveyors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupMachine.resx">
+      <DependentUpon>PageSetupMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupRobot.resx">
+      <DependentUpon>PageSetupRobot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupSensors.resx">
+      <DependentUpon>PageSetupSensors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupValves.resx">
+      <DependentUpon>PageSetupValves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupWeight.resx">
+      <DependentUpon>PageSetupWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetupMap.resx">
+      <DependentUpon>PageSetupMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSystemCPK.resx">
+      <DependentUpon>PageSystemCPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSystemHeater.resx">
+      <DependentUpon>PageSystemHeater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSystemManual.resx">
+      <DependentUpon>PageSystemManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSystemLaser.resx">
+      <DependentUpon>PageSystemLaser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\VisionBar.resx">
+      <DependentUpon>VisionBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.settings" />
+    <None Include="Resources\start_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblem_games_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identity_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office_chart_pie_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_reboot_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_shutdown_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_refresh_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus_48px_540252_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.App\Anda.Fluid.App.csproj">
+      <Project>{f0ee7763-439d-4752-aa0e-f8366df2f29f}</Project>
+      <Name>Anda.Fluid.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Controls\Anda.Fluid.Infrastructure.Controls.csproj">
+      <Project>{63ac44ee-28f1-47dc-b259-f8f47d5cb9c1}</Project>
+      <Name>Anda.Fluid.Infrastructure.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.AccessControl\Anda.Fluid.Domain.AccessControl.csproj">
+      <Project>{f0bbe37e-b4c0-4d3b-aaf0-524d39973622}</Project>
+      <Name>Anda.Fluid.Domain.AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Conveyor\Anda.Fluid.Domain.Conveyor.csproj">
+      <Project>{8afdbabb-1af3-405c-b11a-c10ba4ae1f21}</Project>
+      <Name>Anda.Fluid.Domain.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DataStatistics\Anda.Fluid.Domain.DataStatistics.csproj">
+      <Project>{18a55ff6-4153-4f58-9d61-0c26d78c43e1}</Project>
+      <Name>Anda.Fluid.Domain.DataStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Data\Anda.Fluid.Domain.Data.csproj">
+      <Project>{ce5fe923-9d94-47ee-ba5a-c6943785c847}</Project>
+      <Name>Anda.Fluid.Domain.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Dialogs\Anda.Fluid.Domain.Dialogs.csproj">
+      <Project>{f1e6d8d9-9407-4d9a-80cd-5a97a13775e8}</Project>
+      <Name>Anda.Fluid.Domain.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DrawingPanel\Anda.FLuid.Domain.DrawingPanel.csproj">
+      <Project>{7dcde44f-7755-4ff5-a6a7-98390b89a1aa}</Project>
+      <Name>Anda.FLuid.Domain.DrawingPanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Motion\Anda.Fluid.Domain.Motion.csproj">
+      <Project>{4688fde7-a0ac-4e13-b031-030f1d218670}</Project>
+      <Name>Anda.Fluid.Domain.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Sensors\Anda.Fluid.Domain.Sensors.csproj">
+      <Project>{7176c536-c6d0-4787-9ad4-c3269491fe99}</Project>
+      <Name>Anda.Fluid.Domain.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.SVO\Anda.Fluid.Domain.SVO.csproj">
+      <Project>{603bbc29-36c5-4e66-b901-4415434bea76}</Project>
+      <Name>Anda.Fluid.Domain.SVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Vision\Anda.Fluid.Domain.Vision.csproj">
+      <Project>{08b75814-3069-4af0-9070-f29b6cd21a78}</Project>
+      <Name>Anda.Fluid.Domain.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain\Anda.Fluid.Domain.csproj">
+      <Project>{18a8e080-cfce-4dd0-bd52-7c979195446e}</Project>
+      <Name>Anda.Fluid.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Conveyor\Anda.Fluid.Drive.Conveyor.csproj">
+      <Project>{8f0eba1b-24b5-4698-9663-5482d0766aff}</Project>
+      <Name>Anda.Fluid.Drive.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0c537a8e-23a6-4de1-9f51-38dbf0662a2d}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_new_3_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_open_5_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_open_5_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_save_5_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_copy_4_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_cut_4_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_paste_4_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playback_start_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playback_pause_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_skip_forward_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playback_stop_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_new_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_open_5_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_export_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_copy_6_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_cut_4_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_paste_4_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_open_7_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transform_rotate_2_32px_540136_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configure_4_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_last_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_next_5_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_find_5_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_first_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_last_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_switch_user_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_switch_updown_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_open_folder_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_sidetree_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear_3_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justice_balance_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_picker_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_picker_black_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comments_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_optical_format_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_optical_info_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_optical_burn_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_optical_erase_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog_ok_apply_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laser_Black_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_close_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_sidetree_4_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_duplicate_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_refresh_2_48px_540226_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_refresh_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_redo_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_list_icon_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_history_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_run_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_list_icons_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blur_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connect_point_tool_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Counterclockwise_arrow_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_calendar_day_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_calendar_workweek_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_justify_fill_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_dot_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_stiblo_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_line_spacing_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kalarm_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misc_numbers_1_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misc_numbers_2_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numbers_0_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numbers_1_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numbers_2_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numbers_3_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangular_marquee_tool_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliptical_marquee_tool_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_24px_1185757.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rect_24px_1186322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_align_justify_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid_on_32px_1181924.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apps_32px_1181648.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panorama_fisheye_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_location_32px_1182065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_searching_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gps_not_fixed_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gps_fixed_32px_1181917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_bottom_6_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_top_6_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_previous_view_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_next_view_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_green_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_seek_forward_3_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burn_fire_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_barcode_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laser_Black_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_glue_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_switch_user_3_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_last_3_48px_539819.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_next_5_48px_539825.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode_scanner_47.2px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_42.360153256705px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controls_47.16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_up_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_previous_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_down_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_next_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

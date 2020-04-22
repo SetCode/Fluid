@@ -1,0 +1,8 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.FeatureAccessForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.NewUserForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.SetupPasswordForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.LoginForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.UserManagementForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.AccessControl\obj\Debug\Anda.Fluid.Domain.AccessControl.csproj.CoreCompileInputs.cache

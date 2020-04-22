@@ -1,0 +1,9 @@
+{
+  "MachineSelect": 0,
+  "ValveSelect": 1,
+  "ConveyorSelect": 0,
+  "CardSelect": 3,
+  "AxesStyle": 0,
+  "DualValveMode": 0,
+  "DoubleProgram": false
+}

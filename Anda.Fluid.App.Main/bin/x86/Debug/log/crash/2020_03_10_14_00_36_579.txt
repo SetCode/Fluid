@@ -1,0 +1,19 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Anda.Fluid.App.EditCmdLineForms.EditDotForm1..ctor(Pattern pattern, DotCmdLine dotCmdLine) in E:\工作\点胶机\新点胶\AFM\Anda.Fluid.App\EditCmdLineForms\EditDotForm1.cs:line 48
+   at Anda.Fluid.App.EditCmdLineForms.EditDotForm1..ctor(Pattern pattern) in E:\工作\点胶机\新点胶\AFM\Anda.Fluid.App\EditCmdLineForms\EditDotForm1.cs:line 39
+   at Anda.Fluid.App.EditFormParent..ctor(Pattern pattern) in E:\工作\点胶机\新点胶\AFM\Anda.Fluid.App\EditFormParent.cs:line 62
+   at Anda.Fluid.App.ProgramControl.tsbAdd_Click(Object sender, EventArgs e) in E:\工作\点胶机\新点胶\AFM\Anda.Fluid.App\ProgramControl.cs:line 2564
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

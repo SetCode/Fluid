@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="afmdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="conveyor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MachineId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="machine" Relationship="Self.fk_tConveyor_tMachine1" FromRole="conveyor" ToRole="machine" />
+  </EntityType>
+  <EntityType Name="machine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tbDownTime_tbDownTimeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="conveyor" Relationship="Self.fk_tConveyor_tMachine1" FromRole="machine" ToRole="conveyor" />
+    <NavigationProperty Name="valve" Relationship="Self.fk_tValve_tMachine1" FromRole="machine" ToRole="valve" />
+  </EntityType>
+  <EntityType Name="pattern">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="RunMode" Type="Int32" />
+    <Property Name="LotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Operator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Barcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="StartTime" Type="DateTime" />
+    <Property Name="EndTime" Type="DateTime" />
+    <Property Name="Result" Type="Int32" />
+    <Property Name="Mark1X" Type="Double" />
+    <Property Name="Mark1Y" Type="Double" />
+    <Property Name="Mark2X" Type="Double" />
+    <Property Name="Mark2Y" Type="Double" />
+    <Property Name="Height" Type="Double" />
+    <Property Name="WorkpieceId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="workpiece" Relationship="Self.fk_Pattern_Workpiece1" FromRole="pattern" ToRole="workpiece" />
+    <NavigationProperty Name="patternsetting" Relationship="Self.fk_PatternSetting_Pattern1" FromRole="pattern" ToRole="patternsetting" />
+  </EntityType>
+  <EntityType Name="patternsetting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VelXY" Type="Double" />
+    <Property Name="VelZ" Type="Double" />
+    <Property Name="AccXY" Type="Double" />
+    <Property Name="AccZ" Type="Double" />
+    <Property Name="SingleDotWt" Type="Double" />
+    <Property Name="GluePressure1" Type="Double" />
+    <Property Name="GluePressure2" Type="Double" />
+    <Property Name="Temperature" Type="Double" />
+    <Property Name="PatternId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="pattern" Relationship="Self.fk_PatternSetting_Pattern1" FromRole="patternsetting" ToRole="pattern" />
+  </EntityType>
+  <EntityType Name="tbjtvalveprm">
+    <Key>
+      <PropertyRef Name="JtValvePrmId" />
+    </Key>
+    <Property Name="JtValvePrmId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valve_ValveId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="valve" Relationship="Self.fk_tbJtValvePrm_valve1" FromRole="tbjtvalveprm" ToRole="valve" />
+  </EntityType>
+  <EntityType Name="tbsvvalveprm">
+    <Key>
+      <PropertyRef Name="SvValvePrmId" />
+    </Key>
+    <Property Name="SvValvePrmId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="valve_ValveId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="valve" Relationship="Self.fk_tbSvValvePrm_valve1" FromRole="tbsvvalveprm" ToRole="valve" />
+  </EntityType>
+  <EntityType Name="tbtimerecorder">
+    <Key>
+      <PropertyRef Name="timeRecorderId" />
+    </Key>
+    <Property Name="timeRecorderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="workState" Type="Int32" />
+    <Property Name="startTime" Type="DateTime" />
+    <Property Name="endTime" Type="DateTime" />
+    <Property Name="span" Type="Double" />
+    <Property Name="subType" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbweightprm">
+    <Key>
+      <PropertyRef Name="WeightPrmId" />
+    </Key>
+    <Property Name="WeightPrmId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ShotDotsEachPattern" Type="Int32" />
+    <Property Name="PatternCount" Type="Int32" />
+    <Property Name="Interval" Type="Int32" />
+    <Property Name="CurrentWeight" Type="Double" />
+    <Property Name="WeightBeforeSpray" Type="Double" />
+    <Property Name="DifferWeight" Type="Double" />
+    <Property Name="SingleDotWeight" Type="Double" />
+    <Property Name="CumulativeWeight" Type="Double" />
+    <Property Name="StandardWeight" Type="Double" />
+    <Property Name="WeightOffset" Type="Double" />
+    <Property Name="DiffOffsetPer" Type="Double" />
+    <Property Name="valve_ValveId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="valve" Relationship="Self.fk_tbWeightPrm_valve1" FromRole="tbweightprm" ToRole="valve" />
+  </EntityType>
+  <EntityType Name="valve">
+    <Key>
+      <PropertyRef Name="ValveId" />
+    </Key>
+    <Property Name="ValveId" Type="Int32" Nullable="false" />
+    <Property Name="MachineId" Type="Int32" Nullable="false" />
+    <Property Name="ValveType" Type="Int32" />
+    <Property Name="ValveSeries" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="machine" Relationship="Self.fk_tValve_tMachine1" FromRole="valve" ToRole="machine" />
+    <NavigationProperty Name="tbjtvalveprm" Relationship="Self.fk_tbJtValvePrm_valve1" FromRole="valve" ToRole="tbjtvalveprm" />
+    <NavigationProperty Name="tbsvvalveprm" Relationship="Self.fk_tbSvValvePrm_valve1" FromRole="valve" ToRole="tbsvvalveprm" />
+    <NavigationProperty Name="tbweightprm" Relationship="Self.fk_tbWeightPrm_valve1" FromRole="valve" ToRole="tbweightprm" />
+  </EntityType>
+  <EntityType Name="workpiece">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="RunMode" Type="Int32" />
+    <Property Name="LotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Operator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Barcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="StartTime" Type="DateTime" />
+    <Property Name="EndTime" Type="DateTime" />
+    <Property Name="Result" Type="Int32" />
+    <Property Name="Mark1X" Type="Double" />
+    <Property Name="Mark1Y" Type="Double" />
+    <Property Name="Mark2X" Type="Double" />
+    <Property Name="Mark2Y" Type="Double" />
+    <Property Name="Height" Type="Double" />
+    <NavigationProperty Name="pattern" Relationship="Self.fk_Pattern_Workpiece1" FromRole="workpiece" ToRole="pattern" />
+    <NavigationProperty Name="workpiecesetting" Relationship="Self.fk_WorkpieceSetting_Workpiece1" FromRole="workpiece" ToRole="workpiecesetting" />
+  </EntityType>
+  <EntityType Name="workpiecesetting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VelXY" Type="Double" />
+    <Property Name="VelZ" Type="Double" />
+    <Property Name="AccXY" Type="Double" />
+    <Property Name="AccZ" Type="Double" />
+    <Property Name="SingleDotWt" Type="Double" />
+    <Property Name="GluePressure1" Type="Double" />
+    <Property Name="GluePressure2" Type="Double" />
+    <Property Name="Temperature" Type="Double" />
+    <Property Name="WorkpieceId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="workpiece" Relationship="Self.fk_WorkpieceSetting_Workpiece1" FromRole="workpiecesetting" ToRole="workpiece" />
+  </EntityType>
+  <EntityType Name="pattern_setting">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="WorkpieceId" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="LotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Operator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Barcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="StartTime" Type="DateTime" />
+    <Property Name="EndTime" Type="DateTime" />
+    <Property Name="Result" Type="Int32" />
+    <Property Name="Mark1X" Type="Double" />
+    <Property Name="Mark1Y" Type="Double" />
+    <Property Name="Mark2X" Type="Double" />
+    <Property Name="Mark2Y" Type="Double" />
+    <Property Name="Height" Type="Double" />
+    <Property Name="WorkpieceId" Type="Int32" Nullable="false" />
+    <Property Name="VelXY" Type="Double" />
+    <Property Name="VelZ" Type="Double" />
+    <Property Name="AccXY" Type="Double" />
+    <Property Name="AccZ" Type="Double" />
+    <Property Name="SingleDotWt" Type="Double" />
+    <Property Name="GluePressure1" Type="Double" />
+    <Property Name="GluePressure2" Type="Double" />
+    <Property Name="Temperature" Type="Double" />
+  </EntityType>
+  <EntityType Name="workpiece_pattern">
+    <Key>
+      <PropertyRef Name="WId" />
+      <PropertyRef Name="PId" />
+      <PropertyRef Name="WorkpieceId" />
+    </Key>
+    <Property Name="WId" Type="Int32" Nullable="false" />
+    <Property Name="WName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="WLotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="WOperator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="WBarcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="WStartTime" Type="DateTime" />
+    <Property Name="WEndTime" Type="DateTime" />
+    <Property Name="WResult" Type="Int32" />
+    <Property Name="WMark1X" Type="Double" />
+    <Property Name="WMark1Y" Type="Double" />
+    <Property Name="WMark2X" Type="Double" />
+    <Property Name="WMark2Y" Type="Double" />
+    <Property Name="WHeight" Type="Double" />
+    <Property Name="PId" Type="Int32" Nullable="false" />
+    <Property Name="PName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="PLotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="POperator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="PBarcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="PStartTime" Type="DateTime" />
+    <Property Name="PEndTime" Type="DateTime" />
+    <Property Name="PResult" Type="Int32" />
+    <Property Name="PMark1X" Type="Double" />
+    <Property Name="PMark1Y" Type="Double" />
+    <Property Name="PMark2X" Type="Double" />
+    <Property Name="PMark2Y" Type="Double" />
+    <Property Name="PHeight" Type="Double" />
+    <Property Name="WorkpieceId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="workpiece_setting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="LotNum" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Operator" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Barcode" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="StartTime" Type="DateTime" />
+    <Property Name="EndTime" Type="DateTime" />
+    <Property Name="Result" Type="Int32" />
+    <Property Name="Mark1X" Type="Double" />
+    <Property Name="Mark1Y" Type="Double" />
+    <Property Name="Mark2X" Type="Double" />
+    <Property Name="Mark2Y" Type="Double" />
+    <Property Name="Height" Type="Double" />
+    <Property Name="VelXY" Type="Double" />
+    <Property Name="VelZ" Type="Double" />
+    <Property Name="AccXY" Type="Double" />
+    <Property Name="AccZ" Type="Double" />
+    <Property Name="SingleDotWt" Type="Double" />
+    <Property Name="GluePressure1" Type="Double" />
+    <Property Name="GluePressure2" Type="Double" />
+    <Property Name="Temperature" Type="Double" />
+  </EntityType>
+  <Association Name="fk_tConveyor_tMachine1">
+    <End Role="machine" Type="Self.machine" Multiplicity="1" />
+    <End Role="conveyor" Type="Self.conveyor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="machine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="conveyor">
+        <PropertyRef Name="MachineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tValve_tMachine1">
+    <End Role="machine" Type="Self.machine" Multiplicity="1" />
+    <End Role="valve" Type="Self.valve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="machine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="valve">
+        <PropertyRef Name="MachineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Pattern_Workpiece1">
+    <End Role="workpiece" Type="Self.workpiece" Multiplicity="1" />
+    <End Role="pattern" Type="Self.pattern" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workpiece">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="pattern">
+        <PropertyRef Name="WorkpieceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_PatternSetting_Pattern1">
+    <End Role="pattern" Type="Self.pattern" Multiplicity="1" />
+    <End Role="patternsetting" Type="Self.patternsetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pattern">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="patternsetting">
+        <PropertyRef Name="PatternId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tbJtValvePrm_valve1">
+    <End Role="valve" Type="Self.valve" Multiplicity="1" />
+    <End Role="tbjtvalveprm" Type="Self.tbjtvalveprm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="valve">
+        <PropertyRef Name="ValveId" />
+      </Principal>
+      <Dependent Role="tbjtvalveprm">
+        <PropertyRef Name="valve_ValveId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tbSvValvePrm_valve1">
+    <End Role="valve" Type="Self.valve" Multiplicity="1" />
+    <End Role="tbsvvalveprm" Type="Self.tbsvvalveprm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="valve">
+        <PropertyRef Name="ValveId" />
+      </Principal>
+      <Dependent Role="tbsvvalveprm">
+        <PropertyRef Name="valve_ValveId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tbWeightPrm_valve1">
+    <End Role="valve" Type="Self.valve" Multiplicity="1" />
+    <End Role="tbweightprm" Type="Self.tbweightprm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="valve">
+        <PropertyRef Name="ValveId" />
+      </Principal>
+      <Dependent Role="tbweightprm">
+        <PropertyRef Name="valve_ValveId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_WorkpieceSetting_Workpiece1">
+    <End Role="workpiece" Type="Self.workpiece" Multiplicity="1" />
+    <End Role="workpiecesetting" Type="Self.workpiecesetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workpiece">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="workpiecesetting">
+        <PropertyRef Name="WorkpieceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="afmdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="conveyor" EntityType="Self.conveyor" />
+    <EntitySet Name="machine" EntityType="Self.machine" />
+    <EntitySet Name="pattern" EntityType="Self.pattern" />
+    <EntitySet Name="patternsetting" EntityType="Self.patternsetting" />
+    <EntitySet Name="tbjtvalveprm" EntityType="Self.tbjtvalveprm" />
+    <EntitySet Name="tbsvvalveprm" EntityType="Self.tbsvvalveprm" />
+    <EntitySet Name="tbtimerecorder" EntityType="Self.tbtimerecorder" />
+    <EntitySet Name="tbweightprm" EntityType="Self.tbweightprm" />
+    <EntitySet Name="valve" EntityType="Self.valve" />
+    <EntitySet Name="workpiece" EntityType="Self.workpiece" />
+    <EntitySet Name="workpiecesetting" EntityType="Self.workpiecesetting" />
+    <EntitySet Name="pattern_setting" EntityType="Self.pattern_setting" />
+    <EntitySet Name="workpiece_pattern" EntityType="Self.workpiece_pattern" />
+    <EntitySet Name="workpiece_setting" EntityType="Self.workpiece_setting" />
+    <AssociationSet Name="fk_tConveyor_tMachine1" Association="Self.fk_tConveyor_tMachine1">
+      <End Role="machine" EntitySet="machine" />
+      <End Role="conveyor" EntitySet="conveyor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tValve_tMachine1" Association="Self.fk_tValve_tMachine1">
+      <End Role="machine" EntitySet="machine" />
+      <End Role="valve" EntitySet="valve" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Pattern_Workpiece1" Association="Self.fk_Pattern_Workpiece1">
+      <End Role="workpiece" EntitySet="workpiece" />
+      <End Role="pattern" EntitySet="pattern" />
+    </AssociationSet>
+    <AssociationSet Name="fk_PatternSetting_Pattern1" Association="Self.fk_PatternSetting_Pattern1">
+      <End Role="pattern" EntitySet="pattern" />
+      <End Role="patternsetting" EntitySet="patternsetting" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tbJtValvePrm_valve1" Association="Self.fk_tbJtValvePrm_valve1">
+      <End Role="valve" EntitySet="valve" />
+      <End Role="tbjtvalveprm" EntitySet="tbjtvalveprm" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tbSvValvePrm_valve1" Association="Self.fk_tbSvValvePrm_valve1">
+      <End Role="valve" EntitySet="valve" />
+      <End Role="tbsvvalveprm" EntitySet="tbsvvalveprm" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tbWeightPrm_valve1" Association="Self.fk_tbWeightPrm_valve1">
+      <End Role="valve" EntitySet="valve" />
+      <End Role="tbweightprm" EntitySet="tbweightprm" />
+    </AssociationSet>
+    <AssociationSet Name="fk_WorkpieceSetting_Workpiece1" Association="Self.fk_WorkpieceSetting_Workpiece1">
+      <End Role="workpiece" EntitySet="workpiece" />
+      <End Role="workpiecesetting" EntitySet="workpiecesetting" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

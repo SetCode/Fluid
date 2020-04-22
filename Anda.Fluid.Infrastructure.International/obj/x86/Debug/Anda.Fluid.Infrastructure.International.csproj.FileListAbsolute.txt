@@ -1,0 +1,52 @@
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojResolveAssemblyReference.cache
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojResolveAssemblyReference.cache
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\PY\A\Anda.Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojResolveAssemblyReference.cache
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\程序\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojResolveAssemblyReference.cache
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+D:\AFM\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+D:\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\AFM\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojResolveAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csproj.CoreCompileInputs.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csproj.CopyComplete
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\MetroSet UI.dll
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\bin\x86\Debug\Newtonsoft.Json.dll
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csprojAssemblyReference.cache
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csproj.CoreCompileInputs.cache
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.csproj.CopyComplete
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\WpfProject\Fluid\Anda.Fluid.Infrastructure.International\obj\x86\Debug\Anda.Fluid.Infrastructure.International.pdb

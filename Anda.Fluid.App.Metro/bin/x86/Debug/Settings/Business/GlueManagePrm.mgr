@@ -1,0 +1,36 @@
+[
+  {
+    "UseGlueManage": false,
+    "GlueLife": 1440.0,
+    "GlueRemainLife": 1440.0,
+    "LifeWarningTime": 30.0,
+    "TotalWeight": 30000.0,
+    "RemainWeight": 30000.0,
+    "WarningPercentage": 15.0,
+    "GlueDeliverTime": "0001-01-01T00:00:00",
+    "GlueThawTime": 120.0,
+    "GlueSN": "",
+    "GlueSNLength": 0,
+    "GlueType": "",
+    "UseGlueType": false,
+    "ManageType": 0,
+    "Key": 0
+  },
+  {
+    "UseGlueManage": false,
+    "GlueLife": 1440.0,
+    "GlueRemainLife": 1440.0,
+    "LifeWarningTime": 30.0,
+    "TotalWeight": 30000.0,
+    "RemainWeight": 30000.0,
+    "WarningPercentage": 15.0,
+    "GlueDeliverTime": "0001-01-01T00:00:00",
+    "GlueThawTime": 120.0,
+    "GlueSN": "",
+    "GlueSNLength": 0,
+    "GlueType": "",
+    "UseGlueType": false,
+    "ManageType": 0,
+    "Key": 1
+  }
+]

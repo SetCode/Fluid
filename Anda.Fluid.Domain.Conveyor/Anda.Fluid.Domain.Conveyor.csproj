@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AFDBABB-1AF3-405C-B11A-C10BA4AE1F21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Domain.Conveyor</RootNamespace>
+    <AssemblyName>Anda.Fluid.Domain.Conveyor</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>..\packages\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm\AlarmInfoConveyor.cs" />
+    <Compile Include="BaseClass\StateBase.cs" />
+    <Compile Include="Conveyor.cs" />
+    <Compile Include="ConveyorAction\ManualEnterBoard.cs" />
+    <Compile Include="ConveyorAction\ManualOutBoard.cs" />
+    <Compile Include="ConveyorAction\ManualSMEMAEnterBoard.cs" />
+    <Compile Include="ConveyorAction\ManualSMEMAOutBoard.cs" />
+    <Compile Include="ConveyorController\ConveyorController.cs" />
+    <Compile Include="ConveyorMessage\ConveyorSubCenter.cs" />
+    <Compile Include="ConveyorMessage\ConveyorControlSubCenter.cs" />
+    <Compile Include="ConveyorMessage\ConveyorMsgCenter.cs" />
+    <Compile Include="ConveyorMessage\FluProgramSubCenter.cs" />
+    <Compile Include="ConveyorState\IntegralStateEnum.cs" />
+    <Compile Include="ConveyorState\IntegralState.cs" />
+    <Compile Include="BaseClass\StateMachineBase.cs" />
+    <Compile Include="ConveyorState\IntegralStateMachine.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\AutoEnter.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\CheckResidue.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\AutoExit.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\IntegralStuck.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\RunSubsites.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\AutoModel\WidthReset.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\DemoModel\DemoRun.cs" />
+    <Compile Include="ConveyorState\ModelLevelState\PassThroughModel\PassRun.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\BoardDirectLeaving.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\BoardEntering.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\BoardLeaving.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\BoardLeft.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedAsk.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedEnter.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedExit.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedHeating.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedSiteState.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedSiteStateMachine.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\FinishedProductSite\FinishedStuck.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\BoardArrived.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\BoardEntering.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\BoardLeaving.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\BoardLeft.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreAsk.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreEnter.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreExit.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreHeating.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreIdle.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreSiteState.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreSiteStateMachine.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\PreHeatSite\PreStuck.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\BoardArrived.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\BoardEntering.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\BoardLeaving.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\BoardLeft.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\DispenseDone.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\Dispensing.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\LiftStuck.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\ReadyForDispense.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\Reverse.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleAsk.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleEnter.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleExit.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleIdle.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleSiteState.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleSiteStateMachine.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SingleSite\SingleStuck.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\SubSiteStateMachine.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\BoardArrived.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\DispenseDone.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\DispenseReady.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\Dispensing.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingAsk.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingEnter.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingExit.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingHeating.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingSiteState.cs" />
+    <Compile Include="ConveyorState\SubSitesLevelState\WorkingSite\WorkingSiteStateMachine.cs" />
+    <Compile Include="ConveyorState\UILevelState\AutoModel.cs" />
+    <Compile Include="ConveyorState\UILevelState\DemoModel.cs" />
+    <Compile Include="ConveyorState\UILevelState\Initial.cs" />
+    <Compile Include="ConveyorState\UILevelState\OfflineModel.cs" />
+    <Compile Include="ConveyorState\UILevelState\PassThroughModel.cs" />
+    <Compile Include="ConveyorState\UILevelState\WaitingToRun.cs" />
+    <Compile Include="Flag\FlagBit.cs" />
+    <Compile Include="Flag\FlagBitMgr.cs" />
+    <Compile Include="Forms\ConveyorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConveyorControl.Designer.cs">
+      <DependentUpon>ConveyorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConveyorControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConveyorControlForm.Designer.cs">
+      <DependentUpon>ConveyorControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConveyorSettingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ConveyorSettingControl.Designer.cs">
+      <DependentUpon>ConveyorSettingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConveyorSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConveyorSettingForm.Designer.cs">
+      <DependentUpon>ConveyorSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RTVSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RTVSettingForm.designer.cs">
+      <DependentUpon>RTVSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prm\PreSitePrm.cs" />
+    <Compile Include="Prm\ConveyorPrm.cs" />
+    <Compile Include="Prm\ConveyorPrmMgr.cs" />
+    <Compile Include="Prm\RTVPrm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVAskState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVBoardArrivedState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVBoardEnteringState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVBoardLeavingState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVBoardLeftState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVCheckState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVConveyorStateMachine.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVEnterState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVExitState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVIdleState.cs" />
+    <Compile Include="RTVConveyor\RTVConveyorState\RTVStuckState.cs" />
+    <Compile Include="RTVConveyor\RTVDownConveyor.cs" />
+    <Compile Include="Utils\ConveyorTimer.cs" />
+    <EmbeddedResource Include="Forms\ConveyorControl.resx">
+      <DependentUpon>ConveyorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConveyorControlForm.resx">
+      <DependentUpon>ConveyorControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConveyorSettingControl.resx">
+      <DependentUpon>ConveyorSettingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConveyorSettingForm.resx">
+      <DependentUpon>ConveyorSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RTVSettingForm.resx">
+      <DependentUpon>RTVSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Controls\Anda.Fluid.Infrastructure.Controls.csproj">
+      <Project>{63ac44ee-28f1-47dc-b259-f8f47d5cb9c1}</Project>
+      <Name>Anda.Fluid.Infrastructure.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Conveyor\Anda.Fluid.Drive.Conveyor.csproj">
+      <Project>{8f0eba1b-24b5-4698-9663-5482d0766aff}</Project>
+      <Name>Anda.Fluid.Drive.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{F1BB4FC7-9299-4469-B1D7-CBEDCFA3BE1B}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6FFC6A0B-66F0-410C-B65A-A0109C47DE33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Conveyor.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.AndaLightControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.CameraControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.CameraView.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.CameraControl11.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.CameraForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.LightSettingControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.TriggerDemo.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Vision\obj\Debug\Anda.Fluid.Domain.Vision.csproj.CoreCompileInputs.cache

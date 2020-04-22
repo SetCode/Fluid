@@ -1,0 +1,10 @@
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmHandleForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.UI.AbortIgnoreRetryManualForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmTransparencyForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.UI.SettingFormBase.resources
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Infrastructure\obj\Debug\Anda.Fluid.Infrastructure.csproj.CoreCompileInputs.cache

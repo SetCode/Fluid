@@ -1,0 +1,12 @@
+[
+  {
+    "ReverseX": false,
+    "ReverseY": false,
+    "Vendor": 0,
+    "Name": null,
+    "Exposure": 5000,
+    "Gain": 300,
+    "TrigSrc": 0,
+    "Key": 0
+  }
+]

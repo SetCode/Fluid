@@ -1,0 +1,59 @@
+{
+  "TempModelFindPrm": {
+    "ModelId": 0,
+    "IsUnStandard": false,
+    "UnStandardType": 0,
+    "InspectionKey": 5,
+    "ReferenceA": 0.0,
+    "ReferenceX": 0.0,
+    "ReferenceY": 0.0,
+    "ReferenceX2": 0.0,
+    "ReferenceY2": 0.0,
+    "Bmp": null,
+    "ModelData": null,
+    "ModelTopLeftX": 540,
+    "ModelTopLeftY": 380,
+    "ModelWidth": 200,
+    "ModelHeight": 200,
+    "AcceptScore": 0.6,
+    "Tolerance": 2.0,
+    "IsCreated": false,
+    "IsFromFile": false,
+    "PosInPattern": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "SettlingTime": 50,
+    "Gain": 400,
+    "ExposureTime": 3000,
+    "ExecutePrm": {
+      "PrmOPT": {
+        "List": [
+          {
+            "Chanel": 1,
+            "On": false,
+            "Value": 0
+          },
+          {
+            "Chanel": 2,
+            "On": false,
+            "Value": 0
+          },
+          {
+            "Chanel": 3,
+            "On": false,
+            "Value": 0
+          }
+        ],
+        "ListCls": []
+      },
+      "LightType": 1
+    },
+    "ImgWidth": 0,
+    "ImgHeight": 0,
+    "SearchTopLeftX": 100,
+    "SearchTopLeftY": 100,
+    "SearchWidth": 1080,
+    "SearchHeight": 760
+  }
+}

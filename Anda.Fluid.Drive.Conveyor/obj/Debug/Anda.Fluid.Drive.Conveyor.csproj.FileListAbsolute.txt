@@ -1,0 +1,12 @@
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\bin\Debug\Anda.Fluid.Drive.Conveyor.dll.config
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\bin\Debug\Anda.Fluid.Drive.Conveyor.dll
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\bin\Debug\Anda.Fluid.Drive.Conveyor.pdb
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.LeadShine.Forms.IOForms.IOForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.LeadShine.Forms.IOForms.LeadShineDiCtl.resources
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.LeadShine.Forms.IOForms.LeadShineDoCtl.resources
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.csproj.CoreCompileInputs.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.dll
+E:\WpfProject\fluid\Anda.Fluid.Drive.Conveyor\obj\Debug\Anda.Fluid.Drive.Conveyor.pdb

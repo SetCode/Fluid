@@ -1,0 +1,6597 @@
+{
+  "NewUserForm": {
+    "NewUserForm": [
+      "NewUser"
+    ],
+    "lblRole": [
+      "Role:"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnOk": [
+      "Ok"
+    ],
+    "lblReenterPassword": [
+      "Re-enter password:"
+    ],
+    "lblPassword": [
+      "Password:"
+    ],
+    "lblUserName": [
+      "User name:"
+    ],
+    "rdoSupervisor": [
+      "Supervisor"
+    ],
+    "rdoTechnician": [
+      "Technician"
+    ],
+    "rdoOperator": [
+      "Operator"
+    ]
+  },
+  "UserManagementForm": {
+    "selectCbxColumn": [
+      "Select"
+    ],
+    "txtNameColumn": [
+      "User name"
+    ],
+    "txtRoleTypeColumn": [
+      "Role"
+    ],
+    "UserManagementForm": [
+      "UserManagementForm"
+    ],
+    "btnOk": [
+      "Ok"
+    ],
+    "btnDeleteUser": [
+      "Delete select"
+    ],
+    "btnAddUser": [
+      "New User"
+    ]
+  },
+  "SetupPasswordForm": {
+    "SetupPasswordForm": [
+      "SetupPasswordForm"
+    ],
+    "lblUserName": [
+      "Operator"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnOK": [
+      "OK"
+    ],
+    "lblReEnterPassword": [
+      "Re-enter Password:"
+    ],
+    "lblNewPassword": [
+      "New Password:"
+    ],
+    "lblOldPassword": [
+      "Old Password:"
+    ],
+    "lblRole": [
+      "Current User:"
+    ]
+  },
+  "FeatureAccessForm": {
+    "operatorColumn": [
+      "Operator"
+    ],
+    "technicianColumn": [
+      "Technician"
+    ],
+    "supervisorColumn": [
+      "Supervisor"
+    ],
+    "Load program file": [
+      "Load program file"
+    ],
+    "Enter program form": [
+      "Enter program form"
+    ],
+    "Enter Global location form": [
+      "Enter Global location form"
+    ],
+    "Enter tools menu": [
+      "Enter tools menu"
+    ],
+    "Enter IO form": [
+      "Enter IO form"
+    ],
+    "Enter scale form": [
+      "Enter scale form"
+    ],
+    "Enter purge form": [
+      "Enter purge form"
+    ],
+    "Enter height form": [
+      "Enter height form"
+    ],
+    "Enter Heater form": [
+      "Enter Heater form"
+    ],
+    "Enter Camera form": [
+      "Enter Camera form"
+    ],
+    "Enter configration menu": [
+      "Enter configration menu"
+    ],
+    "Switch language": [
+      "Switch language"
+    ],
+    "Switch position Unit": [
+      "Switch position Unit"
+    ],
+    "Enter camera calibration form": [
+      "Enter camera calibration form"
+    ],
+    "Enter scripted valve offsetsform": [
+      "Enter scripted valve offsetsform"
+    ],
+    "Enter setup locations form": [
+      "Enter setup locations form"
+    ],
+    "Enter setup ASV form": [
+      "Enter setup ASV form"
+    ],
+    "Enter calculate CPK form": [
+      "Enter calculate CPK form"
+    ],
+    "Enter advanced menu": [
+      "Enter advanced menu"
+    ],
+    "Enter setup Motion form": [
+      "Enter setup Motion form"
+    ],
+    "Enter setup Axes form": [
+      "Enter setup Axes form"
+    ],
+    "Enter setup IO form": [
+      "Enter setup IO form"
+    ],
+    "Enter setup vision form": [
+      "Enter setup vision form"
+    ],
+    "Enter setup valves form": [
+      "Enter setup valves form"
+    ],
+    "Enter setup sensors form": [
+      "Enter setup sensors form"
+    ],
+    "Enter setup conveyor form": [
+      "Enter setup conveyor form"
+    ],
+    "Enter strip mapping form": [
+      "Enter strip mapping form"
+    ],
+    "Enter access form": [
+      "Enter access form"
+    ],
+    "Change run mode": [
+      "Change run mode"
+    ],
+    "Change conveyor mode": [
+      "Change conveyor mode"
+    ],
+    "FeatureAccessForm": [
+      "FeatureAccessForm"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnOk": [
+      "Ok"
+    ],
+    "Use glue path command": [
+      "Use glue path command"
+    ],
+    "Use other command": [
+      "Use other command"
+    ],
+    "Use program file operate": [
+      "Use program file operate"
+    ],
+    "Use module tree": [
+      "Use module tree"
+    ],
+    "Use program command list": [
+      "Use program command list"
+    ],
+    "Enter program setting form": [
+      "Enter program setting form"
+    ],
+    "Enter valve Edit form": [
+      "Enter valve Edit form"
+    ],
+    "Enter user management form": [
+      "Enter user management form"
+    ],
+    "Can use ouput button": [
+      "Can use ouput button"
+    ],
+    "Can edit Scale Parameter": [
+      "Can edit Scale Parameter"
+    ],
+    "Can edit weight parameter": [
+      "Can edit weight parameter"
+    ]
+  },
+  "LoginForm": {
+    "LoginForm": [
+      "LoginForm"
+    ],
+    "btnSwitchOperator": [
+      "Switch Operator"
+    ],
+    "btnNewUser": [
+      "New User"
+    ],
+    "btnUserMgr": [
+      "User Management"
+    ],
+    "label2": [
+      "Name:"
+    ],
+    "btnLogin": [
+      "Login"
+    ],
+    "btnSetupPassword": [
+      "Setup Password"
+    ],
+    "label1": [
+      "Password:"
+    ]
+  },
+  "SettingAxesForm": {
+    "SettingAxesForm": [
+      "SettingAxesForm"
+    ],
+    "btnResetAll": [
+      "reset all"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "btnSave": [
+      "ok"
+    ],
+    "gbxContent": [
+      "content"
+    ],
+    "groupBox1": [
+      "list"
+    ]
+  },
+  "SettingRobotForm": {
+    "SettingRobotForm": [
+      "SettingRobotForm"
+    ],
+    "btnResetAll": [
+      "reset all"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "btnSave": [
+      "ok"
+    ],
+    "gbxContent": [
+      "content"
+    ],
+    "groupBox1": [
+      "list"
+    ],
+    "MinZ": [
+      "Z轴最低位置"
+    ],
+    "Global": [
+      "Global"
+    ],
+    "MaxVelXY": [
+      "联动最大速度"
+    ],
+    "MaxAccXY": [
+      "联动最大加速度"
+    ],
+    "VelXY": [
+      "XY联动速度"
+    ],
+    "AccXY": [
+      "XY联动加速度"
+    ],
+    "VelAB": [
+      "AB联动速度"
+    ],
+    "AccAB": [
+      "AB联动加速度"
+    ],
+    "VelXYAB": [
+      "XYAB联动速度"
+    ],
+    "AccXYAB": [
+      "XYAB联动加速度"
+    ],
+    "VelZ": [
+      "Z轴速度"
+    ],
+    "EnableINP": [
+      "启用到位信号"
+    ],
+    "EnableMap": [
+      "启用棋盘校正"
+    ],
+    "WeightMaxVel": [
+      "最大速度"
+    ],
+    "Weight Mode": [
+      "Weight Mode"
+    ],
+    "WeightAcc": [
+      "加速度"
+    ],
+    "WorkMaxVel": [
+      "最大速度"
+    ],
+    "Speed Mode": [
+      "Speed Mode"
+    ],
+    "WorkVel": [
+      "工作速度"
+    ],
+    "EmptyVel": [
+      "空行程速度"
+    ],
+    "ManulAccXY": [
+      "XY手动联动加速度"
+    ],
+    "Manual": [
+      "Manual"
+    ],
+    "ManualVelXY": [
+      "XY手动联动速度"
+    ]
+  },
+  "SettingProportionerControl": {
+    "groupBox2": [
+      "valve2"
+    ],
+    "label1": [
+      "Channel"
+    ],
+    "label2": [
+      "ControlType"
+    ],
+    "groupBox1": [
+      "valve1"
+    ],
+    "lblCmd": [
+      "Channel"
+    ],
+    "lblContorlType": [
+      "ControlType"
+    ]
+  },
+  "SettingScaleControl": {
+    "label4": [
+      "Zero"
+    ],
+    "label3": [
+      "Tare"
+    ],
+    "label2": [
+      "Print"
+    ],
+    "label1": [
+      "Vendor"
+    ],
+    "ckbRTS": [
+      "RTS"
+    ],
+    "ckbDTR": [
+      "DTR"
+    ]
+  },
+  "SettingLaserControl": {
+    "lblCmd": [
+      "ReadCmd"
+    ],
+    "label1": [
+      "Vendor"
+    ]
+  },
+  "SettingSensorsForm": {
+    "deviceList": [
+      "Laser",
+      "Scale",
+      "Heater",
+      "Propority",
+      "Gage",
+      "Barcode Scanner"
+    ],
+    "SettingSensorsForm": [
+      "SettingSensorsForm"
+    ],
+    "btnResetAll": [
+      "reset all"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "btnSave": [
+      "ok"
+    ],
+    "gbxContent": [
+      "content"
+    ],
+    "gbxSensor": [
+      ""
+    ],
+    "gbxCom": [
+      "Com parameter"
+    ],
+    "btnDisconnect": [
+      "Disconnect"
+    ],
+    "btnConnect": [
+      "Connect"
+    ],
+    "btnSend": [
+      "Send"
+    ],
+    "label5": [
+      "Stop bits："
+    ],
+    "label4": [
+      "Data bits："
+    ],
+    "label3": [
+      "Parity："
+    ],
+    "label2": [
+      "Baud Rate："
+    ],
+    "label1": [
+      "Com："
+    ],
+    "groupBox1": [
+      "list"
+    ],
+    "ckbRTS": [
+      "RTS"
+    ],
+    "ckbDTR": [
+      "DTR"
+    ]
+  },
+  "SettingWeightForm": {
+    "resetMsg": [
+      ""
+    ],
+    "msgTitle": [
+      ""
+    ],
+    "SettingWeightForm": [
+      "SettingWeightForm"
+    ],
+    "btnSave": [
+      "save"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "SprayDots": [
+      "打胶次数"
+    ],
+    "单步执行称重控制参数": [
+      "单步执行称重控制参数"
+    ],
+    "ShotDotsEachPattern": [
+      "每块拼版打胶次数"
+    ],
+    "模拟生产参数": [
+      "模拟生产参数"
+    ],
+    "PatternCount": [
+      "总的拼版数"
+    ],
+    "Interval": [
+      "每个拼版的时间间隔"
+    ],
+    "CurrentWeight": [
+      "天平当前读数"
+    ],
+    "\t结果参数": [
+      "\t结果参数"
+    ],
+    "WeightBeforeSpray": [
+      "天平上次读数"
+    ],
+    "DifferWeight": [
+      "打胶前后读数差"
+    ],
+    "SingleDotWeight": [
+      "单点重量"
+    ],
+    "CumulativeWeight": [
+      "打胶累计重量"
+    ],
+    "StandardWeight": [
+      "单点标准重量"
+    ],
+    "重量校准参数": [
+      "重量校准参数"
+    ],
+    "WeightOffset": [
+      "单点重量偏差"
+    ],
+    "Percentage": [
+      "阀1阀2点胶偏差"
+    ],
+    "IsAutoRunFirstStart": [
+      "初次运行是否自动校准"
+    ],
+    "工作模式控制参数": [
+      "工作模式控制参数"
+    ],
+    "IsAutoRunAfterTimes": [
+      "工作指定次数后是否自动校准"
+    ],
+    "RunningTimes": [
+      "工作指定次数"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "EntityName": [
+      "EntityName"
+    ]
+  },
+  "UserControlTempCtrl": {
+    "SetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "SetTempOffsetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "TempInfo": [
+      "温度"
+    ],
+    "TempUpperLimitInfo": [
+      "温度上限"
+    ],
+    "TempLowerLimitInfo": [
+      "温度下限"
+    ],
+    "TempOffsetInfo": [
+      "温度漂移"
+    ],
+    "btnSave": [
+      "OK"
+    ],
+    "btnSetTempOffset": [
+      "Edit"
+    ],
+    "btnSetAlarmLow": [
+      "Edit"
+    ],
+    "btnSetAlarmUp": [
+      "Edit"
+    ],
+    "lblTempOffset": [
+      "Offset"
+    ],
+    "lblDownAlarm": [
+      "报警下限"
+    ],
+    "lblUpAlarm": [
+      "报警上限"
+    ],
+    "lblTemp": [
+      "Temperature"
+    ],
+    "btnSetTemp": [
+      "Edit"
+    ]
+  },
+  "UserControlWeight": {
+    "label1": [
+      "Scale"
+    ],
+    "btnScaleEdit": [
+      "Edit"
+    ],
+    "btnSavePrm": [
+      "save"
+    ],
+    "btnResetPrm": [
+      "reset"
+    ],
+    "grpValve2": [
+      "Valve2"
+    ],
+    "btnVal2Prime": [
+      "Prime"
+    ],
+    "btnVal2AutoRun": [
+      "AutoWeight"
+    ],
+    "btnVal2Weight": [
+      "Weight"
+    ],
+    "btnVal2Purge": [
+      "Purge"
+    ],
+    "btnVal2Edit": [
+      "Edit"
+    ],
+    "grpValve1": [
+      "Valve1"
+    ],
+    "btnVal1Prime": [
+      "Prime"
+    ],
+    "btnVal1Weight": [
+      "Weight"
+    ],
+    "btnVal1AutoRun": [
+      "AutoWeight"
+    ],
+    "btnVal1Edit": [
+      "Edit"
+    ],
+    "btnVal1Purge": [
+      "Purge"
+    ],
+    "CurrentWeight": [
+      "天平读数"
+    ],
+    "\t结果参数": [
+      "\t结果参数"
+    ],
+    "DifferWeight": [
+      "打胶前后读数差"
+    ],
+    "SingleDotWeight": [
+      "单点重量"
+    ]
+  },
+  "AxisControl": {
+    "groupBox2": [
+      "Status"
+    ],
+    "label1": [
+      "Alarm"
+    ],
+    "label2": [
+      "Error"
+    ],
+    "label3": [
+      "PLmt"
+    ],
+    "label4": [
+      "NLmt"
+    ],
+    "lblAlarm": [
+      "0"
+    ],
+    "lblError": [
+      "0"
+    ],
+    "lblPLmt": [
+      "0"
+    ],
+    "lblNLmt": [
+      "0"
+    ],
+    "label5": [
+      "Servo"
+    ],
+    "lblServo": [
+      "0"
+    ],
+    "label6": [
+      "Moving"
+    ],
+    "lblMoving": [
+      "0"
+    ],
+    "lblAstop": [
+      "0"
+    ],
+    "lblSstop": [
+      "0"
+    ],
+    "label8": [
+      "A_Stop"
+    ],
+    "label7": [
+      "S_Stop"
+    ],
+    "groupBox1": [
+      "Pos"
+    ],
+    "lblPrfPos": [
+      "0"
+    ],
+    "lblEncPos": [
+      "0"
+    ],
+    "label13": [
+      "PrfPos:"
+    ],
+    "label12": [
+      "EncPos:"
+    ],
+    "lblName": [
+      "---"
+    ],
+    "lblId": [
+      "0"
+    ],
+    "lblKey": [
+      "0"
+    ],
+    "label11": [
+      "name:"
+    ],
+    "label10": [
+      "id:"
+    ],
+    "label9": [
+      "key:"
+    ],
+    "btnZero": [
+      "Zero"
+    ],
+    "btnHome": [
+      "Home"
+    ],
+    "btnClrSts": [
+      "ClrSts"
+    ],
+    "btnServo": [
+      "Servo"
+    ],
+    "PulsePerLap": [
+      "PulsePerLap"
+    ],
+    "Lead": [
+      "Lead"
+    ],
+    "Pulse2Mm": [
+      "Pulse2Mm"
+    ],
+    "Mm2Pulse": [
+      "Mm2Pulse"
+    ],
+    "SmoothDec": [
+      "SmoothDec"
+    ],
+    "AbruptDec": [
+      "AbruptDec"
+    ],
+    "MaxRunVel": [
+      "MaxRunVel"
+    ],
+    "MaxManualVel": [
+      "MaxManualVel"
+    ],
+    "ManualHigh": [
+      "ManualHigh%"
+    ],
+    "ManualLow": [
+      "ManualLow%"
+    ],
+    "Acc": [
+      "Default Acc"
+    ],
+    "Dec": [
+      "Default Dec"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "EntityName": [
+      "EntityName"
+    ],
+    "硬件参数": [
+      "Hard parameter"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "运动参数": [
+      "Motion parameter"
+    ],
+    "MaxManualAcc": [
+      "MaxManualAcc"
+    ],
+    "ManualAccHigh": [
+      "ManualAccHigh%"
+    ],
+    "ManualAccLow": [
+      "ManualAccLow%"
+    ]
+  },
+  "IOForm": {
+    "对刀仪": [
+      "对刀仪"
+    ],
+    "气压检测": [
+      "气压检测"
+    ],
+    "轨道通信": [
+      "轨道通信"
+    ],
+    "胶阀温度检测": [
+      "胶阀温度检测"
+    ],
+    "胶量感应2": [
+      "胶量感应2"
+    ],
+    "胶量感应1": [
+      "胶量感应1"
+    ],
+    "门禁": [
+      "门禁"
+    ],
+    "急停": [
+      "急停"
+    ],
+    "进板检测": [
+      "进板检测"
+    ],
+    "定位1检测": [
+      "定位1检测"
+    ],
+    "定位2检测": [
+      "定位2检测"
+    ],
+    "出板检测": [
+      "出板检测"
+    ],
+    "前设备放板信号": [
+      "前设备放板信号"
+    ],
+    "后设备求板信号": [
+      "后设备求板信号"
+    ],
+    "离子风棒1": [
+      "离子风棒1"
+    ],
+    "离子风棒2": [
+      "离子风棒2"
+    ],
+    "环形光": [
+      "环形光"
+    ],
+    "同轴光": [
+      "同轴光"
+    ],
+    "红色信号灯": [
+      "红色信号灯"
+    ],
+    "黄色信号灯": [
+      "黄色信号灯"
+    ],
+    "绿色信号灯": [
+      "绿色信号灯"
+    ],
+    "蜂鸣器": [
+      "蜂鸣器"
+    ],
+    "胶枪加热2": [
+      "胶枪加热2"
+    ],
+    "胶枪加热1": [
+      "胶枪加热1"
+    ],
+    "真空清洗": [
+      "真空清洗"
+    ],
+    "求板信号": [
+      "求板信号"
+    ],
+    "放板信号": [
+      "放板信号"
+    ],
+    "运输反转": [
+      "运输反转"
+    ],
+    "运输正转": [
+      "运输正转"
+    ],
+    "预热开": [
+      "预热开"
+    ],
+    "预热阻挡": [
+      "预热阻挡"
+    ],
+    "预热顶升": [
+      "预热顶升"
+    ],
+    "预热吹气": [
+      "预热吹气"
+    ],
+    "工作阻挡": [
+      "工作阻挡"
+    ],
+    "工作顶升": [
+      "工作顶升"
+    ],
+    "工作吹气": [
+      "工作吹气"
+    ],
+    "出板阻挡": [
+      "出板阻挡"
+    ],
+    "出板顶升": [
+      "出板顶升"
+    ],
+    "出板吹气": [
+      "出板吹气"
+    ],
+    "IOForm": [
+      "FormIO"
+    ],
+    "gbxDO": [
+      "DO"
+    ],
+    "gbxDI": [
+      "DI"
+    ],
+    "排风检测": [
+      "排风检测"
+    ],
+    "双阀切换气缸1": [
+      "双阀切换气缸1"
+    ],
+    "双阀切换气缸2": [
+      "双阀切换气缸2"
+    ],
+    "阀1左倾斜": [
+      "阀1左倾斜"
+    ],
+    "阀1右倾斜": [
+      "阀1右倾斜"
+    ],
+    "阀1前倾斜": [
+      "阀1前倾斜"
+    ],
+    "阀1后倾斜": [
+      "阀1后倾斜"
+    ],
+    "红灯闪亮": [
+      "红灯闪亮"
+    ],
+    "黄灯闪亮": [
+      "黄灯闪亮"
+    ],
+    "绿灯闪亮": [
+      "绿灯闪亮"
+    ],
+    "蓝灯闪亮": [
+      "蓝灯闪亮"
+    ],
+    "排风电机": [
+      "排风电机"
+    ],
+    "主气压电磁阀": [
+      "主气压电磁阀"
+    ],
+    "阀1胶桶气压控制": [
+      "阀1胶桶气压控制"
+    ],
+    "阀2胶桶气压控制": [
+      "阀2胶桶气压控制"
+    ],
+    "机械测高气动": [
+      "机械测高气动"
+    ],
+    "飞测": [
+      "飞测"
+    ],
+    "飞拍": [
+      "飞拍"
+    ],
+    "擦纸带": [
+      "擦纸带"
+    ]
+  },
+  "IOSetupForm": {
+    "IOSetupForm": [
+      "IOSetupForm"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "label1": [
+      "Machine Type:"
+    ]
+  },
+  "DIControl": {
+    "HeightLevel": [
+      "Height level"
+    ],
+    "LowLevel": [
+      "Low level"
+    ]
+  },
+  "DOControl": {
+    "HeightLevel": [
+      "Height level"
+    ],
+    "LowLevel": [
+      "Low level"
+    ]
+  },
+  "NaviBtnTools": {
+    "IO": [
+      "IO"
+    ],
+    "Scale": [
+      "Scale"
+    ],
+    "Purge": [
+      "Purge"
+    ],
+    "Height": [
+      "Height"
+    ],
+    "Heater": [
+      "Heater"
+    ],
+    "Camera": [
+      "Camera"
+    ],
+    "ConveyorIO": [
+      "ConveyorIO"
+    ]
+  },
+  "NaviBtnAdvanced": {
+    "Setup Motion": [
+      "Setup Motion"
+    ],
+    "Setup Axes": [
+      "Setup Axes"
+    ],
+    "Setup IO": [
+      "Setup IO"
+    ],
+    "Setup Vision": [
+      "Setup Vision"
+    ],
+    "Setup Valves": [
+      "Setup Valves"
+    ],
+    "Setup Sensors": [
+      "Setup Sensors"
+    ],
+    "Setup Conveyor": [
+      "Setup Conveyor"
+    ],
+    "Strip Mapping": [
+      "Strip Mapping"
+    ],
+    "Setup Access": [
+      "Setup Access"
+    ],
+    "Setup Machine": [
+      "Setup Machine"
+    ]
+  },
+  "NaviBtnConfig": {
+    "Language": [
+      "Language"
+    ],
+    "English": [
+      "English"
+    ],
+    "Chinese": [
+      "Chinese"
+    ],
+    "Unit": [
+      "Unit"
+    ],
+    "mm": [
+      "mm"
+    ],
+    "inch": [
+      "inch"
+    ],
+    "Camera Calibration": [
+      "Camera Calibration"
+    ],
+    "Scripted Valve Offsets": [
+      "Scripted Valve Offsets"
+    ],
+    "Setup Locations": [
+      "Setup Locations"
+    ],
+    "Setup ASV": [
+      "Setup ASV"
+    ],
+    "Calculate CPK": [
+      "Calculate CPK"
+    ],
+    "Load Trajectory": [
+      "Load Trajectory"
+    ],
+    "PatternWeight": [
+      "PatternWeight"
+    ]
+  },
+  "ProgramSettingForm": {
+    "ProgramSettingForm": [
+      "ProgramSettingForm"
+    ],
+    "groupBox4": [
+      "purge"
+    ],
+    "chxAutoPurgeCount": [
+      "Auto Purge Count"
+    ],
+    "cbxPurge": [
+      "Do Purge Before Start"
+    ],
+    "label14": [
+      ":"
+    ],
+    "label15": [
+      ":"
+    ],
+    "chxAutoPurgeSpan": [
+      "Auto Purge Span"
+    ],
+    "groupBox3": [
+      "height"
+    ],
+    "label4": [
+      "Board Height"
+    ],
+    "label5": [
+      "Tolerance+"
+    ],
+    "btnEditBoardHeight": [
+      "edit"
+    ],
+    "label6": [
+      "Tolerance-"
+    ],
+    "groupBox2": [
+      "hardware"
+    ],
+    "label1": [
+      "Air Pressure"
+    ],
+    "label7": [
+      "Simul Distence"
+    ],
+    "label2": [
+      "Temperature"
+    ],
+    "groupBox1": [
+      "scale"
+    ],
+    "chxAutoScaleCount": [
+      "Auto Scale Count"
+    ],
+    "label11": [
+      ":"
+    ],
+    "label10": [
+      ":"
+    ],
+    "chxAutoScaleSpan": [
+      "Auto Scale Span"
+    ],
+    "lable1": [
+      "Single Dot Weight"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "cbxScale": [
+      "Do Scale Before Start"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnEditConveyor2Origin": [
+      "edit"
+    ],
+    "label12": [
+      "Conveyor2 Origin"
+    ],
+    "gbxFlyParam": [
+      "Fly Parameter"
+    ],
+    "FlyDistance": [
+      "Fly Distance:"
+    ],
+    "cbxIsRowFirst": [
+      "Row First"
+    ],
+    "label9": [
+      "PreDistance:"
+    ],
+    "label8": [
+      "Corner Speed:"
+    ],
+    "lblFlyAcc": [
+      "Fly Acc:"
+    ],
+    "lblFlySpeed": [
+      "Fly Speed:"
+    ],
+    "cbxFlyEnable": [
+      "Enable Fly"
+    ],
+    "cbxAdjustFlyOffset": [
+      "Adjust fly offset"
+    ],
+    "label13": [
+      " Offline Cycle"
+    ],
+    "cbxNGReshoot": [
+      "Mark NG Reshoot"
+    ],
+    "cbxFlyOriginPos": [
+      "Fly Origin Pos"
+    ],
+    "groupBox5": [
+      "Temperature"
+    ],
+    "label18": [
+      "Valve2"
+    ],
+    "lblThreadCount": [
+      "Image Thread Count:"
+    ],
+    "label17": [
+      "Simul OffsetY"
+    ],
+    "label16": [
+      "Simul OffsetX"
+    ],
+    "ckbSync": [
+      "Sync"
+    ]
+  },
+  "CameraControl": {
+    "label1": [
+      "Expo"
+    ],
+    "label2": [
+      "Gain"
+    ],
+    "LightType1": [
+      "None"
+    ],
+    "LightType2": [
+      "Coax"
+    ],
+    "LightType3": [
+      "Ring"
+    ],
+    "LightType4": [
+      "Both"
+    ]
+  },
+  "JogControl": {
+    "checkBox1": [
+      "Inc Mode"
+    ]
+  },
+  "PositionVControl": {
+    "groupBox1": [
+      "Current Postion"
+    ]
+  },
+  "ValveSetupForm": {
+    "ValveSetupForm": [
+      "FormSetupValve"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "groupBox2": [
+      "Valve2"
+    ],
+    "btnSaveAs2": [
+      "SaveAs"
+    ],
+    "btnDelete2": [
+      "Delete"
+    ],
+    "btnEdit2": [
+      "Edit"
+    ],
+    "label2": [
+      " Active Configuration"
+    ],
+    "groupBox1": [
+      "Valve1"
+    ],
+    "btnSaveAs1": [
+      "SaveAs"
+    ],
+    "btnDelete1": [
+      "Delete"
+    ],
+    "btnEdit1": [
+      "Edit"
+    ],
+    "label1": [
+      " Active Configuration"
+    ],
+    "单阀": [
+      "Single valve"
+    ],
+    "双阀": [
+      "Dual valve"
+    ]
+  },
+  "MainForm": {
+    "tplProgram": [
+      "program",
+      "camera"
+    ],
+    "tplRunInfo": [
+      "run information"
+    ],
+    "tplManual": [
+      "manual",
+      "conveyor"
+    ],
+    "tplAlarm": [
+      "alarm information"
+    ],
+    "tplPos": [
+      "current position"
+    ]
+  },
+  "RunInfoControl": {
+    "label2": [
+      "Pass Count"
+    ],
+    "label10": [
+      "Program"
+    ],
+    "label9": [
+      "Failed Count"
+    ],
+    "label8": [
+      "Start Date"
+    ],
+    "label7": [
+      "Start Time"
+    ],
+    "label6": [
+      "Cycle Time"
+    ],
+    "label5": [
+      "Board Count"
+    ],
+    "label4": [
+      "Set Number"
+    ],
+    "label1": [
+      "Run Mode"
+    ],
+    "RunModeWet": [
+      "Wet"
+    ],
+    "RunModeDry": [
+      "Dry"
+    ],
+    "RunModeLook": [
+      "Look"
+    ]
+  },
+  "ConveyorControl": {
+    "btnConveyor2Stuck": [
+      "卡板解决"
+    ],
+    "btnConveyor2Take": [
+      "取板完成"
+    ],
+    "btnConveyor2Put": [
+      "放板完成"
+    ],
+    "label1": [
+      "成品站状态"
+    ],
+    "label2": [
+      "轨道1模式："
+    ],
+    "label3": [
+      "工作站状态"
+    ],
+    "chkConveyor2": [
+      "轨道2"
+    ],
+    "label4": [
+      "整体状态："
+    ],
+    "label5": [
+      "预热站状态"
+    ],
+    "btnConveyor1Stuck": [
+      "卡板解决"
+    ],
+    "btnConveyor1Take": [
+      "取板完成"
+    ],
+    "btnConveyor1Put": [
+      "放板完成"
+    ],
+    "lblConveyor1FinishedSiteState": [
+      "成品站状态"
+    ],
+    "lblConveyor1Mode": [
+      "轨道1模式："
+    ],
+    "lblConveyor1WorkingSiteState": [
+      "工作站状态"
+    ],
+    "chkConveyor1": [
+      "轨道1"
+    ],
+    "lblConveyor1IntegralState": [
+      "整体状态："
+    ],
+    "lblConveyorPreState": [
+      "预热站状态"
+    ]
+  },
+  "ConveyorSettingControl": {
+    "btnSave": [
+      "保存"
+    ],
+    "grpConveyorSpeed": [
+      "轨道速度设定"
+    ],
+    "lblConveyorSpeed": [
+      "(mm/s)"
+    ],
+    "grpSMEMAMode": [
+      "SMEMA模式设定"
+    ],
+    "groupBox2": [
+      "发出信号"
+    ],
+    "rdoContinuousSignal": [
+      "持续信号"
+    ],
+    "lblPulse": [
+      "脉冲持续时间(ms):"
+    ],
+    "rdoPulseSignal": [
+      "脉冲信号"
+    ],
+    "groupBox1": [
+      "接受信号"
+    ],
+    "rdoReceiveIsPulse": [
+      "脉冲信号"
+    ],
+    "rdoReceiveIsContinues": [
+      "持续信号"
+    ],
+    "DownStreamStuckTime": [
+      "下游设备卡板判定时长(ms):"
+    ],
+    "lblUpStreamStuckTime": [
+      "上游设备卡板判定时长(ms):"
+    ],
+    "grpStandaloneMode": [
+      "无通讯模式设定"
+    ],
+    "grpExitMode": [
+      "出板方式选择"
+    ],
+    "rdoManualTake": [
+      "手动取板"
+    ],
+    "rdoStraightExit": [
+      "直接流出"
+    ],
+    "grpEnterMode": [
+      "进板方式选择"
+    ],
+    "rdoManualPut": [
+      "手动放板"
+    ],
+    "rdoEnterSensor": [
+      "自动感应"
+    ],
+    "grpAutoMode": [
+      "自动运行模式"
+    ],
+    "rdoStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoSMEMAMode": [
+      "SMEMA模式"
+    ],
+    "grpConveyorDirection": [
+      "轨道进出方向"
+    ],
+    "rdoRight2Right": [
+      "右进右出"
+    ],
+    "rdoLeft2Left": [
+      "左进左出"
+    ],
+    "rdoRight2Left": [
+      "右进左出"
+    ],
+    "rdoLeft2Right": [
+      "左进右出"
+    ],
+    "grpSitesCount": [
+      "轨道子站数量选择"
+    ],
+    "rdoTripleSites": [
+      "三站"
+    ],
+    "rdoSingleSite": [
+      "单站"
+    ],
+    "grpFinishedSite": [
+      "成品站参数"
+    ],
+    "lblFinishedSiteHeatingTime": [
+      "加热时长(ms):"
+    ],
+    "lblFinishedSiteLongMoveDistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblFinishedSiteShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "grpWorkingSite": [
+      "点胶站参数"
+    ],
+    "lblWorkingHeatingTime": [
+      "加热时长(ms):"
+    ],
+    "lblWorkingSiteExitDistance": [
+      "阻挡到出口距离(mm):"
+    ],
+    "lblWorkingSiteLongMoveSistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblWorkingSiteShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "grpUnifiedParam": [
+      "统一设定参数"
+    ],
+    "lblBoardLeftDelay": [
+      "出板完成延时(ms):"
+    ],
+    "lblStuckCoefficent": [
+      "卡板距离系数:"
+    ],
+    "lblCheckTime": [
+      "残留板检测时长(ms):"
+    ],
+    "lblLiftDelay": [
+      "压板到位延时(ms):"
+    ],
+    "lblStopperDelay": [
+      "阻挡到位延时(ms):"
+    ],
+    "grpPresite": [
+      "预热站参数"
+    ],
+    "lblPreHeatingTIme": [
+      "加热时长(ms):"
+    ],
+    "lblLongMoveDistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblPreShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "tabBaseSetting": [
+      "基础设定"
+    ],
+    "tabSubsitesSetting": [
+      "运行参数设定"
+    ],
+    "lblAccTime": [
+      "加减速时间(s):"
+    ],
+    "groupBox3": [
+      "交互方式"
+    ],
+    "chkSingleInteraction": [
+      "单边"
+    ],
+    "groupBox4": [
+      "出板运行模式"
+    ],
+    "rdoExitStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoExitSMEMAMode": [
+      "SMEMA模式"
+    ],
+    "rdoEnterStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoEnterSMEMAMode": [
+      "SMEMA模式"
+    ]
+  },
+  "ProgramControl": {
+    "tsbNew": [
+      "New Program"
+    ],
+    "tsbOpen": [
+      "Open Program"
+    ],
+    "tsbSave": [
+      "Save Program"
+    ],
+    "tsbCopy": [
+      "Copy"
+    ],
+    "tsbCut": [
+      "Cut"
+    ],
+    "tsbPaste": [
+      "Paste"
+    ],
+    "tsbRun": [
+      "Run"
+    ],
+    "tsbSingle": [
+      "Single Step"
+    ],
+    "tsbPause": [
+      "Pause"
+    ],
+    "tsbAbort": [
+      "Abort"
+    ],
+    "tsbDoScale": [
+      "Do Scale"
+    ],
+    "tsbDoPurge": [
+      "Do Purge"
+    ],
+    "tsbSetting": [
+      "Setting"
+    ],
+    "tsbSystemLoc": [
+      "System Loc"
+    ],
+    "tsbBoardOut": [
+      "Board Out"
+    ],
+    "tsbBoardIn": [
+      "Board In"
+    ],
+    "tsbInspection": [
+      "Inspection"
+    ],
+    "tsbDisable": [
+      "Disable"
+    ],
+    "tsbComments": [
+      "Comments"
+    ],
+    "tsbMark": [
+      "Mark"
+    ],
+    "tsbHS": [
+      "Height"
+    ],
+    "tsbDot": [
+      "Dot"
+    ],
+    "tsbSingleLine": [
+      "Line"
+    ],
+    "tsbPolyLine": [
+      "PolyLine"
+    ],
+    "tsbLine": [
+      "Lines"
+    ],
+    "tsbCircle": [
+      "Circle"
+    ],
+    "tsbArc": [
+      "Arc"
+    ],
+    "tsbSnake": [
+      "Snake"
+    ],
+    "tsbNewPattern": [
+      "New Pattern"
+    ],
+    "tsbDoPatten": [
+      "Do Pattern"
+    ],
+    "tsbMultiPassPatten": [
+      "Do Multipass Pattern"
+    ],
+    "tsbPassBlock": [
+      "Pass Block"
+    ],
+    "tsbLoopBlock": [
+      "Loop Pass"
+    ],
+    "tsbNormalTimer": [
+      "Normal Timer"
+    ],
+    "tsbFinishShot": [
+      "Finish Shot"
+    ],
+    "tsbMatrixTimer": [
+      "Matrix Timer"
+    ],
+    "tsbArray": [
+      "Array"
+    ],
+    "tsbMultiPatternArray": [
+      "Multi Pattern Array"
+    ],
+    "tsbMatrix": [
+      "Matrix"
+    ],
+    "tsbMove": [
+      "Move"
+    ],
+    "tsbFluidMode": [
+      "Wet",
+      "Dry",
+      "Look",
+      "AdjustLine",
+      "InspectRect",
+      "InspectDot"
+    ],
+    "tsbConveyorSelected": [
+      "Conveyor1",
+      "Conveyor2"
+    ],
+    "tsbLastStep": [
+      ""
+    ],
+    "tsbNextStep": [
+      ""
+    ],
+    "tsbNozzleCheck": [
+      ""
+    ],
+    "tsbBatchUpdate": [
+      ""
+    ],
+    "tsbASVMark": [
+      ""
+    ],
+    "msgBatchUpdateTip1": [
+      "No Glue Command was selected."
+    ],
+    "msgBatchUpdateTip2": [
+      "No Command was selected."
+    ]
+  },
+  "JogForm": {
+    "JogForm": [
+      "FormJog"
+    ],
+    "gbxJog": [
+      ""
+    ],
+    "lblValve2": [
+      "Valve2"
+    ],
+    "lblValve1": [
+      "Valve1"
+    ],
+    "btnValve2Stop": [
+      ""
+    ],
+    "btnValve2Spray": [
+      ""
+    ],
+    "btnAir2": [
+      "Air"
+    ],
+    "btnEditValve2": [
+      "edit"
+    ],
+    "btnValve1Stop": [
+      ""
+    ],
+    "btnValve1Spray": [
+      ""
+    ],
+    "btnAir1": [
+      "Air"
+    ],
+    "btnShow": [
+      "<<"
+    ],
+    "btnEditValve1": [
+      "edit"
+    ]
+  },
+  "LaserControl": {
+    "groupBox1": [
+      "Height Sensor"
+    ],
+    "btnStatus": [
+      "state"
+    ],
+    "btnMeasure": [
+      "do measure"
+    ],
+    "btnRead": [
+      "read"
+    ]
+  },
+  "SetupVisionForm": {
+    "SetupVisionForm": [
+      "SetupVisionForm"
+    ],
+    "cbxReverseY": [
+      "ReverseY"
+    ],
+    "cbxReverseX": [
+      "ReverseX"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "label1": [
+      "Vendor:"
+    ]
+  },
+  "DialogCPK": {
+    "DialogCPK": [
+      "DialogCPK"
+    ],
+    "groupBox1": [
+      "Axis Z"
+    ],
+    "btnGoToTeach": [
+      "Go To"
+    ],
+    "btnSafeTeach": [
+      "Teach"
+    ],
+    "label10": [
+      "SafePos:"
+    ],
+    "label7": [
+      "Pos:"
+    ],
+    "btnAxisZGoTo2": [
+      "Go To"
+    ],
+    "btnAxisZTeach2": [
+      "Teach"
+    ],
+    "btnAxisZGoTo1": [
+      "Go To"
+    ],
+    "btnAxisZTeach1": [
+      "Teach"
+    ],
+    "label8": [
+      "End:"
+    ],
+    "label9": [
+      "Start:"
+    ],
+    "btnAxisZ": [
+      "Do"
+    ],
+    "gpbAxisY": [
+      "Axis Y"
+    ],
+    "label6": [
+      "PosZ:"
+    ],
+    "btnAxisYGoTo2": [
+      "Go To"
+    ],
+    "btnAxisYTeach2": [
+      "Teach"
+    ],
+    "btnAxisYGoTo1": [
+      "Go To"
+    ],
+    "btnAxisYTeach1": [
+      "Teach"
+    ],
+    "label3": [
+      "End:"
+    ],
+    "label4": [
+      "Start:"
+    ],
+    "btnAxisY": [
+      "Do"
+    ],
+    "gpbAxisX": [
+      "Axis X"
+    ],
+    "label5": [
+      "PosZ:"
+    ],
+    "btnAxisXGoTo2": [
+      "Go To"
+    ],
+    "btnAxisXTeach2": [
+      "Teach"
+    ],
+    "btnAxisXGoTo1": [
+      "Go To"
+    ],
+    "btnAxisXTeach1": [
+      "Teach"
+    ],
+    "label2": [
+      "End:"
+    ],
+    "label1": [
+      "Start:"
+    ],
+    "btnAxisX": [
+      "Do"
+    ],
+    "grpExcuteOne": [
+      "Valve"
+    ],
+    "btnValve1": [
+      "Valve1"
+    ],
+    "btnValve2": [
+      "Valve2"
+    ],
+    "Cycles": [
+      "单次点胶次数"
+    ],
+    "\t阀点胶量": [
+      "\t阀点胶量"
+    ],
+    "MeasureTimes": [
+      "测试组数"
+    ],
+    "Valve1Spec": [
+      "阀1点胶量CPK规格参数"
+    ],
+    "Valve2Spec": [
+      "阀2点胶量CPK规格参数"
+    ],
+    "AxisXSpec": [
+      "轴X定位精度CPK规格参数"
+    ],
+    "X轴定位精度CPK参数": [
+      "X轴定位精度CPK参数"
+    ],
+    "XPointsNum": [
+      "执行点数"
+    ],
+    "AxisYSpec": [
+      "轴Y定位精度CPK规格参数"
+    ],
+    "Y轴定位精度CPK参数": [
+      "Y轴定位精度CPK参数"
+    ],
+    "YPointsNum": [
+      "执行点数"
+    ],
+    "ZPointsNum": [
+      "执行点数"
+    ],
+    "Z轴定位精度CPK参数": [
+      "Z轴定位精度CPK参数"
+    ],
+    "AxisZSpec": [
+      "轴Z定位精度CPK规格参数"
+    ],
+    "Interval": [
+      "清洗组数"
+    ],
+    "CPKVelXYH": [
+      "XY轴高速"
+    ],
+    "轴CPK运行速度": [
+      "轴CPK运行速度"
+    ],
+    "CPKVelXYL": [
+      "XY轴低速"
+    ],
+    "CPKVelZH": [
+      "Z轴高速"
+    ],
+    "CPKVelZL": [
+      "Z轴低速"
+    ],
+    "btnStop": [
+      "Stop"
+    ]
+  },
+  "TeachMinZ": {
+    "TeachMinZ": [
+      "FormMinZ"
+    ],
+    "btnGoto": [
+      "Goto"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "label1": [
+      "Min Z"
+    ],
+    "Tip1": [
+      "必须小于-5"
+    ]
+  },
+  "EditConveyor2Origin": {
+    "EditConveyor2Origin": [
+      "EditConveyor2Origin"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoto": [
+      "Go To"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "label5": [
+      "Conveyor2 origin:"
+    ],
+    "label6": [
+      "Y:"
+    ],
+    "label7": [
+      "X:"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ]
+  },
+  "NewProgram1": {
+    "NewProgram1": [
+      "NewProgram1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label4": [
+      "Workpice origin:"
+    ],
+    "label3": [
+      "Y:"
+    ],
+    "label2": [
+      "X:"
+    ],
+    "label1": [
+      "Name:"
+    ]
+  },
+  "EditMoveAbsXyForm1": {
+    "EditMoveAbsXyForm1": [
+      "EditMoveAbsXyForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "groupBox1": [
+      "Type"
+    ],
+    "rbNeedle2": [
+      "NEEDLE2"
+    ],
+    "rbLaser": [
+      "LASER"
+    ],
+    "rbNeedle1": [
+      "NEEDLE1"
+    ],
+    "rbCamera": [
+      "CAMERA"
+    ]
+  },
+  "EditMoveAbsZForm1": {
+    "EditMoveAbsZForm1": [
+      "EditMoveAbsZForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label1": [
+      "Z:"
+    ]
+  },
+  "DialogCalibCamera": {
+    "DialogCalibCamera": [
+      "CalibCamera"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxROI": [
+      "ROI"
+    ],
+    "label5": [
+      "Height"
+    ],
+    "label1": [
+      "Width"
+    ],
+    "label6": [
+      "Inc(mm)"
+    ],
+    "groupBox5": [
+      "Vision Calibration Result"
+    ],
+    "lblOffsetY": [
+      "0"
+    ],
+    "label7": [
+      "OffsetY:"
+    ],
+    "lblOffsetX": [
+      "0"
+    ],
+    "lblScale": [
+      "1"
+    ],
+    "lblAngle": [
+      "0"
+    ],
+    "label4": [
+      "OffsetX:"
+    ],
+    "label3": [
+      "Scale:"
+    ],
+    "label2": [
+      "Angle:"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Press [Next] to load a board."
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Press [Next] to load a board."
+    ],
+    "Tip1": [
+      "Select a model and [Next]."
+    ],
+    "Tip2": [
+      "Press [Next] if model is acceptable."
+    ],
+    "Tip3": [
+      "Score1 = 0.99."
+    ],
+    "Tip4": [
+      "Press [Done] to accept results."
+    ]
+  },
+  "DialogCalibMap": {
+    "DialogCalibMap": [
+      "DialogCalibMap"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "btnVerify": [
+      "verify"
+    ],
+    "btnStop": [
+      "stop"
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "btnFind": [
+      "Find"
+    ],
+    "btnGoto": [
+      "Goto"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Input params and [Next]."
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "DialogEditLocations": {
+    "DialogEditLocations": [
+      "DialogEditLocations"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "label3": [
+      "Z:"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "btnTeachLoc": [
+      "Teach"
+    ],
+    "btnGo": [
+      "Go"
+    ],
+    "btnDelete": [
+      "Delete"
+    ],
+    "btnNew": [
+      "New"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "DialogHeight": {
+    "DialogHeight": [
+      "DialogHeight"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "CalculateSlopeAmongVavel1AndVavel2": {
+    "CalculateSlopeAmongVavel1AndVavel2": [
+      "Anda Fluid - Calculate slope among Vavel1 and Vavel2"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpResult": [
+      "Result"
+    ],
+    "label2": [
+      "Axis B:"
+    ],
+    "label1": [
+      "Axis A:"
+    ],
+    "grpVavelParam": [
+      "Vavel Param"
+    ],
+    "btnEditDot": [
+      "edit"
+    ],
+    "grpCorrectionAxis": [
+      "Correction Axis"
+    ],
+    "rdoAxisAandB": [
+      "Axis A&&B"
+    ],
+    "rdoAxisB": [
+      "Axis B"
+    ],
+    "rdoAxisA": [
+      "Axis A"
+    ],
+    "grpCorrectionMode": [
+      "Correction Mode"
+    ],
+    "rdoDispenseMode": [
+      "Dispense Mode"
+    ],
+    "rdoPlasticineMode": [
+      "Plasticine Mode"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Choice CorrectionMode and Axis,prepare the machine move."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Choice CorrectionMode and Axis,prepare the machine move."
+    ],
+    "Tip1": [
+      "Use Camera:Select dispense postion in Positive Limit."
+    ],
+    "Tip2": [
+      "Move to Plasticine postion in Positive Limit and make a Pit."
+    ],
+    "Tip3": [
+      "Dispensing reference dots"
+    ],
+    "Tip4": [
+      "Move to Plasticine postion in Negative Limit and make a Pit."
+    ],
+    "Tip5": [
+      "Calculate has been done"
+    ],
+    "Tip6": [
+      "移动失败，可能触发限位，请检查。"
+    ],
+    "Tip7": [
+      "激光异常"
+    ],
+    "Tip8": [
+      "结果异常，将设为默认值."
+    ],
+    "Tip9": [
+      "Align camera on needle mark and press [Next]"
+    ]
+  },
+  "TeachPrime": {
+    "TeachPrime": [
+      "TeachFormBase"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "Teach Z"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "Center Location : "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Select teach method and press [Next]."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Instructions"
+    ],
+    "Tip3": [
+      "Target centre of Primer using camera. \rPress[Teach] to continue."
+    ],
+    "Tip4": [
+      "Target centre of Primer and press [Teach]."
+    ],
+    "Tip5": [
+      "Target circumference point 1 on Primer using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target Primer circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on Primer using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target Primer circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on Primer using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target primer circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "Looking for the Primer center..."
+    ],
+    "Tip12": [
+      "Be looking for..."
+    ],
+    "Tip13": [
+      "Move has ended.\rCan observe the needle is or not in the center location of Primer.\rPress [Done] if is center location.\rIf is not,maybe teach needle to camera again if necesseay."
+    ],
+    "Tip14": [
+      "Move has ended,press[Done]."
+    ],
+    "Tip15": [
+      "Teach Primer location\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachLaserToCamera": {
+    "TeachLaserToCamera": [
+      "Anda Fluidmove-Teach laser to camera XY offset "
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "The Machine will move, press [Next] to continue."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "The Machine will move, press [Next] to continue."
+    ],
+    "Tip1": [
+      "Align laser on mark and press [Teach]"
+    ],
+    "Tip2": [
+      "Align camera on laser mark and press [Teach]"
+    ],
+    "Tip3": [
+      "Teach the distance\r\nof Laser with Camera\r\nusing mark point.\r\n\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachPurge": {
+    "TeachPurge": [
+      "Anda Fluidmove - Teach location for Valve Purge location"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "Teach Z"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "Center Location : "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Select teach method and press [Next]."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Instructions"
+    ],
+    "Tip3": [
+      "Target centre of Purge boot using camera. \rPress[Teach] to continue."
+    ],
+    "Tip4": [
+      "Target centre of Purge boot and press [Teach]."
+    ],
+    "Tip5": [
+      "Target circumference point 1 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target purge circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target purge circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target purge circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "Height sense will be performed at location viewed by camera.\rAdjust height sense location if necessary.\rPress [Teach] to continue."
+    ],
+    "Tip12": [
+      "Target height sense location on purge cup lid."
+    ],
+    "Tip13": [
+      "激光异常"
+    ],
+    "Tip14": [
+      "Looking for the Purge center..."
+    ],
+    "Tip15": [
+      "Be looking for..."
+    ],
+    "Tip16": [
+      "Move has ended.\rCan observe the needle is or not in the center location of purge.\rPress [Done] if is center location.\rIf is not,maybe teach needle to camera again if necesseay."
+    ],
+    "Tip17": [
+      "Move has ended,press[Done]."
+    ],
+    "Tip18": [
+      "Teach Purge location\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachSafeZ": {
+    "TeachSafeZ": [
+      "Anda Fluidmove-Teach Safe Z "
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "lblMessage": [
+      "Move the dispense tip to a  height that is clear of obstacles \r\nwhen moving in allX-Y directions.\r\n\r\nIt is recommended tha SafeZ height be taught at the focal \r\nlength if possible."
+    ],
+    "btnGoto": [
+      "Go to"
+    ],
+    "lblValue": [
+      "Value:"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Confirm Safe Z height and press [Teach]."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Confirm Safe Z height and press [Teach]."
+    ],
+    "Tip1": [
+      "Teach compelet,Press [Done];Want again,Press [Prev]."
+    ]
+  },
+  "TeachScale": {
+    "TeachScale": [
+      "Anda Fluidmove - Teach location for Valve Scale location"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "Teach Z"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "Center Location : "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Select teach method and press [Next]."
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Instructions"
+    ],
+    "Tip3": [
+      "Target centre of Scale system plate using camera. \rPress[Teach] to continue."
+    ],
+    "Tip4": [
+      "Target centre of scale and press [Teach]."
+    ],
+    "Tip5": [
+      "Target circumference point 1 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target scale circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target scale circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target scale circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "Height sense will be performed at location viewed by camera.\rAdjust height sense location if necessary.\rPress [Teach] to continue."
+    ],
+    "Tip12": [
+      "Target height sense location on scale system plate."
+    ],
+    "Tip13": [
+      "可能触发限位，建议检查限位位置"
+    ],
+    "Tip14": [
+      "激光异常"
+    ],
+    "Tip15": [
+      "Looking for the Scale center..."
+    ],
+    "Tip16": [
+      "Be looking for..."
+    ],
+    "Tip17": [
+      "Move has ended.\rCan observe the needle is or not in the center location of scale.\rPress [Done] if is center location.\rIf is not,maybe teach again if necesseay."
+    ],
+    "Tip18": [
+      "Move has ended,press[Done]."
+    ],
+    "Tip19": [
+      "Teach Scale location\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "EditFinishShotForm1": {
+    "EditFinishShotForm1": [
+      "EditFinishShotForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label3": [
+      "Dot Location:"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "btnEditDotParams": [
+      "Edit"
+    ],
+    "label1": [
+      "Dot Style:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ]
+  },
+  "AddMatrixForm": {
+    "AddMatrixForm": [
+      "AddMatrixForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "lblPatternList": [
+      "Pattern List:"
+    ],
+    "lblVNums": [
+      "Vertical Nums:"
+    ],
+    "lblHNums": [
+      "Horizontal Nums:"
+    ],
+    "btnGoToVEnd": [
+      "Go To"
+    ],
+    "btnGoToHEnd": [
+      "Go To"
+    ],
+    "btnGoToOrigin": [
+      "Go To"
+    ],
+    "btnSelectVEnd": [
+      "Teach"
+    ],
+    "btnSelectHEnd": [
+      "Teach"
+    ],
+    "btnSelectOrigin": [
+      "Teach"
+    ],
+    "lblVEnd": [
+      "Vertical End:"
+    ],
+    "lblHEnd": [
+      "Horizontal End:"
+    ],
+    "label1": [
+      "Origin:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "lblPatternOriginList": [
+      "Pattern Origin List:"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnLast": [
+      "Last"
+    ]
+  },
+  "EditArcForm1": {
+    "EditArcForm1": [
+      "EditArcForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnCenterGoTo": [
+      "Go To"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnEndGoTo": [
+      "Go To"
+    ],
+    "btnMiddleGoTo": [
+      "Go To"
+    ],
+    "btnStartGoTo": [
+      "Go To"
+    ],
+    "btnSelectCenter": [
+      "Teach"
+    ],
+    "btnSelectMiddle": [
+      "Teach"
+    ],
+    "btnSelectEnd": [
+      "Teach"
+    ],
+    "lblDegree": [
+      "Degree:"
+    ],
+    "btnSelectStart": [
+      "Teach"
+    ],
+    "label9": [
+      ":"
+    ],
+    "label8": [
+      ":"
+    ],
+    "label7": [
+      ":"
+    ],
+    "label6": [
+      ":"
+    ],
+    "lblCenter": [
+      "Center:"
+    ],
+    "lblEnd": [
+      "End:"
+    ],
+    "lblMiddle": [
+      "Middle:"
+    ],
+    "lblStart": [
+      "Start:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnEditLineParams": [
+      "Edit"
+    ],
+    "lblLineStyle": [
+      "Line Style:"
+    ],
+    "label10": [
+      "mg"
+    ],
+    "cbWeightControl": [
+      "weight control"
+    ],
+    "gbxArcMethod": [
+      "Method"
+    ],
+    "rbCenter": [
+      "Center"
+    ],
+    "rbSME": [
+      "SME"
+    ],
+    "btnLastCmdLine": [
+      "Last"
+    ],
+    "btnNextCmdLine": [
+      "Next"
+    ]
+  },
+  "EditCircleForm1": {
+    "EditCircleForm1": [
+      "EditCircleForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnCenterGoTo": [
+      "Go To"
+    ],
+    "btnSelectCenter": [
+      "Teach"
+    ],
+    "btnEndGoTo": [
+      "Go To"
+    ],
+    "btnSelectEnd": [
+      "Teach"
+    ],
+    "btnMiddleGoTo": [
+      "Go To"
+    ],
+    "btnSelectMiddle": [
+      "Teach"
+    ],
+    "btnStartGoTo": [
+      "Go To"
+    ],
+    "btnSelectStart": [
+      "Teach"
+    ],
+    "label5": [
+      "Degree:"
+    ],
+    "label4": [
+      "Center:"
+    ],
+    "label3": [
+      "End:"
+    ],
+    "label2": [
+      "Middle:"
+    ],
+    "label1": [
+      "Start:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "cbWeightControl": [
+      "weight control"
+    ],
+    "btnEditLineParams": [
+      "Edit"
+    ],
+    "label7": [
+      "mg"
+    ],
+    "label6": [
+      "Line Type:"
+    ],
+    "groupBox1": [
+      "Method"
+    ],
+    "rbCenter": [
+      "Center"
+    ],
+    "rbSME": [
+      "SME"
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ]
+  },
+  "EditDoForm1": {
+    "EditDoForm1": [
+      "EditDoForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "Origin:"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Pattern list:"
+    ],
+    "ckbReverse": [
+      "Reverse"
+    ],
+    "label3": [
+      "Valve Type :"
+    ]
+  },
+  "EditDoMultipassForm1": {
+    "EditDoMultipassForm1": [
+      "EditDoMultipassForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label2": [
+      "Origin:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Pattern list:"
+    ]
+  },
+  "EditDotForm1": {
+    "EditDotForm1": [
+      "EditDotForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "lblDotLocation": [
+      "Dot Location:"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "btnEditDotParams": [
+      "Edit"
+    ],
+    "label1": [
+      "Dot Style:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ],
+    "ckbShotNums": [
+      "ShotNums"
+    ]
+  },
+  "EditBoardHeightForm": {
+    "EditBoardHeightForm": [
+      "EditBoardHeightForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "lblPosition": [
+      "Position:"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnTeachAbsZ": [
+      "Teach Z"
+    ],
+    "label1": [
+      "AbsZValue:"
+    ]
+  },
+  "EditMultiLinesForm": {
+    "EditMultiLinesForm": [
+      "EditMultiLinesForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnDelete": [
+      "Delete"
+    ],
+    "btnLineType": [
+      "LineType"
+    ],
+    "label2": [
+      "Line Points:"
+    ],
+    "btnEditWt": [
+      "Edit"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoToOffset": [
+      "Go To"
+    ],
+    "btnSelectOffset": [
+      "Teach"
+    ],
+    "label3": [
+      "Offset"
+    ],
+    "label1": [
+      "mm"
+    ],
+    "label4": [
+      "Start:"
+    ],
+    "btnGotoStart": [
+      "Go To"
+    ],
+    "btnSelectStart": [
+      "Teach"
+    ],
+    "btnAdd": [
+      "Add"
+    ],
+    "label5": [
+      "End:"
+    ],
+    "btnSelectEnd": [
+      "Teach"
+    ],
+    "btnGoToEnd": [
+      "Go To"
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ]
+  },
+  "EditMeasureHeightForm1": {
+    "EditMeasureHeightForm1": [
+      "EditMeasureHeightForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "label1": [
+      "Position:"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "gbx1": [
+      ""
+    ]
+  },
+  "EditPolyLineForm": {
+    "EditPolyLineForm": [
+      "EditPolyLineForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnGoToOffset": [
+      "Go To"
+    ],
+    "btnSelectOffset": [
+      "Teach"
+    ],
+    "label1": [
+      "Offset"
+    ],
+    "btnLineStyle": [
+      "LineType"
+    ],
+    "btnEditWeight": [
+      "Edit"
+    ],
+    "btnAdd": [
+      "Add"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "btnGotoStart": [
+      "Go To"
+    ],
+    "btnSelectStart": [
+      "Teach"
+    ],
+    "label4": [
+      "Point:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDelete": [
+      "Delete"
+    ],
+    "label2": [
+      "PolyLine Points:"
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ]
+  },
+  "EditSnakeLineForm1": {
+    "EditSnakeLineForm1": [
+      "EditSnakeLineForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "button1": [
+      "LineType"
+    ],
+    "btnEditWt": [
+      "Edit"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "label2": [
+      "line numbers:"
+    ],
+    "btnPoint3GoTo": [
+      "Go To"
+    ],
+    "btnPoint2GoTo": [
+      "Go To"
+    ],
+    "btnPoint1GoTo": [
+      "Go To"
+    ],
+    "btnPoint3Select": [
+      "Teach"
+    ],
+    "btnPoint2Select": [
+      "Teach"
+    ],
+    "btnPoint1Select": [
+      "Teach"
+    ],
+    "label7": [
+      "Point 2:"
+    ],
+    "label5": [
+      "Point 3:"
+    ],
+    "label3": [
+      "Point 1:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Line Points:"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "chkContinuous": [
+      "Continuous"
+    ]
+  },
+  "EditStepAndRepeatForm1": {
+    "EditStepAndRepeatForm1": [
+      "EditStepAndRepeatForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label1": [
+      "Pattern List:"
+    ],
+    "btnGoToVEnd": [
+      "Go To"
+    ],
+    "btnGoToHEnd": [
+      "Go To"
+    ],
+    "btnGoToOrigin": [
+      "Go To"
+    ],
+    "btnTeachVEnd": [
+      "Teach"
+    ],
+    "btnTeachHEnd": [
+      "Teach"
+    ],
+    "btnTeachOrigin": [
+      "Teach"
+    ],
+    "label7": [
+      "Vertical End:"
+    ],
+    "label6": [
+      "Horizontal End:"
+    ],
+    "label4": [
+      "ColumNum"
+    ],
+    "label5": [
+      "Origin:"
+    ],
+    "label3": [
+      "RowNum"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDisable": [
+      "Remove"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "label2": [
+      "Patterns:"
+    ]
+  },
+  "EditStepAndRepeatForm2": {
+    "EditStepAndRepeatForm2": [
+      "EditStepAndRepeatForm2"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label1": [
+      "Pattern List:"
+    ],
+    "btnGoToVEnd": [
+      "Go To"
+    ],
+    "btnGoToHEnd": [
+      "Go To"
+    ],
+    "btnGoToOrigin": [
+      "Go To"
+    ],
+    "btnTeachVEnd": [
+      "Teach"
+    ],
+    "btnTeachHEnd": [
+      "Teach"
+    ],
+    "btnTeachOrigin": [
+      "Teach"
+    ],
+    "label7": [
+      "Vertical End:"
+    ],
+    "label6": [
+      "Horizontal End:"
+    ],
+    "label4": [
+      "ColumNum"
+    ],
+    "label5": [
+      "Origin:"
+    ],
+    "label3": [
+      "RowNum"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDisable": [
+      "Disable"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "label2": [
+      "Patterns:"
+    ]
+  },
+  "ConveyorSettingForm": {
+    "ConveyorSettingForm": [
+      "ConveyorSettingForm"
+    ],
+    "rdoConveyor2": [
+      "Conveyor2"
+    ],
+    "rdoConveyor1": [
+      "Conveyor1"
+    ],
+    "btnConnectCheck": [
+      "Connect Check"
+    ]
+  },
+  "DialogBadMarkFind": {
+    "DialogBadMarkFind": [
+      "DialogBadMarkFind"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "tbgModel": [
+      "Model"
+    ],
+    "CameraSetting": [
+      "CameraSetting"
+    ],
+    "label3": [
+      "Settling Time"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "Threshold"
+    ],
+    "lblTolerance": [
+      "Tolerance"
+    ],
+    "AcceptThreshold": [
+      "Accept"
+    ],
+    "ModelSize": [
+      "ModelSize"
+    ],
+    "ModelHeight": [
+      "Height"
+    ],
+    "ModelWidth": [
+      "Width"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "Height"
+    ],
+    "DetectWidth": [
+      "Width"
+    ],
+    "tbgTest": [
+      "Test"
+    ],
+    "btnGotoTaught": [
+      "Go to taught"
+    ],
+    "btnShowModel": [
+      "ShowModel"
+    ],
+    "btnTest": [
+      "Test"
+    ],
+    "gbResult": [
+      "Result"
+    ],
+    "label2": [
+      "Diff"
+    ],
+    "label1": [
+      "Taught Loc"
+    ],
+    "lbFoundLoc": [
+      "Found Loc"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "Time"
+    ],
+    "lbStatus": [
+      "Status"
+    ],
+    "gbSetup": [
+      "Setup"
+    ],
+    "cbSettle": [
+      "Settle"
+    ],
+    "rbFindInPlace": [
+      "Find in-place"
+    ],
+    "rbFindAtTaught": [
+      "Find at taught"
+    ],
+    "tbgFindType": [
+      "Type"
+    ],
+    "gbxFindResult": [
+      "Result dispose"
+    ],
+    "rdoNGSkip": [
+      "NG is skip"
+    ],
+    "rdoOKSkip": [
+      "Ok is skip"
+    ],
+    "gbxFindType": [
+      "Find Type"
+    ],
+    "rdoModel": [
+      "Find by model"
+    ],
+    "rdoGray": [
+      "Find by gray"
+    ],
+    "tbgGray": [
+      "Gray"
+    ]
+  },
+  "DialogMarkModelFind": {
+    "DialogMarkModelFind": [
+      "DialogMarkModelFind"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "tbgModel": [
+      "Model"
+    ],
+    "CameraSetting": [
+      "CameraSetting"
+    ],
+    "label3": [
+      "Settling Time"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "Threshold"
+    ],
+    "lblTolerance": [
+      "Tolerance"
+    ],
+    "AcceptThreshold": [
+      "Accept"
+    ],
+    "ModelSize": [
+      "ModelSize"
+    ],
+    "ModelHeight": [
+      "Height"
+    ],
+    "ModelWidth": [
+      "Width"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "Height"
+    ],
+    "DetectWidth": [
+      "Width"
+    ],
+    "tbgTest": [
+      "Test"
+    ],
+    "btnGotoTaught": [
+      "Go to taught"
+    ],
+    "btnShowModel": [
+      "ShowModel"
+    ],
+    "btnTest": [
+      "Test"
+    ],
+    "gbResult": [
+      "Result"
+    ],
+    "label2": [
+      "Diff"
+    ],
+    "label1": [
+      "Taught Loc"
+    ],
+    "lbFoundLoc": [
+      "Found Loc"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "Time"
+    ],
+    "lbStatus": [
+      "Status"
+    ],
+    "gbSetup": [
+      "Setup"
+    ],
+    "cbSettle": [
+      "Settle"
+    ],
+    "rbFindInPlace": [
+      "Find in-place"
+    ],
+    "rbFindAtTaught": [
+      "Find at taught"
+    ]
+  },
+  "EditPattern": {
+    "EditPattern": [
+      "EditPattern"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label2": [
+      "Origin:"
+    ],
+    "label1": [
+      "Name:"
+    ],
+    "btnReverse": [
+      "Reverse"
+    ]
+  },
+  "AddPattern1": {
+    "AddPattern1": [
+      "AddPattern1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "label2": [
+      "Origin:"
+    ],
+    "label1": [
+      "Name:"
+    ]
+  },
+  "SystemPositionDefinations1": {
+    "SystemPositionDefinations1": [
+      "SystemPositionDefinations1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnChange": [
+      "change"
+    ],
+    "btnDelete": [
+      "delete"
+    ],
+    "btnAdd": [
+      "add"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "groupBox1": [
+      "Type"
+    ],
+    "rbNeedle2": [
+      "needle2"
+    ],
+    "rbCamera": [
+      "camera"
+    ],
+    "rbLaser": [
+      "laser"
+    ],
+    "rbNeedle1": [
+      "needle1"
+    ],
+    "label2": [
+      "Y"
+    ],
+    "label1": [
+      "X"
+    ],
+    "label3": [
+      "Name:"
+    ]
+  },
+  "EditInspectionForm": {
+    "EditInspectionForm": [
+      "EditInspectionForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "label3": [
+      "Location:"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOK": [
+      "ok"
+    ],
+    "rbnPlace": [
+      "find in-place"
+    ],
+    "rbnTaught": [
+      "find at taught"
+    ],
+    "btnTest": [
+      "test"
+    ],
+    "label1": [
+      "InspectionKey"
+    ],
+    "btnEdit": [
+      "edit"
+    ],
+    "gbx1": [
+      ""
+    ]
+  },
+  "EditSingleLineForm": {
+    "EditSingleLineForm": [
+      "EditSingleLineForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "label7": [
+      "InspectionKey:"
+    ],
+    "btnGotoOffset": [
+      "Go To"
+    ],
+    "btnOffset": [
+      "Teach"
+    ],
+    "label6": [
+      "mm"
+    ],
+    "label2": [
+      "Offset"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "btnEditLineParams": [
+      "Edit"
+    ],
+    "label1": [
+      "Line Style:"
+    ],
+    "btnGoToEnd": [
+      "Go To"
+    ],
+    "btnGotoStart": [
+      "Go To"
+    ],
+    "btnSelectEnd": [
+      "Teach"
+    ],
+    "btnSelectStart": [
+      "Teach"
+    ],
+    "label5": [
+      "End:"
+    ],
+    "label4": [
+      "Start:"
+    ],
+    "gbx1": [
+      "10"
+    ],
+    "btnLastCmdLine": [
+      "last"
+    ],
+    "btnNextCmdLine": [
+      "next"
+    ]
+  },
+  "CalculateTheNeedleXYOffset": {
+    "CalculateTheNeedleXYOffset": [
+      "Anda Fluid - Calculate the needle XY offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnEditDot": [
+      "edit"
+    ],
+    "grpVerification": [
+      "Verification"
+    ],
+    "lblmm4": [
+      "mm"
+    ],
+    "lblDot4": [
+      "Dot4 Offset:"
+    ],
+    "lblmm3": [
+      "mm"
+    ],
+    "lblDot3": [
+      "Dot3 Offset:"
+    ],
+    "lblmm2": [
+      "mm"
+    ],
+    "lblDot2": [
+      "Dot2 Offset:"
+    ],
+    "rdoFail": [
+      "Fail"
+    ],
+    "rdoOK": [
+      "OK"
+    ],
+    "lblResult": [
+      "Result:"
+    ],
+    "lblmm": [
+      "mm"
+    ],
+    "lblTolerance": [
+      "Tolerance:(±)"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Place substrate and prepare the machine move."
+    ],
+    "Tip1": [
+      "Use Camera:Teach center point of substrate."
+    ],
+    "Tip2": [
+      "激光异常"
+    ],
+    "Tip3": [
+      "Dispensing reference dot 1..."
+    ],
+    "Tip4": [
+      "Dispensing reference dot 2..."
+    ],
+    "Tip5": [
+      "Dispensing reference dot 3..."
+    ],
+    "Tip6": [
+      "Dispensing reference dot 4..."
+    ],
+    "Tip7": [
+      "Task has done,press [Next]"
+    ],
+    "Tip8": [
+      "Align camera on dot1 and press [Teach]"
+    ],
+    "Tip9": [
+      "Align camera on dot2 and press [Teach]"
+    ],
+    "Tip10": [
+      "Align camera on dot3 and press [Teach]"
+    ],
+    "Tip11": [
+      "Align camera on dot4 and press [Teach]"
+    ],
+    "Tip12": [
+      "Press [Done] to accept results"
+    ]
+  },
+  "TeachNeedleToCamera": {
+    "TeachNeedleToCamera": [
+      "Anda Fluidmove-Teach needle to camera XY offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "The Machine will move, press [Next] to continue."
+    ],
+    "Tip1": [
+      "Align needle on mark and press [Teach]"
+    ],
+    "Tip2": [
+      "Align camera on needle mark and press [Teach]"
+    ],
+    "Tip3": [
+      "Teach the distance\r\nof Needle with Camera\r\nusing mark point.\r\n\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachNeedleToHeightSensor": {
+    "TeachNeedleToHeightSensor": [
+      "Anda Fluid move - Teach Needle to Height Sensor Z Offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "lblVelocity": [
+      "Descent Velocity of Z:"
+    ],
+    "lblCycles": [
+      "Measurement cycles:"
+    ],
+    "lblTolerance": [
+      "Offset tolerance +/-:"
+    ],
+    "lblZOffsetResult": [
+      "Needle to probe Z offset:"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "grpLighting": [
+      "Lighting"
+    ],
+    "grpMotion": [
+      "Motion"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Target centre point on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip3": [
+      "Target tactile centre point and press [Teach]."
+    ],
+    "Tip4": [
+      "Instructions"
+    ],
+    "Tip5": [
+      "Target circumference point 1 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target tactile circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target tactile circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target tactile circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "This machine will move it's parts. \rKeep safe distance and press [Next] to continue."
+    ],
+    "Tip12": [
+      "Prepare for machine's parts move and press [Next]"
+    ],
+    "Tip13": [
+      "Measuring the Z height..."
+    ],
+    "Tip14": [
+      "Measurement has ended..."
+    ],
+    "Tip15": [
+      "Measurement has ended,press[Done]."
+    ],
+    "Tip16": [
+      "Running cycle"
+    ],
+    "Tip17": [
+      "可能触发限位，建议检查限位位置."
+    ],
+    "Tip18": [
+      "激光读取失败."
+    ],
+    "Tip19": [
+      "可能触发Z轴软限位，建议重设软限位位置."
+    ],
+    "Tip20": [
+      "Vavel2 Z Offset"
+    ],
+    "Tip21": [
+      "connected"
+    ],
+    "Tip22": [
+      "disconnected"
+    ],
+    "Tip23": [
+      "failed"
+    ],
+    "Tip24": [
+      "Teach center of tactile\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TrajectoryDialog": {
+    "TrajectoryDialog": [
+      "TrajectoryDialog"
+    ]
+  },
+  "ShowTimerForm": {
+    "ShowTimerForm": [
+      "ShowTimerForm"
+    ],
+    "label2": [
+      "0.0 s"
+    ],
+    "label1": [
+      "waiting..."
+    ]
+  },
+  "EditDotParamsForm": {
+    "EditDotParamsForm": [
+      "Edit dot parameters"
+    ],
+    "tabPagePreDispense": [
+      "Pre Dispense"
+    ],
+    "label17": [
+      "Dot Type 10:"
+    ],
+    "label16": [
+      "Dot Type 9:"
+    ],
+    "label15": [
+      "Dot Type 8:"
+    ],
+    "label14": [
+      "Dot Type 7:"
+    ],
+    "label13": [
+      "Dot Type 6:"
+    ],
+    "label12": [
+      "Dot Type 5:"
+    ],
+    "label11": [
+      "Dot Type 4:"
+    ],
+    "label10": [
+      "Dot Type 3:"
+    ],
+    "label9": [
+      "Dot Type 2:"
+    ],
+    "label2": [
+      "Dot Type 1:"
+    ],
+    "label7": [
+      "[pulse/sec2]"
+    ],
+    "label5": [
+      "[mm/sec]"
+    ],
+    "label3": [
+      "[sec]"
+    ],
+    "lblNotes": [
+      "Notes"
+    ],
+    "lblDownAccel": [
+      "Down Accel"
+    ],
+    "lblDownSpeed": [
+      "Down Speed"
+    ],
+    "lblSettlingTime": [
+      "Settling Time"
+    ],
+    "tabPageDuringDispense": [
+      "During Dispense"
+    ],
+    "label32": [
+      "Dot Type 10:"
+    ],
+    "label31": [
+      "Dot Type 9:"
+    ],
+    "label30": [
+      "Dot Type 8:"
+    ],
+    "label29": [
+      "Dot Type 7:"
+    ],
+    "label28": [
+      "Dot Type 6:"
+    ],
+    "label25": [
+      "[mm]"
+    ],
+    "label27": [
+      "Dot Type 5:"
+    ],
+    "label22": [
+      "[mm]"
+    ],
+    "label26": [
+      "Dot Type 4:"
+    ],
+    "lblNumShots": [
+      "Num shots"
+    ],
+    "label20": [
+      "Dot Type 3:"
+    ],
+    "lblMultiShotDelta": [
+      "Multi-shot Delta"
+    ],
+    "label19": [
+      "Dot Type 2:"
+    ],
+    "lblDispenseGap": [
+      "Dispense Gap"
+    ],
+    "label18": [
+      "Dot Type 1:"
+    ],
+    "tabPagePostDispense": [
+      "Post Dispense"
+    ],
+    "label50": [
+      "Dot Type 10:"
+    ],
+    "label49": [
+      "Dot Type 9:"
+    ],
+    "label41": [
+      "[pulse/sec2]"
+    ],
+    "label48": [
+      "Dot Type 8:"
+    ],
+    "label39": [
+      "[mm/sec]"
+    ],
+    "label47": [
+      "Dot Type 7:"
+    ],
+    "label37": [
+      "[mm]"
+    ],
+    "label46": [
+      "Dot Type 6:"
+    ],
+    "label35": [
+      "[sec]"
+    ],
+    "label45": [
+      "Dot Type 5:"
+    ],
+    "lblRetractAccel": [
+      "Retract Accel"
+    ],
+    "label44": [
+      "Dot Type 4:"
+    ],
+    "lblRectractSpeed": [
+      "Retract Speed"
+    ],
+    "label43": [
+      "Dot Type 3:"
+    ],
+    "lblRetractDistance": [
+      "Retract Distance"
+    ],
+    "label42": [
+      "Dot Type 2:"
+    ],
+    "lblDwellTime": [
+      "Dwell Time"
+    ],
+    "label33": [
+      "Dot Type 1:"
+    ],
+    "label1": [
+      "[sec]"
+    ],
+    "lblValveOnTime": [
+      "Valve On Time"
+    ],
+    "label4": [
+      "[sec]"
+    ],
+    "lblSuckBackTime": [
+      "SuckBack Time"
+    ],
+    "lblValveOnTimeUnit": [
+      "[sec]"
+    ],
+    "lblSuckBackTimeUnit": [
+      "[sec]"
+    ]
+  },
+  "EditLineWeightForm": {
+    "EditLineWeightForm": [
+      "EditLineWeightForm"
+    ],
+    "btnEditLineStyle": [
+      "edit"
+    ],
+    "lblAllLinesStyle": [
+      "All Lines Style"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "label1": [
+      "mg"
+    ],
+    "btnApply": [
+      "apply"
+    ],
+    "rdoEach": [
+      "each"
+    ],
+    "rdoWhole": [
+      "whole"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ]
+  },
+  "EditLoopPassForm": {
+    "EditLoopPassForm": [
+      "Edit loop block"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "to"
+    ],
+    "label1": [
+      "loop from"
+    ]
+  },
+  "EditMoveXyForm": {
+    "EditMoveXyForm": [
+      "Edit MoveXy"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ]
+  },
+  "AddPassBlockForm": {
+    "AddPassBlockForm": [
+      "Add pass block"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "--"
+    ],
+    "lblIndexFrom": [
+      "Index from"
+    ]
+  },
+  "EditStartPassForm": {
+    "EditStartPassForm": [
+      "Edit start pass"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label1": [
+      "current index :"
+    ]
+  },
+  "EditNormalTimerForm": {
+    "EditNormalTimerForm": [
+      "Edit timer"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "Wait:"
+    ]
+  },
+  "EditTimerForm": {
+    "EditTimerForm": [
+      "Edit timer"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "Wait:"
+    ]
+  },
+  "LoadingForm": {
+    "LoadingForm": [
+      "LoadingForm"
+    ],
+    "lblMessage": [
+      "Loading..."
+    ]
+  },
+  "EditCommentForm": {
+    "EditCommentForm": [
+      "Edit comment"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "lblComment": [
+      "Comment:"
+    ]
+  },
+  "EditLineParamsForm": {
+    "EditLineParamsForm": [
+      "Edit line parameters"
+    ],
+    "tabPagePreDispense": [
+      "Pre Dispense"
+    ],
+    "label56": [
+      "[mm]"
+    ],
+    "lblOffset": [
+      "Offset"
+    ],
+    "label15": [
+      "Line Type 10:"
+    ],
+    "label14": [
+      "Line Type 9:"
+    ],
+    "label13": [
+      "Line Type 8:"
+    ],
+    "label12": [
+      "Line Type 7:"
+    ],
+    "label11": [
+      "Line Type 6:"
+    ],
+    "label6": [
+      "[pulse/sec^2]"
+    ],
+    "label10": [
+      "Line Type 5:"
+    ],
+    "label3": [
+      "[mm/sec]"
+    ],
+    "label9": [
+      "Line Type 4:"
+    ],
+    "lblNotes": [
+      "Notes"
+    ],
+    "label7": [
+      "Line Type 3:"
+    ],
+    "lblDownAccel": [
+      "Down Accel"
+    ],
+    "label4": [
+      "Line Type 2:"
+    ],
+    "lblDownSpeed": [
+      "Down Speed"
+    ],
+    "label1": [
+      "Line Type 1:"
+    ],
+    "lblDispenseGap": [
+      "During Dispense"
+    ],
+    "label26": [
+      "[mm]"
+    ],
+    "label35": [
+      "Line Type 10:"
+    ],
+    "label24": [
+      "[mm]"
+    ],
+    "label34": [
+      "Line Type 9:"
+    ],
+    "label22": [
+      "[mm/sec]"
+    ],
+    "label33": [
+      "Line Type 8:"
+    ],
+    "label20": [
+      "[mm/sec]"
+    ],
+    "label32": [
+      "Line Type 7:"
+    ],
+    "label18": [
+      "[mm]"
+    ],
+    "label31": [
+      "Line Type 6:"
+    ],
+    "lblDecelDistance": [
+      "Decel Distance"
+    ],
+    "label30": [
+      "Line Type 5:"
+    ],
+    "lblAccelDistance": [
+      "Accel Distance"
+    ],
+    "label29": [
+      "Line Type 4:"
+    ],
+    "lblWtCtrlSpeed": [
+      "Wt-Ctrl Speed"
+    ],
+    "label28": [
+      "Line Type 3:"
+    ],
+    "lblSpeed": [
+      "Speed"
+    ],
+    "label27": [
+      "Line Type 2:"
+    ],
+    "label17": [
+      "Dispense Gap"
+    ],
+    "label16": [
+      "Line Type 1:"
+    ],
+    "tabPagePostDispense": [
+      "Post Dispense"
+    ],
+    "label51": [
+      "Line Type 10:"
+    ],
+    "label50": [
+      "Line Type 9:"
+    ],
+    "label49": [
+      "Line Type 8:"
+    ],
+    "label48": [
+      "Line Type 7:"
+    ],
+    "label42": [
+      "[pulse/sec^2]"
+    ],
+    "label47": [
+      "Line Type 6:"
+    ],
+    "label40": [
+      "[mm/sec]"
+    ],
+    "label46": [
+      "Line Type 5:"
+    ],
+    "label38": [
+      "[mm]"
+    ],
+    "label45": [
+      "Line Type 4:"
+    ],
+    "lblRetractAccel": [
+      "Retract Accel"
+    ],
+    "label44": [
+      "Line Type 3:"
+    ],
+    "lblRetractSpeed": [
+      "Retract Speed"
+    ],
+    "label43": [
+      "Line Type 2:"
+    ],
+    "lblRetractDistance": [
+      "Retract Distance"
+    ],
+    "label36": [
+      "Line Type 1:"
+    ],
+    "tabPageControl": [
+      "Control"
+    ],
+    "label70": [
+      "Line Type 10:"
+    ],
+    "label69": [
+      "Line Type 9:"
+    ],
+    "label59": [
+      "[ms]"
+    ],
+    "label68": [
+      "Line Type 8:"
+    ],
+    "label67": [
+      "Line Type 7:"
+    ],
+    "label55": [
+      "[mm]"
+    ],
+    "label66": [
+      "Line Type 6:"
+    ],
+    "lblTotalDots": [
+      "Total # of Dots"
+    ],
+    "label65": [
+      "Line Type 5:"
+    ],
+    "lblShotTimeInterval": [
+      "Shot Time Interval"
+    ],
+    "label64": [
+      "Line Type 4:"
+    ],
+    "label63": [
+      "Line Type 3:"
+    ],
+    "lblSpacing": [
+      "Spacing"
+    ],
+    "label62": [
+      "Line Type 2:"
+    ],
+    "lblControlMode": [
+      "Control Mode"
+    ],
+    "label52": [
+      "Line Type 1:"
+    ],
+    "label25": [
+      "[sec]"
+    ],
+    "lblPreMoveDelay": [
+      "Pre-Move Delay"
+    ],
+    "label8": [
+      "[sec]"
+    ],
+    "lblDwellTime": [
+      "Dwell"
+    ],
+    "label5": [
+      "[sec]"
+    ],
+    "lblSuckBackTime": [
+      "SuckBack"
+    ],
+    "label2": [
+      "[mm]"
+    ],
+    "lblShutoffDistance": [
+      "Shutoff Distance"
+    ],
+    "label23": [
+      "[%]"
+    ],
+    "lblBacktrackDistance": [
+      "Backtrack Distance"
+    ],
+    "label21": [
+      "[sec]"
+    ],
+    "lblBacktrackSpeed": [
+      "Backtrack Speed"
+    ],
+    "label19": [
+      "[mm]"
+    ],
+    "lblBacktrackGap": [
+      "Backtrack Gap"
+    ]
+  },
+  "EditMoveToLocationForm": {
+    "EditMoveToLocationForm": [
+      "Edit MoveToLocation"
+    ],
+    "btnEdit": [
+      "edit"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label1": [
+      "Sys position:"
+    ]
+  },
+  "SVOForm": {
+    "SVOForm": [
+      "Anda Fluidmove - Machine Setup"
+    ],
+    "grpTask": [
+      "Task Description"
+    ],
+    "btnSetting": [
+      "Setting"
+    ],
+    "btnExit": [
+      "Exit"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnReset": [
+      "Reset"
+    ],
+    "btnSingleStep": [
+      "Single Step"
+    ],
+    "btnRunToEnd": [
+      "Run to End"
+    ],
+    "tabVavel1": [
+      "Vavel1 Task"
+    ],
+    "chkVavel1Complete": [
+      "Complete                                                                  "
+    ],
+    "chkTeachNeedleToCamera": [
+      "4.Calculate the Prelim needle-to-camera XY Offset     "
+    ],
+    "chkTeachLaserToCamera": [
+      "5.Calculate the Height Sensor XY Offset                   "
+    ],
+    "chkTeachNeedleToHeight": [
+      "6.Calculate the needle Z Offset                                   "
+    ],
+    "chkTeachScale": [
+      "9.Teach Scale Location                                                      "
+    ],
+    "chkTeachPurge": [
+      "7.Teach Purge Location                                                "
+    ],
+    "chkTeachPrimer": [
+      "8.Teach Prime Location                                  "
+    ],
+    "chkCalculateTheNeedleXYOffset": [
+      "10.Calculate The Needle XY Offset                                                        "
+    ],
+    "chkSoftLimitZ": [
+      "1.Teach Soft Limit Z                                         "
+    ],
+    "chkTeachSafeZ": [
+      "2.Teach Safe Z                                        "
+    ],
+    "chkCameraCalibration": [
+      "3.Camera Calibration                                               "
+    ],
+    "tabVavel2": [
+      "Vavel2 Task"
+    ],
+    "chkVavel2NeedleCamera": [
+      "1.Calculate the Prelim needle-to-camera XY Offset     "
+    ],
+    "chkVavel2NeedleZOffset": [
+      "2.Calculate the needle Z Offset                                   "
+    ],
+    "chkVavel2NeedleXYOffset": [
+      "3.Calculate The Needle XY Offset                                                        "
+    ],
+    "chkVavel2Complete": [
+      "Complete                                                                  "
+    ],
+    "chkVavel2AssociateToVavel1": [
+      "4.Assocaite Vavel2 to Vavel1"
+    ],
+    "chkTeachVavel1Scrape": [
+      "11.Teach Vavel1 ScrapeLocation                           "
+    ]
+  },
+  "HeightControl": {
+    "groupBox2": [
+      "Board"
+    ],
+    "btnApply": [
+      "apply"
+    ],
+    "label3": [
+      "Tolerance-"
+    ],
+    "label2": [
+      "Tolerance+"
+    ],
+    "label1": [
+      "Standard Height"
+    ]
+  },
+  "ValveSettingForm": {
+    "Cmp2dMaxErr": [
+      "最大误差"
+    ],
+    "二维比较参数": [
+      "二维比较参数"
+    ],
+    "Cmp2dThreshold": [
+      "最优阈值"
+    ],
+    "FluidMode": [
+      "控制模式"
+    ],
+    "运动参数": [
+      "运动参数"
+    ],
+    "MoveMode": [
+      "运动模式"
+    ],
+    "OnTime": [
+      "开胶时间"
+    ],
+    "阀参数": [
+      "阀参数"
+    ],
+    "OffTime": [
+      "关胶时间"
+    ],
+    "EnablePrePurgeVaccum": [
+      "启用真空吸转"
+    ],
+    "清洗参数": [
+      "清洗参数"
+    ],
+    "PrePurgeCount": [
+      "吸转圈数"
+    ],
+    "PrePurgeRadius": [
+      "圈半径"
+    ],
+    "PrePurgeDelay": [
+      "开胶延时"
+    ],
+    "PrimeDotsCount": [
+      "排胶点数"
+    ],
+    "EnableLimitChecking": [
+      "启用寿命检测"
+    ],
+    "寿命参数": [
+      "寿命参数"
+    ],
+    "CurrentCycleCount": [
+      "当前次数"
+    ],
+    "CycleCountLimit": [
+      "使用寿命"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "EntityName": [
+      "EntityName"
+    ],
+    "ValveSettingForm": [
+      "FormValveSetting"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "btnSave": [
+      "save"
+    ],
+    "ScrapeEnable": [
+      "启用擦纸带"
+    ],
+    "擦纸带参数": [
+      "擦纸带参数"
+    ],
+    "ScrapeTime": [
+      "擦纸带时长"
+    ],
+    "ForwardSpeed": [
+      "送胶速度"
+    ],
+    "ReverseSpeed": [
+      "反转速度"
+    ],
+    "SuckBackTime": [
+      "回吸时间"
+    ],
+    "VacuumDelay": [
+      "真空延时"
+    ],
+    "PrimeTime": [
+      "排胶时间"
+    ],
+    "EnableFloat": [
+      "启用浮动头"
+    ],
+    "浮动头参数": [
+      "浮动头参数"
+    ],
+    "FloatOffset": [
+      "浮动头补偿"
+    ]
+  },
+  "SettingBarcodeScanControl": {
+    "lblDelimiter": [
+      "Delimiter"
+    ],
+    "lblCmdRead": [
+      "CmdRead"
+    ],
+    "lblVendor": [
+      "Vendor"
+    ],
+    "btnTest": [
+      "Test"
+    ]
+  },
+  "FindCircle": {
+    "grpSwitch": [
+      "Teach Center Method"
+    ],
+    "lblMessage": [
+      "label1"
+    ],
+    "rdoFindCircleThreePoint": [
+      "Teach 3 Circumference Points"
+    ],
+    "rdoFindCircleOnePoint": [
+      "Teach 1 Center Point"
+    ]
+  },
+  "EditBadMarkForm": {
+    "EditBadMarkForm": [
+      "EditBadMark"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "groupBox2": [
+      "SkipMode"
+    ],
+    "rbNgSkip": [
+      "NG Skip"
+    ],
+    "rbOkSkip": [
+      "OK Skip"
+    ],
+    "groupBox1": [
+      "FindType"
+    ],
+    "rbModelFind": [
+      "ModelFind"
+    ],
+    "rbGrayScale": [
+      "GrayScale"
+    ],
+    "btnEdit": [
+      "edit"
+    ],
+    "messageTip0": [
+      "Model is no edit."
+    ],
+    "messageTip1": [
+      "Gray parameter is no edit"
+    ]
+  },
+  "EditModelFindForm": {
+    "EditModelFindForm": [
+      "DialogMarkModelFind"
+    ],
+    "tbgModel": [
+      "Model"
+    ],
+    "CameraSetting": [
+      "CameraSetting"
+    ],
+    "label3": [
+      "Settling Time"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "Threshold"
+    ],
+    "lblTolerance": [
+      "Tolerance"
+    ],
+    "AcceptThreshold": [
+      "Accept"
+    ],
+    "ModelSize": [
+      "ModelSize"
+    ],
+    "ModelHeight": [
+      "Height"
+    ],
+    "ModelWidth": [
+      "Width"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "Height"
+    ],
+    "DetectWidth": [
+      "Width"
+    ],
+    "tbgTest": [
+      "Test"
+    ],
+    "btnGotoTaught": [
+      "Go to taught"
+    ],
+    "btnShowModel": [
+      "ShowModel"
+    ],
+    "btnTest": [
+      "Test"
+    ],
+    "gbResult": [
+      "Result"
+    ],
+    "label2": [
+      "Diff"
+    ],
+    "label1": [
+      "Taught Loc"
+    ],
+    "lbFoundLoc": [
+      "Found Loc"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "Time"
+    ],
+    "lbStatus": [
+      "Status"
+    ],
+    "gbSetup": [
+      "Setup"
+    ],
+    "cbSettle": [
+      "Settle"
+    ],
+    "rbFindInPlace": [
+      "Find in-place"
+    ],
+    "rbFindAtTaught": [
+      "Find at taught"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "EditChangeSvSpeedForm": {
+    "EditChangeSvSpeedForm": [
+      "EditChangeSvSpeedForm"
+    ],
+    "label4": [
+      "r/s"
+    ],
+    "label3": [
+      "Speed:"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "Wait:"
+    ]
+  },
+  "LotControlSettingForm": {
+    "LotControlSettingForm": [
+      "LotControlSettingForm"
+    ],
+    "label2": [
+      "-"
+    ],
+    "lblCutPos": [
+      "LotId Position:"
+    ],
+    "btnOK": [
+      "OK"
+    ],
+    "label1": [
+      "Set Lot ID:"
+    ]
+  },
+  "ProductSettingForm": {
+    "ProductSettingForm": [
+      "ProductSettingForm"
+    ],
+    "groupBox1": [
+      "LotControl"
+    ],
+    "cbxStartLotById": [
+      "Start Lot By Id"
+    ],
+    "cbxLotControl": [
+      "Enable Lot Control"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnOK": [
+      "OK"
+    ]
+  },
+  "DialogCADImport": {
+    "DialogCADImport": [
+      "DialogCADImport"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "Please click the next key to load the trajectory file": [
+      "Please click the next key to load the trajectory file"
+    ],
+    "Start loading ...": [
+      "Start loading ..."
+    ],
+    "Successfully open the trajectory file,Please click the next key to edit Component Library": [
+      "Successfully open the trajectory file,Please click the next key to edit Component Library"
+    ],
+    "failed to load trajectory file,Please click the next key to load the trajectory file again": [
+      "failed to load trajectory file,Please click the next key to load the trajectory file again"
+    ],
+    "Start editing Component Library ...": [
+      "Start editing Component Library ..."
+    ],
+    "Successfully edit the Component Library,Please click the next key to edit the trajectory": [
+      "Successfully edit the Component Library,Please click the next key to edit the trajectory"
+    ],
+    "failed to edit the Component Library,Please click the next key to edit Component Library again": [
+      "failed to edit the Component Library,Please click the next key to edit Component Library again"
+    ],
+    "Start editing the trajetory and create the pattern ...": [
+      "Start editing the trajetory and create the pattern ..."
+    ],
+    "Successfully edit the trajectory,Please click the Done key to create the Pattern": [
+      "Successfully edit the trajectory,Please click the Done key to create the Pattern"
+    ],
+    "Done": [
+      "Done"
+    ]
+  },
+  "DialogComponentLibEdit": {
+    "DialogComponentLibEdit": [
+      "DialogComponentLibEdit"
+    ],
+    "gpbUsers": [
+      "UserComponens"
+    ],
+    "btnLoad": [
+      "Load"
+    ],
+    "btnNew": [
+      "New"
+    ],
+    "btnMerge": [
+      "Merge"
+    ],
+    "btnSave": [
+      "Save"
+    ],
+    "btnSaveAs": [
+      "SaveAs"
+    ],
+    "btnok": [
+      "ok"
+    ],
+    "btncancel": [
+      "cancel"
+    ],
+    "toolStripStslbl1": [
+      "LibName:"
+    ],
+    "gpbLib": [
+      "LibComponens"
+    ],
+    "btnLibLoad": [
+      "Load"
+    ],
+    "toolStripStatusLabel1": [
+      "LibName:"
+    ],
+    "gpbEdit": [
+      "EditComponent"
+    ],
+    "lblModel": [
+      "Model:"
+    ],
+    "btnAdd": [
+      "Add"
+    ],
+    "lblWH": [
+      "W*H(mm):"
+    ],
+    "btnDelete": [
+      "Delete"
+    ],
+    "rbtAdh": [
+      "Adhesive"
+    ],
+    "rbtSold": [
+      "Solder paste"
+    ],
+    "gpbDot": [
+      "DotEdit"
+    ],
+    "lblXY": [
+      "Offset(X,Y)(mm):"
+    ],
+    "btnDotAdd": [
+      "Add"
+    ],
+    "lblWeight": [
+      "Weight(mg):"
+    ],
+    "btnDotDlt": [
+      "Delete"
+    ],
+    "lblRadius": [
+      "Radius(mm):"
+    ]
+  },
+  "DialogImport": {
+    "DialogImport": [
+      "ImportEdit"
+    ],
+    "gpbLoad": [
+      "Load"
+    ],
+    "btnLoad": [
+      "Load"
+    ],
+    "ckbLoadDefault": [
+      "LoadDefault"
+    ],
+    "gpbSeperator": [
+      "Seperator"
+    ],
+    "btnSepeDel": [
+      "Delete"
+    ],
+    "btnSepApply": [
+      "Apply"
+    ],
+    "gpbHeadSel": [
+      "HeadSelect"
+    ],
+    "btnApply": [
+      "Apply"
+    ],
+    "lblLay": [
+      "LayOut:"
+    ],
+    "btnSave": [
+      "Save"
+    ],
+    "btnDelete": [
+      "Delete"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "Index": [
+      "Index"
+    ],
+    "Design": [
+      "Design"
+    ],
+    "Comp": [
+      "Comp"
+    ],
+    "X": [
+      "X"
+    ],
+    "Y": [
+      "Y"
+    ],
+    "Rot": [
+      "Rot"
+    ],
+    "LayOut": [
+      "LayOut"
+    ],
+    "Path": [
+      "Path"
+    ]
+  },
+  "TrajectoryDialog02": {
+    "TrajectoryDialog02": [
+      "TrajectoryDialog"
+    ],
+    "gpbEdit": [
+      "EditTrajectory"
+    ],
+    "lblMinX": [
+      "MinX"
+    ],
+    "lblMaxX": [
+      "MaxX"
+    ],
+    "lblMinY": [
+      "MinY"
+    ],
+    "lblMaxY": [
+      "MaxY"
+    ],
+    "lblOffsetX": [
+      "OffsetX"
+    ],
+    "lblOffsetY": [
+      "OffsetY"
+    ],
+    "ckbReverseX": [
+      "ReverseX"
+    ],
+    "ckbReverseY": [
+      "ReverseY"
+    ],
+    "btnGenerate": [
+      "Generate"
+    ],
+    "btnReLoad": [
+      "Selecte"
+    ],
+    "btnOffset": [
+      "Offset"
+    ],
+    "gpbOptimiz": [
+      "Optimize"
+    ],
+    "lblmark1": [
+      "mark1"
+    ],
+    "ckbMark1": [
+      "Spray"
+    ],
+    "lblmark2": [
+      "mark2"
+    ],
+    "ckbMark2": [
+      "Spray"
+    ],
+    "btnOptimize": [
+      "Optimize"
+    ],
+    "lblDis": [
+      "Distance:"
+    ],
+    "lblPatternName": [
+      "PatternName"
+    ],
+    "btnCreate": [
+      "Create"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOK": [
+      "ok"
+    ]
+  },
+  "SensorsReadValueForm": {
+    "scannerTitle": [
+      "Scanner"
+    ],
+    "laserTitle": [
+      "Laser"
+    ],
+    "btnReadValue": [
+      "Read"
+    ],
+    "SensorsReadValueForm": [
+      "SensorsReadValueForm"
+    ]
+  },
+  "EditGrayCheckForm": {
+    "EditGrayCheckForm": [
+      "EditModelFormBase"
+    ],
+    "tbgModel": [
+      "Model"
+    ],
+    "groupBox2": [
+      "Accept"
+    ],
+    "label4": [
+      "Gray Tolerance"
+    ],
+    "CameraSetting": [
+      "CameraSetting"
+    ],
+    "label3": [
+      "Settling Time"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "ModelSize": [
+      "ModelSize"
+    ],
+    "ModelHeight": [
+      "Height"
+    ],
+    "ModelWidth": [
+      "Width"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "Height"
+    ],
+    "DetectWidth": [
+      "Width"
+    ],
+    "tbgTest": [
+      "Test"
+    ],
+    "btnGotoTaught": [
+      "Go to taught"
+    ],
+    "btnShowModel": [
+      "ShowModel"
+    ],
+    "btnTest": [
+      "Test"
+    ],
+    "gbResult": [
+      "Result"
+    ],
+    "label2": [
+      "Diff"
+    ],
+    "lbTime": [
+      "Time"
+    ],
+    "lbStatus": [
+      "Status"
+    ],
+    "gbSetup": [
+      "Setup"
+    ],
+    "cbSettle": [
+      "Settle"
+    ],
+    "rbFindInPlace": [
+      "Find in-place"
+    ],
+    "rbFindAtTaught": [
+      "Find at taught"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "BatchUpdateCmdLineForm": {
+    "BatchUpdateCmdLineForm": [
+      "BatchUpdateCmdLineForm"
+    ],
+    "gbxPosOffset": [
+      "Position"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOK": [
+      "ok"
+    ],
+    "gbxWeight": [
+      "Weight"
+    ],
+    "rdoIncrementWeight": [
+      "increment"
+    ],
+    "rdoConstantWeight": [
+      "constant"
+    ],
+    "lblLineType": [
+      "Line Type :"
+    ],
+    "lblDotType": [
+      "Dot Type :"
+    ],
+    "cbIsWeightControl": [
+      "Weight Control"
+    ],
+    "cbxUseInsert": [
+      "Use Insert"
+    ],
+    "btnInsert": [
+      "Insert"
+    ],
+    "btnTargetGoto": [
+      "Go to"
+    ],
+    "btnRefGoto": [
+      "Go to"
+    ],
+    "btnTeachTarget": [
+      "Teach"
+    ],
+    "btnTeachRef": [
+      "Teach"
+    ],
+    "lblTargetY": [
+      "Y:"
+    ],
+    "lblTargetX": [
+      "X:"
+    ],
+    "lblRefY": [
+      "Y:"
+    ],
+    "lblRefX": [
+      "X:"
+    ],
+    "lblOffset": [
+      "Offset :"
+    ],
+    "lblTargetPoint": [
+      "Target Point :"
+    ],
+    "lblRefPoint": [
+      "Reference Point :"
+    ],
+    "lblOffsetY": [
+      "Y:"
+    ],
+    "lblOffsetX": [
+      "X:"
+    ],
+    "btnUpdate": [
+      "Update"
+    ],
+    "lblWeight": [
+      "Weight :"
+    ],
+    "lblRotate": [
+      "Rotate Angle :"
+    ]
+  },
+  "EditNozzleCheckForm": {
+    "EditNozzleCheckForm": [
+      "EditNozzleCheckForm"
+    ],
+    "btnAutoDispense": [
+      "Auto"
+    ],
+    "cbxIsGlobal": [
+      "Global detection"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "lblDotLocation": [
+      "Dot Location:"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "cbWeightControl": [
+      "Weight Control"
+    ],
+    "btnSelect": [
+      "Teach"
+    ],
+    "btnEditDotParams": [
+      "Edit"
+    ],
+    "label1": [
+      "Dot Style:"
+    ],
+    "groupBox2": [
+      "Skip"
+    ],
+    "rbnNgAlarm": [
+      "NG Alarm"
+    ],
+    "rbnOkAlarm": [
+      "OK Alarm"
+    ],
+    "groupBox1": [
+      "Check"
+    ],
+    "rbnGrayScale": [
+      "GrayScale"
+    ],
+    "rbnModelFind": [
+      "ModelFind"
+    ],
+    "btnModelEdit": [
+      "Edit"
+    ],
+    "label3": [
+      "Image detection："
+    ]
+  },
+  "EditStepAndRepeatForm3": {
+    "EditStepAndRepeatForm3": [
+      "EditStepAndRepeatFormReverse"
+    ],
+    "btnOk": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "label1": [
+      "Pattern List:"
+    ],
+    "btnGoToVEnd": [
+      "Go To"
+    ],
+    "btnGoToHEnd": [
+      "Go To"
+    ],
+    "btnGoToOrigin": [
+      "Go To"
+    ],
+    "btnTeachVEnd": [
+      "Teach"
+    ],
+    "btnTeachHEnd": [
+      "Teach"
+    ],
+    "btnTeachOrigin": [
+      "Teach"
+    ],
+    "label7": [
+      "Vertical End:"
+    ],
+    "label6": [
+      "Horizontal End:"
+    ],
+    "label4": [
+      "ColumNum"
+    ],
+    "label5": [
+      "Origin:"
+    ],
+    "label3": [
+      "RowNum"
+    ],
+    "btnDisable": [
+      "Disable"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "label2": [
+      "Patterns:"
+    ],
+    "btnReverse": [
+      "Reverse"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnLast": [
+      "Last"
+    ]
+  },
+  "TeachScrape": {
+    "TeachScrape": [
+      "TeachScrape"
+    ],
+    "btnGoto": [
+      "Goto"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "label1": [
+      "Scrape Location:"
+    ]
+  },
+  "EditAsvMarkForm": {
+    "EditAsvMarkForm": [
+      "EditAsvMarkForm"
+    ],
+    "groupBox2": [
+      "reference"
+    ],
+    "btnRegister": [
+      "register"
+    ],
+    "label6": [
+      "A"
+    ],
+    "label7": [
+      "Y"
+    ],
+    "label8": [
+      "X"
+    ],
+    "label3": [
+      "Location:"
+    ],
+    "btnGoTo": [
+      "Go To"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnOK": [
+      "ok"
+    ],
+    "label1": [
+      "InspectionKey"
+    ],
+    "btnEdit": [
+      "edit"
+    ],
+    "label10": [
+      "ms"
+    ],
+    "label9": [
+      "SettlingTime"
+    ],
+    "groupBox1": [
+      "result"
+    ],
+    "label5": [
+      "A"
+    ],
+    "label4": [
+      "Y"
+    ],
+    "label2": [
+      "X"
+    ],
+    "rbnTaught": [
+      "find at taught"
+    ],
+    "btnTest": [
+      "test"
+    ],
+    "rbnPlace": [
+      "find in-place"
+    ]
+  },
+  "DialogCreatePattern": {
+    "DialogCreatePattern": [
+      "TrajectoryDialog"
+    ],
+    "btnLoad": [
+      "Load..."
+    ],
+    "label1": [
+      "fluidFile:"
+    ],
+    "btnCreate": [
+      "Create"
+    ],
+    "lblPatternName": [
+      "PatternName:"
+    ],
+    "btnOK": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ],
+    "btnImport": [
+      "ImportCAD"
+    ]
+  },
+  "OmronControlTempCtrl": {
+    "SetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "SetTempOffsetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "TempInfo": [
+      "温度"
+    ],
+    "TempUpperLimitInfo": [
+      "温度上限"
+    ],
+    "TempLowerLimitInfo": [
+      "温度下限"
+    ],
+    "TempOffsetInfo": [
+      "温度漂移"
+    ],
+    "rdoValve2": [
+      "Valve2"
+    ],
+    "rdoValve1": [
+      "Valve1"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "btnSetTempOffset": [
+      "设置"
+    ],
+    "btnSetAlarmLow": [
+      "设置"
+    ],
+    "btnSetAlarmUp": [
+      "设置"
+    ],
+    "lblTempOffset": [
+      "温度偏移"
+    ],
+    "lblDownAlarm": [
+      "报警下限"
+    ],
+    "lblUpAlarm": [
+      "报警上限"
+    ],
+    "lblTemp": [
+      "温度"
+    ],
+    "btnSetTemp": [
+      "设置"
+    ]
+  },
+  "CameraForm": {
+    "CameraForm": [
+      "FormCamera"
+    ]
+  },
+  "DialogPatternWeight": {
+    "DialogPatternWeight": [
+      "DialogMESGlue"
+    ],
+    "label1": [
+      "Directory:"
+    ],
+    "groupBox2": [
+      "Weight"
+    ],
+    "btnWeight": [
+      "Weight"
+    ],
+    "btnDotSave": [
+      ". . ."
+    ]
+  },
+  "DialogOffLine": {
+    "DialogOffLine": [
+      "DialogOffLineProgramming"
+    ],
+    "btnImport": [
+      "ImportCAD"
+    ],
+    "btnLoad": [
+      "Load..."
+    ],
+    "label1": [
+      "patternFile:"
+    ],
+    "btnCreate": [
+      "Create"
+    ],
+    "lblPatternName": [
+      "PatternName:"
+    ],
+    "btnOK": [
+      "ok"
+    ],
+    "btnCancel": [
+      "cancel"
+    ]
+  },
+  "StatisticsForm": {
+    "StatisticsForm": [
+      "StatisticsForm"
+    ],
+    "button1": [
+      "button1"
+    ],
+    "rdoDotWeight": [
+      "Dot Weight"
+    ],
+    "rdoLaserData": [
+      "Laser Data"
+    ],
+    "rdoTemperature": [
+      "Tempareture"
+    ],
+    "rdoDownTimeChart": [
+      "Down Time"
+    ],
+    "rdoCTChart": [
+      "CycleTime"
+    ],
+    "btnOK": [
+      "OK"
+    ],
+    "label1": [
+      "Other data:"
+    ],
+    "rdoNGInfoChart": [
+      "NG Info"
+    ],
+    "rdoCapacityChart": [
+      "Capacity"
+    ]
+  },
+  "ScaleDialog": {
+    "ScaleDialog": [
+      "ScaleDialog"
+    ],
+    "label1": [
+      "0.0"
+    ],
+    "button2": [
+      "ReadValue"
+    ],
+    "button1": [
+      "ExtCalibrate"
+    ],
+    "btnZero": [
+      "Zeroing"
+    ],
+    "btnCalibrate": [
+      "Calibrate"
+    ],
+    "btnReset": [
+      "reset"
+    ],
+    "btnSave": [
+      "save"
+    ],
+    "btnRestart": [
+      "Restart"
+    ]
+  },
+  "ScriptEditor": {
+    "tsrAllEnable": [
+      "Set All Enable"
+    ],
+    "tsrBackDisable": [
+      "Set Back Disable"
+    ],
+    "tsrOthersDisable": [
+      "Set Others Disable"
+    ],
+    "tsrPreDisable": [
+      "Set Pre Disable"
+    ],
+    "tsrThisDisable": [
+      "Set This Disable"
+    ]
+  },
+  "CalibrateDialog": {
+    "CalibrateDialog": [
+      "CalibrateDialog"
+    ],
+    "grpWeight": [
+      "Weight"
+    ],
+    "label1": [
+      "WeightSpecification:"
+    ],
+    "label5": [
+      "ActualWeight:"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "lblValue": [
+      "0"
+    ],
+    "lblActWeight": [
+      "0"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ],
+    "done": [
+      "done"
+    ]
+  }
+}

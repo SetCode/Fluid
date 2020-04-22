@@ -1,0 +1,164 @@
+{
+  "DIPrmMgr": {
+    "list": [
+      {
+        "CardKey": 0,
+        "DiId": 1,
+        "Name": "对刀仪",
+        "HeightLevelValid": false,
+        "Key": 0
+      },
+      {
+        "CardKey": 0,
+        "DiId": 2,
+        "Name": "气压检测",
+        "HeightLevelValid": true,
+        "Key": 1
+      },
+      {
+        "CardKey": 0,
+        "DiId": 4,
+        "Name": "轨道通信",
+        "HeightLevelValid": true,
+        "Key": 2
+      },
+      {
+        "CardKey": 0,
+        "DiId": 6,
+        "Name": "胶阀温度检测",
+        "HeightLevelValid": true,
+        "Key": 4
+      },
+      {
+        "CardKey": 0,
+        "DiId": 13,
+        "Name": "胶量感应2",
+        "HeightLevelValid": true,
+        "Key": 5
+      },
+      {
+        "CardKey": 0,
+        "DiId": 14,
+        "Name": "胶量感应1",
+        "HeightLevelValid": true,
+        "Key": 6
+      },
+      {
+        "CardKey": 0,
+        "DiId": 15,
+        "Name": "门禁",
+        "HeightLevelValid": false,
+        "Key": 7
+      },
+      {
+        "CardKey": 0,
+        "DiId": 16,
+        "Name": "急停",
+        "HeightLevelValid": true,
+        "Key": 8
+      }
+    ]
+  },
+  "DOPrmMgr": {
+    "list": [
+      {
+        "CardKey": 0,
+        "DoId": 1,
+        "Name": "飞测",
+        "HeightLevelValid": true,
+        "Key": 1
+      },
+      {
+        "CardKey": 0,
+        "DoId": 2,
+        "Name": "飞拍",
+        "HeightLevelValid": true,
+        "Key": 2
+      },
+      {
+        "CardKey": 0,
+        "DoId": 5,
+        "Name": "离子风棒1",
+        "HeightLevelValid": true,
+        "Key": 5
+      },
+      {
+        "CardKey": 0,
+        "DoId": 6,
+        "Name": "离子风棒2",
+        "HeightLevelValid": true,
+        "Key": 6
+      },
+      {
+        "CardKey": 0,
+        "DoId": 7,
+        "Name": "轨道通信",
+        "HeightLevelValid": true,
+        "Key": 7
+      },
+      {
+        "CardKey": 0,
+        "DoId": 8,
+        "Name": "环形光",
+        "HeightLevelValid": true,
+        "Key": 8
+      },
+      {
+        "CardKey": 0,
+        "DoId": 9,
+        "Name": "同轴光",
+        "HeightLevelValid": true,
+        "Key": 9
+      },
+      {
+        "CardKey": 0,
+        "DoId": 10,
+        "Name": "红色信号灯",
+        "HeightLevelValid": false,
+        "Key": 10
+      },
+      {
+        "CardKey": 0,
+        "DoId": 11,
+        "Name": "黄色信号灯",
+        "HeightLevelValid": true,
+        "Key": 11
+      },
+      {
+        "CardKey": 0,
+        "DoId": 12,
+        "Name": "绿色信号灯",
+        "HeightLevelValid": true,
+        "Key": 12
+      },
+      {
+        "CardKey": 0,
+        "DoId": 13,
+        "Name": "蜂鸣器",
+        "HeightLevelValid": true,
+        "Key": 11
+      },
+      {
+        "CardKey": 0,
+        "DoId": 14,
+        "Name": "胶枪加热2",
+        "HeightLevelValid": true,
+        "Key": 14
+      },
+      {
+        "CardKey": 0,
+        "DoId": 15,
+        "Name": "胶枪加热1",
+        "HeightLevelValid": true,
+        "Key": 15
+      },
+      {
+        "CardKey": 0,
+        "DoId": 16,
+        "Name": "真空清洗",
+        "HeightLevelValid": true,
+        "Key": 16
+      }
+    ]
+  }
+}

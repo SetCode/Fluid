@@ -1,0 +1,10 @@
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Anda.Fluid.App.Main.EventBroker.RunBroker.Instance_OnProgramDone() 位置 E:\工作\点胶机\新点胶\AFM\Anda.Fluid.App.Main\EventBroker\RunBroker.cs:行号 58
+   在 System.Action.Invoke()
+   在 Anda.Fluid.Domain.FluProgram.Executor.stopProgram(Boolean aborted) 位置 E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 1506
+   在 Anda.Fluid.Domain.FluProgram.Executor.startRunning() 位置 E:\工作\点胶机\新点胶\AFM\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 596
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

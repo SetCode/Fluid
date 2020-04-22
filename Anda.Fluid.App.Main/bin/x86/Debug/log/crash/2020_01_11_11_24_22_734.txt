@@ -1,0 +1,13 @@
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Anda.Fluid.App.Main.EventBroker.RunBroker.Instance_OnProgramDone() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.App.Main\EventBroker\RunBroker.cs:行号 58
+   在 System.Action.Invoke()
+   在 Anda.Fluid.Domain.FluProgram.Executor.stopProgram(Boolean aborted) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 1356
+   在 Anda.Fluid.Domain.FluProgram.Executor.runProgram() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 1324
+   在 Anda.Fluid.Domain.FluProgram.Executor.oneCycleRun(Int32 i) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 804
+   在 Anda.Fluid.Domain.FluProgram.Executor.cycleRun() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 661
+   在 Anda.Fluid.Domain.FluProgram.Executor.startRunning() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 539
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

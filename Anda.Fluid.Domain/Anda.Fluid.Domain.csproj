@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18A8E080-CFCE-4DD0-BD52-7C979195446E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Domain</RootNamespace>
+    <AssemblyName>Anda.Fluid.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Anda.Fluid.Domain.Motion, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Anda.Fluid.Domain.Motion\obj\x86\Debug\Anda.Fluid.Domain.Motion.dll</HintPath>
+    </Reference>
+    <Reference Include="Anda.Fluid.Domain.Vision">
+      <HintPath>..\Anda.Fluid.Domain.Vision\obj\x86\Debug\Anda.Fluid.Domain.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmInfoDomain.cs" />
+    <Compile Include="Custom\CustomDefault.cs" />
+    <Compile Include="Custom\CustomEnum.cs" />
+    <Compile Include="Custom\CustomFactory.cs" />
+    <Compile Include="Custom\CustomParam.cs" />
+    <Compile Include="Custom\CustomRTV.cs" />
+    <Compile Include="Custom\Custom安费诺.cs" />
+    <Compile Include="Custom\Custom银宝山.cs" />
+    <Compile Include="Custom\DataCentor\DataBase.cs" />
+    <Compile Include="Custom\DataCentor\Data安费诺.cs" />
+    <Compile Include="Custom\ICustomary.cs" />
+    <Compile Include="DomainExtensions.cs" />
+    <Compile Include="FluProgram\Common\DotParam.cs" />
+    <Compile Include="FluProgram\Common\EnumDefinations.cs" />
+    <Compile Include="FluProgram\Common\LineCoordinate.cs" />
+    <Compile Include="FluProgram\Common\LineParam.cs" />
+    <Compile Include="FluProgram\Common\SymbolLine.cs" />
+    <Compile Include="FluProgram\Executant\BadMark.cs" />
+    <Compile Include="FluProgram\Executant\ConveyorBarcode.cs" />
+    <Compile Include="FluProgram\Executant\Executor.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\FluiderFactory.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveFluider\GearValveFluider.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveFluider\IFluider.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveFluider\JtValveFluider.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveFluider\SvValveFluider.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\GearValveTracker\GearValveArc.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\GearValveTracker\GearValveDot.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\GearValveTracker\GearValveLine.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\GearValveTracker\GearValveMultiTraces.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\GearValveTracker\GearValveSymbolLines.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\ITrackable.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveBufTracker\JtValveBufArc.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveBufTracker\JtValveBufDot.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveBufTracker\JtValveBufLine.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveTracker\JtValveArc.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveTracker\JtValveDot.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveTracker\JtValveLine.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveTracker\JtValveMultiTraces.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\JtValveTracker\JtValveSymbolLines.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\SvValveTracker\SvValveArc.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\SvValveTracker\SvValveDot.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\SvValveTracker\SvValveMultiTraces.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\SvValveTracker\SvValveLine.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\SvValveTracker\SvValveSymbolLines.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\TrackBase\ArcTrackBase.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\TrackBase\DotTrackBase.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\TrackBase\MultiTracesTrackBase.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\TrackBase\LineTrackBase.cs" />
+    <Compile Include="FluProgram\Executant\Fluider\ValveTracker\TrackBase\SymbolLinesTrackBase.cs" />
+    <Compile Include="FluProgram\Executant\FlyMarks.cs" />
+    <Compile Include="FluProgram\Executant\ISprayable.cs" />
+    <Compile Include="FluProgram\Executant\Barcode.cs" />
+    <Compile Include="FluProgram\Executant\Blobs.cs" />
+    <Compile Include="FluProgram\Executant\MoveToLocation.cs" />
+    <Compile Include="FluProgram\Executant\MultiTraces.cs" />
+    <Compile Include="FluProgram\Executant\Measure.cs" />
+    <Compile Include="FluProgram\Executant\MeasureHeight.cs" />
+    <Compile Include="FluProgram\Executant\MoveXy.cs" />
+    <Compile Include="FluProgram\Executant\NozzleCheck.cs" />
+    <Compile Include="FluProgram\Executant\Purge.cs" />
+    <Compile Include="FluProgram\Executant\SymbolLines.cs" />
+    <Compile Include="FluProgram\Grammar\BadMarkCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\ChangeSpeedCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\ConveyorBarcodeCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\FinishShotCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\BarcodeCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\BlobsCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MultiTracesCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MeasureCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\NormalTimerCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\NozzleCheckCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\PassBlockCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\PurgeCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\StepAndRepeatCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MeasureHeightCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\PatternCorrector.cs" />
+    <Compile Include="FluProgram\Grammar\SnakeLineCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\SymbolLinesCmdLine.cs" />
+    <Compile Include="FluProgram\MathTools\AllocateDotCount.cs" />
+    <Compile Include="FluProgram\MathTools\SymbolLineMathTools.cs" />
+    <Compile Include="FluProgram\Semantics\BadMarkCmd.cs" />
+    <Compile Include="FluProgram\Semantics\BarcodeCmd.cs" />
+    <Compile Include="FluProgram\Semantics\ChangeSpeedCmd.cs" />
+    <Compile Include="FluProgram\Semantics\CircleCmd.cs" />
+    <Compile Include="FluProgram\Semantics\ConveyorBarcodeCmd.cs" />
+    <Compile Include="FluProgram\Semantics\FinishShotCmd.cs" />
+    <Compile Include="FluProgram\Semantics\IPatternWeightable.cs" />
+    <Compile Include="FluProgram\Semantics\BlobsCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MultiTracesCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MeasureCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MeasureHeightCmd.cs" />
+    <Compile Include="FluProgram\Semantics\NormalTimerCmd.cs" />
+    <Compile Include="FluProgram\Semantics\NozzleCheckCmd.cs" />
+    <Compile Include="FluProgram\Semantics\PurgeCmd.cs" />
+    <Compile Include="FluProgram\Semantics\SymbolLinesCmd.cs" />
+    <Compile Include="FluProgram\Structure\CoordinateCorrector.cs" />
+    <Compile Include="FluProgram\Structure\CoordinateTransformer.cs" />
+    <Compile Include="FluProgram\Structure\RunnableModuleStructure.cs" />
+    <Compile Include="FluProgram\Executant\Arc.cs" />
+    <Compile Include="FluProgram\Executant\Dot.cs" />
+    <Compile Include="FluProgram\Executant\Directive.cs" />
+    <Compile Include="FluProgram\Executant\Line.cs" />
+    <Compile Include="FluProgram\Executant\Mark.cs" />
+    <Compile Include="FluProgram\Executant\MoveAbsXy.cs" />
+    <Compile Include="FluProgram\Executant\MoveAbsZ.cs" />
+    <Compile Include="FluProgram\FluidProgram.cs" />
+    <Compile Include="FluProgram\Grammar\ArcCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\CircleCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\CmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\CommandsModule.cs" />
+    <Compile Include="FluProgram\Grammar\CommentCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\DoCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\DoMultiPassCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\DotCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\EndCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\EndPassCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\GrammarParser.cs" />
+    <Compile Include="FluProgram\Grammar\LineCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\LoopPassCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MarkCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MoveAbsXyCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MoveAbsZCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MoveToLocationCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\MoveXyCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\NextLoopCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\SetHeightSenseModeCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\StartPassCmdLine.cs" />
+    <Compile Include="FluProgram\Grammar\TimerCmdLine.cs" />
+    <Compile Include="FluProgram\Pattern.cs" />
+    <Compile Include="FluProgram\Semantics\ArcCmd.cs" />
+    <Compile Include="FluProgram\Semantics\Command.cs" />
+    <Compile Include="FluProgram\Semantics\DoCmd.cs" />
+    <Compile Include="FluProgram\Semantics\DoMultipassCmd.cs" />
+    <Compile Include="FluProgram\Semantics\DotCmd.cs" />
+    <Compile Include="FluProgram\Semantics\LineCmd.cs" />
+    <Compile Include="FluProgram\Semantics\LoopBlockCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MarkCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MoveAbsXyCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MoveAbsZCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MoveToLocationCmd.cs" />
+    <Compile Include="FluProgram\Semantics\MoveXyCmd.cs" />
+    <Compile Include="FluProgram\Semantics\PassBlockCmd.cs" />
+    <Compile Include="FluProgram\Semantics\RunnableModule.cs" />
+    <Compile Include="FluProgram\Semantics\SetHeightSenseModeCmd.cs" />
+    <Compile Include="FluProgram\Semantics\SupportDirectiveCmd.cs" />
+    <Compile Include="FluProgram\Semantics\TimerCmd.cs" />
+    <Compile Include="FluProgram\UserPosition.cs" />
+    <Compile Include="FluProgram\Workpiece.cs" />
+    <Compile Include="MsgType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordPathDef.cs" />
+    <Compile Include="RTV\RtvResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RTV\RtvResultForm.Designer.cs">
+      <DependentUpon>RtvResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\MotionSettings.cs" />
+    <Compile Include="Settings\ProgramSettings.cs" />
+    <Compile Include="Settings\RuntimeSettings.cs" />
+    <Compile Include="SoftFunction\LotControl\LotController.cs" />
+    <Compile Include="SoftFunction\LotControl\LotControlSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftFunction\LotControl\LotControlSettingForm.Designer.cs">
+      <DependentUpon>LotControlSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoftFunction\LotControl\ProductSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftFunction\LotControl\ProductSettingForm.designer.cs">
+      <DependentUpon>ProductSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoftFunction\PatternWeight\DialogPatternWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftFunction\PatternWeight\DialogPatternWeight.designer.cs">
+      <DependentUpon>DialogPatternWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoftFunction\PatternWeight\PatternWeight.cs" />
+    <Compile Include="SoftFunction\PatternWeight\PatternWeightSettings.cs" />
+    <Compile Include="SoftFunction\SymbolLineFineTune.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftFunction\SymbolLineFineTune.Designer.cs">
+      <DependentUpon>SymbolLineFineTune.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Controls\Anda.Fluid.Infrastructure.Controls.csproj">
+      <Project>{63ac44ee-28f1-47dc-b259-f8f47d5cb9c1}</Project>
+      <Name>Anda.Fluid.Infrastructure.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.AccessControl\Anda.Fluid.Domain.AccessControl.csproj">
+      <Project>{F0BBE37E-B4C0-4D3B-AAF0-524D39973622}</Project>
+      <Name>Anda.Fluid.Domain.AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Conveyor\Anda.Fluid.Domain.Conveyor.csproj">
+      <Project>{8afdbabb-1af3-405c-b11a-c10ba4ae1f21}</Project>
+      <Name>Anda.Fluid.Domain.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DataStatistics\Anda.Fluid.Domain.DataStatistics.csproj">
+      <Project>{18A55FF6-4153-4F58-9D61-0C26D78C43E1}</Project>
+      <Name>Anda.Fluid.Domain.DataStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Data\Anda.Fluid.Domain.Data.csproj">
+      <Project>{CE5FE923-9D94-47EE-BA5A-C6943785C847}</Project>
+      <Name>Anda.Fluid.Domain.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0C537A8E-23A6-4DE1-9F51-38DBF0662A2D}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914D333-9405-4E5A-92A8-239DA6A7F894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RTV\RtvResultForm.resx">
+      <DependentUpon>RtvResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftFunction\LotControl\LotControlSettingForm.resx">
+      <DependentUpon>LotControlSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftFunction\LotControl\ProductSettingForm.resx">
+      <DependentUpon>ProductSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftFunction\PatternWeight\DialogPatternWeight.resx">
+      <DependentUpon>DialogPatternWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftFunction\SymbolLineFineTune.resx">
+      <DependentUpon>SymbolLineFineTune.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

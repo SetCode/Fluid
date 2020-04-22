@@ -1,0 +1,88 @@
+{
+  "NeedlePosZUp": 0.0,
+  "NeedlePosZDown": 0.0,
+  "NeedleRotated": 0.0,
+  "AngleLine": 0.0,
+  "AngleGap": 0.0,
+  "AngleGapCompensation": 0.0,
+  "Direct": 1,
+  "SavedTime": "2020-03-18T13:44:05.806965+08:00",
+  "SavedItem": 0,
+  "SafeZ": 0.0,
+  "MeasureHeightZ": 0.0,
+  "MarkZ": 0.0,
+  "NeedleCamera1": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "NeedleCamera2": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "HeightCamera": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PurgeLoc": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PurgeHS": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PurgeZbyHS": 0.0,
+  "PurgeIntervalHeight": 0.0,
+  "PrimeLoc": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PrimeZ": 0.0,
+  "ScaleLoc": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "ScaleHS": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "ScaleZbyHS": 0.0,
+  "ScaleIntervalHeight": 0.0,
+  "NeedleJet1": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "NeedleJet2": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "StandardHeight": 0.0,
+  "StandardZ": 0.0,
+  "StandardHeight2": 0.0,
+  "StandardZ2": 0.0,
+  "HorizontalRatio": 1.0,
+  "VerticalRatio": 1.0,
+  "ScrapeLocation": {
+    "IsSystemLoc": false,
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0,
+    "Key": null
+  },
+  "ValveZOffset2to1": 0.0,
+  "ValveXYOffset2to1": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "NeedleStartPos": null,
+  "NeedleEndPos": null,
+  "NeedlePosition": null,
+  "NeedlePosZPlasticene": 0.0,
+  "TestPosition": null,
+  "TestPosZ": 0.0,
+  "HeightSensorCenter": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "AngleHeightPosOffsetList": []
+}

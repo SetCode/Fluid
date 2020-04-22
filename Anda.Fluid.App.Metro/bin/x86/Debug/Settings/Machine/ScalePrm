@@ -1,0 +1,11 @@
+{
+  "ReadDelay": 3000,
+  "ReadTimes": 5,
+  "SingleReadTimeOut": 500,
+  "SingleReadDelay": 20,
+  "MaxCapacity": 50000,
+  "IsMonitorScaleCup": false,
+  "WarningStartPercentage": 90,
+  "ScaleCalibWeight": 50000,
+  "Key": 0
+}

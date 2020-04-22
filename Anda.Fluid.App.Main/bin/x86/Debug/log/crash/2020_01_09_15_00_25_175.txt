@@ -1,0 +1,14 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Anda.Fluid.Drive.Machine.SetupValve() in D:\A\trunk\Anda.Fluid\Anda.Fluid.Drive\Machine.cs:line 667
+   at Anda.Fluid.Drive.Machine.SetupMotion() in D:\A\trunk\Anda.Fluid\Anda.Fluid.Drive\Machine.cs:line 572
+   at Anda.Fluid.Drive.Machine.SetupAll() in D:\A\trunk\Anda.Fluid\Anda.Fluid.Drive\Machine.cs:line 510
+   at Anda.Fluid.App.Main.MainForm..ctor() in D:\A\trunk\Anda.Fluid\Anda.Fluid.App.Main\MainForm.cs:line 150
+   at Anda.Fluid.App.Main.Program.Main() in D:\A\trunk\Anda.Fluid\Anda.Fluid.App.Main\Program.cs:line 33
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4688FDE7-A0AC-4E13-B031-030F1D218670}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Domain.Motion</RootNamespace>
+    <AssemblyName>Anda.Fluid.Domain.Motion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroSet UI">
+      <HintPath>..\packages\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AxisControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AxisControl.Designer.cs">
+      <DependentUpon>AxisControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOForm.Designer.cs">
+      <DependentUpon>IOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOSetupForm.Designer.cs">
+      <DependentUpon>IOSetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MotionUtil.cs" />
+    <Compile Include="PositionMainControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PositionMainControl.Designer.cs">
+      <DependentUpon>PositionMainControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DIControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DIControl.Designer.cs">
+      <DependentUpon>DIControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DOControl.Designer.cs">
+      <DependentUpon>DOControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JogControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JogControl.Designer.cs">
+      <DependentUpon>JogControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PositionVControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PositionVControl.Designer.cs">
+      <DependentUpon>PositionVControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingAxesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingAxesForm.Designer.cs">
+      <DependentUpon>SettingAxesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingMachineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingMachineForm.Designer.cs">
+      <DependentUpon>SettingMachineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingRobotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingRobotForm.Designer.cs">
+      <DependentUpon>SettingRobotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValveControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ValveControl.Designer.cs">
+      <DependentUpon>ValveControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValveSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValveSettingForm.designer.cs">
+      <DependentUpon>ValveSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValveSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValveSetupForm.designer.cs">
+      <DependentUpon>ValveSetupForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Domain.AccessControl\Anda.Fluid.Domain.AccessControl.csproj">
+      <Project>{F0BBE37E-B4C0-4D3B-AAF0-524D39973622}</Project>
+      <Name>Anda.Fluid.Domain.AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Conveyor\Anda.Fluid.Drive.Conveyor.csproj">
+      <Project>{8f0eba1b-24b5-4698-9663-5482d0766aff}</Project>
+      <Name>Anda.Fluid.Drive.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{F1BB4FC7-9299-4469-B1D7-CBEDCFA3BE1B}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0c537a8e-23a6-4de1-9f51-38dbf0662a2d}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AxisControl.resx">
+      <DependentUpon>AxisControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOForm.resx">
+      <DependentUpon>IOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOSetupForm.resx">
+      <DependentUpon>IOSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionMainControl.resx">
+      <DependentUpon>PositionMainControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIControl.resx">
+      <DependentUpon>DIControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOControl.resx">
+      <DependentUpon>DOControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogControl.resx">
+      <DependentUpon>JogControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionVControl.resx">
+      <DependentUpon>PositionVControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingMachineForm.resx">
+      <DependentUpon>SettingMachineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingRobotForm.resx">
+      <DependentUpon>SettingRobotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValveControl.resx">
+      <DependentUpon>ValveControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValveSettingForm.resx">
+      <DependentUpon>ValveSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValveSetupForm.resx">
+      <DependentUpon>ValveSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Up_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Down_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_up_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_previous_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_down_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_next_7_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_down_7_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reboot_24px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

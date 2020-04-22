@@ -1,0 +1,6618 @@
+{
+  "NewUserForm": {
+    "NewUserForm": [
+      "新用户"
+    ],
+    "lblRole": [
+      "职能:"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "lblReenterPassword": [
+      "再次输入密码:"
+    ],
+    "lblPassword": [
+      "密码:"
+    ],
+    "lblUserName": [
+      "用户名:"
+    ],
+    "rdoSupervisor": [
+      "管理员"
+    ],
+    "rdoTechnician": [
+      "工程师"
+    ],
+    "rdoOperator": [
+      "操作员"
+    ]
+  },
+  "UserManagementForm": {
+    "selectCbxColumn": [
+      "选中"
+    ],
+    "txtNameColumn": [
+      "用户名"
+    ],
+    "txtRoleTypeColumn": [
+      "职能"
+    ],
+    "UserManagementForm": [
+      "用户管理"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnDeleteUser": [
+      "删除选中"
+    ],
+    "btnAddUser": [
+      "新用户"
+    ]
+  },
+  "SetupPasswordForm": {
+    "SetupPasswordForm": [
+      "重置密码"
+    ],
+    "lblUserName": [
+      "用户名"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "lblReEnterPassword": [
+      "再次输入密码:"
+    ],
+    "lblNewPassword": [
+      "新密码:"
+    ],
+    "lblOldPassword": [
+      "旧密码:"
+    ],
+    "lblRole": [
+      "当前用户:"
+    ]
+  },
+  "FeatureAccessForm": {
+    "operatorColumn": [
+      "操作员"
+    ],
+    "technicianColumn": [
+      "工程师"
+    ],
+    "supervisorColumn": [
+      "管理员"
+    ],
+    "Load program file": [
+      "加载程序"
+    ],
+    "Enter program form": [
+      "进入编程界面"
+    ],
+    "Enter Global location form": [
+      "进入全局坐标界面"
+    ],
+    "Enter tools menu": [
+      "进入工具菜单"
+    ],
+    "Enter IO form": [
+      "进入输入输出界面"
+    ],
+    "Enter scale form": [
+      "进入称重界面"
+    ],
+    "Enter purge form": [
+      "进入清洗界面"
+    ],
+    "Enter height form": [
+      "进入测高界面"
+    ],
+    "Enter Heater form": [
+      "进入加热界面"
+    ],
+    "Enter Camera form": [
+      "进入相机测试界面"
+    ],
+    "Enter configration menu": [
+      "进入配置菜单"
+    ],
+    "Switch language": [
+      "切换语言"
+    ],
+    "Switch position Unit": [
+      "切换位置单位"
+    ],
+    "Enter camera calibration form": [
+      "进入相机校正界面"
+    ],
+    "Enter scripted valve offsetsform": [
+      "进入十步校正界面"
+    ],
+    "Enter setup locations form": [
+      "进入坐标设置界面"
+    ],
+    "Enter setup ASV form": [
+      "进入ASV界面"
+    ],
+    "Enter calculate CPK form": [
+      "进入CPK界面"
+    ],
+    "Enter advanced menu": [
+      "进入高级菜单"
+    ],
+    "Enter setup Motion form": [
+      "进入多轴配置界面"
+    ],
+    "Enter setup Axes form": [
+      "进入单轴配置界面"
+    ],
+    "Enter setup IO form": [
+      "进入输入输出配置界面"
+    ],
+    "Enter setup vision form": [
+      "进入相机配置界面"
+    ],
+    "Enter setup valves form": [
+      "进入胶阀配置界面"
+    ],
+    "Enter setup sensors form": [
+      "进入串口配置界面"
+    ],
+    "Enter setup conveyor form": [
+      "进入轨道配置界面"
+    ],
+    "Enter strip mapping form": [
+      "进入棋盘校正界面"
+    ],
+    "Enter access form": [
+      "进入权限控制界面"
+    ],
+    "Change run mode": [
+      "切换运行模式"
+    ],
+    "Change conveyor mode": [
+      "切换轨道模式"
+    ],
+    "FeatureAccessForm": [
+      "权限管控"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "Use glue path command": [
+      "使用点胶轨迹指令"
+    ],
+    "Use other command": [
+      "使用其它指令"
+    ],
+    "Use program file operate": [
+      "使用编程界面文件操作"
+    ],
+    "Use module tree": [
+      "使用pattern列表"
+    ],
+    "Use program command list": [
+      "使用指令列表"
+    ],
+    "Enter program setting form": [
+      "进入程序设置界面"
+    ],
+    "Enter valve Edit form": [
+      "进入胶阀设置界面"
+    ],
+    "Enter user management form": [
+      "进入用户管理界面"
+    ],
+    "Can use ouput button": [
+      "使用手动输出操作"
+    ],
+    "Can edit Scale Parameter": [
+      "修改天平参数"
+    ],
+    "Can edit weight parameter": [
+      "修改称重参数"
+    ]
+  },
+  "LoginForm": {
+    "LoginForm": [
+      "登录"
+    ],
+    "btnSwitchOperator": [
+      "切换到操作员"
+    ],
+    "btnNewUser": [
+      "新用户"
+    ],
+    "btnUserMgr": [
+      "用户管理"
+    ],
+    "label2": [
+      "用户名:"
+    ],
+    "btnLogin": [
+      "登录"
+    ],
+    "btnSetupPassword": [
+      "重置密码"
+    ],
+    "label1": [
+      "密码:"
+    ]
+  },
+  "SettingRobotForm": {
+    "SettingRobotForm": [
+      "联动参数设置"
+    ],
+    "btnResetAll": [
+      "全部恢复默认"
+    ],
+    "btnReset": [
+      "恢复默认"
+    ],
+    "btnSave": [
+      "确定"
+    ],
+    "gbxContent": [
+      "参数"
+    ],
+    "groupBox1": [
+      "list"
+    ],
+    "MinZ": [
+      "Z轴最低位置"
+    ],
+    "Global": [
+      "联动参数"
+    ],
+    "MaxVelXY": [
+      "联动最大速度"
+    ],
+    "MaxAccXY": [
+      "联动最大加速度"
+    ],
+    "VelXY": [
+      "XY联动速度"
+    ],
+    "AccXY": [
+      "XY联动加速度"
+    ],
+    "VelAB": [
+      "AB联动速度"
+    ],
+    "AccAB": [
+      "AB联动加速度"
+    ],
+    "VelXYAB": [
+      "XYAB联动速度"
+    ],
+    "AccXYAB": [
+      "XYAB联动加速度"
+    ],
+    "VelZ": [
+      "Z轴速度"
+    ],
+    "EnableINP": [
+      "启用到位信号"
+    ],
+    "EnableMap": [
+      "启用棋盘校正"
+    ],
+    "WeightMaxVel": [
+      "最大速度"
+    ],
+    "Weight Mode": [
+      "胶量模式"
+    ],
+    "WeightAcc": [
+      "加速度"
+    ],
+    "WorkMaxVel": [
+      "最大速度"
+    ],
+    "Speed Mode": [
+      "速度模式"
+    ],
+    "WorkVel": [
+      "工作速度"
+    ],
+    "EmptyVel": [
+      "空行程速度"
+    ],
+    "SmoothXY": [
+      "启用棋盘校正"
+    ],
+    "SmoothZ": [
+      "启用棋盘校正"
+    ],
+    "ManulAccXY": [
+      "XY手动联动加速度"
+    ],
+    "Manual": [
+      "Manual"
+    ],
+    "ManualVelXY": [
+      "XY手动联动速度"
+    ]
+  },
+  "SettingProportionerControl": {
+    "groupBox2": [
+      "阀2"
+    ],
+    "label1": [
+      "通道"
+    ],
+    "label2": [
+      "控制方式"
+    ],
+    "groupBox1": [
+      "阀1"
+    ],
+    "lblCmd": [
+      "通道"
+    ],
+    "lblContorlType": [
+      "控制方式"
+    ]
+  },
+  "SettingScaleControl": {
+    "label4": [
+      "归零指令"
+    ],
+    "label3": [
+      "去皮指令"
+    ],
+    "label2": [
+      "输出指令"
+    ],
+    "label1": [
+      "品牌型号"
+    ],
+    "ckbRTS": [
+      "RTS"
+    ],
+    "ckbDTR": [
+      "DTR"
+    ]
+  },
+  "SettingLaserControl": {
+    "lblCmd": [
+      "读取指令"
+    ],
+    "label1": [
+      "品牌型号"
+    ]
+  },
+  "SettingSensorsForm": {
+    "deviceList": [
+      "测高",
+      "称重",
+      "加热",
+      "比例阀",
+      "高度规",
+      "条码枪"
+    ],
+    "SettingSensorsForm": [
+      "传感器设置"
+    ],
+    "btnResetAll": [
+      "全部恢复默认"
+    ],
+    "btnReset": [
+      "恢复默认"
+    ],
+    "btnSave": [
+      "确定"
+    ],
+    "gbxContent": [
+      "串口参数"
+    ],
+    "gbxSensor": [
+      ""
+    ],
+    "gbxCom": [
+      "串口设置"
+    ],
+    "btnDisconnect": [
+      "断开"
+    ],
+    "btnConnect": [
+      "连接"
+    ],
+    "btnSend": [
+      "发送"
+    ],
+    "label5": [
+      "停止位："
+    ],
+    "label4": [
+      "数据位："
+    ],
+    "label3": [
+      "校验位："
+    ],
+    "label2": [
+      "波特率："
+    ],
+    "label1": [
+      "串口号："
+    ],
+    "groupBox1": [
+      "设备列表"
+    ],
+    "ckbRTS": [
+      "RTS"
+    ],
+    "ckbDTR": [
+      "DTR"
+    ]
+  },
+  "SettingWeightForm": {
+    "resetMsg": [
+      ""
+    ],
+    "msgTitle": [
+      ""
+    ],
+    "SettingWeightForm": [
+      "称重"
+    ],
+    "btnSave": [
+      "确定"
+    ],
+    "btnReset": [
+      "恢复默认"
+    ],
+    "SprayDots": [
+      "打胶次数"
+    ],
+    "单步执行称重控制参数": [
+      "单步执行称重控制参数"
+    ],
+    "ShotDotsEachPattern": [
+      "每块拼版打胶次数"
+    ],
+    "模拟生产参数": [
+      "模拟生产参数"
+    ],
+    "PatternCount": [
+      "总的拼版数"
+    ],
+    "Interval": [
+      "每个拼版的时间间隔"
+    ],
+    "CurrentWeight": [
+      "天平当前读数"
+    ],
+    "\t结果参数": [
+      "\t结果参数"
+    ],
+    "WeightBeforeSpray": [
+      "天平上次读数"
+    ],
+    "DifferWeight": [
+      "打胶前后读数差"
+    ],
+    "SingleDotWeight": [
+      "单点重量"
+    ],
+    "CumulativeWeight": [
+      "打胶累计重量"
+    ],
+    "StandardWeight": [
+      "单点标准重量"
+    ],
+    "重量校准参数": [
+      "重量校准参数"
+    ],
+    "WeightOffset": [
+      "单点重量偏差"
+    ],
+    "Percentage": [
+      "阀1阀2点胶偏差"
+    ],
+    "IsAutoRunFirstStart": [
+      "初次运行是否自动校准"
+    ],
+    "工作模式控制参数": [
+      "工作模式控制参数"
+    ],
+    "IsAutoRunAfterTimes": [
+      "工作指定次数后是否自动校准"
+    ],
+    "RunningTimes": [
+      "工作指定次数"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "EntityName": [
+      "EntityName"
+    ]
+  },
+  "UserControlTempCtrl": {
+    "SetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "SetTempOffsetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "TempInfo": [
+      "温度"
+    ],
+    "TempUpperLimitInfo": [
+      "温度上限"
+    ],
+    "TempLowerLimitInfo": [
+      "温度下限"
+    ],
+    "TempOffsetInfo": [
+      "温度漂移"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "btnSetTempOffset": [
+      "设置"
+    ],
+    "btnSetAlarmLow": [
+      "设置"
+    ],
+    "btnSetAlarmUp": [
+      "设置"
+    ],
+    "lblTempOffset": [
+      "温度偏移"
+    ],
+    "lblDownAlarm": [
+      "报警下限"
+    ],
+    "lblUpAlarm": [
+      "报警上限"
+    ],
+    "lblTemp": [
+      "温度"
+    ],
+    "btnSetTemp": [
+      "设置"
+    ],
+    "rdoValve2": [
+      "Valve2"
+    ],
+    "rdoValve1": [
+      "Valve1"
+    ]
+  },
+  "UserControlWeight": {
+    "label1": [
+      "天平"
+    ],
+    "btnScaleEdit": [
+      "编辑"
+    ],
+    "btnSavePrm": [
+      "确定"
+    ],
+    "btnResetPrm": [
+      "恢复默认"
+    ],
+    "grpValve2": [
+      "阀2"
+    ],
+    "btnVal2Prime": [
+      "排胶"
+    ],
+    "btnVal2AutoRun": [
+      "自动称重"
+    ],
+    "btnVal2Weight": [
+      "称重"
+    ],
+    "btnVal2Purge": [
+      "清洗"
+    ],
+    "btnVal2Edit": [
+      "阀2参数"
+    ],
+    "grpValve1": [
+      "阀1"
+    ],
+    "btnVal1Prime": [
+      "排胶"
+    ],
+    "btnVal1Weight": [
+      "称重"
+    ],
+    "btnVal1AutoRun": [
+      "自动称重"
+    ],
+    "btnVal1Edit": [
+      "阀1参数"
+    ],
+    "btnVal1Purge": [
+      "清洗"
+    ],
+    "CurrentWeight": [
+      "天平读数"
+    ],
+    "\t结果参数": [
+      "\t结果参数"
+    ],
+    "DifferWeight": [
+      "打胶前后读数差"
+    ],
+    "SingleDotWeight": [
+      "单点重量"
+    ]
+  },
+  "AxisControl": {
+    "groupBox2": [
+      "状态"
+    ],
+    "label1": [
+      "Alarm"
+    ],
+    "label2": [
+      "Error"
+    ],
+    "label3": [
+      "正限位"
+    ],
+    "label4": [
+      "负限位"
+    ],
+    "lblAlarm": [
+      "0"
+    ],
+    "lblError": [
+      "0"
+    ],
+    "lblPLmt": [
+      "0"
+    ],
+    "lblNLmt": [
+      "0"
+    ],
+    "label5": [
+      "Servo"
+    ],
+    "lblServo": [
+      "0"
+    ],
+    "label6": [
+      "Moving"
+    ],
+    "lblMoving": [
+      "0"
+    ],
+    "lblAstop": [
+      "0"
+    ],
+    "lblSstop": [
+      "0"
+    ],
+    "label8": [
+      "A_Stop"
+    ],
+    "label7": [
+      "S_Stop"
+    ],
+    "groupBox1": [
+      "Pos"
+    ],
+    "lblPrfPos": [
+      "0"
+    ],
+    "lblEncPos": [
+      "0"
+    ],
+    "label13": [
+      "PrfPos:"
+    ],
+    "label12": [
+      "EncPos:"
+    ],
+    "lblName": [
+      "---"
+    ],
+    "lblId": [
+      "0"
+    ],
+    "lblKey": [
+      "0"
+    ],
+    "label11": [
+      "name:"
+    ],
+    "label10": [
+      "id:"
+    ],
+    "label9": [
+      "key:"
+    ],
+    "btnZero": [
+      "Zero"
+    ],
+    "btnHome": [
+      "Home"
+    ],
+    "btnClrSts": [
+      "ClrSts"
+    ],
+    "btnServo": [
+      "Servo"
+    ],
+    "PulsePerLap": [
+      "每转脉冲数"
+    ],
+    "Lead": [
+      "导程"
+    ],
+    "Pulse2Mm": [
+      "Pulse2Mm"
+    ],
+    "Mm2Pulse": [
+      "Mm2Pulse"
+    ],
+    "SmoothDec": [
+      "平滑停止减速度"
+    ],
+    "AbruptDec": [
+      "紧急停止减速度"
+    ],
+    "MaxRunVel": [
+      "最大运行速度"
+    ],
+    "MaxManualVel": [
+      "手动最大速度"
+    ],
+    "ManualHigh": [
+      "手动高速%"
+    ],
+    "ManualLow": [
+      "手动低速%"
+    ],
+    "Acc": [
+      "默认加速度"
+    ],
+    "Dec": [
+      "默认减速度"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "EntityName": [
+      "EntityName"
+    ],
+    "硬件参数": [
+      "硬件参数"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "运动参数": [
+      "运动参数"
+    ]
+  },
+  "SettingAxesForm": {
+    "SettingAxesForm": [
+      "轴参数设置"
+    ],
+    "btnResetAll": [
+      "全部恢复默认"
+    ],
+    "btnReset": [
+      "恢复默认"
+    ],
+    "btnSave": [
+      "确定"
+    ],
+    "gbxContent": [
+      "参数"
+    ],
+    "groupBox1": [
+      "轴列表"
+    ]
+  },
+  "IOForm": {
+    "对刀仪": [
+      "对刀仪"
+    ],
+    "气压检测": [
+      "气压检测"
+    ],
+    "轨道通信": [
+      "轨道通信"
+    ],
+    "胶阀温度检测": [
+      "胶阀温度检测"
+    ],
+    "胶量感应2": [
+      "胶量感应2"
+    ],
+    "胶量感应1": [
+      "胶量感应1"
+    ],
+    "门禁": [
+      "门禁"
+    ],
+    "急停": [
+      "急停"
+    ],
+    "进板检测": [
+      "进板检测"
+    ],
+    "定位1检测": [
+      "定位1检测"
+    ],
+    "定位2检测": [
+      "定位2检测"
+    ],
+    "出板检测": [
+      "出板检测"
+    ],
+    "前设备放板信号": [
+      "前设备放板信号"
+    ],
+    "后设备求板信号": [
+      "后设备求板信号"
+    ],
+    "离子风棒1": [
+      "离子风棒1"
+    ],
+    "离子风棒2": [
+      "离子风棒2"
+    ],
+    "环形光": [
+      "环形光"
+    ],
+    "同轴光": [
+      "同轴光"
+    ],
+    "红色信号灯": [
+      "红色信号灯"
+    ],
+    "黄色信号灯": [
+      "黄色信号灯"
+    ],
+    "绿色信号灯": [
+      "绿色信号灯"
+    ],
+    "蜂鸣器": [
+      "蜂鸣器"
+    ],
+    "胶枪加热2": [
+      "胶枪加热2"
+    ],
+    "胶枪加热1": [
+      "胶枪加热1"
+    ],
+    "真空清洗": [
+      "真空清洗"
+    ],
+    "求板信号": [
+      "求板信号"
+    ],
+    "放板信号": [
+      "放板信号"
+    ],
+    "运输反转": [
+      "运输反转"
+    ],
+    "运输正转": [
+      "运输正转"
+    ],
+    "预热开": [
+      "预热开"
+    ],
+    "预热阻挡": [
+      "预热阻挡"
+    ],
+    "预热顶升": [
+      "预热顶升"
+    ],
+    "预热吹气": [
+      "预热吹气"
+    ],
+    "工作阻挡": [
+      "工作阻挡"
+    ],
+    "工作顶升": [
+      "工作顶升"
+    ],
+    "工作吹气": [
+      "工作吹气"
+    ],
+    "出板阻挡": [
+      "出板阻挡"
+    ],
+    "出板顶升": [
+      "出板顶升"
+    ],
+    "出板吹气": [
+      "出板吹气"
+    ],
+    "IOForm": [
+      "输入输出"
+    ],
+    "gbxDO": [
+      "输出"
+    ],
+    "gbxDI": [
+      "输入"
+    ],
+    "高速通道1切换": [
+      "高速通道1切换"
+    ],
+    "高速通道2切换": [
+      "高速通道2切换"
+    ],
+    "排风检测": [
+      "排风检测"
+    ],
+    "双阀切换气缸1": [
+      "双阀切换气缸1"
+    ],
+    "双阀切换气缸2": [
+      "双阀切换气缸2"
+    ],
+    "阀1左倾斜": [
+      "阀1左倾斜"
+    ],
+    "阀1右倾斜": [
+      "阀1右倾斜"
+    ],
+    "阀1前倾斜": [
+      "阀1前倾斜"
+    ],
+    "阀1后倾斜": [
+      "阀1后倾斜"
+    ],
+    "红灯闪亮": [
+      "红灯闪亮"
+    ],
+    "黄灯闪亮": [
+      "黄灯闪亮"
+    ],
+    "绿灯闪亮": [
+      "绿灯闪亮"
+    ],
+    "蓝灯闪亮": [
+      "蓝灯闪亮"
+    ],
+    "排风电机": [
+      "排风电机"
+    ],
+    "主气压电磁阀": [
+      "主气压电磁阀"
+    ],
+    "阀1胶桶气压控制": [
+      "阀1胶桶气压控制"
+    ],
+    "阀2胶桶气压控制": [
+      "阀2胶桶气压控制"
+    ],
+    "机械测高气动": [
+      "机械测高气动"
+    ],
+    "照明": [
+      "照明"
+    ],
+    "飞测": [
+      "飞测"
+    ],
+    "飞拍": [
+      "飞拍"
+    ],
+    "擦纸带": [
+      "擦纸带"
+    ]
+  },
+  "IOSetupForm": {
+    "IOSetupForm": [
+      "输入输出配置"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "label1": [
+      "设备类型:"
+    ]
+  },
+  "DIControl": {
+    "HeightLevel": [
+      "高电平"
+    ],
+    "LowLevel": [
+      "低电平"
+    ]
+  },
+  "DOControl": {
+    "HeightLevel": [
+      "高电平"
+    ],
+    "LowLevel": [
+      "低电平"
+    ]
+  },
+  "NaviBtnTools": {
+    "IO": [
+      "输入输出"
+    ],
+    "Scale": [
+      "称重"
+    ],
+    "Purge": [
+      "清洗"
+    ],
+    "Height": [
+      "测高"
+    ],
+    "Heater": [
+      "加热"
+    ],
+    "Camera": [
+      "相机"
+    ],
+    "ConveyorIO": [
+      "轨道IO"
+    ]
+  },
+  "NaviBtnAdvanced": {
+    "Setup Motion": [
+      "多轴参数设置"
+    ],
+    "Setup Axes": [
+      "单轴参数设置"
+    ],
+    "Setup IO": [
+      "输入输出设置"
+    ],
+    "Setup Vision": [
+      "相机设置"
+    ],
+    "Setup Valves": [
+      "胶阀设置"
+    ],
+    "Setup Sensors": [
+      "串口设置"
+    ],
+    "Setup Conveyor": [
+      "轨道设置"
+    ],
+    "Strip Mapping": [
+      "棋盘校正"
+    ],
+    "Setup Access": [
+      "权限管控"
+    ],
+    "Setup Machine": [
+      "机台设置"
+    ]
+  },
+  "NaviBtnConfig": {
+    "Language": [
+      "语言"
+    ],
+    "English": [
+      "English"
+    ],
+    "Chinese": [
+      "中文"
+    ],
+    "Unit": [
+      "单位"
+    ],
+    "mm": [
+      "毫米"
+    ],
+    "inch": [
+      "英寸"
+    ],
+    "Camera Calibration": [
+      "相机校正"
+    ],
+    "Scripted Valve Offsets": [
+      "十步校正"
+    ],
+    "Setup Locations": [
+      "设定全局坐标位置"
+    ],
+    "Setup ASV": [
+      "配置ASV流程"
+    ],
+    "Calculate CPK": [
+      "CPK功能"
+    ],
+    "Load Trajectory": [
+      "离线编程"
+    ],
+    "PatternWeight": [
+      "Pattern称重"
+    ]
+  },
+  "ProgramSettingForm": {
+    "ProgramSettingForm": [
+      "程序设置"
+    ],
+    "groupBox4": [
+      "清洗"
+    ],
+    "chxAutoPurgeCount": [
+      "指定次数后清洗"
+    ],
+    "cbxPurge": [
+      "点胶前清洗"
+    ],
+    "label14": [
+      ":"
+    ],
+    "label15": [
+      ":"
+    ],
+    "chxAutoPurgeSpan": [
+      "指定时间后清洗"
+    ],
+    "groupBox3": [
+      "高度"
+    ],
+    "label4": [
+      "距板高度"
+    ],
+    "label5": [
+      "容差+"
+    ],
+    "btnEditBoardHeight": [
+      "编辑"
+    ],
+    "label6": [
+      "容差-"
+    ],
+    "groupBox2": [
+      "硬件参数"
+    ],
+    "label1": [
+      "胶桶气压"
+    ],
+    "label7": [
+      "双阀同步距离"
+    ],
+    "label2": [
+      "温度"
+    ],
+    "groupBox1": [
+      "称重"
+    ],
+    "chxAutoScaleCount": [
+      "指定次数后称重"
+    ],
+    "label11": [
+      ":"
+    ],
+    "label10": [
+      ":"
+    ],
+    "chxAutoScaleSpan": [
+      "指定时间后称重"
+    ],
+    "lable1": [
+      "单点重量"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "cbxScale": [
+      "点胶前称重"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnEditConveyor2Origin": [
+      "编辑"
+    ],
+    "label12": [
+      "轨道2原点"
+    ],
+    "gbxFlyParam": [
+      "飞拍参数"
+    ],
+    "cbxIsRowFirst": [
+      "X向飞行"
+    ],
+    "label9": [
+      "飞行提前量:"
+    ],
+    "label8": [
+      "拐弯速度:"
+    ],
+    "lblFlyAcc": [
+      "飞行加速度:"
+    ],
+    "lblFlySpeed": [
+      "飞行速度:"
+    ],
+    "cbxFlyEnable": [
+      "启用飞行"
+    ],
+    "label13": [
+      " Offline Cycle"
+    ],
+    "cbxFlyOriginPos": [
+      "启用原始位置飞行"
+    ],
+    "cbxNGReshoot": [
+      "飞行NG补拍"
+    ],
+    "cbxAdjustFlyOffset": [
+      "飞拍校正"
+    ],
+    "groupBox5": [
+      "Temperature"
+    ],
+    "label18": [
+      "Valve2"
+    ],
+    "lblThreadCount": [
+      "图像线程数:"
+    ],
+    "label17": [
+      "Simul OffsetY"
+    ],
+    "label16": [
+      "Simul OffsetX"
+    ],
+    "ckbSync": [
+      "Sync"
+    ]
+  },
+  "CameraControl": {
+    "label1": [
+      "曝光"
+    ],
+    "label2": [
+      "增益"
+    ],
+    "LightType1": [
+      "无光源"
+    ],
+    "LightType2": [
+      "同轴光"
+    ],
+    "LightType3": [
+      "环形光"
+    ],
+    "LightType4": [
+      "组合光"
+    ]
+  },
+  "JogControl": {
+    "checkBox1": [
+      "寸动模式"
+    ]
+  },
+  "PositionVControl": {
+    "groupBox1": [
+      "当前坐标"
+    ]
+  },
+  "ValveSetupForm": {
+    "ValveSetupForm": [
+      "胶阀配置"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "groupBox2": [
+      "阀2"
+    ],
+    "btnSaveAs2": [
+      "保存"
+    ],
+    "btnDelete2": [
+      "删除"
+    ],
+    "btnEdit2": [
+      "参数"
+    ],
+    "label2": [
+      "当前配置"
+    ],
+    "groupBox1": [
+      "阀1"
+    ],
+    "btnSaveAs1": [
+      "保存"
+    ],
+    "btnDelete1": [
+      "删除"
+    ],
+    "btnEdit1": [
+      "参数"
+    ],
+    "label1": [
+      " 当前配置"
+    ],
+    "单阀": [
+      "单阀"
+    ],
+    "双阀": [
+      "双阀"
+    ]
+  },
+  "ConveyorControl": {
+    "btnConveyor2Stuck": [
+      "卡板解决"
+    ],
+    "btnConveyor2Take": [
+      "取板完成"
+    ],
+    "btnConveyor2Put": [
+      "放板完成"
+    ],
+    "label1": [
+      "成品站状态"
+    ],
+    "label2": [
+      "轨道1模式："
+    ],
+    "label3": [
+      "工作站状态"
+    ],
+    "chkConveyor2": [
+      "轨道2"
+    ],
+    "label4": [
+      "整体状态："
+    ],
+    "label5": [
+      "预热站状态"
+    ],
+    "btnConveyor1Stuck": [
+      "卡板解决"
+    ],
+    "btnConveyor1Take": [
+      "取板完成"
+    ],
+    "btnConveyor1Put": [
+      "放板完成"
+    ],
+    "lblConveyor1FinishedSiteState": [
+      "成品站状态"
+    ],
+    "lblConveyor1Mode": [
+      "轨道1模式："
+    ],
+    "lblConveyor1WorkingSiteState": [
+      "工作站状态"
+    ],
+    "chkConveyor1": [
+      "轨道1"
+    ],
+    "lblConveyor1IntegralState": [
+      "整体状态："
+    ],
+    "lblConveyorPreState": [
+      "预热站状态"
+    ]
+  },
+  "ConveyorSettingControl": {
+    "btnSave": [
+      "保存"
+    ],
+    "grpConveyorSpeed": [
+      "轨道速度设定"
+    ],
+    "lblConveyorSpeed": [
+      "(mm/s)"
+    ],
+    "grpSMEMAMode": [
+      "SMEMA模式设定"
+    ],
+    "groupBox2": [
+      "发出信号"
+    ],
+    "rdoContinuousSignal": [
+      "持续信号"
+    ],
+    "lblPulse": [
+      "脉冲持续时间(ms):"
+    ],
+    "rdoPulseSignal": [
+      "脉冲信号"
+    ],
+    "groupBox1": [
+      "接受信号"
+    ],
+    "rdoReceiveIsPulse": [
+      "脉冲信号"
+    ],
+    "rdoReceiveIsContinues": [
+      "持续信号"
+    ],
+    "DownStreamStuckTime": [
+      "下游设备卡板判定时长(ms):"
+    ],
+    "lblUpStreamStuckTime": [
+      "上游设备卡板判定时长(ms):"
+    ],
+    "grpStandaloneMode": [
+      "无通讯模式设定"
+    ],
+    "grpExitMode": [
+      "出板方式选择"
+    ],
+    "rdoManualTake": [
+      "手动取板"
+    ],
+    "rdoStraightExit": [
+      "直接流出"
+    ],
+    "grpEnterMode": [
+      "进板方式选择"
+    ],
+    "rdoManualPut": [
+      "手动放板"
+    ],
+    "rdoEnterSensor": [
+      "自动感应"
+    ],
+    "grpAutoMode": [
+      "自动运行模式"
+    ],
+    "rdoStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoSMEMAMode": [
+      "SMEMA模式"
+    ],
+    "grpConveyorDirection": [
+      "轨道进出方向"
+    ],
+    "rdoRight2Right": [
+      "右进右出"
+    ],
+    "rdoLeft2Left": [
+      "左进左出"
+    ],
+    "rdoRight2Left": [
+      "右进左出"
+    ],
+    "rdoLeft2Right": [
+      "左进右出"
+    ],
+    "grpSitesCount": [
+      "轨道子站数量选择"
+    ],
+    "rdoTripleSites": [
+      "三站"
+    ],
+    "rdoSingleSite": [
+      "单站"
+    ],
+    "grpFinishedSite": [
+      "成品站参数"
+    ],
+    "lblFinishedSiteHeatingTime": [
+      "加热时长(ms):"
+    ],
+    "lblFinishedSiteLongMoveDistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblFinishedSiteShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "grpWorkingSite": [
+      "点胶站参数"
+    ],
+    "lblWorkingHeatingTime": [
+      "加热时长(ms):"
+    ],
+    "lblWorkingSiteExitDistance": [
+      "阻挡到出口距离(mm):"
+    ],
+    "lblWorkingSiteLongMoveSistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblWorkingSiteShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "grpUnifiedParam": [
+      "统一设定参数"
+    ],
+    "lblBoardLeftDelay": [
+      "出板完成延时(ms):"
+    ],
+    "lblStuckCoefficent": [
+      "卡板距离系数:"
+    ],
+    "lblCheckTime": [
+      "残留板检测时长(ms):"
+    ],
+    "lblLiftDelay": [
+      "压板到位延时(ms):"
+    ],
+    "lblStopperDelay": [
+      "阻挡到位延时(ms):"
+    ],
+    "grpPresite": [
+      "预热站参数"
+    ],
+    "lblPreHeatingTIme": [
+      "加热时长(ms):"
+    ],
+    "lblLongMoveDistance": [
+      "入口到定位距离(mm):"
+    ],
+    "lblPreShortMoveDistance": [
+      "定位到阻挡距离(mm):"
+    ],
+    "tabBaseSetting": [
+      "基础设定"
+    ],
+    "tabSubsitesSetting": [
+      "运行参数设定"
+    ],
+    "lblAccTime": [
+      "加减速时间(s):"
+    ],
+    "groupBox3": [
+      "交互方式"
+    ],
+    "chkSingleInteraction": [
+      "单边"
+    ],
+    "groupBox4": [
+      "出板运行模式"
+    ],
+    "rdoExitStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoExitSMEMAMode": [
+      "SMEMA模式"
+    ],
+    "rdoEnterStandaloneMode": [
+      "无通讯模式"
+    ],
+    "rdoEnterSMEMAMode": [
+      "SMEMA模式"
+    ],
+    "rdoDispenseAndInsulation": [
+      "点胶+保温"
+    ],
+    "rdoPreAndDispense": [
+      "预热+点胶"
+    ]
+  },
+  "MainForm": {
+    "tplProgram": [
+      "轨迹",
+      "相机"
+    ],
+    "tplRunInfo": [
+      "运行信息"
+    ],
+    "tplManual": [
+      "手动操作",
+      "轨道操作"
+    ],
+    "tplAlarm": [
+      "报警信息"
+    ],
+    "tplPos": [
+      "当前坐标"
+    ]
+  },
+  "RunInfoControl": {
+    "label2": [
+      "完成数量"
+    ],
+    "label10": [
+      "程序名"
+    ],
+    "label9": [
+      "异常数量"
+    ],
+    "label8": [
+      "运行开始日期"
+    ],
+    "label7": [
+      "运行开始时间"
+    ],
+    "label6": [
+      "循环时间"
+    ],
+    "label5": [
+      "生产数量"
+    ],
+    "label4": [
+      "设定生产数量"
+    ],
+    "label1": [
+      "运行模式"
+    ],
+    "RunModeWet": [
+      "点胶模式"
+    ],
+    "RunModeDry": [
+      "空跑模式"
+    ],
+    "RunModeLook": [
+      "相机模式"
+    ]
+  },
+  "ProgramControl": {
+    "tsbNew": [
+      "新建"
+    ],
+    "tsbOpen": [
+      "打开"
+    ],
+    "tsbSave": [
+      "保存"
+    ],
+    "tsbCopy": [
+      "复制"
+    ],
+    "tsbCut": [
+      "剪切"
+    ],
+    "tsbPaste": [
+      "粘贴"
+    ],
+    "tsbRun": [
+      "运行"
+    ],
+    "tsbSingle": [
+      "单步"
+    ],
+    "tsbPause": [
+      "暂停"
+    ],
+    "tsbAbort": [
+      "停止"
+    ],
+    "tsbDoScale": [
+      "称重"
+    ],
+    "tsbDoPurge": [
+      "清洗"
+    ],
+    "tsbSetting": [
+      "程序设置"
+    ],
+    "tsbSystemLoc": [
+      "系统坐标"
+    ],
+    "tsbBoardOut": [
+      "一键出板"
+    ],
+    "tsbBoardIn": [
+      "一键进板"
+    ],
+    "tsbInspection": [
+      "检测"
+    ],
+    "tsbConveyorWidth": [
+      "调幅"
+    ],
+    "tsbDisable": [
+      "禁用"
+    ],
+    "tsbComments": [
+      "注释"
+    ],
+    "tsbMark": [
+      "Mark"
+    ],
+    "tsbHS": [
+      "测高"
+    ],
+    "tsbDot": [
+      "点"
+    ],
+    "tsbSingleLine": [
+      "线"
+    ],
+    "tsbPolyLine": [
+      "多段线"
+    ],
+    "tsbLine": [
+      "批量线操作"
+    ],
+    "tsbCircle": [
+      "圆"
+    ],
+    "tsbArc": [
+      "圆弧"
+    ],
+    "tsbSnake": [
+      "蛇形线"
+    ],
+    "tsbNewPattern": [
+      "新建Pattern"
+    ],
+    "tsbDoPatten": [
+      "执行Pattern"
+    ],
+    "tsbMultiPassPatten": [
+      "Multipass Pattern"
+    ],
+    "tsbPassBlock": [
+      "Pass Block"
+    ],
+    "tsbLoopBlock": [
+      "Loop Pass"
+    ],
+    "tsbNormalTimer": [
+      "Normal Timer"
+    ],
+    "tsbFinishShot": [
+      "Finish Shot"
+    ],
+    "tsbMatrixTimer": [
+      "Matrix Timer"
+    ],
+    "tsbArray": [
+      "单拼板阵列"
+    ],
+    "tsbMultiPatternArray": [
+      "多拼板阵列"
+    ],
+    "tsbMatrix": [
+      "分组拼板阵列"
+    ],
+    "tsbMove": [
+      "移动"
+    ],
+    "tsbPurge": [
+      "清洗"
+    ],
+    "tsbChangeSpeed": [
+      "变速"
+    ],
+    "tsbFluidMode": [
+      "Wet",
+      "Dry",
+      "Look",
+      "AdjustLine",
+      "InspectRect",
+      "InspectDot"
+    ],
+    "tsbConveyorSelected": [
+      "Conveyor1",
+      "Conveyor2"
+    ],
+    "tsbLastStep": [
+      "上一步"
+    ],
+    "tsbNextStep": [
+      "下一步"
+    ],
+    "tsbNozzleCheck": [
+      "检查点"
+    ],
+    "tsbBatchUpdate": [
+      "属性批量修改"
+    ],
+    "tsbASVMark": [
+      "ASV Mark"
+    ],
+    "msgBatchUpdateTip1": [
+      "没有点胶轨迹被选中。"
+    ],
+    "msgBatchUpdateTip2": [
+      "没有任何指令被选中。"
+    ]
+  },
+  "JogForm": {
+    "JogForm": [
+      "手动界面"
+    ],
+    "gbxJog": [
+      ""
+    ],
+    "lblValve2": [
+      "阀2"
+    ],
+    "lblValve1": [
+      "阀1"
+    ],
+    "btnValve2Stop": [
+      ""
+    ],
+    "btnValve2Spray": [
+      ""
+    ],
+    "btnAir2": [
+      "气压2"
+    ],
+    "btnEditValve2": [
+      "阀参数"
+    ],
+    "btnValve1Stop": [
+      ""
+    ],
+    "btnValve1Spray": [
+      ""
+    ],
+    "btnAir1": [
+      "气压1"
+    ],
+    "btnShow": [
+      "<<"
+    ],
+    "btnEditValve1": [
+      "阀参数"
+    ]
+  },
+  "LaserControl": {
+    "groupBox1": [
+      "激光尺"
+    ],
+    "btnStatus": [
+      "状态"
+    ],
+    "btnMeasure": [
+      "执行测量"
+    ],
+    "btnRead": [
+      "读取"
+    ]
+  },
+  "SetupVisionForm": {
+    "SetupVisionForm": [
+      "相机设置"
+    ],
+    "cbxReverseY": [
+      "反转Y"
+    ],
+    "cbxReverseX": [
+      "反转X"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "label1": [
+      "型号:"
+    ]
+  },
+  "DialogCPK": {
+    "DialogCPK": [
+      "CPK"
+    ],
+    "groupBox1": [
+      "Z轴"
+    ],
+    "btnGoToTeach": [
+      "到位置"
+    ],
+    "btnSafeTeach": [
+      "示教"
+    ],
+    "label7": [
+      "安全位:"
+    ],
+    "btnAxisZGoTo2": [
+      "到位置"
+    ],
+    "btnAxisZTeach2": [
+      "示教"
+    ],
+    "btnAxisZGoTo1": [
+      "到位置"
+    ],
+    "btnAxisZTeach1": [
+      "示教"
+    ],
+    "label8": [
+      "结束点:"
+    ],
+    "label9": [
+      "开始点:"
+    ],
+    "btnAxisZ": [
+      "执行"
+    ],
+    "gpbAxisY": [
+      "Y轴"
+    ],
+    "label6": [
+      "Z轴高度:"
+    ],
+    "btnAxisYGoTo2": [
+      "到位置"
+    ],
+    "btnAxisYTeach2": [
+      "示教"
+    ],
+    "btnAxisYGoTo1": [
+      "到位置"
+    ],
+    "btnAxisYTeach1": [
+      "示教"
+    ],
+    "label3": [
+      "结束点:"
+    ],
+    "label4": [
+      "开始点:"
+    ],
+    "btnAxisY": [
+      "执行"
+    ],
+    "gpbAxisX": [
+      "X轴"
+    ],
+    "label5": [
+      "Z轴高度:"
+    ],
+    "btnAxisXGoTo2": [
+      "到位置"
+    ],
+    "btnAxisXTeach2": [
+      "示教"
+    ],
+    "btnAxisXGoTo1": [
+      "到位置"
+    ],
+    "btnAxisXTeach1": [
+      "示教"
+    ],
+    "label2": [
+      "结束点:"
+    ],
+    "label1": [
+      "开始点:"
+    ],
+    "btnAxisX": [
+      "执行"
+    ],
+    "grpExcuteOne": [
+      "阀"
+    ],
+    "btnValve1": [
+      "阀1"
+    ],
+    "btnValve2": [
+      "阀2"
+    ],
+    "Cycles": [
+      "单次点胶次数"
+    ],
+    "\t阀点胶量": [
+      "\t阀点胶量"
+    ],
+    "MeasureTimes": [
+      "测试组数"
+    ],
+    "Valve1Spec": [
+      "阀1点胶量CPK规格参数"
+    ],
+    "Valve2Spec": [
+      "阀2点胶量CPK规格参数"
+    ],
+    "AxisXSpec": [
+      "轴X定位精度CPK规格参数"
+    ],
+    "X轴定位精度CPK参数": [
+      "X轴定位精度CPK参数"
+    ],
+    "XPointsNum": [
+      "执行点数"
+    ],
+    "AxisYSpec": [
+      "轴Y定位精度CPK规格参数"
+    ],
+    "Y轴定位精度CPK参数": [
+      "Y轴定位精度CPK参数"
+    ],
+    "YPointsNum": [
+      "执行点数"
+    ],
+    "ZPointsNum": [
+      "执行点数"
+    ],
+    "Z轴定位精度CPK参数": [
+      "Z轴定位精度CPK参数"
+    ],
+    "AxisZSpec": [
+      "轴Z定位精度CPK规格参数"
+    ],
+    "Interval": [
+      "清洗组数"
+    ],
+    "CPKVelXYH": [
+      "XY轴高速"
+    ],
+    "轴CPK运行速度": [
+      "轴CPK运行速度"
+    ],
+    "CPKVelXYL": [
+      "XY轴低速"
+    ],
+    "CPKVelZH": [
+      "Z轴高速"
+    ],
+    "CPKVelZL": [
+      "Z轴低速"
+    ],
+    "btnStop": [
+      "停止"
+    ]
+  },
+  "TeachMinZ": {
+    "TeachMinZ": [
+      "Z轴软限位"
+    ],
+    "btnGoto": [
+      "到位置"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "label1": [
+      "z轴最低高度"
+    ],
+    "Tip1": [
+      "必须小于-5"
+    ]
+  },
+  "EditConveyor2Origin": {
+    "EditConveyor2Origin": [
+      "轨道2原点设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoto": [
+      "到位置"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "label5": [
+      "轨道2原点:"
+    ],
+    "label6": [
+      "Y:"
+    ],
+    "label7": [
+      "X:"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ]
+  },
+  "NewProgram1": {
+    "NewProgram1": [
+      "新建程序"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "label4": [
+      "程序原点:"
+    ],
+    "label3": [
+      "Y:"
+    ],
+    "label2": [
+      "X:"
+    ],
+    "label1": [
+      "名称:"
+    ]
+  },
+  "EditMoveAbsXyForm1": {
+    "EditMoveAbsXyForm1": [
+      "MoveAbsXy指令设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "groupBox1": [
+      "方式"
+    ],
+    "rbNeedle2": [
+      "阀2"
+    ],
+    "rbLaser": [
+      "激光尺"
+    ],
+    "rbNeedle1": [
+      "阀1"
+    ],
+    "rbCamera": [
+      "相机"
+    ]
+  },
+  "EditMoveAbsZForm1": {
+    "EditMoveAbsZForm1": [
+      "MoveAbsZ指令设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "执行"
+    ],
+    "label1": [
+      "Z:"
+    ]
+  },
+  "DialogCalibCamera": {
+    "DialogCalibCamera": [
+      "相机校正"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxROI": [
+      "ROI"
+    ],
+    "label5": [
+      "高"
+    ],
+    "label1": [
+      "宽"
+    ],
+    "label6": [
+      "Inc(mm)"
+    ],
+    "groupBox5": [
+      "视觉校正结果"
+    ],
+    "lblOffsetY": [
+      "0"
+    ],
+    "label7": [
+      "Y向偏移:"
+    ],
+    "lblOffsetX": [
+      "0"
+    ],
+    "lblScale": [
+      "1"
+    ],
+    "lblAngle": [
+      "0"
+    ],
+    "label4": [
+      "X向偏移:"
+    ],
+    "label3": [
+      "系数:"
+    ],
+    "label2": [
+      "角度:"
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "点击[下一步]载入一片板"
+    ],
+    "gbxJog": [
+      "手动"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Press [Next] to load a board."
+    ],
+    "Tip1": [
+      "Select a model and [Next]."
+    ],
+    "Tip2": [
+      "Press [Next] if model is acceptable."
+    ],
+    "Tip3": [
+      "Score1 = 0.99."
+    ],
+    "Tip4": [
+      "Press [Done] to accept results."
+    ]
+  },
+  "DialogCalibMap": {
+    "DialogCalibMap": [
+      "DialogCalibMap"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "btnVerify": [
+      "验证"
+    ],
+    "btnStop": [
+      "停止"
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "btnFind": [
+      "查找"
+    ],
+    "btnGoto": [
+      "到位置"
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "输入参数并点击下一步."
+    ],
+    "gbxJog": [
+      "手动"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ]
+  },
+  "DialogEditLocations": {
+    "DialogEditLocations": [
+      "DialogEditLocations"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "label3": [
+      "Z:"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "btnTeachLoc": [
+      "示教"
+    ],
+    "btnGo": [
+      "到位置"
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "btnNew": [
+      "添加"
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "gbxJog": [
+      "手动"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ]
+  },
+  "DialogHeight": {
+    "DialogHeight": [
+      "DialogHeight"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "gbxJog": [
+      "手动"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ]
+  },
+  "EditPattern": {
+    "EditPattern": [
+      "Pattern设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "label2": [
+      "原点:"
+    ],
+    "label1": [
+      "名称:"
+    ],
+    "btnReverse": [
+      "Reverse"
+    ]
+  },
+  "AddPattern1": {
+    "AddPattern1": [
+      "添加Pattern"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "label2": [
+      "原点:"
+    ],
+    "label1": [
+      "名称:"
+    ]
+  },
+  "SystemPositionDefinations1": {
+    "SystemPositionDefinations1": [
+      "SystemPositionDefinations1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnChange": [
+      "修改"
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "btnAdd": [
+      "添加"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "groupBox1": [
+      "类型"
+    ],
+    "rbNeedle2": [
+      "阀2"
+    ],
+    "rbCamera": [
+      "相机"
+    ],
+    "rbLaser": [
+      "激光尺"
+    ],
+    "rbNeedle1": [
+      "阀1"
+    ],
+    "label2": [
+      "Y"
+    ],
+    "label1": [
+      "X"
+    ],
+    "label3": [
+      "名称:"
+    ]
+  },
+  "EditInspectionForm": {
+    "EditInspectionForm": [
+      "视觉流程编辑"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "label3": [
+      "位置:"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "rbnPlace": [
+      "纠正到实际位置"
+    ],
+    "rbnTaught": [
+      "纠正到示教位置"
+    ],
+    "btnTest": [
+      "测试"
+    ],
+    "label1": [
+      "流程索引"
+    ],
+    "btnEdit": [
+      "编辑"
+    ],
+    "gbx1": [
+      ""
+    ]
+  },
+  "EditFinishShotForm1": {
+    "EditFinishShotForm1": [
+      "FinishShot设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label3": [
+      "点坐标:"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "btnEditDotParams": [
+      "参数"
+    ],
+    "label1": [
+      "点类型:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "AddMatrixForm": {
+    "AddMatrixForm": [
+      "AddMatrixForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "lblPatternList": [
+      "Pattern 列表:"
+    ],
+    "lblVNums": [
+      "行数:"
+    ],
+    "lblHNums": [
+      "列数:"
+    ],
+    "btnGoToVEnd": [
+      "到位置"
+    ],
+    "btnGoToHEnd": [
+      "到位置"
+    ],
+    "btnGoToOrigin": [
+      "到位置"
+    ],
+    "btnSelectVEnd": [
+      "示教"
+    ],
+    "btnSelectHEnd": [
+      "示教"
+    ],
+    "btnSelectOrigin": [
+      "示教"
+    ],
+    "lblVEnd": [
+      "垂直方向终点:"
+    ],
+    "lblHEnd": [
+      "水平方向终点:"
+    ],
+    "label1": [
+      "起点:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "lblPatternOriginList": [
+      "Pattern 原点列表:"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnLast": [
+      "上一步"
+    ]
+  },
+  "EditArcForm1": {
+    "EditArcForm1": [
+      "圆弧设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnCenterGoTo": [
+      "到位置"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnEndGoTo": [
+      "到位置"
+    ],
+    "btnMiddleGoTo": [
+      "到位置"
+    ],
+    "btnStartGoTo": [
+      "到位置"
+    ],
+    "btnSelectCenter": [
+      "示教"
+    ],
+    "btnSelectMiddle": [
+      "示教"
+    ],
+    "btnSelectEnd": [
+      "示教"
+    ],
+    "lblDegree": [
+      "角度:"
+    ],
+    "btnSelectStart": [
+      "示教"
+    ],
+    "label9": [
+      ":"
+    ],
+    "label8": [
+      ":"
+    ],
+    "label7": [
+      ":"
+    ],
+    "label6": [
+      ":"
+    ],
+    "lblCenter": [
+      "圆心:"
+    ],
+    "lblEnd": [
+      "终点:"
+    ],
+    "lblMiddle": [
+      "中间点:"
+    ],
+    "lblStart": [
+      "起点:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnEditLineParams": [
+      "参数"
+    ],
+    "lblLineStyle": [
+      "线类型:"
+    ],
+    "label10": [
+      "mg"
+    ],
+    "cbWeightControl": [
+      "胶量模式"
+    ],
+    "gbxArcMethod": [
+      "设定方式"
+    ],
+    "rbCenter": [
+      "中心"
+    ],
+    "rbSME": [
+      "SME"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "EditCircleForm1": {
+    "EditCircleForm1": [
+      "圆设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnCenterGoTo": [
+      "到位置"
+    ],
+    "btnSelectCenter": [
+      "示教"
+    ],
+    "btnEndGoTo": [
+      "到位置"
+    ],
+    "btnSelectEnd": [
+      "示教"
+    ],
+    "btnMiddleGoTo": [
+      "到位置"
+    ],
+    "btnSelectMiddle": [
+      "示教"
+    ],
+    "btnStartGoTo": [
+      "到位置"
+    ],
+    "btnSelectStart": [
+      "示教"
+    ],
+    "label5": [
+      "角度:"
+    ],
+    "label4": [
+      "圆心:"
+    ],
+    "label3": [
+      "终点:"
+    ],
+    "label2": [
+      "中间点:"
+    ],
+    "label1": [
+      "起点:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "cbWeightControl": [
+      "胶量模式"
+    ],
+    "btnEditLineParams": [
+      "参数"
+    ],
+    "label7": [
+      "mg"
+    ],
+    "label6": [
+      "线类型:"
+    ],
+    "groupBox1": [
+      "设定方式"
+    ],
+    "rbCenter": [
+      "中心"
+    ],
+    "rbSME": [
+      "SME"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "EditDoForm1": {
+    "EditDoForm1": [
+      "Do指令"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "原点:"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Pattern 列表:"
+    ],
+    "ckbReverse": [
+      "Reverse"
+    ],
+    "label3": [
+      "指定阀 :"
+    ]
+  },
+  "EditDoMultipassForm1": {
+    "EditDoMultipassForm1": [
+      "EditDoMultipassForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "label2": [
+      "原点:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Pattern 列表:"
+    ]
+  },
+  "EditDotForm1": {
+    "EditDotForm1": [
+      "点设置"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "lblDotLocation": [
+      "点坐标:"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "cbWeightControl": [
+      "胶量模式"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "btnEditDotParams": [
+      "参数"
+    ],
+    "label1": [
+      "点类型:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ],
+    "ckbShotNums": [
+      "胶点数"
+    ]
+  },
+  "EditBoardHeightForm": {
+    "EditBoardHeightForm": [
+      "距板高度"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "lblPosition": [
+      "位置:"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnTeachAbsZ": [
+      "示教Z轴"
+    ],
+    "label1": [
+      "Z轴高度:"
+    ]
+  },
+  "EditMultiLinesForm": {
+    "EditMultiLinesForm": [
+      "EditMultiLinesForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "btnLineType": [
+      "线类型"
+    ],
+    "label2": [
+      "Line Points:"
+    ],
+    "btnEditWt": [
+      "编辑"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "cbWeightControl": [
+      "重量控制"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnGoToOffset": [
+      "到位置"
+    ],
+    "btnSelectOffset": [
+      "示教"
+    ],
+    "label3": [
+      "偏差"
+    ],
+    "label1": [
+      "mm"
+    ],
+    "label4": [
+      "起点:"
+    ],
+    "btnGotoStart": [
+      "到位置"
+    ],
+    "btnSelectStart": [
+      "示教"
+    ],
+    "btnAdd": [
+      "添加"
+    ],
+    "label5": [
+      "终点:"
+    ],
+    "btnSelectEnd": [
+      "示教"
+    ],
+    "btnGoToEnd": [
+      "到位置"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "EditMeasureHeightForm1": {
+    "EditMeasureHeightForm1": [
+      "EditMeasureHeightForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "label1": [
+      "位置:"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "gbx1": [
+      ""
+    ]
+  },
+  "EditPolyLineForm": {
+    "EditPolyLineForm": [
+      "EditPolyLineForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnGoToOffset": [
+      "到位置"
+    ],
+    "btnSelectOffset": [
+      "示教"
+    ],
+    "label1": [
+      "偏差"
+    ],
+    "btnLineStyle": [
+      "线类型"
+    ],
+    "btnEditWeight": [
+      "编辑"
+    ],
+    "btnAdd": [
+      "添加"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "cbWeightControl": [
+      "重量控制"
+    ],
+    "btnGotoStart": [
+      "到位置"
+    ],
+    "btnSelectStart": [
+      "示教"
+    ],
+    "label4": [
+      "点:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "label2": [
+      "PolyLine Points:"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "EditSingleLineForm": {
+    "EditSingleLineForm": [
+      "EditSingleLineForm"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "label7": [
+      "InspectionKey:"
+    ],
+    "btnGotoOffset": [
+      "到位置"
+    ],
+    "btnOffset": [
+      "示教"
+    ],
+    "label6": [
+      "mm"
+    ],
+    "label2": [
+      "偏差"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "cbWeightControl": [
+      "重量控制"
+    ],
+    "btnEditLineParams": [
+      "编辑"
+    ],
+    "label1": [
+      "线类型:"
+    ],
+    "btnGoToEnd": [
+      "到位置"
+    ],
+    "btnGotoStart": [
+      "到位置"
+    ],
+    "btnSelectEnd": [
+      "示教"
+    ],
+    "btnSelectStart": [
+      "示教"
+    ],
+    "label5": [
+      "终点:"
+    ],
+    "label4": [
+      "起点:"
+    ],
+    "gbx1": [
+      "10"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ]
+  },
+  "EditSnakeLineForm1": {
+    "EditSnakeLineForm1": [
+      "编辑蛇形线轨迹"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "button1": [
+      "线类型"
+    ],
+    "btnEditWt": [
+      "编辑"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "cbWeightControl": [
+      "重量控制"
+    ],
+    "label2": [
+      "line numbers:"
+    ],
+    "btnPoint3GoTo": [
+      "到位置"
+    ],
+    "btnPoint2GoTo": [
+      "到位置"
+    ],
+    "btnPoint1GoTo": [
+      "到位置"
+    ],
+    "btnPoint3Select": [
+      "示教"
+    ],
+    "btnPoint2Select": [
+      "示教"
+    ],
+    "btnPoint1Select": [
+      "示教"
+    ],
+    "label7": [
+      "点 2:"
+    ],
+    "label5": [
+      "点 3:"
+    ],
+    "label3": [
+      "点 1:"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "label1": [
+      "Line Points:"
+    ],
+    "btnNextCmdLine": [
+      "下一指令"
+    ],
+    "btnLastCmdLine": [
+      "上一指令"
+    ],
+    "chkContinuous": [
+      "Continuous"
+    ]
+  },
+  "EditStepAndRepeatForm1": {
+    "EditStepAndRepeatForm1": [
+      "EditStepAndRepeatForm1"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label1": [
+      "Pattern 列表:"
+    ],
+    "btnGoToVEnd": [
+      "到位置"
+    ],
+    "btnGoToHEnd": [
+      "到位置"
+    ],
+    "btnGoToOrigin": [
+      "到位置"
+    ],
+    "btnTeachVEnd": [
+      "示教"
+    ],
+    "btnTeachHEnd": [
+      "示教"
+    ],
+    "btnTeachOrigin": [
+      "示教"
+    ],
+    "label7": [
+      "Y方向终点:"
+    ],
+    "label6": [
+      "X方向终点:"
+    ],
+    "label4": [
+      "列数量"
+    ],
+    "label5": [
+      "原点:"
+    ],
+    "label3": [
+      "行数量"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDisable": [
+      "删除选中"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "label2": [
+      "Patterns:"
+    ]
+  },
+  "EditStepAndRepeatForm2": {
+    "EditStepAndRepeatForm2": [
+      "EditStepAndRepeatForm2"
+    ],
+    "gbx2": [
+      ""
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label1": [
+      "Pattern列表:"
+    ],
+    "btnGoToVEnd": [
+      "到位置"
+    ],
+    "btnGoToHEnd": [
+      "到位置"
+    ],
+    "btnGoToOrigin": [
+      "到位置"
+    ],
+    "btnTeachVEnd": [
+      "示教"
+    ],
+    "btnTeachHEnd": [
+      "示教"
+    ],
+    "btnTeachOrigin": [
+      "示教"
+    ],
+    "label7": [
+      "Y方向终点:"
+    ],
+    "label6": [
+      "X方向终点:"
+    ],
+    "label4": [
+      "列数量"
+    ],
+    "label5": [
+      "起点:"
+    ],
+    "label3": [
+      "行数量"
+    ],
+    "gbx1": [
+      ""
+    ],
+    "btnDisable": [
+      "禁用"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "label2": [
+      "Patterns:"
+    ]
+  },
+  "ConveyorSettingForm": {
+    "ConveyorSettingForm": [
+      "ConveyorSettingForm"
+    ],
+    "rdoConveyor2": [
+      "轨道2"
+    ],
+    "rdoConveyor1": [
+      "轨道1"
+    ],
+    "btnConnectCheck": [
+      "Connect Check"
+    ]
+  },
+  "DialogBadMarkFind": {
+    "DialogBadMarkFind": [
+      "DialogBadMarkFind"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "tbgModel": [
+      "模式l"
+    ],
+    "CameraSetting": [
+      "相机参数"
+    ],
+    "label3": [
+      "镇定时间"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "阈值"
+    ],
+    "lblTolerance": [
+      "容差"
+    ],
+    "AcceptThreshold": [
+      "接受值"
+    ],
+    "ModelSize": [
+      "模板范围"
+    ],
+    "ModelHeight": [
+      "模板高度"
+    ],
+    "ModelWidth": [
+      "宽"
+    ],
+    "SearchWindow": [
+      "查找范围"
+    ],
+    "DetectHeight": [
+      "高"
+    ],
+    "DetectWidth": [
+      "宽"
+    ],
+    "tbgTest": [
+      "测试"
+    ],
+    "btnGotoTaught": [
+      "去示教点"
+    ],
+    "btnShowModel": [
+      "显示模板"
+    ],
+    "btnTest": [
+      "测试"
+    ],
+    "gbResult": [
+      "结果"
+    ],
+    "label2": [
+      "偏差"
+    ],
+    "label1": [
+      "示教位置"
+    ],
+    "lbFoundLoc": [
+      "查找位置"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "时间"
+    ],
+    "lbStatus": [
+      "状态"
+    ],
+    "gbSetup": [
+      "设置"
+    ],
+    "cbSettle": [
+      "等待"
+    ],
+    "rbFindInPlace": [
+      "纠正到实际位置"
+    ],
+    "rbFindAtTaught": [
+      "纠正到示教位置"
+    ],
+    "tbgFindType": [
+      "类型"
+    ],
+    "gbxFindResult": [
+      "结果处理"
+    ],
+    "rdoNGSkip": [
+      "NG后跳过"
+    ],
+    "rdoOKSkip": [
+      "Ok后跳过"
+    ],
+    "gbxFindType": [
+      "查找类型"
+    ],
+    "rdoModel": [
+      "模板匹配"
+    ],
+    "rdoGray": [
+      "灰度匹配"
+    ],
+    "tbgGray": [
+      "灰度"
+    ]
+  },
+  "DialogMarkModelFind": {
+    "DialogMarkModelFind": [
+      "DialogMarkModelFind"
+    ],
+    "groupBox1": [
+      ""
+    ],
+    "gbxContent": [
+      ""
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "tbgModel": [
+      "模板l"
+    ],
+    "CameraSetting": [
+      "相机设置"
+    ],
+    "label3": [
+      "稳定时间"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "阈值"
+    ],
+    "lblTolerance": [
+      "容差"
+    ],
+    "AcceptThreshold": [
+      "接受值"
+    ],
+    "ModelSize": [
+      "模板范围"
+    ],
+    "ModelHeight": [
+      "高"
+    ],
+    "ModelWidth": [
+      "宽"
+    ],
+    "SearchWindow": [
+      "查找范围"
+    ],
+    "DetectHeight": [
+      "高"
+    ],
+    "DetectWidth": [
+      "宽"
+    ],
+    "tbgTest": [
+      "测试"
+    ],
+    "btnGotoTaught": [
+      "去示教位"
+    ],
+    "btnShowModel": [
+      "显示模板"
+    ],
+    "btnTest": [
+      "测试"
+    ],
+    "gbResult": [
+      "结果"
+    ],
+    "label2": [
+      "差值"
+    ],
+    "label1": [
+      "示教位置"
+    ],
+    "lbFoundLoc": [
+      "查找位置"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "时间"
+    ],
+    "lbStatus": [
+      "状态"
+    ],
+    "gbSetup": [
+      "设置"
+    ],
+    "cbSettle": [
+      "等待"
+    ],
+    "rbFindInPlace": [
+      "纠正到实际位置"
+    ],
+    "rbFindAtTaught": [
+      "纠正到示教位置"
+    ]
+  },
+  "CalculateSlopeAmongVavel1AndVavel2": {
+    "CalculateSlopeAmongVavel1AndVavel2": [
+      "Anda Fluid - 计算主阀与副阀坐标系偏差"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpResult": [
+      "结果"
+    ],
+    "label2": [
+      "Axis B:"
+    ],
+    "label1": [
+      "Axis A:"
+    ],
+    "grpVavelParam": [
+      "阀参数"
+    ],
+    "btnEditDot": [
+      "编辑"
+    ],
+    "grpCorrectionAxis": [
+      "校正位置"
+    ],
+    "rdoAxisAandB": [
+      "Axis A&B"
+    ],
+    "rdoAxisB": [
+      "Axis B"
+    ],
+    "rdoAxisA": [
+      "Axis A"
+    ],
+    "grpCorrectionMode": [
+      "校正模式"
+    ],
+    "rdoDispenseMode": [
+      "点胶模式"
+    ],
+    "rdoPlasticineMode": [
+      "橡皮泥模式"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "选择轴和校正模式."
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "选择校正模式及校正轴，机台准备运动."
+    ],
+    "Tip1": [
+      "使用相机:选取在正限位的胶枪位置."
+    ],
+    "Tip2": [
+      "Move to Plasticine postion in Positive Limit and make a Pit."
+    ],
+    "Tip3": [
+      "Dispensing reference dots"
+    ],
+    "Tip4": [
+      "Move to Plasticine postion in Negative Limit and make a Pit."
+    ],
+    "Tip5": [
+      "计算完成"
+    ],
+    "Tip6": [
+      "移动失败，可能触发限位，请检查。"
+    ],
+    "Tip7": [
+      "激光异常"
+    ],
+    "Tip8": [
+      "结果异常，将设为默认值."
+    ],
+    "Tip9": [
+      "Align camera on needle mark and press [Next]"
+    ]
+  },
+  "CalculateTheNeedleXYOffset": {
+    "CalculateTheNeedleXYOffset": [
+      "Anda Fluid - Calculate the needle XY offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnEditDot": [
+      "编辑"
+    ],
+    "grpVerification": [
+      "验证"
+    ],
+    "lblmm4": [
+      "mm"
+    ],
+    "lblDot4": [
+      "点4偏差:"
+    ],
+    "lblmm3": [
+      "mm"
+    ],
+    "lblDot3": [
+      "点3偏差:"
+    ],
+    "lblmm2": [
+      "mm"
+    ],
+    "lblDot2": [
+      "点2偏差:"
+    ],
+    "rdoFail": [
+      "失败"
+    ],
+    "rdoOK": [
+      "成功"
+    ],
+    "lblResult": [
+      "结果:"
+    ],
+    "lblmm": [
+      "mm"
+    ],
+    "lblTolerance": [
+      "容差:(±)"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Place substrate and prepare the machine move."
+    ],
+    "Tip1": [
+      "Use Camera:Teach center point of substrate."
+    ],
+    "Tip2": [
+      "激光异常"
+    ],
+    "Tip3": [
+      "Dispensing reference dot 1..."
+    ],
+    "Tip4": [
+      "Dispensing reference dot 2..."
+    ],
+    "Tip5": [
+      "Dispensing reference dot 3..."
+    ],
+    "Tip6": [
+      "Dispensing reference dot 4..."
+    ],
+    "Tip7": [
+      "Task has done,press [Next]"
+    ],
+    "Tip8": [
+      "Align camera on dot1 and press [Teach]"
+    ],
+    "Tip9": [
+      "Align camera on dot2 and press [Teach]"
+    ],
+    "Tip10": [
+      "Align camera on dot3 and press [Teach]"
+    ],
+    "Tip11": [
+      "Align camera on dot4 and press [Teach]"
+    ],
+    "Tip12": [
+      "Press [Done] to accept results"
+    ]
+  },
+  "TeachPrime": {
+    "TeachPrime": [
+      "TeachFormBase"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "示教Z"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "中心位置: "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "选择示教方式并点击[下一步]."
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "说明"
+    ],
+    "Tip3": [
+      "使用相机标识吐液位中心. \r点击 [示教] 继续."
+    ],
+    "Tip4": [
+      "使用相机标识吐液位中心并点击 [示教] 继续."
+    ],
+    "Tip5": [
+      "使用相机标识吐液位圆周上第1点. \r点击 [示教] 继续."
+    ],
+    "Tip6": [
+      "使用相机标识吐液位圆周上第1点并点击 [示教]."
+    ],
+    "Tip7": [
+      "使用相机标识吐液位圆周上第2点. \r点击 [示教] 继续."
+    ],
+    "Tip8": [
+      "使用相机标识吐液位圆周上第2点并点击 [示教]."
+    ],
+    "Tip9": [
+      "使用相机标识吐液位圆周上第3点. \r点击 [示教] 继续."
+    ],
+    "Tip10": [
+      "使用相机标识吐液位圆周上第3点并点击 [示教]."
+    ],
+    "Tip11": [
+      "正在寻找吐液位中心..."
+    ],
+    "Tip12": [
+      "正在寻找..."
+    ],
+    "Tip13": [
+      "运动结束.\r可以观察喷嘴是否在吐液位中心位置.\r如果在中心位置点击 [完成] .\r如果不在吐液位中心位置，必要时请重新校正喷嘴与相机偏移."
+    ],
+    "Tip14": [
+      "运动结束,点击[完成]."
+    ],
+    "Tip15": [
+      "示教吐液位坐标\r\n使用相机\r\n\r\n\r\n\r\n\r\n示教一个中心点\r\n\r\n           or\r\n\r\n示教圆周上3个点\r\n\r\n\r\n\r\n\r\n警告:喷嘴将设置后运行"
+    ]
+  },
+  "TeachLaserToCamera": {
+    "TeachLaserToCamera": [
+      "Anda Fluidmove-Teach laser to camera XY offset "
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "点击下一步，轴将开始运动."
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "Operation"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "The Machine will move, press [Next] to continue."
+    ],
+    "Tip1": [
+      "Align laser on mark and press [Teach]"
+    ],
+    "Tip2": [
+      "Align camera on laser mark and press [Teach]"
+    ],
+    "Tip3": [
+      "Teach the distance\r\nof Laser with Camera\r\nusing mark point.\r\n\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachNeedleToCamera": {
+    "TeachNeedleToCamera": [
+      "Anda Fluidmove-Teach needle to camera XY offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "The Machine will move, press [Next] to continue."
+    ],
+    "Tip1": [
+      "Align needle on mark and press [Teach]"
+    ],
+    "Tip2": [
+      "Align camera on needle mark and press [Teach]"
+    ],
+    "Tip3": [
+      "Teach the distance\r\nof Needle with Camera\r\nusing mark point.\r\n\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachNeedleToHeightSensor": {
+    "TeachNeedleToHeightSensor": [
+      "Anda Fluid move - Teach Needle to Height Sensor Z Offset"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "lblVelocity": [
+      "Descent Velocity of Z:"
+    ],
+    "lblCycles": [
+      "Measurement cycles:"
+    ],
+    "lblTolerance": [
+      "Offset tolerance +/-:"
+    ],
+    "lblZOffsetResult": [
+      "Needle to probe Z offset:"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Target centre point on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip3": [
+      "Target tactile centre point and press [Teach]."
+    ],
+    "Tip4": [
+      "Instructions"
+    ],
+    "Tip5": [
+      "Target circumference point 1 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target tactile circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target tactile circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on tactile using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target tactile circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "This machine will move it's parts. \rKeep safe distance and press [Next] to continue."
+    ],
+    "Tip12": [
+      "Prepare for machine's parts move and press [Next]"
+    ],
+    "Tip13": [
+      "Measuring the Z height..."
+    ],
+    "Tip14": [
+      "Measurement has ended..."
+    ],
+    "Tip15": [
+      "Measurement has ended,press[Done]."
+    ],
+    "Tip16": [
+      "Running cycle"
+    ],
+    "Tip17": [
+      "可能触发限位，建议检查限位位置."
+    ],
+    "Tip18": [
+      "激光读取失败."
+    ],
+    "Tip19": [
+      "可能触发Z轴软限位，建议重设软限位位置."
+    ],
+    "Tip20": [
+      "Vavel2 Z Offset"
+    ],
+    "Tip21": [
+      "connected"
+    ],
+    "Tip22": [
+      "disconnected"
+    ],
+    "Tip23": [
+      "failed"
+    ],
+    "Tip24": [
+      "Teach center of tactile\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachPurge": {
+    "TeachPurge": [
+      "Anda Fluidmove - Teach location for Valve Purge location"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "拾取Z位置"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "中心位置 : "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "选择示教方式并点击下一步"
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Instructions"
+    ],
+    "Tip3": [
+      "Target centre of Purge boot using camera. \rPress[Teach] to continue."
+    ],
+    "Tip4": [
+      "Target centre of Purge boot and press [Teach]."
+    ],
+    "Tip5": [
+      "Target circumference point 1 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target purge circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target purge circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on Purge using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target purge circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "Height sense will be performed at location viewed by camera.\rAdjust height sense location if necessary.\rPress [Teach] to continue."
+    ],
+    "Tip12": [
+      "Target height sense location on purge cup lid."
+    ],
+    "Tip13": [
+      "激光异常"
+    ],
+    "Tip14": [
+      "Looking for the Purge center..."
+    ],
+    "Tip15": [
+      "Be looking for..."
+    ],
+    "Tip16": [
+      "Move has ended,press[Done]."
+    ],
+    "Tip17": [
+      "Move has ended.\rCan observe the needle is or not in the center location of purge.\rPress [Done] if is center location.\rIf is not,maybe teach needle to camera again if necesseay."
+    ],
+    "Tip18": [
+      "Teach Purge location\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TeachSafeZ": {
+    "TeachSafeZ": [
+      "示教Z轴安全高度 "
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "lblMessage": [
+      "Move the dispense tip to a  height that is clear of obstacles \r\nwhen moving in allX-Y directions.\r\n\r\nIt is recommended tha SafeZ height be taught at the focal \r\nlength if possible."
+    ],
+    "btnGoto": [
+      "去位置"
+    ],
+    "lblValue": [
+      "值:"
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "拾取安全Z高度并点击下一步."
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Confirm Safe Z height and press [Teach]."
+    ],
+    "Tip1": [
+      "Teach compelet,Press [Done];Want again,Press [Prev]."
+    ]
+  },
+  "TeachScale": {
+    "TeachScale": [
+      "Anda Fluidmove - Teach location for Valve Scale location"
+    ],
+    "grpResultTest": [
+      ""
+    ],
+    "btnTeachZ": [
+      "拾取Z位置"
+    ],
+    "lblZDistance": [
+      "Desired Z distance between needle and cup lid\r\n(+=below lid,-=above lid)"
+    ],
+    "lblCenterLocation": [
+      "中心位置 : "
+    ],
+    "grpDisplay": [
+      ""
+    ],
+    "lblTitle": [
+      "选择示教模式并点击下一步."
+    ],
+    "grpLighting": [
+      "光源"
+    ],
+    "grpMotion": [
+      "运动"
+    ],
+    "grpOperation": [
+      "操作"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Tip0": [
+      "Teach Center Method"
+    ],
+    "Tip1": [
+      "Select teach method and press [Next]."
+    ],
+    "Tip2": [
+      "Instructions"
+    ],
+    "Tip3": [
+      "Target centre of Scale system plate using camera. \rPress[Teach] to continue."
+    ],
+    "Tip4": [
+      "Target centre of scale and press [Teach]."
+    ],
+    "Tip5": [
+      "Target circumference point 1 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip6": [
+      "Target scale circumference point 1 and press [Teach]."
+    ],
+    "Tip7": [
+      "Target circumference point 2 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip8": [
+      "Target scale circumference point 2 and press [Teach]."
+    ],
+    "Tip9": [
+      "Target circumference point 3 on Scale using camera. \rPress[Teach] to continue."
+    ],
+    "Tip10": [
+      "Target scale circumference point 3 and press [Teach]."
+    ],
+    "Tip11": [
+      "Height sense will be performed at location viewed by camera.\rAdjust height sense location if necessary.\rPress [Teach] to continue."
+    ],
+    "Tip12": [
+      "Target height sense location on scale system plate."
+    ],
+    "Tip13": [
+      "可能触发限位，建议检查限位位置"
+    ],
+    "Tip14": [
+      "激光异常"
+    ],
+    "Tip15": [
+      "Looking for the Scale center..."
+    ],
+    "Tip16": [
+      "Be looking for..."
+    ],
+    "Tip17": [
+      "Move has ended.\rCan observe the needle is or not in the center location of scale.\rPress [Done] if is center location.\rIf is not,maybe teach again if necesseay."
+    ],
+    "Tip18": [
+      "Move has ended,press[Done]."
+    ],
+    "Tip19": [
+      "Teach Scale location\r\nusing camera\r\n\r\n\r\n\r\n\r\nTeach one center point\r\n\r\n           or\r\n\r\nTeach three circumference\r\npoints\r\n\r\n\r\n\r\n\r\nWARNING:Dispenser will\r\nmove after your response"
+    ]
+  },
+  "TrajectoryDialog": {
+    "TrajectoryDialog": [
+      "离线编程"
+    ]
+  },
+  "ShowTimerForm": {
+    "ShowTimerForm": [
+      "ShowTimerForm"
+    ],
+    "label2": [
+      "0.0 s"
+    ],
+    "label1": [
+      "等待中..."
+    ]
+  },
+  "EditDotParamsForm": {
+    "EditDotParamsForm": [
+      "点参数"
+    ],
+    "tabPagePreDispense": [
+      "点胶前"
+    ],
+    "label17": [
+      "点类型 10:"
+    ],
+    "label16": [
+      "点类型 9:"
+    ],
+    "label15": [
+      "点类型 8:"
+    ],
+    "label14": [
+      "点类型 7:"
+    ],
+    "label13": [
+      "点类型 6:"
+    ],
+    "label12": [
+      "点类型 5:"
+    ],
+    "label11": [
+      "点类型 4:"
+    ],
+    "label10": [
+      "点类型 3:"
+    ],
+    "label9": [
+      "点类型 2:"
+    ],
+    "label2": [
+      "点类型 1:"
+    ],
+    "label7": [
+      "[pulse/sec2]"
+    ],
+    "label5": [
+      "[mm/sec]"
+    ],
+    "label3": [
+      "[sec]"
+    ],
+    "lblNotes": [
+      "备注"
+    ],
+    "lblDownAccel": [
+      "下降加速度"
+    ],
+    "lblDownSpeed": [
+      "下降速度"
+    ],
+    "lblSettlingTime": [
+      "稳定时间"
+    ],
+    "tabPageDuringDispense": [
+      "点胶中"
+    ],
+    "label32": [
+      "点类型 10:"
+    ],
+    "label31": [
+      "点类型 9:"
+    ],
+    "label30": [
+      "点类型 8:"
+    ],
+    "label29": [
+      "点类型 7:"
+    ],
+    "label28": [
+      "点类型 6:"
+    ],
+    "label25": [
+      "[mm]"
+    ],
+    "label27": [
+      "点类型 5:"
+    ],
+    "label22": [
+      "[mm]"
+    ],
+    "label26": [
+      "点类型 4:"
+    ],
+    "lblNumShots": [
+      "喷滴点数"
+    ],
+    "label20": [
+      "点类型 3:"
+    ],
+    "lblMultiShotDelta": [
+      "Multi-shot Delta"
+    ],
+    "label19": [
+      "点类型 2:"
+    ],
+    "lblDispenseGap": [
+      "点胶高度"
+    ],
+    "label18": [
+      "点类型 1:"
+    ],
+    "tabPagePostDispense": [
+      "点胶后"
+    ],
+    "label50": [
+      "点类型 10:"
+    ],
+    "label49": [
+      "点类型 9:"
+    ],
+    "label41": [
+      "[pulse/sec2]"
+    ],
+    "label48": [
+      "点类型 8:"
+    ],
+    "label39": [
+      "[mm/sec]"
+    ],
+    "label47": [
+      "点类型 7:"
+    ],
+    "label37": [
+      "[mm]"
+    ],
+    "label46": [
+      "点类型 6:"
+    ],
+    "label35": [
+      "[sec]"
+    ],
+    "label45": [
+      "点类型 5:"
+    ],
+    "lblRetractAccel": [
+      "回抬加速度"
+    ],
+    "label44": [
+      "点类型 4:"
+    ],
+    "lblRectractSpeed": [
+      "回抬速度"
+    ],
+    "label43": [
+      "点类型 3:"
+    ],
+    "lblRetractDistance": [
+      "回抬距离"
+    ],
+    "label42": [
+      "点类型 2:"
+    ],
+    "lblDwellTime": [
+      "延时时间"
+    ],
+    "label33": [
+      "点类型 1:"
+    ],
+    "label1": [
+      "[sec]"
+    ],
+    "lblValveOnTime": [
+      "开胶时间"
+    ],
+    "label4": [
+      "[sec]"
+    ],
+    "lblSuckBackTime": [
+      "回吸时间"
+    ],
+    "lblValveOnTimeUnit": [
+      "[sec]"
+    ],
+    "lblSuckBackTimeUnit": [
+      "[sec]"
+    ]
+  },
+  "EditLineWeightForm": {
+    "EditLineWeightForm": [
+      "EditLineWeightForm"
+    ],
+    "btnEditLineStyle": [
+      "编辑"
+    ],
+    "lblAllLinesStyle": [
+      "所有线类型"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "label1": [
+      "mg"
+    ],
+    "btnApply": [
+      "应用"
+    ],
+    "rdoEach": [
+      "单个"
+    ],
+    "rdoWhole": [
+      "整体"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ]
+  },
+  "EditLoopPassForm": {
+    "EditLoopPassForm": [
+      "分组"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "到"
+    ],
+    "label1": [
+      "从"
+    ]
+  },
+  "EditMoveXyForm": {
+    "EditMoveXyForm": [
+      "Edit MoveXy"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ]
+  },
+  "AddPassBlockForm": {
+    "AddPassBlockForm": [
+      "Add pass block"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "--"
+    ],
+    "lblIndexFrom": [
+      "从"
+    ]
+  },
+  "EditStartPassForm": {
+    "EditStartPassForm": [
+      "Edit start pass"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label1": [
+      "当前index :"
+    ]
+  },
+  "EditNormalTimerForm": {
+    "EditNormalTimerForm": [
+      "Edit timer"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "等待:"
+    ]
+  },
+  "EditTimerForm": {
+    "EditTimerForm": [
+      "Edit timer"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "等待:"
+    ]
+  },
+  "LoadingForm": {
+    "LoadingForm": [
+      "硬件初始化加载"
+    ],
+    "lblMessage": [
+      "加载中..."
+    ]
+  },
+  "EditCommentForm": {
+    "EditCommentForm": [
+      "注释"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "lblComment": [
+      "注释:"
+    ]
+  },
+  "EditLineParamsForm": {
+    "EditLineParamsForm": [
+      "Edit line parameters"
+    ],
+    "tabPagePreDispense": [
+      "点胶前"
+    ],
+    "label56": [
+      "[mm]"
+    ],
+    "lblOffset": [
+      "偏移"
+    ],
+    "label15": [
+      "线类型 10:"
+    ],
+    "label14": [
+      "线类型 9:"
+    ],
+    "label13": [
+      "线类型 8:"
+    ],
+    "label12": [
+      "线类型 7:"
+    ],
+    "label11": [
+      "线类型 6:"
+    ],
+    "label6": [
+      "[pulse/sec^2]"
+    ],
+    "label10": [
+      "线类型 5:"
+    ],
+    "label3": [
+      "[mm/sec]"
+    ],
+    "label9": [
+      "线类型 4:"
+    ],
+    "lblNotes": [
+      "备注"
+    ],
+    "label7": [
+      "线类型 3:"
+    ],
+    "lblDownAccel": [
+      "下降加速度"
+    ],
+    "label4": [
+      "线类型 2:"
+    ],
+    "lblDownSpeed": [
+      "下降速度"
+    ],
+    "label1": [
+      "线类型 1:"
+    ],
+    "lblDispenseGap": [
+      "点胶时"
+    ],
+    "label26": [
+      "[mm]"
+    ],
+    "label35": [
+      "线类型 10:"
+    ],
+    "label24": [
+      "[mm]"
+    ],
+    "label34": [
+      "线类型 9:"
+    ],
+    "label22": [
+      "[mm/sec]"
+    ],
+    "label33": [
+      "线类型 8:"
+    ],
+    "label20": [
+      "[mm/sec]"
+    ],
+    "label32": [
+      "线类型 7:"
+    ],
+    "label18": [
+      "[mm]"
+    ],
+    "label31": [
+      "线类型 6:"
+    ],
+    "lblDecelDistance": [
+      "减速距离"
+    ],
+    "label30": [
+      "线类型 5:"
+    ],
+    "lblAccelDistance": [
+      "加速距离"
+    ],
+    "label29": [
+      "线类型 4:"
+    ],
+    "lblWtCtrlSpeed": [
+      "重量控制限速"
+    ],
+    "label28": [
+      "线类型 3:"
+    ],
+    "lblSpeed": [
+      "速度"
+    ],
+    "label27": [
+      "线类型 2:"
+    ],
+    "label17": [
+      "点胶高度"
+    ],
+    "label16": [
+      "线类型 1:"
+    ],
+    "tabPagePostDispense": [
+      "点胶后"
+    ],
+    "label51": [
+      "线类型 10:"
+    ],
+    "label50": [
+      "线类型 9:"
+    ],
+    "label49": [
+      "线类型 8:"
+    ],
+    "label48": [
+      "线类型 7:"
+    ],
+    "label42": [
+      "[pulse/sec^2]"
+    ],
+    "label47": [
+      "线类型 6:"
+    ],
+    "label40": [
+      "[mm/sec]"
+    ],
+    "label46": [
+      "线类型 5:"
+    ],
+    "label38": [
+      "[mm]"
+    ],
+    "label45": [
+      "线类型 4:"
+    ],
+    "lblRetractAccel": [
+      "回抬加速度"
+    ],
+    "label44": [
+      "线类型 3:"
+    ],
+    "lblRetractSpeed": [
+      "回抬速度"
+    ],
+    "label43": [
+      "线类型 2:"
+    ],
+    "lblRetractDistance": [
+      "回抬聚类"
+    ],
+    "label36": [
+      "线类型 1:"
+    ],
+    "tabPageControl": [
+      "控制方式"
+    ],
+    "label70": [
+      "线类型 10:"
+    ],
+    "label69": [
+      "线类型 9:"
+    ],
+    "label59": [
+      "[ms]"
+    ],
+    "label68": [
+      "线类型 8:"
+    ],
+    "label67": [
+      "线类型 7:"
+    ],
+    "label55": [
+      "[mm]"
+    ],
+    "label66": [
+      "线类型 6:"
+    ],
+    "lblTotalDots": [
+      "总点数"
+    ],
+    "label65": [
+      "线类型 5:"
+    ],
+    "lblShotTimeInterval": [
+      "点胶时间间隔"
+    ],
+    "label64": [
+      "线类型 4:"
+    ],
+    "label63": [
+      "线类型 3:"
+    ],
+    "lblSpacing": [
+      "Spacing"
+    ],
+    "label62": [
+      "线类型 2:"
+    ],
+    "lblControlMode": [
+      "控制方式"
+    ],
+    "label52": [
+      "线类型 1:"
+    ],
+    "label25": [
+      "[sec]"
+    ],
+    "lblPreMoveDelay": [
+      "点胶前延时"
+    ],
+    "label8": [
+      "[sec]"
+    ],
+    "lblDwellTime": [
+      "Dwell"
+    ],
+    "label5": [
+      "[sec]"
+    ],
+    "lblSuckBackTime": [
+      "回吸"
+    ],
+    "label2": [
+      "[mm]"
+    ],
+    "lblShutoffDistance": [
+      "提前关胶距离"
+    ],
+    "label23": [
+      "[%]"
+    ],
+    "lblBacktrackDistance": [
+      "回走时间"
+    ],
+    "label21": [
+      "[sec]"
+    ],
+    "lblBacktrackSpeed": [
+      "回走速度"
+    ],
+    "label19": [
+      "[mm]"
+    ],
+    "lblBacktrackGap": [
+      "回抬高度"
+    ]
+  },
+  "EditMoveToLocationForm": {
+    "EditMoveToLocationForm": [
+      "运动到功能位"
+    ],
+    "btnEdit": [
+      "编辑"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label1": [
+      "系统位置:"
+    ]
+  },
+  "SVOForm": {
+    "SVOForm": [
+      "十步校正"
+    ],
+    "grpTask": [
+      "步骤描述"
+    ],
+    "btnSetting": [
+      "设置"
+    ],
+    "btnExit": [
+      "退出"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnReset": [
+      "重置"
+    ],
+    "btnSingleStep": [
+      "单步"
+    ],
+    "btnRunToEnd": [
+      "运行到结尾"
+    ],
+    "tabVavel1": [
+      "阀1步骤"
+    ],
+    "chkVavel1Complete": [
+      "完成                                                                  "
+    ],
+    "chkTeachNeedleToCamera": [
+      "4.计算阀与相机的偏移     "
+    ],
+    "chkTeachLaserToCamera": [
+      "5.计算激光测高偏移                   "
+    ],
+    "chkTeachNeedleToHeight": [
+      "6.计算阀的相对高度                                   "
+    ],
+    "chkTeachScale": [
+      "9.示教天平坐标                                                      "
+    ],
+    "chkTeachPurge": [
+      "7.示教清洗位                                               "
+    ],
+    "chkTeachPrimer": [
+      "8.示教排胶位                                  "
+    ],
+    "chkCalculateTheNeedleXYOffset": [
+      "10.计算胶枪偏移                                                        "
+    ],
+    "chkSoftLimitZ": [
+      "1.示教Z轴软限位                                         "
+    ],
+    "chkTeachSafeZ": [
+      "2.示教Z轴安全高度                                        "
+    ],
+    "chkCameraCalibration": [
+      "3.相机校正                                               "
+    ],
+    "tabVavel2": [
+      "阀2步骤"
+    ],
+    "chkVavel2NeedleCamera": [
+      "1.粗计算阀与相机偏移     "
+    ],
+    "chkVavel2NeedleZOffset": [
+      "2.计算阀的相对高度                                   "
+    ],
+    "chkVavel2NeedleXYOffset": [
+      "3.精计算阀与相机偏移                                                       "
+    ],
+    "chkVavel2Complete": [
+      "完成                                                                  "
+    ],
+    "chkVavel2AssociateToVavel1": [
+      "4.关联阀1和阀2"
+    ],
+    "chkTeachVavel1Scrape": [
+      "11.示教擦纸带位置                          "
+    ]
+  },
+  "HeightControl": {
+    "groupBox2": [
+      "板"
+    ],
+    "btnApply": [
+      "应用"
+    ],
+    "label3": [
+      "容差-"
+    ],
+    "label2": [
+      "容差+"
+    ],
+    "label1": [
+      "标准高度"
+    ]
+  },
+  "FindCircle": {
+    "grpSwitch": [
+      "示教中心方式"
+    ],
+    "lblMessage": [
+      "label1"
+    ],
+    "rdoFindCircleThreePoint": [
+      "示教圆周上三点"
+    ],
+    "rdoFindCircleOnePoint": [
+      "示教一个中心点"
+    ]
+  },
+  "ValveSettingForm": {
+    "Cmp2dMaxErr": [
+      "最大误差"
+    ],
+    "二维比较参数": [
+      "二维比较参数"
+    ],
+    "Cmp2dThreshold": [
+      "最优阈值"
+    ],
+    "FluidMode": [
+      "控制模式"
+    ],
+    "运动参数": [
+      "运动参数"
+    ],
+    "MoveMode": [
+      "运动模式"
+    ],
+    "OnTime": [
+      "开胶时间"
+    ],
+    "阀参数": [
+      "阀参数"
+    ],
+    "OffTime": [
+      "关胶时间"
+    ],
+    "EnablePrePurgeVaccum": [
+      "启用真空吸转"
+    ],
+    "清洗参数": [
+      "清洗参数"
+    ],
+    "PrePurgeCount": [
+      "吸转圈数"
+    ],
+    "PrePurgeRadius": [
+      "圈半径"
+    ],
+    "PrePurgeDelay": [
+      "开胶延时"
+    ],
+    "PrimeDotsCount": [
+      "排胶点数"
+    ],
+    "EnableLimitChecking": [
+      "启用寿命检测"
+    ],
+    "寿命参数": [
+      "寿命参数"
+    ],
+    "CurrentCycleCount": [
+      "当前次数"
+    ],
+    "CycleCountLimit": [
+      "使用寿命"
+    ],
+    "Key": [
+      "Key"
+    ],
+    "Misc": [
+      "Misc"
+    ],
+    "EntityName": [
+      "EntityName"
+    ],
+    "ValveSettingForm": [
+      "胶阀参数设置"
+    ],
+    "btnReset": [
+      "恢复默认值"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "ScrapeEnable": [
+      "启用擦纸带"
+    ],
+    "擦纸带参数": [
+      "擦纸带参数"
+    ],
+    "ScrapeTime": [
+      "擦纸带时长"
+    ],
+    "ForwardSpeed": [
+      "送胶速度"
+    ],
+    "ReverseSpeed": [
+      "反转速度"
+    ],
+    "SuckBackTime": [
+      "回吸时间"
+    ],
+    "VacuumDelay": [
+      "真空延时"
+    ],
+    "PrimeTime": [
+      "排胶时间"
+    ],
+    "EnableFloat": [
+      "启用浮动头"
+    ],
+    "浮动头参数": [
+      "浮动头参数"
+    ],
+    "FloatOffset": [
+      "浮动头补偿"
+    ]
+  },
+  "SettingBarcodeScanControl": {
+    "lblDelimiter": [
+      "终止符"
+    ],
+    "lblCmdRead": [
+      "读取指令"
+    ],
+    "lblVendor": [
+      "品牌型号"
+    ],
+    "btnTest": [
+      "测试"
+    ]
+  },
+  "EditBadMarkForm": {
+    "EditBadMarkForm": [
+      "BadMark"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "groupBox2": [
+      "跳过模式"
+    ],
+    "rbNgSkip": [
+      "NG跳过"
+    ],
+    "rbOkSkip": [
+      "OK跳过"
+    ],
+    "groupBox1": [
+      "查找类型"
+    ],
+    "rbModelFind": [
+      "模板查找"
+    ],
+    "rbGrayScale": [
+      "灰度比"
+    ],
+    "btnEdit": [
+      "编辑"
+    ],
+    "messageTip0": [
+      "未编辑模板参数."
+    ],
+    "messageTip1": [
+      "未编辑灰度比参数"
+    ]
+  },
+  "EditModelFindForm": {
+    "EditModelFindForm": [
+      "DialogMarkModelFind"
+    ],
+    "tbgModel": [
+      "模板"
+    ],
+    "CameraSetting": [
+      "相机设置"
+    ],
+    "label3": [
+      "稳定时间"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "Threshold": [
+      "阈值"
+    ],
+    "lblTolerance": [
+      "容差"
+    ],
+    "AcceptThreshold": [
+      "接受值"
+    ],
+    "ModelSize": [
+      "模板范围"
+    ],
+    "ModelHeight": [
+      "高"
+    ],
+    "ModelWidth": [
+      "宽"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "高"
+    ],
+    "DetectWidth": [
+      "宽"
+    ],
+    "tbgTest": [
+      "测试"
+    ],
+    "btnGotoTaught": [
+      "去示教位置"
+    ],
+    "btnShowModel": [
+      "显示模板"
+    ],
+    "btnTest": [
+      "测试"
+    ],
+    "gbResult": [
+      "结果"
+    ],
+    "label2": [
+      "偏差"
+    ],
+    "label1": [
+      "示教位置"
+    ],
+    "lbFoundLoc": [
+      "查找位置"
+    ],
+    "lbConfidence": [
+      "Confidence"
+    ],
+    "lbTime": [
+      "时间"
+    ],
+    "lbStatus": [
+      "状态"
+    ],
+    "gbSetup": [
+      "设置"
+    ],
+    "cbSettle": [
+      "稳定"
+    ],
+    "rbFindInPlace": [
+      "纠正到实际位置"
+    ],
+    "rbFindAtTaught": [
+      "纠正到示教位置"
+    ],
+    "gbxCam": [
+      "相机"
+    ],
+    "lblTitle": [
+      "标题"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "选项"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnHelp": [
+      "帮助"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ]
+  },
+  "EditChangeSvSpeedForm": {
+    "EditChangeSvSpeedForm": [
+      "EditChangeSvSpeedForm"
+    ],
+    "label4": [
+      "r/s"
+    ],
+    "label3": [
+      "速度:"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label2": [
+      "ms"
+    ],
+    "label1": [
+      "等待:"
+    ]
+  },
+  "LotControlSettingForm": {
+    "LotControlSettingForm": [
+      "LotControlSettingForm"
+    ],
+    "label2": [
+      "-"
+    ],
+    "lblCutPos": [
+      "LotId位置:"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "label1": [
+      "设置Lot ID:"
+    ]
+  },
+  "ProductSettingForm": {
+    "ProductSettingForm": [
+      "生产设置"
+    ],
+    "groupBox1": [
+      "Lot管控"
+    ],
+    "cbxStartLotById": [
+      "通过ID实行Lot管控"
+    ],
+    "cbxLotControl": [
+      "开启Lot管控"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确定"
+    ]
+  },
+  "DialogCADImport": {
+    "DialogCADImport": [
+      "轨迹生成导航"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "Please click the next key to load the trajectory file": [
+      "请点击next加载轨迹文件"
+    ],
+    "Start loading ...": [
+      "开始加载..."
+    ],
+    "Successfully open the trajectory file,Please click the next key to edit Component Library": [
+      "打开轨迹文件成功，请点击next编辑元器件库"
+    ],
+    "Start editing Component Library ...": [
+      "开始编辑元器件库..."
+    ],
+    "Successfully edit the Component Library,Please click the next key to edit the trajectory": [
+      "编辑元器件库成功，请点击next编辑轨迹"
+    ],
+    "failed to edit the Component Library,Please click the next key to edit Component Library again": [
+      "编辑元器件库失败，点击next重新编辑元器件库"
+    ],
+    "Start editing the trajetory and create the pattern ...": [
+      "开始编辑轨迹并且创建pattern"
+    ],
+    "Successfully edit the trajectory,Please click the Done key to create the Pattern": [
+      "编辑轨迹成功，请点击完成"
+    ],
+    "Done": [
+      "完成"
+    ],
+    "failed to load trajectory file,Please click the next key to load the trajectory file again": [
+      "打开轨迹文件失败，请点击next重新加载轨迹文件"
+    ]
+  },
+  "TrajectoryDialog02": {
+    "TrajectoryDialog02": [
+      "轨迹编辑框"
+    ],
+    "gpbEdit": [
+      "轨迹点编辑"
+    ],
+    "lblMinX": [
+      "X最小值"
+    ],
+    "lblMaxX": [
+      "X最小值"
+    ],
+    "lblMinY": [
+      "Y最小值"
+    ],
+    "lblMaxY": [
+      "Y最大值"
+    ],
+    "lblOffsetX": [
+      "X偏移"
+    ],
+    "lblOffsetY": [
+      "Y偏移"
+    ],
+    "ckbReverseX": [
+      "反转X"
+    ],
+    "ckbReverseY": [
+      "反转Y"
+    ],
+    "gpbOptimiz": [
+      "优化"
+    ],
+    "lblmark1": [
+      "mark1"
+    ],
+    "ckbMark1": [
+      "点胶"
+    ],
+    "lblmark2": [
+      "mark2"
+    ],
+    "ckbMark2": [
+      "点胶"
+    ],
+    "btnOptimize": [
+      "优化"
+    ],
+    "lblDis": [
+      "距离:"
+    ],
+    "lblPatternName": [
+      "Pattern名字："
+    ],
+    "btnCreate": [
+      "创建"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确认"
+    ],
+    "btnGenerate": [
+      "生成"
+    ],
+    "btnReLoad": [
+      "选择"
+    ],
+    "btnOffset": [
+      "平移"
+    ]
+  },
+  "DialogImport": {
+    "DialogImport": [
+      "CAD文件导入"
+    ],
+    "btnLoad": [
+      "加载"
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "gpbLoad": [
+      "加载文件"
+    ],
+    "ckbLoadDefault": [
+      "默认"
+    ],
+    "gpbSeperator": [
+      "分割符"
+    ],
+    "btnSepeDel": [
+      "删除"
+    ],
+    "btnSepApply": [
+      "应用"
+    ],
+    "gpbHeadSel": [
+      "列选择"
+    ],
+    "btnApply": [
+      "应用"
+    ],
+    "lblLay": [
+      "布局"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "btnOk": [
+      "确认"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "Index": [
+      "序号"
+    ],
+    "Design": [
+      "符号"
+    ],
+    "Comp": [
+      "类型"
+    ],
+    "X": [
+      "X"
+    ],
+    "Y": [
+      "Y"
+    ],
+    "Rot": [
+      "角度"
+    ],
+    "LayOut": [
+      "布局"
+    ],
+    "Path": [
+      "路径"
+    ]
+  },
+  "DialogComponentLibEdit": {
+    "DialogComponentLibEdit": [
+      "元器件库编辑"
+    ],
+    "gpbUsers": [
+      "用户元器件"
+    ],
+    "btnLoad": [
+      "加载"
+    ],
+    "btnNew": [
+      "新建"
+    ],
+    "btnMerge": [
+      "合并"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "btnSaveAs": [
+      "另存为"
+    ],
+    "btnok": [
+      "确定"
+    ],
+    "btncancel": [
+      "取消"
+    ],
+    "toolStripStslbl1": [
+      "路径："
+    ],
+    "gpbLib": [
+      "库元器件"
+    ],
+    "btnLibLoad": [
+      "加载"
+    ],
+    "toolStripStatusLabel1": [
+      "路径："
+    ],
+    "gpbEdit": [
+      "元器件编辑"
+    ],
+    "lblModel": [
+      "类型:"
+    ],
+    "btnAdd": [
+      "添加"
+    ],
+    "lblWH": [
+      "宽*较(mm):"
+    ],
+    "btnDelete": [
+      "删除"
+    ],
+    "rbtAdh": [
+      "红胶"
+    ],
+    "rbtSold": [
+      "锡膏"
+    ],
+    "gpbDot": [
+      "点编辑"
+    ],
+    "lblXY": [
+      "偏移(X,Y)(mm):"
+    ],
+    "btnDotAdd": [
+      "添加"
+    ],
+    "lblWeight": [
+      "重量(mg):"
+    ],
+    "btnDotDlt": [
+      "删除"
+    ],
+    "lblRadius": [
+      "半径(mm):"
+    ]
+  },
+  "StatisticsForm": {
+    "StatisticsForm": [
+      "统计信息"
+    ],
+    "rdoDotWeight": [
+      "点重"
+    ],
+    "rdoLaserData": [
+      "激光数据"
+    ],
+    "rdoTemperature": [
+      "温度"
+    ],
+    "rdoDownTimeChart": [
+      "Down Time"
+    ],
+    "rdoCTChart": [
+      "周期"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "label1": [
+      "其他数据:"
+    ],
+    "rdoNGInfoChart": [
+      "NG信息"
+    ],
+    "rdoCapacityChart": [
+      "产能"
+    ],
+    "button1": [
+      "button1"
+    ]
+  },
+  "SensorsReadValueForm": {
+    "scannerTitle": [
+      "条码枪"
+    ],
+    "laserTitle": [
+      "激光尺"
+    ],
+    "btnReadValue": [
+      "读取"
+    ],
+    "SensorsReadValueForm": [
+      "串口数据快捷读取"
+    ]
+  },
+  "EditNozzleCheckForm": {
+    "EditNozzleCheckForm": [
+      "编辑检查点"
+    ],
+    "btnAutoDispense": [
+      "自动点胶"
+    ],
+    "cbxIsGlobal": [
+      "全局检查点"
+    ],
+    "btnModelEdit": [
+      "编辑"
+    ],
+    "label3": [
+      "图像模板："
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "lblDotLocation": [
+      "坐标:"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "cbWeightControl": [
+      "胶量模式"
+    ],
+    "btnSelect": [
+      "示教"
+    ],
+    "btnEditDotParams": [
+      "编辑"
+    ],
+    "label1": [
+      "点类型:"
+    ],
+    "groupBox2": [
+      "Skip"
+    ],
+    "rbnNgAlarm": [
+      "NG 报警"
+    ],
+    "rbnOkAlarm": [
+      "OK 报警"
+    ],
+    "groupBox1": [
+      "Check"
+    ],
+    "rbnGrayScale": [
+      "灰度匹配"
+    ],
+    "rbnModelFind": [
+      "模板匹配"
+    ]
+  },
+  "EditStepAndRepeatForm3": {
+    "EditStepAndRepeatForm3": [
+      "可逆序单拼版阵列"
+    ],
+    "btnOk": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "label1": [
+      "Pattern 列表:"
+    ],
+    "btnGoToVEnd": [
+      "到位置"
+    ],
+    "btnGoToHEnd": [
+      "到位置"
+    ],
+    "btnGoToOrigin": [
+      "到位置"
+    ],
+    "btnTeachVEnd": [
+      "示教"
+    ],
+    "btnTeachHEnd": [
+      "示教"
+    ],
+    "btnTeachOrigin": [
+      "示教"
+    ],
+    "label7": [
+      "Vertical End:"
+    ],
+    "label6": [
+      "Horizontal End:"
+    ],
+    "label4": [
+      "列数"
+    ],
+    "label5": [
+      "Origin:"
+    ],
+    "label3": [
+      "行数"
+    ],
+    "btnDisable": [
+      "禁用"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "label2": [
+      "Patterns:"
+    ],
+    "btnReverse": [
+      "逆序"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnLast": [
+      "上一步"
+    ]
+  },
+  "EditGrayCheckForm": {
+    "EditGrayCheckForm": [
+      "灰度匹配"
+    ],
+    "tbgModel": [
+      "Model"
+    ],
+    "groupBox2": [
+      "Accept"
+    ],
+    "label4": [
+      "Gray Tolerance"
+    ],
+    "CameraSetting": [
+      "CameraSetting"
+    ],
+    "label3": [
+      "Settling Time"
+    ],
+    "mSec": [
+      "ms"
+    ],
+    "ModelSize": [
+      "ModelSize"
+    ],
+    "ModelHeight": [
+      "Height"
+    ],
+    "ModelWidth": [
+      "Width"
+    ],
+    "SearchWindow": [
+      "SearchWindow"
+    ],
+    "DetectHeight": [
+      "Height"
+    ],
+    "DetectWidth": [
+      "Width"
+    ],
+    "tbgTest": [
+      "Test"
+    ],
+    "btnGotoTaught": [
+      "Go to taught"
+    ],
+    "btnShowModel": [
+      "ShowModel"
+    ],
+    "btnTest": [
+      "Test"
+    ],
+    "gbResult": [
+      "Result"
+    ],
+    "label2": [
+      "Diff"
+    ],
+    "lbTime": [
+      "Time"
+    ],
+    "lbStatus": [
+      "Status"
+    ],
+    "gbSetup": [
+      "Setup"
+    ],
+    "cbSettle": [
+      "Settle"
+    ],
+    "rbFindInPlace": [
+      "Find in-place"
+    ],
+    "rbFindAtTaught": [
+      "Find at taught"
+    ],
+    "gbxCam": [
+      "Camera"
+    ],
+    "lblTitle": [
+      "Title"
+    ],
+    "gbxJog": [
+      "Jog"
+    ],
+    "gbxOption": [
+      "Option"
+    ],
+    "btnCancel": [
+      "Cancel"
+    ],
+    "btnDone": [
+      "Done"
+    ],
+    "btnHelp": [
+      "Help"
+    ],
+    "btnTeach": [
+      "Teach"
+    ],
+    "btnNext": [
+      "Next"
+    ],
+    "btnPrev": [
+      "Prev"
+    ]
+  },
+  "BatchUpdateCmdLineForm": {
+    "BatchUpdateCmdLineForm": [
+      "属性批量修改"
+    ],
+    "gbxPosOffset": [
+      "坐标偏移"
+    ],
+    "label2": [
+      "Y:"
+    ],
+    "label1": [
+      "X:"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "gbxWeight": [
+      "胶量"
+    ],
+    "rdoIncrementWeight": [
+      "增量"
+    ],
+    "rdoConstantWeight": [
+      "总量"
+    ],
+    "lblLineType": [
+      "线类型 :"
+    ],
+    "lblDotType": [
+      "点类型 :"
+    ],
+    "cbIsWeightControl": [
+      "胶量模式"
+    ],
+    "cbxUseInsert": [
+      "启用插入"
+    ],
+    "btnInsert": [
+      "插入"
+    ],
+    "btnTargetGoto": [
+      "到位置"
+    ],
+    "btnRefGoto": [
+      "到位置"
+    ],
+    "btnTeachTarget": [
+      "示教"
+    ],
+    "btnTeachRef": [
+      "示教"
+    ],
+    "lblTargetY": [
+      "Y:"
+    ],
+    "lblTargetX": [
+      "X:"
+    ],
+    "lblRefY": [
+      "Y:"
+    ],
+    "lblRefX": [
+      "X:"
+    ],
+    "lblOffset": [
+      "偏移 :"
+    ],
+    "lblTargetPoint": [
+      "目标点 :"
+    ],
+    "lblRefPoint": [
+      "参考点 :"
+    ],
+    "lblOffsetY": [
+      "Y:"
+    ],
+    "lblOffsetX": [
+      "X:"
+    ],
+    "btnUpdate": [
+      "更新"
+    ],
+    "lblWeight": [
+      "胶量 :"
+    ],
+    "lblRotate": [
+      "旋转角度 :"
+    ]
+  },
+  "TeachScrape": {
+    "TeachScrape": [
+      "TeachScrape"
+    ],
+    "btnGoto": [
+      "到位置"
+    ],
+    "btnDone": [
+      "完成"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "label1": [
+      "Scrape Location:"
+    ]
+  },
+  "EditAsvMarkForm": {
+    "EditAsvMarkForm": [
+      "ASV Mark编辑界面"
+    ],
+    "groupBox2": [
+      "result"
+    ],
+    "btnRegister": [
+      "register"
+    ],
+    "label6": [
+      "A"
+    ],
+    "label7": [
+      "Y"
+    ],
+    "label8": [
+      "X"
+    ],
+    "label3": [
+      "拍照坐标:"
+    ],
+    "btnGoTo": [
+      "到位置"
+    ],
+    "btnTeach": [
+      "示教"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "label1": [
+      "视觉流程索引"
+    ],
+    "btnEdit": [
+      "编辑"
+    ],
+    "groupBox1": [
+      "result"
+    ],
+    "label5": [
+      "A"
+    ],
+    "label4": [
+      "Y"
+    ],
+    "label2": [
+      "X"
+    ],
+    "rbnTaught": [
+      "find at taught"
+    ],
+    "btnTest": [
+      "test"
+    ],
+    "rbnPlace": [
+      "find in-place"
+    ],
+    "label10": [
+      "ms"
+    ],
+    "label9": [
+      "SettlingTime"
+    ]
+  },
+  "DialogCreatePattern": {
+    "DialogCreatePattern": [
+      "TrajectoryDialog"
+    ],
+    "btnLoad": [
+      "加载..."
+    ],
+    "label1": [
+      "轨迹文件:"
+    ],
+    "btnCreate": [
+      "创建"
+    ],
+    "lblPatternName": [
+      "Pattern 名称:"
+    ],
+    "btnOK": [
+      "确定"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnImport": [
+      "导入CAD"
+    ]
+  },
+  "OmronControlTempCtrl": {
+    "SetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "SetTempOffsetErrMsg": [
+      "设置失败\r\n请重试或检查数值\r\n值不能小于等于0！"
+    ],
+    "TempInfo": [
+      "温度"
+    ],
+    "TempUpperLimitInfo": [
+      "温度上限"
+    ],
+    "TempLowerLimitInfo": [
+      "温度下限"
+    ],
+    "TempOffsetInfo": [
+      "温度漂移"
+    ],
+    "rdoValve2": [
+      "Valve2"
+    ],
+    "rdoValve1": [
+      "Valve1"
+    ],
+    "btnSave": [
+      "保存"
+    ],
+    "btnSetTempOffset": [
+      "设置"
+    ],
+    "btnSetAlarmLow": [
+      "设置"
+    ],
+    "btnSetAlarmUp": [
+      "设置"
+    ],
+    "lblTempOffset": [
+      "温度偏移"
+    ],
+    "lblDownAlarm": [
+      "报警下限"
+    ],
+    "lblUpAlarm": [
+      "报警上限"
+    ],
+    "lblTemp": [
+      "温度"
+    ],
+    "btnSetTemp": [
+      "设置"
+    ]
+  },
+  "CameraForm": {
+    "CameraForm": [
+      "相机"
+    ]
+  },
+  "DialogPatternWeight": {
+    "DialogPatternWeight": [
+      "Pattern称重"
+    ],
+    "label1": [
+      "文件保存:"
+    ],
+    "groupBox2": [
+      "称重"
+    ],
+    "btnWeight": [
+      "称重"
+    ],
+    "btnDotSave": [
+      ". . ."
+    ]
+  },
+  "DialogOffLine": {
+    "DialogOffLine": [
+      "离线编程"
+    ],
+    "btnImport": [
+      "导入CAD"
+    ],
+    "btnLoad": [
+      "加载..."
+    ],
+    "label1": [
+      "pattern 文件:"
+    ],
+    "btnCreate": [
+      "创建"
+    ],
+    "lblPatternName": [
+      "Pattern 名称:"
+    ],
+    "btnOK": [
+      "确认"
+    ],
+    "btnCancel": [
+      "取消"
+    ]
+  },
+  "ScaleDialog": {
+    "ScaleDialog": [
+      "天平对话框"
+    ],
+    "label1": [
+      "0.0"
+    ],
+    "button2": [
+      "读取值"
+    ],
+    "button1": [
+      "外校准"
+    ],
+    "btnZero": [
+      "清 零"
+    ],
+    "btnCalibrate": [
+      "校 准"
+    ],
+    "btnReset": [
+      "恢复默认"
+    ],
+    "btnSave": [
+      "保 存"
+    ],
+    "btnRestart": [
+      "重 启"
+    ]
+  },
+  "CalibrateDialog": {
+    "CalibrateDialog": [
+      "校准"
+    ],
+    "grpWeight": [
+      "砝码"
+    ],
+    "label1": [
+      "砝码规格:"
+    ],
+    "label5": [
+      "实际砝码重量:"
+    ],
+    "label3": [
+      "mg"
+    ],
+    "lblValue": [
+      "0"
+    ],
+    "lblActWeight": [
+      "0"
+    ],
+    "label2": [
+      "mg"
+    ],
+    "btnCancel": [
+      "取消"
+    ],
+    "btnNext": [
+      "下一步"
+    ],
+    "btnPrev": [
+      "上一步"
+    ],
+    "done": [
+      ""
+    ]
+  },
+  "ScriptEditor": {
+    "tsrAllEnable": [
+      "全部运行"
+    ],
+    "tsrBackDisable": [
+      "运行结束点"
+    ],
+    "tsrOthersDisable": [
+      "运行选中点"
+    ],
+    "tsrPreDisable": [
+      "运行开始点"
+    ],
+    "tsrThisDisable": [
+      "禁用当前"
+    ]
+  }
+}

@@ -1,0 +1,1124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Anda.Fluid.Drive</name>
+    </assembly>
+    <members>
+        <member name="T:Anda.Fluid.Drive.CameraMotion">
+            <summary>
+            Author：liyi
+            Date：2019/06/14
+            以相机为基准的底层运动控制
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.CameraMotion.PulseWidth">
+            <summary>
+            相机触发脉宽
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.CameraMotion.Cmp2dMaxErr">
+            <summary>
+            2D比较最大误差
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.CameraMotion.Cmp2dThreshold">
+            <summary>
+            2D比较最优点计算阈值
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.CameraMotion.FlyMarksInit(Anda.Fluid.Drive.Sensors.Lighting.LightType,System.Int32,System.Int32)">
+            <summary>
+            飞拍相机、光源的初始化设置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.CameraMotion.FlyMarksEnd">
+            <summary>
+            结束飞拍，相机光源设定换还原到连续采集状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.CameraMotion.FlyMarksExecute(System.Collections.Generic.List{System.Collections.Generic.List{Anda.Fluid.Infrastructure.Common.PointD}},System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+             Description	:飞拍生成空点并执行前瞻插补
+             Author  	:liyi
+             Date		:2019/06/13
+            </summary>   
+             <param name="points">每一个飞拍Mark点位</param>
+             <param name="vel">飞拍速度</param>
+             <param name="acc">飞拍加速度</param>
+             <param name="cornerSpeed">拐弯速度</param>
+             <param name="cornerAcc">拐弯加速度</param>
+             <param name="preDistance">空点距离</param>
+             <param name="flyDistance">行间距离或列间距</param>
+             <param name="isRowFirst">行模式或列模式</param>
+             <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.CameraMotion.Cmp2dStart(System.Int16,System.Int16,Anda.Fluid.Infrastructure.Common.PointD[])">
+            <summary>
+            启动2d比较
+            </summary>
+            <param name="cmp2dSrc">比较源，0：规划器，1：编码器</param>
+            <param name="cmp2dMaxErr">最大误差范围</param>
+            <param name="points">2d比较点，绝对坐标</param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.CameraMotion.Cmp2dMode1dStart(System.Int16,System.Int16)">
+            <summary>
+            启动2d比较的一维模式
+            </summary>
+            <param name="cmp2dSrc"></param>
+            <param name="cmp2dMaxErr"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Converter.Z2NeedleBoard(System.Double,System.Double)">
+            <summary>
+            坐标转换： Z轴坐标 -> 喷嘴距离基板高度
+            </summary>
+            <param name="currZ">当前Z轴坐标</param>
+            <param name="boardHeight">激光测高测量的基板高度值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Converter.NeedleBoard2Z(System.Double,System.Double)">
+            <summary>
+            坐标转换： 喷嘴距离基板高度 -> Z轴坐标
+            </summary>
+            <param name="needleBoard">距板高度</param>
+            <param name="boardHeight">基板测高值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Converter.NeedleBoard2Z(System.Double,System.Double,Anda.Fluid.Drive.Motion.ActiveItems.TiltType)">
+            <summary>
+            坐标转换（倾斜状态）： 喷嘴距离基板高度 -> Z轴坐标
+            </summary>
+            <param name="needleBoard">距板高度</param>
+            <param name="boardHeight">基板测高值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Extensions.ByNeedleCamera(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Drive.ValveSystem.ValveType)">
+            <summary>
+            相机坐标转换喷嘴坐标，只考虑相机偏移
+            </summary>
+            <param name="point"></param>
+            <param name="valveType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Extensions.ByNeedleJet(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Drive.ValveSystem.ValveType)">
+            <summary>
+            相机坐标 + 打胶偏移
+            </summary>
+            <param name="point"></param>
+            <param name="valveType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Extensions.ToNeedle(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Drive.ValveSystem.ValveType)">
+            <summary>
+            相机坐标转换喷嘴坐标
+            </summary>
+            <param name="point"></param>
+            <param name="valveType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Extensions.ToNeedle(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Drive.ValveSystem.ValveType,Anda.Fluid.Drive.Motion.ActiveItems.TiltType)">
+            <summary>
+            相机坐标转换倾斜喷嘴坐标
+            </summary>
+            <param name="point"></param>
+            <param name="valveType"></param>
+            <param name="tiltType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Anda.Fluid.Drive.GlueManage.GlueManagePrm">
+            <summary>
+            Author: liyi
+            Date:   2019/09/07
+            Description:胶水管控参数类
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.UseGlueManage">
+            <summary>
+            是否启用胶水管控
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueLife">
+            <summary>
+            胶水寿命，单位minute
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueRemainLife">
+            <summary>
+            胶水剩余寿命，单位minute
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.LifeWarningTime">
+            <summary>
+            寿命到期预警时间，单位minute
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.TotalWeight">
+            <summary>
+            胶水总重量，单位mg
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.RemainWeight">
+            <summary>
+            胶水剩余重量，单位mg
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.WarningPercentage">
+            <summary>
+            报警百分比，单位%
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueDeliverTime">
+            <summary>
+            胶水出库时间
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueThawTime">
+            <summary>
+            胶水回温时间，单位minute
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueSN">
+            <summary>
+            胶水SN
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueSNLength">
+            <summary>
+            胶水SN长度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.GlueType">
+            <summary>
+            胶水型号
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.UseGlueType">
+            <summary>
+            是否启用胶水型号管控
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagePrm.ManageType">
+            <summary>
+            胶水管控方式
+            0：本地管控
+            1：联网管控
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.GlueManage.GlueManagePrmMgr">
+            <summary>
+            胶水管控参数管理类
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.GlueManage.GlueManager">
+            <summary>
+            Author：liyi
+            Date：2019/09/10
+            Description：胶水管控类-每支胶水
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManager.SetPrm">
+            <summary>
+            设置胶水参数
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManager.UpdatePrm">
+            <summary>
+            更新胶水参数（时间参数，重量参数由外部点胶控制）
+            1.寿命时间
+            2.使用时间
+            3.回温时间
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManager.CheckGlueStatue">
+            <summary>
+            Author: liyi
+            Date:   2019/09/11
+            Description:    检查胶水状态
+            1.刷新胶水剩余寿命
+            2.刷新胶水剩余量
+            3.判断是否预警（剩余量和时间）
+            4.判断胶水是否可以继续使用（剩余量和时间）
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManager.QueryGlueTimeByServer">
+            <summary>
+            查询服务器胶水数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Anda.Fluid.Drive.GlueManage.GlueManagerMgr">
+            <summary>
+            Author：liyi
+            Date：2019/09/10
+            Description：胶水管控状态轮询对象
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.GlueManage.GlueManagerMgr.IsChangeGlue">
+            <summary>
+            换胶变量，处于换胶状态，不做检测
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManagerMgr.Setup">
+            <summary>
+            加载并设置每支阀胶水管控参数
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.GlueManage.GlueManagerMgr.UpdateGlueRemainWeight(System.Int32,System.Double)">
+            <summary>
+            Author: liyi
+            Date:   2019/09/10
+            Description:    更新胶水胶水剩余量
+            </summary>
+            <param name="key">胶阀</param>
+            <param name="UsedWeight">使用的胶水量</param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HookHotKeyMgr.SetEnable(Anda.Fluid.Drive.HotKeys.HotKeySort.HotKeySortEnum,System.Boolean)">
+            <summary>
+            设置某个类别的热键是否启动
+            </summary>
+            <param name="hotKeySort"></param>
+            <param name="enable"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HookHotKeyMgr.GetRunKey">
+            <summary>
+            获得Runkey热键，没有的话返回null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HookHotKeyMgr.GetSelectKey">
+            <summary>
+            获得SelectKey热键，没有的话返回null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Anda.Fluid.Drive.HotKeys.HotKeySort.IHotKeySortable.SortName">
+            <summary>
+            热键类别名称
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.HotKeys.HotKeySort.IHotKeySortable.KeyList">
+            <summary>
+            热键集合
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.HotKeys.HotKeySort.IHotKeySortable.Enable">
+            <summary>
+            是否启用此类别热键
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HotKeySort.IHotKeySortable.OnKeyDownEvent(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            当热键按下时发生
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HotKeySort.IHotKeySortable.OnKeyUpEvent(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            当热键按下后抬起时发生
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HotKeySort.SelectKey.SetButtons(System.Collections.Generic.List{System.Windows.Forms.Button})">
+            <summary>
+            设置可供选择的按钮的顺序集合，默认第一个为选中状态,供外部调用
+            </summary>
+            <param name="buttonList"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.HotKeys.HotKeySort.SelectKey.ClearButtons">
+            <summary>
+            清除相应选择键的按钮，供外部调用
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.Machine.AxisULimitUpdate">
+            <summary>
+            IO限位状态刷新(当前仅U轴使用)
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.MachineStates.MachineServer.UpdateDiAlarm">
+            <summary>
+            刷报警输入信号
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.MachineStates.MachineServer.UpdateAxisStatus">
+            <summary>
+            刷轴的报警状态
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupADMC">
+            <summary>
+            4轴安达卡
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupFactory">
+            <summary>
+            简单工厂模式，卡配置管理
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.SetupCard.CardSetupFactory.GetCardSetup(Anda.Fluid.Drive.MachineSetting)">
+            <summary>
+            更加机台配置获取卡配置，新增卡需要更改此方法
+            </summary>
+            <param name="setting"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts4x2">
+            <summary>
+            4轴Gts卡 x 2，双阀
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts4_XYZ">
+            <summary>
+            4轴Gts卡，U轴：胶阀倾斜
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts4_XYZR">
+            <summary>
+            4轴Gts卡，R轴：针嘴旋转轴
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts4_XYZU">
+            <summary>
+            4轴Gts卡，U轴：胶阀倾斜
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts8_RTV">
+            <summary>
+            8轴Gts卡，双阀
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupCard.CardSetupGts8x1">
+            <summary>
+            8轴Gts卡，双阀
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupIO.IIOSetupable">
+            <summary>
+            IO配置接口
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupIO.IOPrm">
+            <summary>
+            IO参数，包括DI和DO
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.SetupIO.IOPrm.DIPrmMgr">
+            <summary>
+            DI参数集合
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.SetupIO.IOPrm.DOPrmMgr">
+            <summary>
+            DO参数集合
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupIO.IOSetupBase">
+            <summary>
+            IO配置基类，新增IO配置需要继承此类，并重写<see cref="M:Anda.Fluid.Drive.SetupIO.IOSetupBase.SetupDIPrm"/> 和 <see cref="M:Anda.Fluid.Drive.SetupIO.IOSetupBase.SetupDOPrm"/>
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.SetupIO.IOSetupFactory">
+            <summary>
+            简单工厂模式，管理IO的配置创建
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.SetupIO.IOSetupFactory.GetIOSetupable(Anda.Fluid.Drive.MachineSetting)">
+            <summary>
+            根据机台配置获取IO配置，新增IO配置，需要修改此方法
+            </summary>
+            <param name="setting"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.CalcAccTime(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Double,System.Double)">
+            <summary>
+            计算加速时间
+            </summary>
+            <param name="accStartPoint">加速起点</param>
+            <param name="lineStartPoint">直线起点</param>
+            <param name="vel">速度</param>
+            <param name="acc">加速度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.SimulCmp2dStart(System.Int16,System.Int16,Anda.Fluid.Infrastructure.Common.PointD[])">
+            <summary>
+            启动XYAB4轴2d比较
+            </summary>
+            <param name="cmp2dSrc">比较源，0：规划器，1：编码器</param>
+            <param name="cmp2dMaxErr">最大误差范围</param>
+            <param name="points">2d比较点，绝对坐标</param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.CmpStart(System.Int16,Anda.Fluid.Infrastructure.Common.PointD[])">
+            <summary>
+            双阀一维比较
+            valve1 and valve2 both use XY position data trigger Spraying
+            </summary>
+            <param name="source">比较源</param>
+            <param name="points">触发点数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.FluidLine(Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam,Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam,System.Double)">
+            <summary>
+            螺杆阀的执行线逻辑
+            </summary>
+            <param name="primaryLineParam"></param>
+            <param name="simulLineParam"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.FluidArc(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Int16,System.Double,Anda.Fluid.Infrastructure.Common.PointD[],System.Double,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD[],System.Double)">
+            <summary>
+            圆弧运动，含加速段、减速段，堵塞等待结果
+            </summary>
+            <param name="accStartPos">加速起点</param>
+            <param name="arcStartPos">圆弧起点</param>
+            <param name="arcEndPos">圆弧终点</param>
+            <param name="decEndPos">减速终点</param>
+            <param name="center">圆弧中心</param>
+            <param name="clockwize">0：顺时针，1：逆时针</param>
+            <param name="vel">速度</param>
+            <param name="points">点胶位置</param>
+            <param name="intervalSec">两点间隔时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.DualValve.FluidArc(Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam,Anda.Fluid.Infrastructure.Common.PointD,System.Int16,System.Double)">
+            <summary>
+            螺杆阀的圆弧运动
+            </summary>
+            <param name="svValveArcParam"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.Lines">
+            <summary>
+            用以作为清洗矩阵的线(起点和终点)集合
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.Cycles">
+            <summary>
+            每条清洗线重复执行的次数
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.LineStart">
+            <summary>
+            第一条清洗线的起点
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.LineEnd">
+            <summary>
+            第一条清洗线的终点
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayXDirection">
+            <summary>
+            阵列x方向(0:X轴正向，1：X轴负向)
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayYDirection">
+            <summary>
+            阵列x方向(0:Y轴正向，1：Y轴负向)
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayXInterval">
+            <summary>
+            阵列X方向间隔
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayYInterval">
+            <summary>
+            阵列Y方向间隔
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayXCounts">
+            <summary>
+            阵列X方向清洗线数量
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.ArrayYCounts">
+            <summary>
+            阵列Y方向清洗线数量
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.Vel">
+            <summary>
+            清洗时的速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.posZ">
+            <summary>
+            清洗时的高度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.DispenseDelay">
+            <summary>
+            到位开胶延时（ms）
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.CurrLineIndex">
+            <summary>
+            当前清洗线在矩阵中的编号
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.PurgeAndPrime.Purge.RTVPurgePrm.CurrLineCycle">
+            <summary>
+            当前清洗线的重复执行次数
+            </summary> 
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.GearValve.CalculateStopSprayPos(System.Collections.Generic.List{Anda.Fluid.Drive.Motion.CardFramework.Crd.CrdSymbolLine},System.Double)">
+            <summary>
+            计算提前关胶的位置
+            </summary>
+            <param name="symbolLinesCrdData"></param>
+            <param name="shutOffDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.Vel">
+            <summary>
+            点胶时的速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.StopSprayDistance">
+            <summary>
+            提前关胶距离
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.StartSprayDelay">
+            <summary>
+            到位开胶延时
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.EndPosDelay">
+            <summary>
+            终点延时
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.PressDistance">
+            <summary>
+            下压距离
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.PressVel">
+            <summary>
+            下压速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.PressAcc">
+            <summary>
+            下压加速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.PressTime">
+            <summary>
+            下压保持时间
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.RaiseDistance">
+            <summary>
+            抬起距离
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.RaiseVel">
+            <summary>
+            抬起速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.RaiseAcc">
+            <summary>
+            抬起加速度
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm.ArcSpeed">
+            <summary>
+            圆弧基准速度(半径1为基准，速度与半径成反比)
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.JtValve.SprayOne">
+            <summary>
+            打一次胶
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.JtValve.FluidManualLine(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Double,Anda.Fluid.Infrastructure.Common.PointD[],System.Double,System.Double)">
+            <summary>
+            手动打线，供四方位角度校准时使用
+            </summary>
+            <param name="accStartPos"></param>
+            <param name="lineStartPos"></param>
+            <param name="lineEndPos"></param>
+            <param name="decEndPos"></param>
+            <param name="vel"></param>
+            <param name="points"></param>
+            <param name="intervalSec"></param>
+            <param name="acc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.JtValve.WeightCpk(System.Int32,System.Int16,System.Int32,System.Double[]@)">
+            <summary>
+            单点CPK
+            </summary>
+            <param name="times"></param>
+            <param name="cycles"></param>
+            <param name="interval"></param>
+            <param name="outweights"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.JtValve.CalibWeight">
+            <summary>
+            单点重和标准单点重的比较
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.JtValve.CalcAccTime(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Double,System.Double)">
+            <summary>
+            计算加速时间
+            </summary>
+            <param name="accStartPoint">加速起点</param>
+            <param name="lineStartPoint">直线起点</param>
+            <param name="vel">速度</param>
+            <param name="acc">加速度</param>
+            <returns></returns>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.startPosDelay">
+            <summary>
+            在起始位置开胶后，延时移动的时间
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.endPos">
+            <summary>
+            线终点位置
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.transPoints">
+            <summary>
+            Poly线的各个过渡点位置(包含终点,不包含起点)
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.stopSprayPos">
+            <summary>
+            提前关胶位置
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTrackPos">
+            <summary>
+            回走时的终点位置
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTransPoints">
+            <summary>
+            Poly回走时的过渡点位置(包含终点,不包含起点)
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.IsTraceMode">
+            <summary>
+            轨迹模式则采用backTraces
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.transTraces">
+            <summary>
+            正向轨迹集合
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTransTraces">
+            <summary>
+            回走时的轨迹集合
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.vels">
+            <summary>
+            线速度,Poly线为若干个,线段为一个.
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTrackDelay">
+            <summary>
+            在终点延时多久回走
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTrackGap">
+            <summary>
+            回走时的回抬高度
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam.backTrackVel">
+            <summary>
+            回走时的速度
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.SvValve.GetCrdsBy(System.Collections.Generic.List{Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase},System.Double[],System.Double)">
+            <summary>
+            根据轨迹集合生成插补列表
+            </summary>
+            <param name="traces"></param>
+            <param name="vels"></param>
+            <param name="acc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Series.SvValve.GetCrdsBy(System.Collections.Generic.List{Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase},System.Double,System.Double)">
+            <summary>
+            根据轨迹集合生成插补列表
+            </summary>
+            <param name="traces"></param>
+            <param name="vel"></param>
+            <param name="acc"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc">
+            <summary>
+            Description：圆弧轨迹
+            Author：Connor
+            Date：2019/11/08
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc.Mid">
+            <summary>
+            中间点
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc.Center">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc.Raduis">
+            <summary>
+            半径
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc.Degree">
+            <summary>
+            逆时针为正，顺时针为负，(-360, 360)
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceArc.Length">
+            <summary>
+            弧长
+            </summary>
+        </member>
+        <member name="T:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase">
+            <summary>
+            Description：轨迹基类，线段和圆弧
+            Author：Connor
+            Date：2019/11/08
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.Start">
+            <summary>
+            起点
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.End">
+            <summary>
+            终点
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.Weight">
+            <summary>
+            胶量
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.LineStyle">
+            <summary>
+            线型，对应领域层的10种LineStyle
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.LookOffset">
+            <summary>
+            提前量微调
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.LookOffsetRevs">
+            <summary>
+            反向提前量微调
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.Reverse">
+            <summary>
+            轨迹反向
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.NewTraceFromStart(System.Double)">
+            <summary>
+            根据距起点的长度获取新的截断轨迹
+            </summary>
+            <param name="length">距离起点长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceBase.TranslateBy(System.Double,System.Double)">
+            <summary>
+            轨迹偏移微调
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceLine">
+            <summary>
+            Description：线段轨迹
+            Author：Connor
+            Date：2019/11/08
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.FluidTrace.TraceLine.Length">
+            <summary>
+            长度
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.#ctor(Anda.Fluid.Drive.ValveSystem.ValveType,Anda.Fluid.Drive.ValveSystem.ValveSeries,Anda.Fluid.Drive.Sensors.Proportionor.Proportioner,Anda.Fluid.Drive.Motion.CardFramework.MotionCard.Card,System.Int16,Anda.Fluid.Drive.ValveSystem.ValvePrm)">
+            <summary>
+            阀组构造函数
+            </summary>
+            <param name="key">key</param>
+            <param name="proportioner">比例阀</param>
+            <param name="card">板卡</param>
+            <param name="chn">通道号:1,2</param>
+            <param name="prm">阀组参数</param>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Valve.CurTilt">
+            <summary>
+            胶阀当前倾斜类型
+            </summary>
+        </member>
+        <member name="F:Anda.Fluid.Drive.ValveSystem.Valve.weightPrm">
+            <summary>
+            称重参数
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.Valve.SpraySec">
+            <summary>
+            将开胶和关胶时间（单位微秒）之和转换为秒（点胶时间）
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.Spraying">
+            <summary>
+            连续打胶
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SprayCycle(System.Int16)">
+            <summary>
+            循环打胶，仅支持喷射阀
+            </summary>
+            <param name="cycle"></param>
+            <param name="offTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SprayCycle(System.Int16,System.Int16)">
+            <summary>
+            循环打胶，仅支持喷射阀
+            </summary>
+            <param name="cycle"></param>
+            <param name="offTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SprayOneAndWait">
+            <summary>
+            打一次胶后等待
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SprayCycleAndWait(System.Int16)">
+            <summary>
+            打cycle-1次胶后等待
+            </summary>
+            <param name="cycle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SprayOff">
+            <summary>
+            停止打胶
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.SuckBack(System.Double)">
+            <summary>
+            执行回吸动作，仅支持螺杆阀
+            </summary>
+            <param name="suckBackTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.FluidLine(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Double,Anda.Fluid.Infrastructure.Common.PointD[],System.Double,System.Double)">
+            <summary>
+            喷射阀直线运动，含加速段、减速段，堵塞等待结果
+            </summary>
+            <param name="accStartPos">加速起点</param>
+            <param name="lineStartPos">直线起点</param>
+            <param name="lineEndPos">直线终点</param>
+            <param name="decEndPos">加速终点</param>
+            <param name="vel">速度</param>
+            <param name="points">点胶位置</param>
+            <param name="intervalSec">两点间隔时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.FluidLine(Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam,System.Double)">
+            <summary>
+            螺杆阀的直线运动
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.FluidArc(Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,Anda.Fluid.Infrastructure.Common.PointD,System.Int16,System.Double,Anda.Fluid.Infrastructure.Common.PointD[],System.Double,System.Double)">
+            <summary>
+            喷射阀圆弧运动，含加速段、减速段，堵塞等待结果
+            </summary>
+            <param name="accStartPos">加速起点</param>
+            <param name="arcStartPos">圆弧起点</param>
+            <param name="arcEndPos">圆弧终点</param>
+            <param name="decEndPos">减速终点</param>
+            <param name="center">圆弧中心</param>
+            <param name="clockwize">0：顺时针，1：逆时针</param>
+            <param name="vel">速度</param>
+            <param name="points">点胶位置</param>
+            <param name="intervalSec">两点间隔时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.FluidArc(Anda.Fluid.Drive.ValveSystem.Series.SvValveFludLineParam,Anda.Fluid.Infrastructure.Common.PointD,System.Int16,System.Double)">
+            <summary>
+            螺杆阀的圆弧运动
+            </summary>
+            <param name="svValveArcParam"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.FluidSymbolLines(System.Collections.Generic.List{Anda.Fluid.Drive.Motion.CardFramework.Crd.CrdSymbolLine},Anda.Fluid.Drive.ValveSystem.Series.GearValveFluidSymbolLinesPrm,System.Double)">
+            <summary>
+            执行复合线段运动
+            </summary>
+            <param name="SymbolLinesCrdData"></param>
+            <param name="fluidPrm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.Cmp2dStart(System.Int16,System.Int16,Anda.Fluid.Infrastructure.Common.PointD[])">
+            <summary>
+            启动2d比较
+            </summary>
+            <param name="cmp2dSrc">比较源，0：规划器，1：编码器</param>
+            <param name="cmp2dMaxErr">最大误差范围</param>
+            <param name="points">2d比较点，绝对坐标</param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.Cmp2dStop">
+            <summary>
+            停止2d比较
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.Cmp2dMode1dStart(System.Int16,System.Int16)">
+            <summary>
+            启动2d比较的一维模式
+            </summary>
+            <param name="cmp2dSrc"></param>
+            <param name="cmp2dMaxErr"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.CmpStart(System.Int16,Anda.Fluid.Infrastructure.Common.PointD[])">
+            <summary>
+            启动一维比较
+            </summary>
+            <param name="source">比较源</param>
+            <param name="points">触发点数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.CmpStop">
+            <summary>
+            停止一维比较
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.MoveToScaleLoc">
+            <summary>
+            去称重天平位置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.Shot(System.Int32,System.Int16,System.Int32)">
+            <summary>
+            模拟实际生产
+            </summary>
+            <param name="times">打多少次</param>
+            <param name="dots">每次打多少点</param>
+            <param name="interval">每次的时间间隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.CalSingleDotWeight">
+            <summary>
+            计算单点重量
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.checkValveDotsWeight">
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.CalibWeight">
+            <summary>
+            校验重量是否超出标准重量范围
+            </summary>
+            <returns>false:超出，true:在范围内</returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.GetTotalDots">
+            <summary>
+            在模拟生产中，计算总共打点次数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.AddCumulativeWeight(System.Double)">
+            <summary>
+            增加累计重量
+            </summary>
+            <param name="weight"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.StartManualSpray(System.Int32)">
+            <summary>
+            开启手动打胶
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.StopManualSpray">
+            <summary>
+            关闭手动打胶
+            </summary>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.ResetValveTilt(System.Double,System.Double)">
+            <summary>
+            重置倾斜胶阀
+            </summary>
+            <param name="vel"></param>
+            <param name="acc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Anda.Fluid.Drive.ValveSystem.Valve.ChangeValveTiltStatus(Anda.Fluid.Drive.Motion.ActiveItems.TiltType,System.Double,System.Double)">
+            <summary>
+            胶阀倾斜到位
+            </summary>
+            <param name="tiltType"></param>
+            <param name="velU"></param>
+            <param name="accU"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.SprayDots">
+            <summary>
+            打点次数
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.ShotDotsEachPattern">
+            <summary>
+            每个“拼版”打的点数
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.PatternCount">
+            <summary>
+            “拼版数”
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.Interval">
+            <summary>
+            每个"拼版"的时间间隔(ms)
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.SingleDotWeight">
+            <summary>
+            单点重量
+            </summary>
+        </member>
+        <member name="P:Anda.Fluid.Drive.ValveSystem.ValveWeightPrm.CumulativeWeight">
+            <summary>
+            累计重量
+            </summary>
+        </member>
+    </members>
+</doc>

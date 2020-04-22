@@ -1,0 +1,168 @@
+[
+  {
+    "component": {
+      "Name": "C0603",
+      "Width": 2.0,
+      "Height": 2.0,
+      "AdhPoints": [
+        {
+          "index": 1,
+          "Weight": 0.0,
+          "IsWeight": false,
+          "NunShots": 0,
+          "Radius": 0.0,
+          "point": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      ],
+      "SldPoints": []
+    },
+    "Key": 1
+  },
+  {
+    "component": {
+      "Name": "C1812",
+      "Width": 2.0,
+      "Height": 3.0,
+      "AdhPoints": [
+        {
+          "index": 1,
+          "Weight": 0.0,
+          "IsWeight": false,
+          "NunShots": 0,
+          "Radius": 0.0,
+          "point": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      ],
+      "SldPoints": []
+    },
+    "Key": 2
+  },
+  {
+    "component": {
+      "Name": "R2309",
+      "Width": 2.0,
+      "Height": 3.0,
+      "AdhPoints": [
+        {
+          "index": 1,
+          "Weight": 0.0,
+          "IsWeight": false,
+          "NunShots": 0,
+          "Radius": 0.0,
+          "point": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      ],
+      "SldPoints": []
+    },
+    "Key": 3
+  },
+  {
+    "component": {
+      "Name": "C0805",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 4
+  },
+  {
+    "component": {
+      "Name": "SOT23",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 5
+  },
+  {
+    "component": {
+      "Name": "SOD-80",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 6
+  },
+  {
+    "component": {
+      "Name": "SO28M1",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 7
+  },
+  {
+    "component": {
+      "Name": "SO14M1",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 8
+  },
+  {
+    "component": {
+      "Name": "SO8M1",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 9
+  },
+  {
+    "component": {
+      "Name": "PLCC28SQ",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 10
+  },
+  {
+    "component": {
+      "Name": "PLCC44",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 11
+  },
+  {
+    "component": {
+      "Name": "PLCC84",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 12
+  },
+  {
+    "component": {
+      "Name": "circle",
+      "Width": 0.0,
+      "Height": 0.0,
+      "AdhPoints": [],
+      "SldPoints": []
+    },
+    "Key": 13
+  }
+]

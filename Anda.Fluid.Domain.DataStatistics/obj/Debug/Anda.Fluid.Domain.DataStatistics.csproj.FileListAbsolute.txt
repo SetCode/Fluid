@@ -1,0 +1,6 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.DownTime.DownTimeTest.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.StatisticsForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.YiedAndCapacity.YiedAndCapacityForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.DataStatistics\obj\Debug\Anda.Fluid.Domain.DataStatistics.csproj.CoreCompileInputs.cache

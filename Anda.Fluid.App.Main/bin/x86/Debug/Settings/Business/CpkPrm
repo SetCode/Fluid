@@ -1,0 +1,49 @@
+{
+  "Cycles": 0,
+  "MeasureTimes": 0,
+  "Interval": 0,
+  "Valve1Spec": {
+    "Name": "Valve1WeightCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "Valve2Spec": {
+    "Name": "Valve2WeightCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "XPointsNum": 0,
+  "AxisXSpec": {
+    "Name": "AxisXCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "YPointsNum": 0,
+  "AxisYSpec": {
+    "Name": "AxisYCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "XYPointsNum": 0,
+  "AxisXYSpec": {
+    "Name": "AxisXYCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "ZPointsNum": 0,
+  "AxisZSpec": {
+    "Name": "AxisZCPK",
+    "USL": 0.0,
+    "Center": 0.0,
+    "LSL": 0.0
+  },
+  "CPKVelXYH": 0.0,
+  "CPKVelXYL": 0.0,
+  "CPKVelZH": 0.0,
+  "CPKVelZL": 0.0
+}

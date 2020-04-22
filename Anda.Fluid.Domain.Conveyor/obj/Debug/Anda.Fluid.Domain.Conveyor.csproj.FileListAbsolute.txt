@@ -1,0 +1,9 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Forms.ConveyorControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Forms.ConveyorControlForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Forms.ConveyorSettingControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Forms.ConveyorSettingForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Forms.RTVSettingForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Conveyor\obj\Debug\Anda.Fluid.Domain.Conveyor.csproj.CoreCompileInputs.cache

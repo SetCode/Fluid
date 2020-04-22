@@ -1,0 +1,8 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.RTV.RtvResultForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.SoftFunction.LotControl.LotControlSettingForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.SoftFunction.LotControl.ProductSettingForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.SoftFunction.PatternWeight.DialogPatternWeight.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.SoftFunction.SymbolLineFineTune.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain\obj\Debug\Anda.Fluid.Domain.csproj.CoreCompileInputs.cache

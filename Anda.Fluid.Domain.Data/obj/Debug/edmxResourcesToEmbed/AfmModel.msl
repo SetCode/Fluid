@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="afmdbModelStoreContainer" CdmEntityContainer="afmdbEntities">
+    <EntitySetMapping Name="conveyor">
+      <EntityTypeMapping TypeName="afmdbModel.conveyor">
+        <MappingFragment StoreEntitySet="conveyor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MachineId" ColumnName="MachineId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="machine">
+      <EntityTypeMapping TypeName="afmdbModel.machine">
+        <MappingFragment StoreEntitySet="machine">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="tbDownTime_tbDownTimeId" ColumnName="tbDownTime_tbDownTimeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pattern">
+      <EntityTypeMapping TypeName="afmdbModel.pattern">
+        <MappingFragment StoreEntitySet="pattern">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RunMode" ColumnName="RunMode" />
+          <ScalarProperty Name="LotNum" ColumnName="LotNum" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Mark1X" ColumnName="Mark1X" />
+          <ScalarProperty Name="Mark1Y" ColumnName="Mark1Y" />
+          <ScalarProperty Name="Mark2X" ColumnName="Mark2X" />
+          <ScalarProperty Name="Mark2Y" ColumnName="Mark2Y" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="WorkpieceId" ColumnName="WorkpieceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="patternsetting">
+      <EntityTypeMapping TypeName="afmdbModel.patternsetting">
+        <MappingFragment StoreEntitySet="patternsetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VelXY" ColumnName="VelXY" />
+          <ScalarProperty Name="VelZ" ColumnName="VelZ" />
+          <ScalarProperty Name="AccXY" ColumnName="AccXY" />
+          <ScalarProperty Name="AccZ" ColumnName="AccZ" />
+          <ScalarProperty Name="SingleDotWt" ColumnName="SingleDotWt" />
+          <ScalarProperty Name="GluePressure1" ColumnName="GluePressure1" />
+          <ScalarProperty Name="GluePressure2" ColumnName="GluePressure2" />
+          <ScalarProperty Name="Temperature" ColumnName="Temperature" />
+          <ScalarProperty Name="PatternId" ColumnName="PatternId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbjtvalveprm">
+      <EntityTypeMapping TypeName="afmdbModel.tbjtvalveprm">
+        <MappingFragment StoreEntitySet="tbjtvalveprm">
+          <ScalarProperty Name="JtValvePrmId" ColumnName="JtValvePrmId" />
+          <ScalarProperty Name="valve_ValveId" ColumnName="valve_ValveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbsvvalveprm">
+      <EntityTypeMapping TypeName="afmdbModel.tbsvvalveprm">
+        <MappingFragment StoreEntitySet="tbsvvalveprm">
+          <ScalarProperty Name="SvValvePrmId" ColumnName="SvValvePrmId" />
+          <ScalarProperty Name="valve_ValveId" ColumnName="valve_ValveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbtimerecorder">
+      <EntityTypeMapping TypeName="afmdbModel.tbtimerecorder">
+        <MappingFragment StoreEntitySet="tbtimerecorder">
+          <ScalarProperty Name="timeRecorderId" ColumnName="timeRecorderId" />
+          <ScalarProperty Name="workState" ColumnName="workState" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="span" ColumnName="span" />
+          <ScalarProperty Name="subType" ColumnName="subType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbweightprm">
+      <EntityTypeMapping TypeName="afmdbModel.tbweightprm">
+        <MappingFragment StoreEntitySet="tbweightprm">
+          <ScalarProperty Name="WeightPrmId" ColumnName="WeightPrmId" />
+          <ScalarProperty Name="ShotDotsEachPattern" ColumnName="ShotDotsEachPattern" />
+          <ScalarProperty Name="PatternCount" ColumnName="PatternCount" />
+          <ScalarProperty Name="Interval" ColumnName="Interval" />
+          <ScalarProperty Name="CurrentWeight" ColumnName="CurrentWeight" />
+          <ScalarProperty Name="WeightBeforeSpray" ColumnName="WeightBeforeSpray" />
+          <ScalarProperty Name="DifferWeight" ColumnName="DifferWeight" />
+          <ScalarProperty Name="SingleDotWeight" ColumnName="SingleDotWeight" />
+          <ScalarProperty Name="CumulativeWeight" ColumnName="CumulativeWeight" />
+          <ScalarProperty Name="StandardWeight" ColumnName="StandardWeight" />
+          <ScalarProperty Name="WeightOffset" ColumnName="WeightOffset" />
+          <ScalarProperty Name="DiffOffsetPer" ColumnName="DiffOffsetPer" />
+          <ScalarProperty Name="valve_ValveId" ColumnName="valve_ValveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="valve">
+      <EntityTypeMapping TypeName="afmdbModel.valve">
+        <MappingFragment StoreEntitySet="valve">
+          <ScalarProperty Name="ValveId" ColumnName="ValveId" />
+          <ScalarProperty Name="MachineId" ColumnName="MachineId" />
+          <ScalarProperty Name="ValveType" ColumnName="ValveType" />
+          <ScalarProperty Name="ValveSeries" ColumnName="ValveSeries" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workpiece">
+      <EntityTypeMapping TypeName="afmdbModel.workpiece">
+        <MappingFragment StoreEntitySet="workpiece">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RunMode" ColumnName="RunMode" />
+          <ScalarProperty Name="LotNum" ColumnName="LotNum" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Mark1X" ColumnName="Mark1X" />
+          <ScalarProperty Name="Mark1Y" ColumnName="Mark1Y" />
+          <ScalarProperty Name="Mark2X" ColumnName="Mark2X" />
+          <ScalarProperty Name="Mark2Y" ColumnName="Mark2Y" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workpiecesetting">
+      <EntityTypeMapping TypeName="afmdbModel.workpiecesetting">
+        <MappingFragment StoreEntitySet="workpiecesetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VelXY" ColumnName="VelXY" />
+          <ScalarProperty Name="VelZ" ColumnName="VelZ" />
+          <ScalarProperty Name="AccXY" ColumnName="AccXY" />
+          <ScalarProperty Name="AccZ" ColumnName="AccZ" />
+          <ScalarProperty Name="SingleDotWt" ColumnName="SingleDotWt" />
+          <ScalarProperty Name="GluePressure1" ColumnName="GluePressure1" />
+          <ScalarProperty Name="GluePressure2" ColumnName="GluePressure2" />
+          <ScalarProperty Name="Temperature" ColumnName="Temperature" />
+          <ScalarProperty Name="WorkpieceId" ColumnName="WorkpieceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pattern_setting">
+      <EntityTypeMapping TypeName="afmdbModel.pattern_setting">
+        <MappingFragment StoreEntitySet="pattern_setting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LotNum" ColumnName="LotNum" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Mark1X" ColumnName="Mark1X" />
+          <ScalarProperty Name="Mark1Y" ColumnName="Mark1Y" />
+          <ScalarProperty Name="Mark2X" ColumnName="Mark2X" />
+          <ScalarProperty Name="Mark2Y" ColumnName="Mark2Y" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="WorkpieceId" ColumnName="WorkpieceId" />
+          <ScalarProperty Name="VelXY" ColumnName="VelXY" />
+          <ScalarProperty Name="VelZ" ColumnName="VelZ" />
+          <ScalarProperty Name="AccXY" ColumnName="AccXY" />
+          <ScalarProperty Name="AccZ" ColumnName="AccZ" />
+          <ScalarProperty Name="SingleDotWt" ColumnName="SingleDotWt" />
+          <ScalarProperty Name="GluePressure1" ColumnName="GluePressure1" />
+          <ScalarProperty Name="GluePressure2" ColumnName="GluePressure2" />
+          <ScalarProperty Name="Temperature" ColumnName="Temperature" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workpiece_pattern">
+      <EntityTypeMapping TypeName="afmdbModel.workpiece_pattern">
+        <MappingFragment StoreEntitySet="workpiece_pattern">
+          <ScalarProperty Name="WId" ColumnName="WId" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+          <ScalarProperty Name="WLotNum" ColumnName="WLotNum" />
+          <ScalarProperty Name="WOperator" ColumnName="WOperator" />
+          <ScalarProperty Name="WBarcode" ColumnName="WBarcode" />
+          <ScalarProperty Name="WStartTime" ColumnName="WStartTime" />
+          <ScalarProperty Name="WEndTime" ColumnName="WEndTime" />
+          <ScalarProperty Name="WResult" ColumnName="WResult" />
+          <ScalarProperty Name="WMark1X" ColumnName="WMark1X" />
+          <ScalarProperty Name="WMark1Y" ColumnName="WMark1Y" />
+          <ScalarProperty Name="WMark2X" ColumnName="WMark2X" />
+          <ScalarProperty Name="WMark2Y" ColumnName="WMark2Y" />
+          <ScalarProperty Name="WHeight" ColumnName="WHeight" />
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="PLotNum" ColumnName="PLotNum" />
+          <ScalarProperty Name="POperator" ColumnName="POperator" />
+          <ScalarProperty Name="PBarcode" ColumnName="PBarcode" />
+          <ScalarProperty Name="PStartTime" ColumnName="PStartTime" />
+          <ScalarProperty Name="PEndTime" ColumnName="PEndTime" />
+          <ScalarProperty Name="PResult" ColumnName="PResult" />
+          <ScalarProperty Name="PMark1X" ColumnName="PMark1X" />
+          <ScalarProperty Name="PMark1Y" ColumnName="PMark1Y" />
+          <ScalarProperty Name="PMark2X" ColumnName="PMark2X" />
+          <ScalarProperty Name="PMark2Y" ColumnName="PMark2Y" />
+          <ScalarProperty Name="PHeight" ColumnName="PHeight" />
+          <ScalarProperty Name="WorkpieceId" ColumnName="WorkpieceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workpiece_setting">
+      <EntityTypeMapping TypeName="afmdbModel.workpiece_setting">
+        <MappingFragment StoreEntitySet="workpiece_setting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LotNum" ColumnName="LotNum" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Mark1X" ColumnName="Mark1X" />
+          <ScalarProperty Name="Mark1Y" ColumnName="Mark1Y" />
+          <ScalarProperty Name="Mark2X" ColumnName="Mark2X" />
+          <ScalarProperty Name="Mark2Y" ColumnName="Mark2Y" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="VelXY" ColumnName="VelXY" />
+          <ScalarProperty Name="VelZ" ColumnName="VelZ" />
+          <ScalarProperty Name="AccXY" ColumnName="AccXY" />
+          <ScalarProperty Name="AccZ" ColumnName="AccZ" />
+          <ScalarProperty Name="SingleDotWt" ColumnName="SingleDotWt" />
+          <ScalarProperty Name="GluePressure1" ColumnName="GluePressure1" />
+          <ScalarProperty Name="GluePressure2" ColumnName="GluePressure2" />
+          <ScalarProperty Name="Temperature" ColumnName="Temperature" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

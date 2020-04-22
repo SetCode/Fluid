@@ -1,0 +1,16 @@
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Anda.Fluid.Infrastructure.Common.PointD..ctor(PointD point) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\Common\PointD.cs:行号 30
+   在 Anda.Fluid.Domain.FluProgram.Structure.CoordinateCorrector.Correct(RunnableModule runnableModule, PointD point, PointD executantOriginOffset) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Structure\CoordinateCorrector.cs:行号 319
+   在 Anda.Fluid.Domain.FluProgram.Executant.Line..ctor(LineCmd lineCmd, CoordinateCorrector coordinateCorrector) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Line.cs:行号 114
+   在 Anda.Fluid.Domain.FluProgram.Semantics.LineCmd.ToDirective(CoordinateCorrector coordinateCorrector) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Semantics\LineCmd.cs:行号 107
+   在 Anda.Fluid.Domain.FluProgram.Executor.execute(IReadOnlyList`1 cmdList, Int64 mostEarlyExecTime, DoMultipassCmd doMultipassCmd, Int32 passBlockIndex) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 2302
+   在 Anda.Fluid.Domain.FluProgram.Executor.execute(IReadOnlyList`1 cmdList, Int64 mostEarlyExecTime, DoMultipassCmd doMultipassCmd, Int32 passBlockIndex) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 2427
+   在 Anda.Fluid.Domain.FluProgram.Executor.runProgram() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 1227
+   在 Anda.Fluid.Domain.FluProgram.Executor.oneCycleRun(Int32 i) 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 804
+   在 Anda.Fluid.Domain.FluProgram.Executor.cycleRun() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 661
+   在 Anda.Fluid.Domain.FluProgram.Executor.startRunning() 位置 D:\A\trunk\Anda.Fluid\Anda.Fluid.Domain\FluProgram\Executant\Executor.cs:行号 539
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

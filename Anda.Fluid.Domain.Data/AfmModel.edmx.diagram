@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67438c053d9a477bae83a21ee3cdd2e5" Name="Diagram1">
+        <EntityTypeShape EntityType="afmdbModel.conveyor" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.machine" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.pattern" Width="1.5" PointX="10" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.patternsetting" Width="1.5" PointX="12.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.tbjtvalveprm" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.tbsvvalveprm" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.tbtimerecorder" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.tbweightprm" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.valve" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.workpiece" Width="1.5" PointX="7.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.workpiecesetting" Width="1.5" PointX="10" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.pattern_setting" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.workpiece_pattern" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afmdbModel.workpiece_setting" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="afmdbModel.fk_tConveyor_tMachine1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_tValve_tMachine1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_Pattern_Workpiece1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_PatternSetting_Pattern1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_tbJtValvePrm_valve1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_tbSvValvePrm_valve1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_tbWeightPrm_valve1" ManuallyRouted="false" />
+        <AssociationConnector Association="afmdbModel.fk_WorkpieceSetting_Workpiece1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

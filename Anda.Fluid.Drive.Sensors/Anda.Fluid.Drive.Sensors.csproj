@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1BB4FC7-9299-4469-B1D7-CBEDCFA3BE1B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Drive.Sensors</RootNamespace>
+    <AssemblyName>Anda.Fluid.Drive.Sensors</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmInfoSensors.cs" />
+    <Compile Include="Barcode\BarcodeSanncer.cs" />
+    <Compile Include="Barcode\BarcodeScannableCom.cs" />
+    <Compile Include="Barcode\BarcodeScannableDisable.cs" />
+    <Compile Include="Barcode\BarcodeScannableKencey.cs" />
+    <Compile Include="Barcode\IBarcodeSannable.cs" />
+    <Compile Include="ComCommunicationSts.cs" />
+    <Compile Include="DigitalGage\DigitalGagableCom.cs" />
+    <Compile Include="DigitalGage\DigitalGage.cs" />
+    <Compile Include="DigitalGage\DigitalGageEee.cs" />
+    <Compile Include="Heater\AiKaThermostat.cs" />
+    <Compile Include="Heater\HeaterControllerMgr.cs" />
+    <Compile Include="Heater\HeaterMessage.cs" />
+    <Compile Include="Heater\HeaterServer.cs" />
+    <Compile Include="Heater\IHeaterControllable.cs" />
+    <Compile Include="Heater\InvalidThermostat.cs" />
+    <Compile Include="Heater\IThermostatic.cs" />
+    <Compile Include="Heater\LimitType.cs" />
+    <Compile Include="Heater\PIDParamStruct.cs" />
+    <Compile Include="Heater\HeaterController.cs" />
+    <Compile Include="Heater\HeaterPrm.cs" />
+    <Compile Include="Heater\ThermostatOmron.cs" />
+    <Compile Include="DigitalGage\IDigitalGagable.cs" />
+    <Compile Include="HeightMeasure\ILaserable.cs" />
+    <Compile Include="HeightMeasure\Laser.cs" />
+    <Compile Include="HeightMeasure\LaserableDisable.cs" />
+    <Compile Include="HeightMeasure\LaserableSickOD2.cs" />
+    <Compile Include="HeightMeasure\LaserableCom.cs" />
+    <Compile Include="HeightMeasure\LaserableIL.cs" />
+    <Compile Include="IConnectable.cs" />
+    <Compile Include="Lighting\Custom\LightCustom.cs" />
+    <Compile Include="Lighting\ExecutePrm.cs" />
+    <Compile Include="Lighting\ILighting.cs" />
+    <Compile Include="Lighting\ILightingController.cs" />
+    <Compile Include="Lighting\LightEnums.cs" />
+    <Compile Include="Lighting\LightingCom.cs" />
+    <Compile Include="Lighting\OPT\LightingOPT.cs" />
+    <Compile Include="Lighting\OPT\OPTControllerAPI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proportionor\Proportioner.cs" />
+    <Compile Include="Proportionor\ProportionorCom.cs" />
+    <Compile Include="Proportionor\ProportionorDisable.cs" />
+    <Compile Include="Proportionor\ProportionorPLC.cs" />
+    <Compile Include="Scalage\AlarmInfoScale.cs" />
+    <Compile Include="Scalage\IScalable.cs" />
+    <Compile Include="Scalage\IScaleCmdalbe.cs" />
+    <Compile Include="Scalage\ScalableCom.cs" />
+    <Compile Include="Scalage\ScalableExtensions.cs" />
+    <Compile Include="Scalage\ScalableMettler.cs" />
+    <Compile Include="Scalage\ScalableSartorius.cs" />
+    <Compile Include="Scalage\Scale.cs" />
+    <Compile Include="Proportionor\IProportional.cs" />
+    <Compile Include="Proportionor\ProportionorAnda.cs" />
+    <Compile Include="Scalage\ScalebleDisable.cs" />
+    <Compile Include="Scalage\ScalePrm.cs" />
+    <Compile Include="SensorMgr.cs" />
+    <Compile Include="SerialPortType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NModbus4\NModbus4.csproj">
+      <Project>{5529949b-519c-4e27-ac29-a25f53250e40}</Project>
+      <Name>NModbus4</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

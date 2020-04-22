@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{603BBC29-36C5-4E66-B901-4415434BEA76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Domain.SVO</RootNamespace>
+    <AssemblyName>Anda.Fluid.Domain.SVO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSetting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForms\CalculateSlopeAmongVavel1AndVavel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\CalculateSlopeAmongVavel1AndVavel2.Designer.cs">
+      <DependentUpon>CalculateSlopeAmongVavel1AndVavel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\NeedleCalibrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\NeedleCalibrationForm.Designer.cs">
+      <DependentUpon>NeedleCalibrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\TeachMeasureHeightAndMarkZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachMeasureHeightAndMarkZ.Designer.cs">
+      <DependentUpon>TeachMeasureHeightAndMarkZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\TeachScrape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachScrape.Designer.cs">
+      <DependentUpon>TeachScrape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolControls\OperateSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolControls\OperateSetting.Designer.cs">
+      <DependentUpon>OperateSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\CalculateTheNeedleXYOffset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DialogCalibCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DialogCalibCamera.Designer.cs">
+      <DependentUpon>DialogCalibCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FindCircle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForms\FindCircle.Designer.cs">
+      <DependentUpon>FindCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\TeachMinZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachMinZ.Designer.cs">
+      <DependentUpon>TeachMinZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\TeachPrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachLaserToCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachNeedleToCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachNeedleToHeightSensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachPurge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachSafeZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\TeachScale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVOForm.Designer.cs">
+      <DependentUpon>SVOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ICheckedChangable.cs" />
+    <Compile Include="Tools\IClickable.cs" />
+    <Compile Include="Tools\StepState.cs" />
+    <Compile Include="Tools\StepStateMgr.cs" />
+    <Compile Include="ToolControls\TeachFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolControls\TeachFormBase.Designer.cs">
+      <DependentUpon>TeachFormBase.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SubForms\CalculateSlopeAmongVavel1AndVavel2.resx">
+      <DependentUpon>CalculateSlopeAmongVavel1AndVavel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FindCircle.resx">
+      <DependentUpon>FindCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\NeedleCalibrationForm.resx">
+      <DependentUpon>NeedleCalibrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachMeasureHeightAndMarkZ.resx">
+      <DependentUpon>TeachMeasureHeightAndMarkZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachScrape.resx">
+      <DependentUpon>TeachScrape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolControls\OperateSetting.resx">
+      <DependentUpon>OperateSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\CalculateTheNeedleXYOffset.resx">
+      <DependentUpon>CalculateTheNeedleXYOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\DialogCalibCamera.resx">
+      <DependentUpon>DialogCalibCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachMinZ.resx">
+      <DependentUpon>TeachMinZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachPrime.resx">
+      <DependentUpon>TeachPrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachLaserToCamera.resx">
+      <DependentUpon>TeachLaserToCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\TeachNeedleToCamera.resx" />
+    <EmbeddedResource Include="SubForms\TeachNeedleToHeightSensor.resx" />
+    <EmbeddedResource Include="SubForms\TeachProbeToCameraXYOffsetForm.resx" />
+    <EmbeddedResource Include="SubForms\TeachPurge.resx" />
+    <EmbeddedResource Include="SubForms\TeachSafeZ.resx" />
+    <EmbeddedResource Include="SubForms\TeachScale.resx" />
+    <EmbeddedResource Include="SVOForm.resx">
+      <DependentUpon>SVOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolControls\TeachFormBase.resx">
+      <DependentUpon>TeachFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SafeZ.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachLaserToCamera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachNeedleToCamera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachNeedleToHeightSensor.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachPurge.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachScale.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.App\Anda.Fluid.App.csproj">
+      <Project>{f0ee7763-439d-4752-aa0e-f8366df2f29f}</Project>
+      <Name>Anda.Fluid.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Dialogs\Anda.Fluid.Domain.Dialogs.csproj">
+      <Project>{f1e6d8d9-9407-4d9a-80cd-5a97a13775e8}</Project>
+      <Name>Anda.Fluid.Domain.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Motion\Anda.Fluid.Domain.Motion.csproj">
+      <Project>{4688fde7-a0ac-4e13-b031-030f1d218670}</Project>
+      <Name>Anda.Fluid.Domain.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Sensors\Anda.Fluid.Domain.Sensors.csproj">
+      <Project>{7176c536-c6d0-4787-9ad4-c3269491fe99}</Project>
+      <Name>Anda.Fluid.Domain.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Vision\Anda.Fluid.Domain.Vision.csproj">
+      <Project>{08b75814-3069-4af0-9070-f29b6cd21a78}</Project>
+      <Name>Anda.Fluid.Domain.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain\Anda.Fluid.Domain.csproj">
+      <Project>{18a8e080-cfce-4dd0-bd52-7c979195446e}</Project>
+      <Name>Anda.Fluid.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0c537a8e-23a6-4de1-9f51-38dbf0662a2d}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculateTheNeedleXYOffset.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachPrime.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachLaserToCamera1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachVavel1ToCamera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeachVavel2ToCamera.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculateTheNeedle2XYOffset.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssociateVavel1andVavel2.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0EE7763-439D-4752-AA0E-F8366DF2F29F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.App</RootNamespace>
+    <AssemblyName>Anda.Fluid.App</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CADImportV1.0">
+      <HintPath>..\packages\CADImportV1.0.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet">
+      <HintPath>..\packages\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.4.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AngleHeightPoseCorrect\FourDireciotnValveCorrectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\FourDireciotnValveCorrectForm.Designer.cs">
+      <DependentUpon>FourDireciotnValveCorrectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\DotValveOffsetCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\DotValveOffsetCtl.designer.cs">
+      <DependentUpon>DotValveOffsetCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\GapMeasureCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\GapMeasureCtl.designer.cs">
+      <DependentUpon>GapMeasureCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\ITestCtlable.cs" />
+    <Compile Include="AngleHeightPoseCorrect\TestType\TestTypeCoreectAngleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\TestTypeCoreectAngleForm.designer.cs">
+      <DependentUpon>TestTypeCoreectAngleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\ValveCameraOffsetCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\ValveCameraOffsetCtl.designer.cs">
+      <DependentUpon>ValveCameraOffsetCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\ValveTypeCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AngleHeightPoseCorrect\TestType\ValveTypeCtl.designer.cs">
+      <DependentUpon>ValveTypeCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatchModification\Normal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatchModification\Normal.Designer.cs">
+      <DependentUpon>Normal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatchModification\SymbolLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatchModification\SymbolLine.Designer.cs">
+      <DependentUpon>SymbolLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CADImport\CreatePatternPrm.cs" />
+    <Compile Include="CADImport\DialogCreatePattern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADImport\DialogCreatePattern.designer.cs">
+      <DependentUpon>DialogCreatePattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="ConveyorWidthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConveyorWidthForm.designer.cs">
+      <DependentUpon>ConveyorWidthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDataUI\AmphnolDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomDataUI\AmphnolDataControl.Designer.cs">
+      <DependentUpon>AmphnolDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDataUI\CustomControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomDataUI\CustomControlBase.Designer.cs">
+      <DependentUpon>CustomControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDataUI\DefaultDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomDataUI\DefaultDataControl.Designer.cs">
+      <DependentUpon>DefaultDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDataUI\RTVDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomDataUI\RTVDataControl.Designer.cs">
+      <DependentUpon>RTVDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\BatchUpdateCmdLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\BatchUpdateCmdLineForm.Designer.cs">
+      <DependentUpon>BatchUpdateCmdLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditChangeSvSpeedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditChangeSvSpeedForm.Designer.cs">
+      <DependentUpon>EditChangeSvSpeedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditFinishShotForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditFinishShotForm1.Designer.cs">
+      <DependentUpon>EditFinishShotForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMeasurementForm.Designer.cs">
+      <DependentUpon>EditMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveXyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveXyForm.Designer.cs">
+      <DependentUpon>EditMoveXyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMultiTracesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMultiTracesForm.Designer.cs">
+      <DependentUpon>EditMultiTracesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditNozzleCheckForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditNozzleCheckForm.Designer.cs">
+      <DependentUpon>EditNozzleCheckForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStepAndRepeatForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStepAndRepeatForm3.Designer.cs">
+      <DependentUpon>EditStepAndRepeatForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSymbolLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSymbolLinesForm.Designer.cs">
+      <DependentUpon>EditSymbolLinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\ShowTimerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\ShowTimerForm.Designer.cs">
+      <DependentUpon>ShowTimerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditConveyor2Origin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditConveyor2Origin.Designer.cs">
+      <DependentUpon>EditConveyor2Origin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditFormParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditFormParent.Designer.cs">
+      <DependentUpon>EditFormParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditHalcon\EditBlobsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditHalcon\EditBlobsForm.Designer.cs">
+      <DependentUpon>EditBlobsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditHalcon\EditHalconFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditHalcon\EditHalconFormBase.Designer.cs">
+      <DependentUpon>EditHalconFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditHalcon\IHalconEditable.cs" />
+    <Compile Include="EditMark\EditAsvMarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\EditAsvMarkForm.Designer.cs">
+      <DependentUpon>EditAsvMarkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMark\EditBadMarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\EditBadMarkForm.Designer.cs">
+      <DependentUpon>EditBadMarkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMark\EditBarcodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\EditBarcodeForm.Designer.cs">
+      <DependentUpon>EditBarcodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMark\EditGrayCheckForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\EditGrayCheckForm.Designer.cs">
+      <DependentUpon>EditGrayCheckForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMark\EditModelFindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\EditModelFindForm.Designer.cs">
+      <DependentUpon>EditModelFindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMark\InputBarcodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMark\InputBarcodeForm.Designer.cs">
+      <DependentUpon>InputBarcodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditMenuControl.Designer.cs">
+      <DependentUpon>EditMenuControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPattern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPattern.Designer.cs">
+      <DependentUpon>EditPattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPattern1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPattern1.Designer.cs">
+      <DependentUpon>AddPattern1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmInfoFlu.cs" />
+    <Compile Include="EditCmdLineForms\AddMatrixForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\AddMatrixForm.Designer.cs">
+      <DependentUpon>AddMatrixForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditArcForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditArcForm1.Designer.cs">
+      <DependentUpon>EditArcForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditCircleForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditCircleForm1.Designer.cs">
+      <DependentUpon>EditCircleForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditCommentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditCommentForm.Designer.cs">
+      <DependentUpon>EditCommentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDoForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDoForm1.Designer.cs">
+      <DependentUpon>EditDoForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDoMultipassForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDoMultipassForm1.Designer.cs">
+      <DependentUpon>EditDoMultipassForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDotForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDotForm1.Designer.cs">
+      <DependentUpon>EditDotForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDotParamsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditDotParamsForm.Designer.cs">
+      <DependentUpon>EditDotParamsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLineWeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLineWeightForm.Designer.cs">
+      <DependentUpon>EditLineWeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditBoardHeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditBoardHeightForm.Designer.cs">
+      <DependentUpon>EditBoardHeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMultiLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMultiLinesForm.Designer.cs">
+      <DependentUpon>EditMultiLinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLineParamsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLineParamsForm.Designer.cs">
+      <DependentUpon>EditLineParamsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLoopPassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditLoopPassForm.Designer.cs">
+      <DependentUpon>EditLoopPassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMeasureHeightForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMeasureHeightForm1.Designer.cs">
+      <DependentUpon>EditMeasureHeightForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveAbsXyForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveAbsXyForm1.Designer.cs">
+      <DependentUpon>EditMoveAbsXyForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveAbsZForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveAbsZForm1.Designer.cs">
+      <DependentUpon>EditMoveAbsZForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveToLocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditMoveToLocationForm.Designer.cs">
+      <DependentUpon>EditMoveToLocationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\AddPassBlockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\AddPassBlockForm.Designer.cs">
+      <DependentUpon>AddPassBlockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditPolyLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditPolyLineForm.Designer.cs">
+      <DependentUpon>EditPolyLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSingleLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSingleLineForm.Designer.cs">
+      <DependentUpon>EditSingleLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSnakeLineForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditSnakeLineForm1.Designer.cs">
+      <DependentUpon>EditSnakeLineForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStartPassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStartPassForm.Designer.cs">
+      <DependentUpon>EditStartPassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStepAndRepeatForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditStepAndRepeatForm1.Designer.cs">
+      <DependentUpon>EditStepAndRepeatForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditNormalTimerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditNormalTimerForm.Designer.cs">
+      <DependentUpon>EditNormalTimerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditTimerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\EditTimerForm.Designer.cs">
+      <DependentUpon>EditTimerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\HeightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditCmdLineForms\HeightControl.Designer.cs">
+      <DependentUpon>HeightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditFormBase.Designer.cs">
+      <DependentUpon>EditFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditInspection\EditInspectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditInspection\EditInspectionForm.Designer.cs">
+      <DependentUpon>EditInspectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadFlu.cs" />
+    <Compile Include="ModifyCompForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyCompForm.Designer.cs">
+      <DependentUpon>ModifyCompForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewProgram1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewProgram1.Designer.cs">
+      <DependentUpon>NewProgram1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgramControl.Designer.cs">
+      <DependentUpon>ProgramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramSettingForm.Designer.cs">
+      <DependentUpon>ProgramSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramSettingMotionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramSettingMotionForm.designer.cs">
+      <DependentUpon>ProgramSettingMotionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\ScriptEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Script\ScriptEditor.Designer.cs">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Script\ScrollListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings\SystemPositionDefinations1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\SystemPositionDefinations1.Designer.cs">
+      <DependentUpon>SystemPositionDefinations1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCmdLineForms\SwitchSymbolForm.cs" />
+    <Compile Include="Test\BarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\BarCode.designer.cs">
+      <DependentUpon>BarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\OptimalRouteTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\OptimalRouteTest.Designer.cs">
+      <DependentUpon>OptimalRouteTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TestArcForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestArcForm.Designer.cs" />
+    <Compile Include="Test\TestCalculateCircleCenterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestCalculateCircleCenterForm.Designer.cs">
+      <DependentUpon>TestCalculateCircleCenterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TestLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestLineForm.Designer.cs" />
+    <Compile Include="Test\TestSnakeLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestSnakeLine.Designer.cs">
+      <DependentUpon>TestSnakeLine.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\FourDireciotnValveCorrectForm.resx">
+      <DependentUpon>FourDireciotnValveCorrectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\TestType\DotValveOffsetCtl.resx">
+      <DependentUpon>DotValveOffsetCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\TestType\GapMeasureCtl.resx">
+      <DependentUpon>GapMeasureCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\TestType\TestTypeCoreectAngleForm.resx">
+      <DependentUpon>TestTypeCoreectAngleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\TestType\ValveCameraOffsetCtl.resx">
+      <DependentUpon>ValveCameraOffsetCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AngleHeightPoseCorrect\TestType\ValveTypeCtl.resx">
+      <DependentUpon>ValveTypeCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchModification\Normal.resx">
+      <DependentUpon>Normal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchModification\SymbolLine.resx">
+      <DependentUpon>SymbolLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADImport\DialogCreatePattern.resx">
+      <DependentUpon>DialogCreatePattern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConveyorWidthForm.resx">
+      <DependentUpon>ConveyorWidthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDataUI\AmphnolDataControl.resx">
+      <DependentUpon>AmphnolDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDataUI\CustomControlBase.resx">
+      <DependentUpon>CustomControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDataUI\DefaultDataControl.resx">
+      <DependentUpon>DefaultDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDataUI\RTVDataControl.resx">
+      <DependentUpon>RTVDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\BatchUpdateCmdLineForm.resx">
+      <DependentUpon>BatchUpdateCmdLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditChangeSvSpeedForm.resx">
+      <DependentUpon>EditChangeSvSpeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditFinishShotForm1.resx">
+      <DependentUpon>EditFinishShotForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMeasurementForm.resx">
+      <DependentUpon>EditMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMoveXyForm.resx">
+      <DependentUpon>EditMoveXyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMultiTracesForm.resx">
+      <DependentUpon>EditMultiTracesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditNozzleCheckForm.resx">
+      <DependentUpon>EditNozzleCheckForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditStepAndRepeatForm3.resx">
+      <DependentUpon>EditStepAndRepeatForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditSymbolLinesForm.resx">
+      <DependentUpon>EditSymbolLinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\ShowTimerForm.resx">
+      <DependentUpon>ShowTimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditConveyor2Origin.resx">
+      <DependentUpon>EditConveyor2Origin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditFormParent.resx">
+      <DependentUpon>EditFormParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditHalcon\EditBlobsForm.resx">
+      <DependentUpon>EditBlobsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditHalcon\EditHalconFormBase.resx">
+      <DependentUpon>EditHalconFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\EditAsvMarkForm.resx">
+      <DependentUpon>EditAsvMarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\EditBadMarkForm.resx">
+      <DependentUpon>EditBadMarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\EditBarcodeForm.resx">
+      <DependentUpon>EditBarcodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\EditGrayCheckForm.resx">
+      <DependentUpon>EditGrayCheckForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\EditModelFindForm.resx">
+      <DependentUpon>EditModelFindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMark\InputBarcodeForm.resx">
+      <DependentUpon>InputBarcodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMenuControl.resx">
+      <DependentUpon>EditMenuControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPattern.resx">
+      <DependentUpon>EditPattern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPattern1.resx">
+      <DependentUpon>AddPattern1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\AddMatrixForm.resx">
+      <DependentUpon>AddMatrixForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditArcForm1.resx">
+      <DependentUpon>EditArcForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditCircleForm1.resx">
+      <DependentUpon>EditCircleForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditCommentForm.resx">
+      <DependentUpon>EditCommentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\AddPassBlockForm.resx">
+      <DependentUpon>AddPassBlockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditDoForm1.resx">
+      <DependentUpon>EditDoForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditDoMultipassForm1.resx">
+      <DependentUpon>EditDoMultipassForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditDotForm1.resx">
+      <DependentUpon>EditDotForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditDotParamsForm.resx">
+      <DependentUpon>EditDotParamsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditLineWeightForm.resx">
+      <DependentUpon>EditLineWeightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditBoardHeightForm.resx">
+      <DependentUpon>EditBoardHeightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMultiLinesForm.resx">
+      <DependentUpon>EditMultiLinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditLineParamsForm.resx">
+      <DependentUpon>EditLineParamsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditLoopPassForm.resx">
+      <DependentUpon>EditLoopPassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMeasureHeightForm1.resx">
+      <DependentUpon>EditMeasureHeightForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMoveAbsXyForm1.resx">
+      <DependentUpon>EditMoveAbsXyForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMoveAbsZForm1.resx">
+      <DependentUpon>EditMoveAbsZForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditMoveToLocationForm.resx">
+      <DependentUpon>EditMoveToLocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditPolyLineForm.resx">
+      <DependentUpon>EditPolyLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditSingleLineForm.resx">
+      <DependentUpon>EditSingleLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditSnakeLineForm1.resx">
+      <DependentUpon>EditSnakeLineForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditStartPassForm.resx">
+      <DependentUpon>EditStartPassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditStepAndRepeatForm1.resx">
+      <DependentUpon>EditStepAndRepeatForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditNormalTimerForm.resx">
+      <DependentUpon>EditNormalTimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\EditTimerForm.resx">
+      <DependentUpon>EditTimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCmdLineForms\HeightControl.resx">
+      <DependentUpon>HeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditFormBase.resx">
+      <DependentUpon>EditFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditInspection\EditInspectionForm.resx">
+      <DependentUpon>EditInspectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyCompForm.resx">
+      <DependentUpon>ModifyCompForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProgram1.resx">
+      <DependentUpon>NewProgram1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramControl.resx">
+      <DependentUpon>ProgramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramSettingForm.resx">
+      <DependentUpon>ProgramSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramSettingMotionForm.resx">
+      <DependentUpon>ProgramSettingMotionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Script\ScriptEditor.resx">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\SystemPositionDefinations1.resx">
+      <DependentUpon>SystemPositionDefinations1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\BarCode.resx">
+      <DependentUpon>BarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\OptimalRouteTest.resx">
+      <DependentUpon>OptimalRouteTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TestArcForm.resx" />
+    <EmbeddedResource Include="Test\TestCalculateCircleCenterForm.resx">
+      <DependentUpon>TestCalculateCircleCenterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\TestLineForm.resx" />
+    <EmbeddedResource Include="Test\TestSnakeLine.resx">
+      <DependentUpon>TestSnakeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Controls\Anda.Fluid.Infrastructure.Controls.csproj">
+      <Project>{63ac44ee-28f1-47dc-b259-f8f47d5cb9c1}</Project>
+      <Name>Anda.Fluid.Infrastructure.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.AccessControl\Anda.Fluid.Domain.AccessControl.csproj">
+      <Project>{F0BBE37E-B4C0-4D3B-AAF0-524D39973622}</Project>
+      <Name>Anda.Fluid.Domain.AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Conveyor\Anda.Fluid.Domain.Conveyor.csproj">
+      <Project>{8afdbabb-1af3-405c-b11a-c10ba4ae1f21}</Project>
+      <Name>Anda.Fluid.Domain.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Dialogs\Anda.Fluid.Domain.Dialogs.csproj">
+      <Project>{f1e6d8d9-9407-4d9a-80cd-5a97a13775e8}</Project>
+      <Name>Anda.Fluid.Domain.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DrawingPanel\Anda.FLuid.Domain.DrawingPanel.csproj">
+      <Project>{7dcde44f-7755-4ff5-a6a7-98390b89a1aa}</Project>
+      <Name>Anda.FLuid.Domain.DrawingPanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Motion\Anda.Fluid.Domain.Motion.csproj">
+      <Project>{4688FDE7-A0AC-4E13-B031-030F1D218670}</Project>
+      <Name>Anda.Fluid.Domain.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Sensors\Anda.Fluid.Domain.Sensors.csproj">
+      <Project>{7176c536-c6d0-4787-9ad4-c3269491fe99}</Project>
+      <Name>Anda.Fluid.Domain.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Vision\Anda.Fluid.Domain.Vision.csproj">
+      <Project>{08b75814-3069-4af0-9070-f29b6cd21a78}</Project>
+      <Name>Anda.Fluid.Domain.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain\Anda.Fluid.Domain.csproj">
+      <Project>{18a8e080-cfce-4dd0-bd52-7c979195446e}</Project>
+      <Name>Anda.Fluid.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Conveyor\Anda.Fluid.Drive.Conveyor.csproj">
+      <Project>{8f0eba1b-24b5-4698-9663-5482d0766aff}</Project>
+      <Name>Anda.Fluid.Drive.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0c537a8e-23a6-4de1-9f51-38dbf0662a2d}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914D333-9405-4E5A-92A8-239DA6A7F894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New File_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stairs_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comments_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marker_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unavailable_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open View_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Static Views_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New View_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repeat_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Advance_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Go_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scales_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Height_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Align Justify_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Height_16px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circled Right_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Location_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polyline_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line Chart_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle_16px_29712_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Right_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu 2_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hunt_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaccine Drop_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point Objects_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wind Speed Less 1_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data Grid_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid_16px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timer_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume Button_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_HOLD_OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_HOLD_ON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FinishShot_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_step_start_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_step_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_32px.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to_do_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\define_location_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checked-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bug_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Process_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Up_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Down_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_symbol_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collect_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QR Code_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New File_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Up_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Long Arrow Down_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bulleted List_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stairs_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point Objects_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scales_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skip to Start_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\End_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Location_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unavailable_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comments_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Variation_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu 2_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polyline_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Right_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Align Justify_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Journey_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hunt_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Location Off_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Height_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swap_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New View_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open View_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Static Views_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repeat_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ruler_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barcode Scanner_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QR Code_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timer_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gears_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line Chart_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Advance_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data Grid_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data Sheet_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wind Speed Less 1_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Torrent_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xbox A_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume Button_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Document_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate to Portrait_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash Can_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fit to Width_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle Stroked_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polygon_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench_25px1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,4 @@
+1.初次使用ADMC卡，板卡类型选择ADMC4，默认不自动回零；
+2.初次使用，先手动测试一下Jog运动和点位运动，确认运动方向是否正确；
+3.运动方向取反：修改admc.cfg文件中[step]的Reverse=0/1，每个轴对应step1，step2，step3，step4
+4.编码器反馈取反:修改admc.cfg文件中[encoder]的Reverse=0/1，每个轴对应encoder1，encoder2，encoder3，encoder4

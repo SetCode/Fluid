@@ -1,0 +1,17 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.AxisControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.IOForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.IOSetupForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.PositionMainControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.DIControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.DOControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.JogControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.PositionVControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.SettingMachineForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.SettingRobotForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.ValveControl.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.ValveSettingForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.ValveSetupForm.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.Motion\obj\Debug\Anda.Fluid.Domain.Motion.csproj.CoreCompileInputs.cache

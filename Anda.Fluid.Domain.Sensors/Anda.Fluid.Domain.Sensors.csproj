@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7176C536-C6D0-4787-9AD4-C3269491FE99}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.Domain.Sensors</RootNamespace>
+    <AssemblyName>Anda.Fluid.Domain.Sensors</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalibrateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalibrateDialog.designer.cs">
+      <DependentUpon>CalibrateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComParams.cs" />
+    <Compile Include="FormLight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLight.designer.cs">
+      <DependentUpon>FormLight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThermostat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThermostat.designer.cs">
+      <DependentUpon>FormThermostat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWeight.Designer.cs">
+      <DependentUpon>FormWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeaterController\AikaControlTempCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeaterController\AikaControlTempCtrl.Designer.cs">
+      <DependentUpon>AikaControlTempCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScaleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScaleDialog.designer.cs">
+      <DependentUpon>ScaleDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingHeaterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingHeaterControl.Designer.cs">
+      <DependentUpon>SettingHeaterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingLightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingLightControl.Designer.cs">
+      <DependentUpon>SettingLightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingProportionerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingProportionerControl.Designer.cs">
+      <DependentUpon>SettingProportionerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingScaleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingScaleControl.Designer.cs">
+      <DependentUpon>SettingScaleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingLaserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingLaserControl.Designer.cs">
+      <DependentUpon>SettingLaserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingSensorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingSensorsForm.Designer.cs">
+      <DependentUpon>SettingSensorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingWeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingWeightForm.Designer.cs">
+      <DependentUpon>SettingWeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingBarcodeScanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingBarcodeScanControl.Designer.cs">
+      <DependentUpon>SettingBarcodeScanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeaterController\OmronControlTempCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeaterController\OmronControlTempCtrl.designer.cs">
+      <DependentUpon>OmronControlTempCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlWeight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlWeight.Designer.cs">
+      <DependentUpon>UserControlWeight.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.Controls\Anda.Fluid.Infrastructure.Controls.csproj">
+      <Project>{63AC44EE-28F1-47DC-B259-F8F47D5CB9C1}</Project>
+      <Name>Anda.Fluid.Infrastructure.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{dbf0692e-069c-40e6-9350-2d4b9c99cfef}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalibrateDialog.resx">
+      <DependentUpon>CalibrateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLight.resx">
+      <DependentUpon>FormLight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThermostat.resx">
+      <DependentUpon>FormThermostat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWeight.resx">
+      <DependentUpon>FormWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeaterController\AikaControlTempCtrl.resx">
+      <DependentUpon>AikaControlTempCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScaleDialog.resx">
+      <DependentUpon>ScaleDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingHeaterControl.resx">
+      <DependentUpon>SettingHeaterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingLightControl.resx">
+      <DependentUpon>SettingLightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingProportionerControl.resx">
+      <DependentUpon>SettingProportionerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingScaleControl.resx">
+      <DependentUpon>SettingScaleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingLaserControl.resx">
+      <DependentUpon>SettingLaserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingSensorsForm.resx">
+      <DependentUpon>SettingSensorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingWeightForm.resx">
+      <DependentUpon>SettingWeightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingBarcodeScanControl.resx">
+      <DependentUpon>SettingBarcodeScanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeaterController\OmronControlTempCtrl.resx">
+      <DependentUpon>OmronControlTempCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlWeight.resx">
+      <DependentUpon>UserControlWeight.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

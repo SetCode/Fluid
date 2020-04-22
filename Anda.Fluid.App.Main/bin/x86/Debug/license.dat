@@ -1,0 +1,14 @@
+###########################################
+# MVTec Software GmbH (ID: *.*.*.*)       #
+# Development License                     #
+###########################################
+FEATURE MVTec_HALCON mvtecd 11.0 01-jan-0000 uncounted \
+	VENDOR_STRING=511 HOSTID=INTERNET=*.*.*.* TS_OK SIGN="1224 \
+	C493 3D5A DA54 2E03 26B1 2636 DDDD A0DC 6731 3E0E 55F1 DD0F \
+	8CC0 7DC6 0D62 D478 8203 21B2 61D1 9A9E 2296 C00C DB2B 8D12 \
+	4D09 5433 C957 BCB5 82EA"
+FEATURE MVTec_HDevelop mvtecd 11.0 01-jan-0000 uncounted \
+	VENDOR_STRING=511 HOSTID=INTERNET=*.*.*.* TS_OK SIGN="19F5 \
+	E668 F35B FEAC 3350 9F73 FE45 4A2D D4DF 7FC3 A6A1 4D29 9263 \
+	DA90 750B 0BE3 DE62 11F0 0729 8259 643C F03A DD98 A7EE 3080 \
+	EAB7 BC20 A7EC B5C5 084D"

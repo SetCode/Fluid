@@ -1,0 +1,67 @@
+[
+  {
+    "PulsePerLap": 10000,
+    "Lead": 10.0,
+    "MaxRunVel": 1000.0,
+    "MaxManualVel": 200.0,
+    "ManualHigh": 0.4,
+    "ManualLow": 0.02,
+    "Acc": 5.0,
+    "Dec": 5.0,
+    "SmoothDec": 5.0,
+    "AbruptDec": 10.0,
+    "Key": 1
+  },
+  {
+    "PulsePerLap": 10000,
+    "Lead": 10.0,
+    "MaxRunVel": 1000.0,
+    "MaxManualVel": 200.0,
+    "ManualHigh": 0.4,
+    "ManualLow": 0.02,
+    "Acc": 5.0,
+    "Dec": 5.0,
+    "SmoothDec": 5.0,
+    "AbruptDec": 10.0,
+    "Key": 2
+  },
+  {
+    "PulsePerLap": 10000,
+    "Lead": 10.0,
+    "MaxRunVel": 1000.0,
+    "MaxManualVel": 200.0,
+    "ManualHigh": 0.4,
+    "ManualLow": 0.02,
+    "Acc": 5.0,
+    "Dec": 5.0,
+    "SmoothDec": 5.0,
+    "AbruptDec": 10.0,
+    "Key": 3
+  },
+  {
+    "PulsePerLap": 10000,
+    "Lead": 10.0,
+    "MaxRunVel": 1000.0,
+    "MaxManualVel": 200.0,
+    "ManualHigh": 0.4,
+    "ManualLow": 0.02,
+    "Acc": 5.0,
+    "Dec": 5.0,
+    "SmoothDec": 5.0,
+    "AbruptDec": 10.0,
+    "Key": 5
+  },
+  {
+    "PulsePerLap": 10000,
+    "Lead": 10.0,
+    "MaxRunVel": 1000.0,
+    "MaxManualVel": 200.0,
+    "ManualHigh": 0.4,
+    "ManualLow": 0.02,
+    "Acc": 5.0,
+    "Dec": 5.0,
+    "SmoothDec": 5.0,
+    "AbruptDec": 10.0,
+    "Key": 6
+  }
+]

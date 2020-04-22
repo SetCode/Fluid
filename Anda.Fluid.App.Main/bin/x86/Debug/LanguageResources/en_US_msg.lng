@@ -1,0 +1,19 @@
+{
+  "Executor": {
+    "0": "motion error stop.",
+    "1": "Airpressure error stopp.",
+    "2": "Fly mark offset is invalid.",
+    "3": "Ignore the error?",
+    "4": "Teach fly mark offset faild,please check mark parameter!",
+    "5": "U轴默认速度不能为0",
+    "6": "U轴运行速度不能为0",
+    "7": "U轴运行加速度不能为0",
+    "8": "阀1清洗失败!",
+    "9": "阀2清洗失败!",
+    "10": "阀1称重失败!",
+    "11": "阀2称重失败!",
+    "12": "飞拍mark图像处理超时!",
+    "13": "获取轨道1条码失败!",
+    "14": "获取轨道2条码失败!"
+  }
+}

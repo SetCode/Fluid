@@ -1,0 +1,2 @@
+E:\WpfProject\fluid\Anda.Fluid.Drive.Motion\obj\Debug\Anda.Fluid.Drive.Motion.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Drive.Motion\obj\Debug\Anda.Fluid.Drive.Motion.csproj.CoreCompileInputs.cache

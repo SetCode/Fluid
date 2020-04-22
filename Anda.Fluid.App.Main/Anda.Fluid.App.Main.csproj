@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C359AF34-62FD-4637-B6FB-D82963300F75}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anda.Fluid.App.Main</RootNamespace>
+    <AssemblyName>Anda.Fluid.App.Main</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>DLGFRAME.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroSet UI">
+      <HintPath>..\packages\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbortOrRunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbortOrRunForm.Designer.cs">
+      <DependentUpon>AbortOrRunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventBroker\RunBroker.cs" />
+    <Compile Include="AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalConfig.cs" />
+    <Compile Include="LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForm.Designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManualControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManualControl.Designer.cs">
+      <DependentUpon>ManualControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgType.cs" />
+    <Compile Include="NaviBtnAlarms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnAlarms.Designer.cs">
+      <DependentUpon>NaviBtnAlarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnCalib.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnCalib.Designer.cs">
+      <DependentUpon>NaviBtnCalib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnConfig.Designer.cs">
+      <DependentUpon>NaviBtnConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnInitAll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnInitAll.Designer.cs">
+      <DependentUpon>NaviBtnInitAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnInitItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnInitItems.Designer.cs">
+      <DependentUpon>NaviBtnInitItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnLoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnLoc.Designer.cs">
+      <DependentUpon>NaviBtnLoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnInit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnInit.Designer.cs">
+      <DependentUpon>NaviBtnInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnJog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnJog.Designer.cs">
+      <DependentUpon>NaviBtnJog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnLogin.Designer.cs">
+      <DependentUpon>NaviBtnLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnSetup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnSetup.Designer.cs">
+      <DependentUpon>NaviBtnSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnTest.Designer.cs">
+      <DependentUpon>NaviBtnTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnTools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnTools.Designer.cs">
+      <DependentUpon>NaviBtnTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBtnVision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviBtnVision.Designer.cs">
+      <DependentUpon>NaviBtnVision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigateMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NavigateMain.designer.cs">
+      <DependentUpon>NavigateMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigateProgram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NavigateProgram.designer.cs">
+      <DependentUpon>NavigateProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigateRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NavigateRun.Designer.cs">
+      <DependentUpon>NavigateRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTV\RTVInfoCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RTV\RTVInfoCtl.Designer.cs">
+      <DependentUpon>RTVInfoCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunInfoControl.Designer.cs">
+      <DependentUpon>RunInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunInfoControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunInfoControl2.Designer.cs">
+      <DependentUpon>RunInfoControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsReadValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsReadValueForm.Designer.cs">
+      <DependentUpon>SensorsReadValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabPageButton.designer.cs">
+      <DependentUpon>TabPageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPanel.designer.cs">
+      <DependentUpon>TabPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerticalTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VerticalTabControl.designer.cs">
+      <DependentUpon>VerticalTabControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AbortOrRunForm.resx">
+      <DependentUpon>AbortOrRunForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualControl.resx">
+      <DependentUpon>ManualControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnAlarms.resx">
+      <DependentUpon>NaviBtnAlarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnCalib.resx">
+      <DependentUpon>NaviBtnCalib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnConfig.resx">
+      <DependentUpon>NaviBtnConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnInitAll.resx">
+      <DependentUpon>NaviBtnInitAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnInitItems.resx">
+      <DependentUpon>NaviBtnInitItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnLoc.resx">
+      <DependentUpon>NaviBtnLoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnInit.resx">
+      <DependentUpon>NaviBtnInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnJog.resx">
+      <DependentUpon>NaviBtnJog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnLogin.resx">
+      <DependentUpon>NaviBtnLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnSetup.resx">
+      <DependentUpon>NaviBtnSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnTest.resx">
+      <DependentUpon>NaviBtnTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnTools.resx">
+      <DependentUpon>NaviBtnTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviBtnVision.resx">
+      <DependentUpon>NaviBtnVision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigateMain.resx">
+      <DependentUpon>NavigateMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigateProgram.resx">
+      <DependentUpon>NavigateProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigateRun.resx">
+      <DependentUpon>NavigateRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RTV\RTVInfoCtl.resx">
+      <DependentUpon>RTVInfoCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunInfoControl.resx">
+      <DependentUpon>RunInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunInfoControl2.resx">
+      <DependentUpon>RunInfoControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsReadValueForm.resx">
+      <DependentUpon>SensorsReadValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPageButton.resx">
+      <DependentUpon>TabPageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPanel.resx">
+      <DependentUpon>TabPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerticalTabControl.resx">
+      <DependentUpon>VerticalTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Property_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game Controller_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stairs_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anda.Fluid.App\Anda.Fluid.App.csproj">
+      <Project>{f0ee7763-439d-4752-aa0e-f8366df2f29f}</Project>
+      <Name>Anda.Fluid.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.AccessControl\Anda.Fluid.Domain.AccessControl.csproj">
+      <Project>{F0BBE37E-B4C0-4D3B-AAF0-524D39973622}</Project>
+      <Name>Anda.Fluid.Domain.AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Conveyor\Anda.Fluid.Domain.Conveyor.csproj">
+      <Project>{8afdbabb-1af3-405c-b11a-c10ba4ae1f21}</Project>
+      <Name>Anda.Fluid.Domain.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DataStatistics\Anda.Fluid.Domain.DataStatistics.csproj">
+      <Project>{18A55FF6-4153-4F58-9D61-0C26D78C43E1}</Project>
+      <Name>Anda.Fluid.Domain.DataStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Data\Anda.Fluid.Domain.Data.csproj">
+      <Project>{CE5FE923-9D94-47EE-BA5A-C6943785C847}</Project>
+      <Name>Anda.Fluid.Domain.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Dialogs\Anda.Fluid.Domain.Dialogs.csproj">
+      <Project>{f1e6d8d9-9407-4d9a-80cd-5a97a13775e8}</Project>
+      <Name>Anda.Fluid.Domain.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.DrawingPanel\Anda.FLuid.Domain.DrawingPanel.csproj">
+      <Project>{7dcde44f-7755-4ff5-a6a7-98390b89a1aa}</Project>
+      <Name>Anda.FLuid.Domain.DrawingPanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Motion\Anda.Fluid.Domain.Motion.csproj">
+      <Project>{4688fde7-a0ac-4e13-b031-030f1d218670}</Project>
+      <Name>Anda.Fluid.Domain.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Sensors\Anda.Fluid.Domain.Sensors.csproj">
+      <Project>{7176c536-c6d0-4787-9ad4-c3269491fe99}</Project>
+      <Name>Anda.Fluid.Domain.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.SVO\Anda.Fluid.Domain.SVO.csproj">
+      <Project>{603bbc29-36c5-4e66-b901-4415434bea76}</Project>
+      <Name>Anda.Fluid.Domain.SVO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain.Vision\Anda.Fluid.Domain.Vision.csproj">
+      <Project>{08b75814-3069-4af0-9070-f29b6cd21a78}</Project>
+      <Name>Anda.Fluid.Domain.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Domain\Anda.Fluid.Domain.csproj">
+      <Project>{18A8E080-CFCE-4DD0-BD52-7C979195446E}</Project>
+      <Name>Anda.Fluid.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Conveyor\Anda.Fluid.Drive.Conveyor.csproj">
+      <Project>{8f0eba1b-24b5-4698-9663-5482d0766aff}</Project>
+      <Name>Anda.Fluid.Drive.Conveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Motion\Anda.Fluid.Drive.Motion.csproj">
+      <Project>{2914d333-9405-4e5a-92a8-239da6a7f894}</Project>
+      <Name>Anda.Fluid.Drive.Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Sensors\Anda.Fluid.Drive.Sensors.csproj">
+      <Project>{f1bb4fc7-9299-4469-b1d7-cbedcfa3be1b}</Project>
+      <Name>Anda.Fluid.Drive.Sensors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive.Vision\Anda.Fluid.Drive.Vision.csproj">
+      <Project>{0C537A8E-23A6-4DE1-9F51-38DBF0662A2D}</Project>
+      <Name>Anda.Fluid.Drive.Vision</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Drive\Anda.Fluid.Drive.csproj">
+      <Project>{6ffc6a0b-66f0-410c-b65a-a0109c47de33}</Project>
+      <Name>Anda.Fluid.Drive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure.International\Anda.Fluid.Infrastructure.International.csproj">
+      <Project>{DBF0692E-069C-40E6-9350-2D4B9C99CFEF}</Project>
+      <Name>Anda.Fluid.Infrastructure.International</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anda.Fluid.Infrastructure\Anda.Fluid.Infrastructure.csproj">
+      <Project>{dbe6c851-970e-467c-a8ef-c99906ef613d}</Project>
+      <Name>Anda.Fluid.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Location_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume Button_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaccine Drop_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scales_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Campfire_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLGFRAME.ico" />
+    <Content Include="Resources\Automation_16px.png" />
+    <None Include="Resources\water_32px.png" />
+    <None Include="Resources\Conveyor.png" />
+    <None Include="Resources\BTN_HOLD_ON.png" />
+    <None Include="Resources\BTN_HOLD_OFF.png" />
+    <Content Include="Resources\Manager_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

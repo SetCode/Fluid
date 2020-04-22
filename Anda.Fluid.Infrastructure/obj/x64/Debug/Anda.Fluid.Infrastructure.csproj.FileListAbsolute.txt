@@ -1,0 +1,17 @@
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\Anda.Fluid.Infrastructure.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\Anda.Fluid.Infrastructure.pdb
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\Anda.Fluid.Infrastructure.International.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\Newtonsoft.Json.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\NPOI.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\bin\x64\Debug\Anda.Fluid.Infrastructure.International.pdb
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.csprojResolveAssemblyReference.cache
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmControl.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmHandleForm.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.Properties.Resources.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.UI.AbortIgnoreRetryManualForm.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmForm.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.Alarming.AlarmTransparencyForm.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.UI.SettingFormBase.resources
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.csproj.GenerateResource.Cache
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.dll
+D:\A\trunk\Anda.Fluid\Anda.Fluid.Infrastructure\obj\x64\Debug\Anda.Fluid.Infrastructure.pdb

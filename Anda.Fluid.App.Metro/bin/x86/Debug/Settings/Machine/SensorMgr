@@ -1,0 +1,156 @@
+{
+  "Laser": {
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "Laser",
+      "PortName": "COM1",
+      "BaudRate": 38400,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 0
+    },
+    "Vendor": 0
+  },
+  "Scale": {
+    "EasySerialPort": {
+      "DTR": true,
+      "RTS": false,
+      "Name": "Scale",
+      "PortName": "COM2",
+      "BaudRate": 9600,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 1
+    },
+    "Vendor": 0
+  },
+  "barcodeScanner1": {
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "BarcodeScanner1",
+      "PortName": "COM8",
+      "BaudRate": 19200,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 6
+    },
+    "Vendor": 0
+  },
+  "barcodeScanner2": {
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "BarcodeScanner2",
+      "PortName": "COM6",
+      "BaudRate": 19200,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 9
+    },
+    "Vendor": 0
+  },
+  "Heater": {
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "Heater",
+      "PortName": "COM3",
+      "BaudRate": 9600,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 2
+    },
+    "Vendor": 0
+  },
+  "Conveyor1": {
+    "DTR": false,
+    "RTS": false,
+    "Name": "Conveyor1",
+    "PortName": "COM4",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": 0,
+    "Delimiter": "\n",
+    "ReadDelimiter": "\r",
+    "Key": 4
+  },
+  "Proportioners": {
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "Proportioner",
+      "PortName": "COM5",
+      "BaudRate": 9600,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 3
+    },
+    "Channel1": 3,
+    "ControlType1": 0,
+    "Channel2": 4,
+    "ControlType2": 0
+  },
+  "DigitalGage": {
+    "DTR": false,
+    "RTS": false,
+    "Name": "DigitalGage",
+    "PortName": "COM11",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": 0,
+    "Delimiter": "\n",
+    "ReadDelimiter": "\r",
+    "Key": 5
+  },
+  "SvValve": {
+    "DTR": false,
+    "RTS": false,
+    "Name": "SvValve",
+    "PortName": "COM9",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "StopBits": 1,
+    "Parity": 0,
+    "Delimiter": "\n",
+    "ReadDelimiter": "\r",
+    "Key": 7
+  },
+  "Light": {
+    "Vendor": 0,
+    "EasySerialPort": {
+      "DTR": false,
+      "RTS": false,
+      "Name": "Light",
+      "PortName": "COM10",
+      "BaudRate": 19200,
+      "DataBits": 8,
+      "StopBits": 1,
+      "Parity": 0,
+      "Delimiter": "\n",
+      "ReadDelimiter": "\r",
+      "Key": 8
+    }
+  }
+}

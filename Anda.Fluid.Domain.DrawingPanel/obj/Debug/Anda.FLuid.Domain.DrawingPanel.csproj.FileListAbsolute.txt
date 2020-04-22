@@ -1,0 +1,6 @@
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\Anda.FLuid.Domain.DrawingPanel.csprojAssemblyReference.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\DrawingPanel.Display.CanvasControll.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\DrawingPanel.Display.CanvasDisplay.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\DrawingPanel.Properties.Resources.resources
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\Anda.FLuid.Domain.DrawingPanel.csproj.GenerateResource.cache
+E:\WpfProject\fluid\Anda.Fluid.Domain.DrawingPanel\obj\Debug\Anda.FLuid.Domain.DrawingPanel.csproj.CoreCompileInputs.cache
